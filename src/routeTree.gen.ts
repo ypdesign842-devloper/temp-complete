@@ -51,6 +51,7 @@ import { Route as CoreStrengtheningToPreventHerniatedDiscRecurrenceRouteImport }
 import { Route as DecompressionCoreStabilityRehabRouteImport } from './routes/decompression-core-stability-rehab'
 import { Route as DiabeticNeuropathyEarlySignsYouMightMissRouteImport } from './routes/diabetic-neuropathy-early-signs-you-might-miss'
 import { Route as DiabeticNeuropathyTreatmentDoctorInAhmedabadRouteImport } from './routes/diabetic-neuropathy-treatment-doctor-in-ahmedabad'
+import { Route as DiabeticNeuropathyTreatmentInAhmedabadRouteImport } from './routes/diabetic-neuropathy-treatment-in-ahmedabad'
 import { Route as DifferentiatingTendonJointAndNerveAnklePainRouteImport } from './routes/differentiating-tendon-joint-and-nerve-ankle-pain'
 import { Route as DoYouReallyNeedKneeSurgeryRouteImport } from './routes/do-you-really-need-knee-surgery'
 import { Route as DryNeedlingVsTriggerPointInjectionsExplainedRouteImport } from './routes/dry-needling-vs-trigger-point-injections-explained'
@@ -90,7 +91,9 @@ import { Route as ManualTherapyNearMeInAhmedabadRouteImport } from './routes/man
 import { Route as MediaRouteImport } from './routes/media'
 import { Route as MovementBasedDiagnosisBackPainRootCauseRouteImport } from './routes/movement-based-diagnosis-back-pain-root-cause'
 import { Route as MultipleSclerosisTreatmentDoctorInAhmedabadRouteImport } from './routes/multiple-sclerosis-treatment-doctor-in-ahmedabad'
+import { Route as MultipleSclerosisTreatmentInAhmedabadRouteImport } from './routes/multiple-sclerosis-treatment-in-ahmedabad'
 import { Route as MuscularDystrophyDoctorAhmedabadRouteImport } from './routes/muscular-dystrophy-doctor-ahmedabad'
+import { Route as MuscularDystrophyTreatmentInAhmedabadRouteImport } from './routes/muscular-dystrophy-treatment-in-ahmedabad'
 import { Route as NeckPainTreatmentDoctorInAhmedabadRouteImport } from './routes/neck-pain-treatment-doctor-in-ahmedabad'
 import { Route as NeuromuscularReEducationForNeckPainRouteImport } from './routes/neuromuscular-re-education-for-neck-pain'
 import { Route as NeuromuscularReEducationPainScienceBackPainRouteImport } from './routes/neuromuscular-re-education-pain-science-back-pain'
@@ -101,6 +104,7 @@ import { Route as OsteoporosisTreatmentDoctorInAhmedabadRouteImport } from './ro
 import { Route as OurTeamRouteImport } from './routes/our-team'
 import { Route as ParaffinWaxBathTherapyInAhmedabadRouteImport } from './routes/paraffin-wax-bath-therapy-in-ahmedabad'
 import { Route as ParkinsonDiseaseTreatmentInAhmedabadRouteImport } from './routes/parkinson-disease-treatment-in-ahmedabad'
+import { Route as ParkinsonsDiseaseTreatmentInAhmedabadRouteImport } from './routes/parkinsons-disease-treatment-in-ahmedabad'
 import { Route as PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRouteImport } from './routes/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health'
 import { Route as PhysiotherapyAtHomeInAhmedabadRouteImport } from './routes/physiotherapy-at-home-in-ahmedabad'
 import { Route as PhysiotherapyForBellsPalsyFacialMovementRouteImport } from './routes/physiotherapy-for-bells-palsy-facial-movement'
@@ -116,6 +120,7 @@ import { Route as PilatesStudioAhmedabadRouteImport } from './routes/pilates-stu
 import { Route as PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRouteImport } from './routes/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
 import { Route as PrenatalAndPostnatalPhysiotherapyRouteImport } from './routes/prenatal-and-postnatal-physiotherapy'
 import { Route as PreventRecurringVertigoWithPhysiotherapyRouteImport } from './routes/prevent-recurring-vertigo-with-physiotherapy'
+import { Route as RheumatoidArthritisTreatmentInAhmedabadRouteImport } from './routes/rheumatoid-arthritis-treatment-in-ahmedabad'
 import { Route as RoleOfParaffinWaxBathInHandAndFootRecoveryRouteImport } from './routes/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
 import { Route as RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRouteImport } from './routes/role-of-physiotherapy-in-children-with-developmental-disorders'
 import { Route as SayGoodbyeToBackPainWithPhysiotherapyTreatmentRouteImport } from './routes/say-goodbye-to-back-pain-with-physiotherapy-treatment'
@@ -127,14 +132,18 @@ import { Route as ShoulderPainTreatmentDoctorInAhmedabadRouteImport } from './ro
 import { Route as ShoulderPainWhileSleepingPreventionRouteImport } from './routes/shoulder-pain-while-sleeping-prevention'
 import { Route as SlipDiscRecoveryTimeWithPhysiotherapyRouteImport } from './routes/slip-disc-recovery-time-with-physiotherapy'
 import { Route as SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRouteImport } from './routes/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad'
+import { Route as SpinalCordInjuryTreatmentInAhmedabadRouteImport } from './routes/spinal-cord-injury-treatment-in-ahmedabad'
 import { Route as SpinalCordSpecialistInAhmedabadRouteImport } from './routes/spinal-cord-specialist-in-ahmedabad'
 import { Route as SpineDecompressionTherapyTreatmentInAhmedabadRouteImport } from './routes/spine-decompression-therapy-treatment-in-ahmedabad'
 import { Route as SportsPhysiotherapistInAhmedabadRouteImport } from './routes/sports-physiotherapist-in-ahmedabad'
+import { Route as SportsRehabilitationInAhmedabadRouteImport } from './routes/sports-rehabilitation-in-ahmedabad'
 import { Route as StepAerobicsPhysiotherapyTreatmentInAhmedabadRouteImport } from './routes/step-aerobics-physiotherapy-treatment-in-ahmedabad'
 import { Route as StretchingPhysiotherapyTreatmentInAhmedabadRouteImport } from './routes/stretching-physiotherapy-treatment-in-ahmedabad'
 import { Route as StrokeInTreatmentAhmedabadRouteImport } from './routes/stroke-in-treatment-ahmedabad'
+import { Route as StrokeTreatmentInAhmedabadRouteImport } from './routes/stroke-treatment-in-ahmedabad'
 import { Route as TecarPhysiotherapyTreatmentInAhmedabadRouteImport } from './routes/tecar-physiotherapy-treatment-in-ahmedabad'
 import { Route as TecarTherapyMuscleLigamentRecoveryRouteImport } from './routes/tecar-therapy-muscle-ligament-recovery'
+import { Route as TennisElbowTreatmentDoctorInAhmedabadRouteImport } from './routes/tennis-elbow-treatment-doctor-in-ahmedabad'
 import { Route as TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRouteImport } from './routes/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
 import { Route as TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRouteImport } from './routes/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
 import { Route as ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRouteImport } from './routes/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
@@ -149,6 +158,7 @@ import { Route as TopShortWaveDiathermyTreatmentInAhmedabadRouteImport } from '.
 import { Route as TopStrengthTrainingStudioInAhmedabadRouteImport } from './routes/top-strength-training-studio-in-ahmedabad'
 import { Route as TopVertigoSpecialistInAhmedabadRouteImport } from './routes/top-vertigo-specialist-in-ahmedabad'
 import { Route as UltraSoundTreatmentInAhmedabadRouteImport } from './routes/ultra-sound-treatment-in-ahmedabad'
+import { Route as VertigoTreatmentInAhmedabadRouteImport } from './routes/vertigo-treatment-in-ahmedabad'
 import { Route as VideoRouteImport } from './routes/video'
 import { Route as WhatIsPostSurgeryRehabilitationRouteImport } from './routes/what-is-post-surgery-rehabilitation'
 import { Route as WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRouteImport } from './routes/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain'
@@ -410,6 +420,12 @@ const DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute =
     path: '/diabetic-neuropathy-treatment-doctor-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DiabeticNeuropathyTreatmentInAhmedabadRoute =
+  DiabeticNeuropathyTreatmentInAhmedabadRouteImport.update({
+    id: '/diabetic-neuropathy-treatment-in-ahmedabad',
+    path: '/diabetic-neuropathy-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const DifferentiatingTendonJointAndNerveAnklePainRoute =
   DifferentiatingTendonJointAndNerveAnklePainRouteImport.update({
     id: '/differentiating-tendon-joint-and-nerve-ankle-pain',
@@ -643,10 +659,22 @@ const MultipleSclerosisTreatmentDoctorInAhmedabadRoute =
     path: '/multiple-sclerosis-treatment-doctor-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
+const MultipleSclerosisTreatmentInAhmedabadRoute =
+  MultipleSclerosisTreatmentInAhmedabadRouteImport.update({
+    id: '/multiple-sclerosis-treatment-in-ahmedabad',
+    path: '/multiple-sclerosis-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const MuscularDystrophyDoctorAhmedabadRoute =
   MuscularDystrophyDoctorAhmedabadRouteImport.update({
     id: '/muscular-dystrophy-doctor-ahmedabad',
     path: '/muscular-dystrophy-doctor-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const MuscularDystrophyTreatmentInAhmedabadRoute =
+  MuscularDystrophyTreatmentInAhmedabadRouteImport.update({
+    id: '/muscular-dystrophy-treatment-in-ahmedabad',
+    path: '/muscular-dystrophy-treatment-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
 const NeckPainTreatmentDoctorInAhmedabadRoute =
@@ -705,6 +733,12 @@ const ParkinsonDiseaseTreatmentInAhmedabadRoute =
   ParkinsonDiseaseTreatmentInAhmedabadRouteImport.update({
     id: '/parkinson-disease-treatment-in-ahmedabad',
     path: '/parkinson-disease-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ParkinsonsDiseaseTreatmentInAhmedabadRoute =
+  ParkinsonsDiseaseTreatmentInAhmedabadRouteImport.update({
+    id: '/parkinsons-disease-treatment-in-ahmedabad',
+    path: '/parkinsons-disease-treatment-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
 const PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute =
@@ -798,6 +832,12 @@ const PreventRecurringVertigoWithPhysiotherapyRoute =
     path: '/prevent-recurring-vertigo-with-physiotherapy',
     getParentRoute: () => rootRouteImport,
   } as any)
+const RheumatoidArthritisTreatmentInAhmedabadRoute =
+  RheumatoidArthritisTreatmentInAhmedabadRouteImport.update({
+    id: '/rheumatoid-arthritis-treatment-in-ahmedabad',
+    path: '/rheumatoid-arthritis-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const RoleOfParaffinWaxBathInHandAndFootRecoveryRoute =
   RoleOfParaffinWaxBathInHandAndFootRecoveryRouteImport.update({
     id: '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery',
@@ -864,6 +904,12 @@ const SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute =
     path: '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
+const SpinalCordInjuryTreatmentInAhmedabadRoute =
+  SpinalCordInjuryTreatmentInAhmedabadRouteImport.update({
+    id: '/spinal-cord-injury-treatment-in-ahmedabad',
+    path: '/spinal-cord-injury-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const SpinalCordSpecialistInAhmedabadRoute =
   SpinalCordSpecialistInAhmedabadRouteImport.update({
     id: '/spinal-cord-specialist-in-ahmedabad',
@@ -880,6 +926,12 @@ const SportsPhysiotherapistInAhmedabadRoute =
   SportsPhysiotherapistInAhmedabadRouteImport.update({
     id: '/sports-physiotherapist-in-ahmedabad',
     path: '/sports-physiotherapist-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const SportsRehabilitationInAhmedabadRoute =
+  SportsRehabilitationInAhmedabadRouteImport.update({
+    id: '/sports-rehabilitation-in-ahmedabad',
+    path: '/sports-rehabilitation-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
 const StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute =
@@ -900,6 +952,12 @@ const StrokeInTreatmentAhmedabadRoute =
     path: '/stroke-in-treatment-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
+const StrokeTreatmentInAhmedabadRoute =
+  StrokeTreatmentInAhmedabadRouteImport.update({
+    id: '/stroke-treatment-in-ahmedabad',
+    path: '/stroke-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const TecarPhysiotherapyTreatmentInAhmedabadRoute =
   TecarPhysiotherapyTreatmentInAhmedabadRouteImport.update({
     id: '/tecar-physiotherapy-treatment-in-ahmedabad',
@@ -910,6 +968,12 @@ const TecarTherapyMuscleLigamentRecoveryRoute =
   TecarTherapyMuscleLigamentRecoveryRouteImport.update({
     id: '/tecar-therapy-muscle-ligament-recovery',
     path: '/tecar-therapy-muscle-ligament-recovery',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const TennisElbowTreatmentDoctorInAhmedabadRoute =
+  TennisElbowTreatmentDoctorInAhmedabadRouteImport.update({
+    id: '/tennis-elbow-treatment-doctor-in-ahmedabad',
+    path: '/tennis-elbow-treatment-doctor-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
 const TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute =
@@ -994,6 +1058,12 @@ const UltraSoundTreatmentInAhmedabadRoute =
   UltraSoundTreatmentInAhmedabadRouteImport.update({
     id: '/ultra-sound-treatment-in-ahmedabad',
     path: '/ultra-sound-treatment-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const VertigoTreatmentInAhmedabadRoute =
+  VertigoTreatmentInAhmedabadRouteImport.update({
+    id: '/vertigo-treatment-in-ahmedabad',
+    path: '/vertigo-treatment-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
 const VideoRoute = VideoRouteImport.update({
@@ -1097,6 +1167,7 @@ export interface FileRoutesByFullPath {
   '/decompression-core-stability-rehab': typeof DecompressionCoreStabilityRehabRoute
   '/diabetic-neuropathy-early-signs-you-might-miss': typeof DiabeticNeuropathyEarlySignsYouMightMissRoute
   '/diabetic-neuropathy-treatment-doctor-in-ahmedabad': typeof DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute
+  '/diabetic-neuropathy-treatment-in-ahmedabad': typeof DiabeticNeuropathyTreatmentInAhmedabadRoute
   '/differentiating-tendon-joint-and-nerve-ankle-pain': typeof DifferentiatingTendonJointAndNerveAnklePainRoute
   '/do-you-really-need-knee-surgery': typeof DoYouReallyNeedKneeSurgeryRoute
   '/dry-needling-vs-trigger-point-injections-explained': typeof DryNeedlingVsTriggerPointInjectionsExplainedRoute
@@ -1136,7 +1207,9 @@ export interface FileRoutesByFullPath {
   '/media': typeof MediaRoute
   '/movement-based-diagnosis-back-pain-root-cause': typeof MovementBasedDiagnosisBackPainRootCauseRoute
   '/multiple-sclerosis-treatment-doctor-in-ahmedabad': typeof MultipleSclerosisTreatmentDoctorInAhmedabadRoute
+  '/multiple-sclerosis-treatment-in-ahmedabad': typeof MultipleSclerosisTreatmentInAhmedabadRoute
   '/muscular-dystrophy-doctor-ahmedabad': typeof MuscularDystrophyDoctorAhmedabadRoute
+  '/muscular-dystrophy-treatment-in-ahmedabad': typeof MuscularDystrophyTreatmentInAhmedabadRoute
   '/neck-pain-treatment-doctor-in-ahmedabad': typeof NeckPainTreatmentDoctorInAhmedabadRoute
   '/neuromuscular-re-education-for-neck-pain': typeof NeuromuscularReEducationForNeckPainRoute
   '/neuromuscular-re-education-pain-science-back-pain': typeof NeuromuscularReEducationPainScienceBackPainRoute
@@ -1147,6 +1220,7 @@ export interface FileRoutesByFullPath {
   '/our-team': typeof OurTeamRoute
   '/paraffin-wax-bath-therapy-in-ahmedabad': typeof ParaffinWaxBathTherapyInAhmedabadRoute
   '/parkinson-disease-treatment-in-ahmedabad': typeof ParkinsonDiseaseTreatmentInAhmedabadRoute
+  '/parkinsons-disease-treatment-in-ahmedabad': typeof ParkinsonsDiseaseTreatmentInAhmedabadRoute
   '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health': typeof PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute
   '/physiotherapy-at-home-in-ahmedabad': typeof PhysiotherapyAtHomeInAhmedabadRoute
   '/physiotherapy-for-bells-palsy-facial-movement': typeof PhysiotherapyForBellsPalsyFacialMovementRoute
@@ -1162,6 +1236,7 @@ export interface FileRoutesByFullPath {
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
+  '/rheumatoid-arthritis-treatment-in-ahmedabad': typeof RheumatoidArthritisTreatmentInAhmedabadRoute
   '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery': typeof RoleOfParaffinWaxBathInHandAndFootRecoveryRoute
   '/role-of-physiotherapy-in-children-with-developmental-disorders': typeof RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute
   '/say-goodbye-to-back-pain-with-physiotherapy-treatment': typeof SayGoodbyeToBackPainWithPhysiotherapyTreatmentRoute
@@ -1173,14 +1248,18 @@ export interface FileRoutesByFullPath {
   '/shoulder-pain-while-sleeping-prevention': typeof ShoulderPainWhileSleepingPreventionRoute
   '/slip-disc-recovery-time-with-physiotherapy': typeof SlipDiscRecoveryTimeWithPhysiotherapyRoute
   '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad': typeof SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute
+  '/spinal-cord-injury-treatment-in-ahmedabad': typeof SpinalCordInjuryTreatmentInAhmedabadRoute
   '/spinal-cord-specialist-in-ahmedabad': typeof SpinalCordSpecialistInAhmedabadRoute
   '/spine-decompression-therapy-treatment-in-ahmedabad': typeof SpineDecompressionTherapyTreatmentInAhmedabadRoute
   '/sports-physiotherapist-in-ahmedabad': typeof SportsPhysiotherapistInAhmedabadRoute
+  '/sports-rehabilitation-in-ahmedabad': typeof SportsRehabilitationInAhmedabadRoute
   '/step-aerobics-physiotherapy-treatment-in-ahmedabad': typeof StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute
   '/stretching-physiotherapy-treatment-in-ahmedabad': typeof StretchingPhysiotherapyTreatmentInAhmedabadRoute
   '/stroke-in-treatment-ahmedabad': typeof StrokeInTreatmentAhmedabadRoute
+  '/stroke-treatment-in-ahmedabad': typeof StrokeTreatmentInAhmedabadRoute
   '/tecar-physiotherapy-treatment-in-ahmedabad': typeof TecarPhysiotherapyTreatmentInAhmedabadRoute
   '/tecar-therapy-muscle-ligament-recovery': typeof TecarTherapyMuscleLigamentRecoveryRoute
+  '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
@@ -1195,6 +1274,7 @@ export interface FileRoutesByFullPath {
   '/top-strength-training-studio-in-ahmedabad': typeof TopStrengthTrainingStudioInAhmedabadRoute
   '/top-vertigo-specialist-in-ahmedabad': typeof TopVertigoSpecialistInAhmedabadRoute
   '/ultra-sound-treatment-in-ahmedabad': typeof UltraSoundTreatmentInAhmedabadRoute
+  '/vertigo-treatment-in-ahmedabad': typeof VertigoTreatmentInAhmedabadRoute
   '/video': typeof VideoRoute
   '/what-is-post-surgery-rehabilitation': typeof WhatIsPostSurgeryRehabilitationRoute
   '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain': typeof WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute
@@ -1249,6 +1329,7 @@ export interface FileRoutesByTo {
   '/decompression-core-stability-rehab': typeof DecompressionCoreStabilityRehabRoute
   '/diabetic-neuropathy-early-signs-you-might-miss': typeof DiabeticNeuropathyEarlySignsYouMightMissRoute
   '/diabetic-neuropathy-treatment-doctor-in-ahmedabad': typeof DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute
+  '/diabetic-neuropathy-treatment-in-ahmedabad': typeof DiabeticNeuropathyTreatmentInAhmedabadRoute
   '/differentiating-tendon-joint-and-nerve-ankle-pain': typeof DifferentiatingTendonJointAndNerveAnklePainRoute
   '/do-you-really-need-knee-surgery': typeof DoYouReallyNeedKneeSurgeryRoute
   '/dry-needling-vs-trigger-point-injections-explained': typeof DryNeedlingVsTriggerPointInjectionsExplainedRoute
@@ -1288,7 +1369,9 @@ export interface FileRoutesByTo {
   '/media': typeof MediaRoute
   '/movement-based-diagnosis-back-pain-root-cause': typeof MovementBasedDiagnosisBackPainRootCauseRoute
   '/multiple-sclerosis-treatment-doctor-in-ahmedabad': typeof MultipleSclerosisTreatmentDoctorInAhmedabadRoute
+  '/multiple-sclerosis-treatment-in-ahmedabad': typeof MultipleSclerosisTreatmentInAhmedabadRoute
   '/muscular-dystrophy-doctor-ahmedabad': typeof MuscularDystrophyDoctorAhmedabadRoute
+  '/muscular-dystrophy-treatment-in-ahmedabad': typeof MuscularDystrophyTreatmentInAhmedabadRoute
   '/neck-pain-treatment-doctor-in-ahmedabad': typeof NeckPainTreatmentDoctorInAhmedabadRoute
   '/neuromuscular-re-education-for-neck-pain': typeof NeuromuscularReEducationForNeckPainRoute
   '/neuromuscular-re-education-pain-science-back-pain': typeof NeuromuscularReEducationPainScienceBackPainRoute
@@ -1299,6 +1382,7 @@ export interface FileRoutesByTo {
   '/our-team': typeof OurTeamRoute
   '/paraffin-wax-bath-therapy-in-ahmedabad': typeof ParaffinWaxBathTherapyInAhmedabadRoute
   '/parkinson-disease-treatment-in-ahmedabad': typeof ParkinsonDiseaseTreatmentInAhmedabadRoute
+  '/parkinsons-disease-treatment-in-ahmedabad': typeof ParkinsonsDiseaseTreatmentInAhmedabadRoute
   '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health': typeof PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute
   '/physiotherapy-at-home-in-ahmedabad': typeof PhysiotherapyAtHomeInAhmedabadRoute
   '/physiotherapy-for-bells-palsy-facial-movement': typeof PhysiotherapyForBellsPalsyFacialMovementRoute
@@ -1314,6 +1398,7 @@ export interface FileRoutesByTo {
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
+  '/rheumatoid-arthritis-treatment-in-ahmedabad': typeof RheumatoidArthritisTreatmentInAhmedabadRoute
   '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery': typeof RoleOfParaffinWaxBathInHandAndFootRecoveryRoute
   '/role-of-physiotherapy-in-children-with-developmental-disorders': typeof RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute
   '/say-goodbye-to-back-pain-with-physiotherapy-treatment': typeof SayGoodbyeToBackPainWithPhysiotherapyTreatmentRoute
@@ -1325,14 +1410,18 @@ export interface FileRoutesByTo {
   '/shoulder-pain-while-sleeping-prevention': typeof ShoulderPainWhileSleepingPreventionRoute
   '/slip-disc-recovery-time-with-physiotherapy': typeof SlipDiscRecoveryTimeWithPhysiotherapyRoute
   '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad': typeof SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute
+  '/spinal-cord-injury-treatment-in-ahmedabad': typeof SpinalCordInjuryTreatmentInAhmedabadRoute
   '/spinal-cord-specialist-in-ahmedabad': typeof SpinalCordSpecialistInAhmedabadRoute
   '/spine-decompression-therapy-treatment-in-ahmedabad': typeof SpineDecompressionTherapyTreatmentInAhmedabadRoute
   '/sports-physiotherapist-in-ahmedabad': typeof SportsPhysiotherapistInAhmedabadRoute
+  '/sports-rehabilitation-in-ahmedabad': typeof SportsRehabilitationInAhmedabadRoute
   '/step-aerobics-physiotherapy-treatment-in-ahmedabad': typeof StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute
   '/stretching-physiotherapy-treatment-in-ahmedabad': typeof StretchingPhysiotherapyTreatmentInAhmedabadRoute
   '/stroke-in-treatment-ahmedabad': typeof StrokeInTreatmentAhmedabadRoute
+  '/stroke-treatment-in-ahmedabad': typeof StrokeTreatmentInAhmedabadRoute
   '/tecar-physiotherapy-treatment-in-ahmedabad': typeof TecarPhysiotherapyTreatmentInAhmedabadRoute
   '/tecar-therapy-muscle-ligament-recovery': typeof TecarTherapyMuscleLigamentRecoveryRoute
+  '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
@@ -1347,6 +1436,7 @@ export interface FileRoutesByTo {
   '/top-strength-training-studio-in-ahmedabad': typeof TopStrengthTrainingStudioInAhmedabadRoute
   '/top-vertigo-specialist-in-ahmedabad': typeof TopVertigoSpecialistInAhmedabadRoute
   '/ultra-sound-treatment-in-ahmedabad': typeof UltraSoundTreatmentInAhmedabadRoute
+  '/vertigo-treatment-in-ahmedabad': typeof VertigoTreatmentInAhmedabadRoute
   '/video': typeof VideoRoute
   '/what-is-post-surgery-rehabilitation': typeof WhatIsPostSurgeryRehabilitationRoute
   '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain': typeof WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute
@@ -1402,6 +1492,7 @@ export interface FileRoutesById {
   '/decompression-core-stability-rehab': typeof DecompressionCoreStabilityRehabRoute
   '/diabetic-neuropathy-early-signs-you-might-miss': typeof DiabeticNeuropathyEarlySignsYouMightMissRoute
   '/diabetic-neuropathy-treatment-doctor-in-ahmedabad': typeof DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute
+  '/diabetic-neuropathy-treatment-in-ahmedabad': typeof DiabeticNeuropathyTreatmentInAhmedabadRoute
   '/differentiating-tendon-joint-and-nerve-ankle-pain': typeof DifferentiatingTendonJointAndNerveAnklePainRoute
   '/do-you-really-need-knee-surgery': typeof DoYouReallyNeedKneeSurgeryRoute
   '/dry-needling-vs-trigger-point-injections-explained': typeof DryNeedlingVsTriggerPointInjectionsExplainedRoute
@@ -1441,7 +1532,9 @@ export interface FileRoutesById {
   '/media': typeof MediaRoute
   '/movement-based-diagnosis-back-pain-root-cause': typeof MovementBasedDiagnosisBackPainRootCauseRoute
   '/multiple-sclerosis-treatment-doctor-in-ahmedabad': typeof MultipleSclerosisTreatmentDoctorInAhmedabadRoute
+  '/multiple-sclerosis-treatment-in-ahmedabad': typeof MultipleSclerosisTreatmentInAhmedabadRoute
   '/muscular-dystrophy-doctor-ahmedabad': typeof MuscularDystrophyDoctorAhmedabadRoute
+  '/muscular-dystrophy-treatment-in-ahmedabad': typeof MuscularDystrophyTreatmentInAhmedabadRoute
   '/neck-pain-treatment-doctor-in-ahmedabad': typeof NeckPainTreatmentDoctorInAhmedabadRoute
   '/neuromuscular-re-education-for-neck-pain': typeof NeuromuscularReEducationForNeckPainRoute
   '/neuromuscular-re-education-pain-science-back-pain': typeof NeuromuscularReEducationPainScienceBackPainRoute
@@ -1452,6 +1545,7 @@ export interface FileRoutesById {
   '/our-team': typeof OurTeamRoute
   '/paraffin-wax-bath-therapy-in-ahmedabad': typeof ParaffinWaxBathTherapyInAhmedabadRoute
   '/parkinson-disease-treatment-in-ahmedabad': typeof ParkinsonDiseaseTreatmentInAhmedabadRoute
+  '/parkinsons-disease-treatment-in-ahmedabad': typeof ParkinsonsDiseaseTreatmentInAhmedabadRoute
   '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health': typeof PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute
   '/physiotherapy-at-home-in-ahmedabad': typeof PhysiotherapyAtHomeInAhmedabadRoute
   '/physiotherapy-for-bells-palsy-facial-movement': typeof PhysiotherapyForBellsPalsyFacialMovementRoute
@@ -1467,6 +1561,7 @@ export interface FileRoutesById {
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
+  '/rheumatoid-arthritis-treatment-in-ahmedabad': typeof RheumatoidArthritisTreatmentInAhmedabadRoute
   '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery': typeof RoleOfParaffinWaxBathInHandAndFootRecoveryRoute
   '/role-of-physiotherapy-in-children-with-developmental-disorders': typeof RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute
   '/say-goodbye-to-back-pain-with-physiotherapy-treatment': typeof SayGoodbyeToBackPainWithPhysiotherapyTreatmentRoute
@@ -1478,14 +1573,18 @@ export interface FileRoutesById {
   '/shoulder-pain-while-sleeping-prevention': typeof ShoulderPainWhileSleepingPreventionRoute
   '/slip-disc-recovery-time-with-physiotherapy': typeof SlipDiscRecoveryTimeWithPhysiotherapyRoute
   '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad': typeof SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute
+  '/spinal-cord-injury-treatment-in-ahmedabad': typeof SpinalCordInjuryTreatmentInAhmedabadRoute
   '/spinal-cord-specialist-in-ahmedabad': typeof SpinalCordSpecialistInAhmedabadRoute
   '/spine-decompression-therapy-treatment-in-ahmedabad': typeof SpineDecompressionTherapyTreatmentInAhmedabadRoute
   '/sports-physiotherapist-in-ahmedabad': typeof SportsPhysiotherapistInAhmedabadRoute
+  '/sports-rehabilitation-in-ahmedabad': typeof SportsRehabilitationInAhmedabadRoute
   '/step-aerobics-physiotherapy-treatment-in-ahmedabad': typeof StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute
   '/stretching-physiotherapy-treatment-in-ahmedabad': typeof StretchingPhysiotherapyTreatmentInAhmedabadRoute
   '/stroke-in-treatment-ahmedabad': typeof StrokeInTreatmentAhmedabadRoute
+  '/stroke-treatment-in-ahmedabad': typeof StrokeTreatmentInAhmedabadRoute
   '/tecar-physiotherapy-treatment-in-ahmedabad': typeof TecarPhysiotherapyTreatmentInAhmedabadRoute
   '/tecar-therapy-muscle-ligament-recovery': typeof TecarTherapyMuscleLigamentRecoveryRoute
+  '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
@@ -1500,6 +1599,7 @@ export interface FileRoutesById {
   '/top-strength-training-studio-in-ahmedabad': typeof TopStrengthTrainingStudioInAhmedabadRoute
   '/top-vertigo-specialist-in-ahmedabad': typeof TopVertigoSpecialistInAhmedabadRoute
   '/ultra-sound-treatment-in-ahmedabad': typeof UltraSoundTreatmentInAhmedabadRoute
+  '/vertigo-treatment-in-ahmedabad': typeof VertigoTreatmentInAhmedabadRoute
   '/video': typeof VideoRoute
   '/what-is-post-surgery-rehabilitation': typeof WhatIsPostSurgeryRehabilitationRoute
   '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain': typeof WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute
@@ -1556,6 +1656,7 @@ export interface FileRouteTypes {
     | '/decompression-core-stability-rehab'
     | '/diabetic-neuropathy-early-signs-you-might-miss'
     | '/diabetic-neuropathy-treatment-doctor-in-ahmedabad'
+    | '/diabetic-neuropathy-treatment-in-ahmedabad'
     | '/differentiating-tendon-joint-and-nerve-ankle-pain'
     | '/do-you-really-need-knee-surgery'
     | '/dry-needling-vs-trigger-point-injections-explained'
@@ -1595,7 +1696,9 @@ export interface FileRouteTypes {
     | '/media'
     | '/movement-based-diagnosis-back-pain-root-cause'
     | '/multiple-sclerosis-treatment-doctor-in-ahmedabad'
+    | '/multiple-sclerosis-treatment-in-ahmedabad'
     | '/muscular-dystrophy-doctor-ahmedabad'
+    | '/muscular-dystrophy-treatment-in-ahmedabad'
     | '/neck-pain-treatment-doctor-in-ahmedabad'
     | '/neuromuscular-re-education-for-neck-pain'
     | '/neuromuscular-re-education-pain-science-back-pain'
@@ -1606,6 +1709,7 @@ export interface FileRouteTypes {
     | '/our-team'
     | '/paraffin-wax-bath-therapy-in-ahmedabad'
     | '/parkinson-disease-treatment-in-ahmedabad'
+    | '/parkinsons-disease-treatment-in-ahmedabad'
     | '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health'
     | '/physiotherapy-at-home-in-ahmedabad'
     | '/physiotherapy-for-bells-palsy-facial-movement'
@@ -1621,6 +1725,7 @@ export interface FileRouteTypes {
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
+    | '/rheumatoid-arthritis-treatment-in-ahmedabad'
     | '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
     | '/role-of-physiotherapy-in-children-with-developmental-disorders'
     | '/say-goodbye-to-back-pain-with-physiotherapy-treatment'
@@ -1632,14 +1737,18 @@ export interface FileRouteTypes {
     | '/shoulder-pain-while-sleeping-prevention'
     | '/slip-disc-recovery-time-with-physiotherapy'
     | '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad'
+    | '/spinal-cord-injury-treatment-in-ahmedabad'
     | '/spinal-cord-specialist-in-ahmedabad'
     | '/spine-decompression-therapy-treatment-in-ahmedabad'
     | '/sports-physiotherapist-in-ahmedabad'
+    | '/sports-rehabilitation-in-ahmedabad'
     | '/step-aerobics-physiotherapy-treatment-in-ahmedabad'
     | '/stretching-physiotherapy-treatment-in-ahmedabad'
     | '/stroke-in-treatment-ahmedabad'
+    | '/stroke-treatment-in-ahmedabad'
     | '/tecar-physiotherapy-treatment-in-ahmedabad'
     | '/tecar-therapy-muscle-ligament-recovery'
+    | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
@@ -1654,6 +1763,7 @@ export interface FileRouteTypes {
     | '/top-strength-training-studio-in-ahmedabad'
     | '/top-vertigo-specialist-in-ahmedabad'
     | '/ultra-sound-treatment-in-ahmedabad'
+    | '/vertigo-treatment-in-ahmedabad'
     | '/video'
     | '/what-is-post-surgery-rehabilitation'
     | '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain'
@@ -1708,6 +1818,7 @@ export interface FileRouteTypes {
     | '/decompression-core-stability-rehab'
     | '/diabetic-neuropathy-early-signs-you-might-miss'
     | '/diabetic-neuropathy-treatment-doctor-in-ahmedabad'
+    | '/diabetic-neuropathy-treatment-in-ahmedabad'
     | '/differentiating-tendon-joint-and-nerve-ankle-pain'
     | '/do-you-really-need-knee-surgery'
     | '/dry-needling-vs-trigger-point-injections-explained'
@@ -1747,7 +1858,9 @@ export interface FileRouteTypes {
     | '/media'
     | '/movement-based-diagnosis-back-pain-root-cause'
     | '/multiple-sclerosis-treatment-doctor-in-ahmedabad'
+    | '/multiple-sclerosis-treatment-in-ahmedabad'
     | '/muscular-dystrophy-doctor-ahmedabad'
+    | '/muscular-dystrophy-treatment-in-ahmedabad'
     | '/neck-pain-treatment-doctor-in-ahmedabad'
     | '/neuromuscular-re-education-for-neck-pain'
     | '/neuromuscular-re-education-pain-science-back-pain'
@@ -1758,6 +1871,7 @@ export interface FileRouteTypes {
     | '/our-team'
     | '/paraffin-wax-bath-therapy-in-ahmedabad'
     | '/parkinson-disease-treatment-in-ahmedabad'
+    | '/parkinsons-disease-treatment-in-ahmedabad'
     | '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health'
     | '/physiotherapy-at-home-in-ahmedabad'
     | '/physiotherapy-for-bells-palsy-facial-movement'
@@ -1773,6 +1887,7 @@ export interface FileRouteTypes {
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
+    | '/rheumatoid-arthritis-treatment-in-ahmedabad'
     | '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
     | '/role-of-physiotherapy-in-children-with-developmental-disorders'
     | '/say-goodbye-to-back-pain-with-physiotherapy-treatment'
@@ -1784,14 +1899,18 @@ export interface FileRouteTypes {
     | '/shoulder-pain-while-sleeping-prevention'
     | '/slip-disc-recovery-time-with-physiotherapy'
     | '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad'
+    | '/spinal-cord-injury-treatment-in-ahmedabad'
     | '/spinal-cord-specialist-in-ahmedabad'
     | '/spine-decompression-therapy-treatment-in-ahmedabad'
     | '/sports-physiotherapist-in-ahmedabad'
+    | '/sports-rehabilitation-in-ahmedabad'
     | '/step-aerobics-physiotherapy-treatment-in-ahmedabad'
     | '/stretching-physiotherapy-treatment-in-ahmedabad'
     | '/stroke-in-treatment-ahmedabad'
+    | '/stroke-treatment-in-ahmedabad'
     | '/tecar-physiotherapy-treatment-in-ahmedabad'
     | '/tecar-therapy-muscle-ligament-recovery'
+    | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
@@ -1806,6 +1925,7 @@ export interface FileRouteTypes {
     | '/top-strength-training-studio-in-ahmedabad'
     | '/top-vertigo-specialist-in-ahmedabad'
     | '/ultra-sound-treatment-in-ahmedabad'
+    | '/vertigo-treatment-in-ahmedabad'
     | '/video'
     | '/what-is-post-surgery-rehabilitation'
     | '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain'
@@ -1860,6 +1980,7 @@ export interface FileRouteTypes {
     | '/decompression-core-stability-rehab'
     | '/diabetic-neuropathy-early-signs-you-might-miss'
     | '/diabetic-neuropathy-treatment-doctor-in-ahmedabad'
+    | '/diabetic-neuropathy-treatment-in-ahmedabad'
     | '/differentiating-tendon-joint-and-nerve-ankle-pain'
     | '/do-you-really-need-knee-surgery'
     | '/dry-needling-vs-trigger-point-injections-explained'
@@ -1899,7 +2020,9 @@ export interface FileRouteTypes {
     | '/media'
     | '/movement-based-diagnosis-back-pain-root-cause'
     | '/multiple-sclerosis-treatment-doctor-in-ahmedabad'
+    | '/multiple-sclerosis-treatment-in-ahmedabad'
     | '/muscular-dystrophy-doctor-ahmedabad'
+    | '/muscular-dystrophy-treatment-in-ahmedabad'
     | '/neck-pain-treatment-doctor-in-ahmedabad'
     | '/neuromuscular-re-education-for-neck-pain'
     | '/neuromuscular-re-education-pain-science-back-pain'
@@ -1910,6 +2033,7 @@ export interface FileRouteTypes {
     | '/our-team'
     | '/paraffin-wax-bath-therapy-in-ahmedabad'
     | '/parkinson-disease-treatment-in-ahmedabad'
+    | '/parkinsons-disease-treatment-in-ahmedabad'
     | '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health'
     | '/physiotherapy-at-home-in-ahmedabad'
     | '/physiotherapy-for-bells-palsy-facial-movement'
@@ -1925,6 +2049,7 @@ export interface FileRouteTypes {
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
+    | '/rheumatoid-arthritis-treatment-in-ahmedabad'
     | '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
     | '/role-of-physiotherapy-in-children-with-developmental-disorders'
     | '/say-goodbye-to-back-pain-with-physiotherapy-treatment'
@@ -1936,14 +2061,18 @@ export interface FileRouteTypes {
     | '/shoulder-pain-while-sleeping-prevention'
     | '/slip-disc-recovery-time-with-physiotherapy'
     | '/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad'
+    | '/spinal-cord-injury-treatment-in-ahmedabad'
     | '/spinal-cord-specialist-in-ahmedabad'
     | '/spine-decompression-therapy-treatment-in-ahmedabad'
     | '/sports-physiotherapist-in-ahmedabad'
+    | '/sports-rehabilitation-in-ahmedabad'
     | '/step-aerobics-physiotherapy-treatment-in-ahmedabad'
     | '/stretching-physiotherapy-treatment-in-ahmedabad'
     | '/stroke-in-treatment-ahmedabad'
+    | '/stroke-treatment-in-ahmedabad'
     | '/tecar-physiotherapy-treatment-in-ahmedabad'
     | '/tecar-therapy-muscle-ligament-recovery'
+    | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
@@ -1958,6 +2087,7 @@ export interface FileRouteTypes {
     | '/top-strength-training-studio-in-ahmedabad'
     | '/top-vertigo-specialist-in-ahmedabad'
     | '/ultra-sound-treatment-in-ahmedabad'
+    | '/vertigo-treatment-in-ahmedabad'
     | '/video'
     | '/what-is-post-surgery-rehabilitation'
     | '/what-to-expect-during-your-first-physiotherapy-session-for-neck-pain'
@@ -2013,6 +2143,7 @@ export interface RootRouteChildren {
   DecompressionCoreStabilityRehabRoute: typeof DecompressionCoreStabilityRehabRoute
   DiabeticNeuropathyEarlySignsYouMightMissRoute: typeof DiabeticNeuropathyEarlySignsYouMightMissRoute
   DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute: typeof DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute
+  DiabeticNeuropathyTreatmentInAhmedabadRoute: typeof DiabeticNeuropathyTreatmentInAhmedabadRoute
   DifferentiatingTendonJointAndNerveAnklePainRoute: typeof DifferentiatingTendonJointAndNerveAnklePainRoute
   DoYouReallyNeedKneeSurgeryRoute: typeof DoYouReallyNeedKneeSurgeryRoute
   DryNeedlingVsTriggerPointInjectionsExplainedRoute: typeof DryNeedlingVsTriggerPointInjectionsExplainedRoute
@@ -2052,7 +2183,9 @@ export interface RootRouteChildren {
   MediaRoute: typeof MediaRoute
   MovementBasedDiagnosisBackPainRootCauseRoute: typeof MovementBasedDiagnosisBackPainRootCauseRoute
   MultipleSclerosisTreatmentDoctorInAhmedabadRoute: typeof MultipleSclerosisTreatmentDoctorInAhmedabadRoute
+  MultipleSclerosisTreatmentInAhmedabadRoute: typeof MultipleSclerosisTreatmentInAhmedabadRoute
   MuscularDystrophyDoctorAhmedabadRoute: typeof MuscularDystrophyDoctorAhmedabadRoute
+  MuscularDystrophyTreatmentInAhmedabadRoute: typeof MuscularDystrophyTreatmentInAhmedabadRoute
   NeckPainTreatmentDoctorInAhmedabadRoute: typeof NeckPainTreatmentDoctorInAhmedabadRoute
   NeuromuscularReEducationForNeckPainRoute: typeof NeuromuscularReEducationForNeckPainRoute
   NeuromuscularReEducationPainScienceBackPainRoute: typeof NeuromuscularReEducationPainScienceBackPainRoute
@@ -2063,6 +2196,7 @@ export interface RootRouteChildren {
   OurTeamRoute: typeof OurTeamRoute
   ParaffinWaxBathTherapyInAhmedabadRoute: typeof ParaffinWaxBathTherapyInAhmedabadRoute
   ParkinsonDiseaseTreatmentInAhmedabadRoute: typeof ParkinsonDiseaseTreatmentInAhmedabadRoute
+  ParkinsonsDiseaseTreatmentInAhmedabadRoute: typeof ParkinsonsDiseaseTreatmentInAhmedabadRoute
   PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute: typeof PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute
   PhysiotherapyAtHomeInAhmedabadRoute: typeof PhysiotherapyAtHomeInAhmedabadRoute
   PhysiotherapyForBellsPalsyFacialMovementRoute: typeof PhysiotherapyForBellsPalsyFacialMovementRoute
@@ -2078,6 +2212,7 @@ export interface RootRouteChildren {
   PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute: typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   PrenatalAndPostnatalPhysiotherapyRoute: typeof PrenatalAndPostnatalPhysiotherapyRoute
   PreventRecurringVertigoWithPhysiotherapyRoute: typeof PreventRecurringVertigoWithPhysiotherapyRoute
+  RheumatoidArthritisTreatmentInAhmedabadRoute: typeof RheumatoidArthritisTreatmentInAhmedabadRoute
   RoleOfParaffinWaxBathInHandAndFootRecoveryRoute: typeof RoleOfParaffinWaxBathInHandAndFootRecoveryRoute
   RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute: typeof RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute
   SayGoodbyeToBackPainWithPhysiotherapyTreatmentRoute: typeof SayGoodbyeToBackPainWithPhysiotherapyTreatmentRoute
@@ -2089,14 +2224,18 @@ export interface RootRouteChildren {
   ShoulderPainWhileSleepingPreventionRoute: typeof ShoulderPainWhileSleepingPreventionRoute
   SlipDiscRecoveryTimeWithPhysiotherapyRoute: typeof SlipDiscRecoveryTimeWithPhysiotherapyRoute
   SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute: typeof SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute
+  SpinalCordInjuryTreatmentInAhmedabadRoute: typeof SpinalCordInjuryTreatmentInAhmedabadRoute
   SpinalCordSpecialistInAhmedabadRoute: typeof SpinalCordSpecialistInAhmedabadRoute
   SpineDecompressionTherapyTreatmentInAhmedabadRoute: typeof SpineDecompressionTherapyTreatmentInAhmedabadRoute
   SportsPhysiotherapistInAhmedabadRoute: typeof SportsPhysiotherapistInAhmedabadRoute
+  SportsRehabilitationInAhmedabadRoute: typeof SportsRehabilitationInAhmedabadRoute
   StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute: typeof StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute
   StretchingPhysiotherapyTreatmentInAhmedabadRoute: typeof StretchingPhysiotherapyTreatmentInAhmedabadRoute
   StrokeInTreatmentAhmedabadRoute: typeof StrokeInTreatmentAhmedabadRoute
+  StrokeTreatmentInAhmedabadRoute: typeof StrokeTreatmentInAhmedabadRoute
   TecarPhysiotherapyTreatmentInAhmedabadRoute: typeof TecarPhysiotherapyTreatmentInAhmedabadRoute
   TecarTherapyMuscleLigamentRecoveryRoute: typeof TecarTherapyMuscleLigamentRecoveryRoute
+  TennisElbowTreatmentDoctorInAhmedabadRoute: typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute: typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute: typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
   ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute: typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
@@ -2111,6 +2250,7 @@ export interface RootRouteChildren {
   TopStrengthTrainingStudioInAhmedabadRoute: typeof TopStrengthTrainingStudioInAhmedabadRoute
   TopVertigoSpecialistInAhmedabadRoute: typeof TopVertigoSpecialistInAhmedabadRoute
   UltraSoundTreatmentInAhmedabadRoute: typeof UltraSoundTreatmentInAhmedabadRoute
+  VertigoTreatmentInAhmedabadRoute: typeof VertigoTreatmentInAhmedabadRoute
   VideoRoute: typeof VideoRoute
   WhatIsPostSurgeryRehabilitationRoute: typeof WhatIsPostSurgeryRehabilitationRoute
   WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute: typeof WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute
@@ -2419,6 +2559,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DiabeticNeuropathyTreatmentDoctorInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/diabetic-neuropathy-treatment-in-ahmedabad': {
+      id: '/diabetic-neuropathy-treatment-in-ahmedabad'
+      path: '/diabetic-neuropathy-treatment-in-ahmedabad'
+      fullPath: '/diabetic-neuropathy-treatment-in-ahmedabad'
+      preLoaderRoute: typeof DiabeticNeuropathyTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/differentiating-tendon-joint-and-nerve-ankle-pain': {
       id: '/differentiating-tendon-joint-and-nerve-ankle-pain'
       path: '/differentiating-tendon-joint-and-nerve-ankle-pain'
@@ -2692,11 +2839,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MultipleSclerosisTreatmentDoctorInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/multiple-sclerosis-treatment-in-ahmedabad': {
+      id: '/multiple-sclerosis-treatment-in-ahmedabad'
+      path: '/multiple-sclerosis-treatment-in-ahmedabad'
+      fullPath: '/multiple-sclerosis-treatment-in-ahmedabad'
+      preLoaderRoute: typeof MultipleSclerosisTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/muscular-dystrophy-doctor-ahmedabad': {
       id: '/muscular-dystrophy-doctor-ahmedabad'
       path: '/muscular-dystrophy-doctor-ahmedabad'
       fullPath: '/muscular-dystrophy-doctor-ahmedabad'
       preLoaderRoute: typeof MuscularDystrophyDoctorAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/muscular-dystrophy-treatment-in-ahmedabad': {
+      id: '/muscular-dystrophy-treatment-in-ahmedabad'
+      path: '/muscular-dystrophy-treatment-in-ahmedabad'
+      fullPath: '/muscular-dystrophy-treatment-in-ahmedabad'
+      preLoaderRoute: typeof MuscularDystrophyTreatmentInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/neck-pain-treatment-doctor-in-ahmedabad': {
@@ -2767,6 +2928,13 @@ declare module '@tanstack/react-router' {
       path: '/parkinson-disease-treatment-in-ahmedabad'
       fullPath: '/parkinson-disease-treatment-in-ahmedabad'
       preLoaderRoute: typeof ParkinsonDiseaseTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/parkinsons-disease-treatment-in-ahmedabad': {
+      id: '/parkinsons-disease-treatment-in-ahmedabad'
+      path: '/parkinsons-disease-treatment-in-ahmedabad'
+      fullPath: '/parkinsons-disease-treatment-in-ahmedabad'
+      preLoaderRoute: typeof ParkinsonsDiseaseTreatmentInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/physiotherapy-at-home-a-convenient-and-effective-option-for-your-health': {
@@ -2874,6 +3042,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PreventRecurringVertigoWithPhysiotherapyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/rheumatoid-arthritis-treatment-in-ahmedabad': {
+      id: '/rheumatoid-arthritis-treatment-in-ahmedabad'
+      path: '/rheumatoid-arthritis-treatment-in-ahmedabad'
+      fullPath: '/rheumatoid-arthritis-treatment-in-ahmedabad'
+      preLoaderRoute: typeof RheumatoidArthritisTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery': {
       id: '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
       path: '/role-of-paraffin-wax-bath-in-hand-and-foot-recovery'
@@ -2951,6 +3126,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/spinal-cord-injury-treatment-in-ahmedabad': {
+      id: '/spinal-cord-injury-treatment-in-ahmedabad'
+      path: '/spinal-cord-injury-treatment-in-ahmedabad'
+      fullPath: '/spinal-cord-injury-treatment-in-ahmedabad'
+      preLoaderRoute: typeof SpinalCordInjuryTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/spinal-cord-specialist-in-ahmedabad': {
       id: '/spinal-cord-specialist-in-ahmedabad'
       path: '/spinal-cord-specialist-in-ahmedabad'
@@ -2970,6 +3152,13 @@ declare module '@tanstack/react-router' {
       path: '/sports-physiotherapist-in-ahmedabad'
       fullPath: '/sports-physiotherapist-in-ahmedabad'
       preLoaderRoute: typeof SportsPhysiotherapistInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sports-rehabilitation-in-ahmedabad': {
+      id: '/sports-rehabilitation-in-ahmedabad'
+      path: '/sports-rehabilitation-in-ahmedabad'
+      fullPath: '/sports-rehabilitation-in-ahmedabad'
+      preLoaderRoute: typeof SportsRehabilitationInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/step-aerobics-physiotherapy-treatment-in-ahmedabad': {
@@ -2993,6 +3182,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof StrokeInTreatmentAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/stroke-treatment-in-ahmedabad': {
+      id: '/stroke-treatment-in-ahmedabad'
+      path: '/stroke-treatment-in-ahmedabad'
+      fullPath: '/stroke-treatment-in-ahmedabad'
+      preLoaderRoute: typeof StrokeTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/tecar-physiotherapy-treatment-in-ahmedabad': {
       id: '/tecar-physiotherapy-treatment-in-ahmedabad'
       path: '/tecar-physiotherapy-treatment-in-ahmedabad'
@@ -3005,6 +3201,13 @@ declare module '@tanstack/react-router' {
       path: '/tecar-therapy-muscle-ligament-recovery'
       fullPath: '/tecar-therapy-muscle-ligament-recovery'
       preLoaderRoute: typeof TecarTherapyMuscleLigamentRecoveryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tennis-elbow-treatment-doctor-in-ahmedabad': {
+      id: '/tennis-elbow-treatment-doctor-in-ahmedabad'
+      path: '/tennis-elbow-treatment-doctor-in-ahmedabad'
+      fullPath: '/tennis-elbow-treatment-doctor-in-ahmedabad'
+      preLoaderRoute: typeof TennisElbowTreatmentDoctorInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': {
@@ -3103,6 +3306,13 @@ declare module '@tanstack/react-router' {
       path: '/ultra-sound-treatment-in-ahmedabad'
       fullPath: '/ultra-sound-treatment-in-ahmedabad'
       preLoaderRoute: typeof UltraSoundTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vertigo-treatment-in-ahmedabad': {
+      id: '/vertigo-treatment-in-ahmedabad'
+      path: '/vertigo-treatment-in-ahmedabad'
+      fullPath: '/vertigo-treatment-in-ahmedabad'
+      preLoaderRoute: typeof VertigoTreatmentInAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/video': {
@@ -3250,6 +3460,8 @@ const rootRouteChildren: RootRouteChildren = {
     DiabeticNeuropathyEarlySignsYouMightMissRoute,
   DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute:
     DiabeticNeuropathyTreatmentDoctorInAhmedabadRoute,
+  DiabeticNeuropathyTreatmentInAhmedabadRoute:
+    DiabeticNeuropathyTreatmentInAhmedabadRoute,
   DifferentiatingTendonJointAndNerveAnklePainRoute:
     DifferentiatingTendonJointAndNerveAnklePainRoute,
   DoYouReallyNeedKneeSurgeryRoute: DoYouReallyNeedKneeSurgeryRoute,
@@ -3317,7 +3529,11 @@ const rootRouteChildren: RootRouteChildren = {
     MovementBasedDiagnosisBackPainRootCauseRoute,
   MultipleSclerosisTreatmentDoctorInAhmedabadRoute:
     MultipleSclerosisTreatmentDoctorInAhmedabadRoute,
+  MultipleSclerosisTreatmentInAhmedabadRoute:
+    MultipleSclerosisTreatmentInAhmedabadRoute,
   MuscularDystrophyDoctorAhmedabadRoute: MuscularDystrophyDoctorAhmedabadRoute,
+  MuscularDystrophyTreatmentInAhmedabadRoute:
+    MuscularDystrophyTreatmentInAhmedabadRoute,
   NeckPainTreatmentDoctorInAhmedabadRoute:
     NeckPainTreatmentDoctorInAhmedabadRoute,
   NeuromuscularReEducationForNeckPainRoute:
@@ -3336,6 +3552,8 @@ const rootRouteChildren: RootRouteChildren = {
     ParaffinWaxBathTherapyInAhmedabadRoute,
   ParkinsonDiseaseTreatmentInAhmedabadRoute:
     ParkinsonDiseaseTreatmentInAhmedabadRoute,
+  ParkinsonsDiseaseTreatmentInAhmedabadRoute:
+    ParkinsonsDiseaseTreatmentInAhmedabadRoute,
   PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute:
     PhysiotherapyAtHomeAConvenientAndEffectiveOptionForYourHealthRoute,
   PhysiotherapyAtHomeInAhmedabadRoute: PhysiotherapyAtHomeInAhmedabadRoute,
@@ -3363,6 +3581,8 @@ const rootRouteChildren: RootRouteChildren = {
     PrenatalAndPostnatalPhysiotherapyRoute,
   PreventRecurringVertigoWithPhysiotherapyRoute:
     PreventRecurringVertigoWithPhysiotherapyRoute,
+  RheumatoidArthritisTreatmentInAhmedabadRoute:
+    RheumatoidArthritisTreatmentInAhmedabadRoute,
   RoleOfParaffinWaxBathInHandAndFootRecoveryRoute:
     RoleOfParaffinWaxBathInHandAndFootRecoveryRoute,
   RoleOfPhysiotherapyInChildrenWithDevelopmentalDisordersRoute:
@@ -3384,19 +3604,25 @@ const rootRouteChildren: RootRouteChildren = {
     SlipDiscRecoveryTimeWithPhysiotherapyRoute,
   SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute:
     SlippedHerniatedDiscPhysiotherapyTreatmentInAhmedabadRoute,
+  SpinalCordInjuryTreatmentInAhmedabadRoute:
+    SpinalCordInjuryTreatmentInAhmedabadRoute,
   SpinalCordSpecialistInAhmedabadRoute: SpinalCordSpecialistInAhmedabadRoute,
   SpineDecompressionTherapyTreatmentInAhmedabadRoute:
     SpineDecompressionTherapyTreatmentInAhmedabadRoute,
   SportsPhysiotherapistInAhmedabadRoute: SportsPhysiotherapistInAhmedabadRoute,
+  SportsRehabilitationInAhmedabadRoute: SportsRehabilitationInAhmedabadRoute,
   StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute:
     StepAerobicsPhysiotherapyTreatmentInAhmedabadRoute,
   StretchingPhysiotherapyTreatmentInAhmedabadRoute:
     StretchingPhysiotherapyTreatmentInAhmedabadRoute,
   StrokeInTreatmentAhmedabadRoute: StrokeInTreatmentAhmedabadRoute,
+  StrokeTreatmentInAhmedabadRoute: StrokeTreatmentInAhmedabadRoute,
   TecarPhysiotherapyTreatmentInAhmedabadRoute:
     TecarPhysiotherapyTreatmentInAhmedabadRoute,
   TecarTherapyMuscleLigamentRecoveryRoute:
     TecarTherapyMuscleLigamentRecoveryRoute,
+  TennisElbowTreatmentDoctorInAhmedabadRoute:
+    TennisElbowTreatmentDoctorInAhmedabadRoute,
   TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute:
     TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute,
   TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute:
@@ -3421,6 +3647,7 @@ const rootRouteChildren: RootRouteChildren = {
     TopStrengthTrainingStudioInAhmedabadRoute,
   TopVertigoSpecialistInAhmedabadRoute: TopVertigoSpecialistInAhmedabadRoute,
   UltraSoundTreatmentInAhmedabadRoute: UltraSoundTreatmentInAhmedabadRoute,
+  VertigoTreatmentInAhmedabadRoute: VertigoTreatmentInAhmedabadRoute,
   VideoRoute: VideoRoute,
   WhatIsPostSurgeryRehabilitationRoute: WhatIsPostSurgeryRehabilitationRoute,
   WhatToExpectDuringYourFirstPhysiotherapySessionForNeckPainRoute:

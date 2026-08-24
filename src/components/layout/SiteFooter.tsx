@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import {
+  ArrowUpRight,
   Award,
   Calendar,
   ChevronRight,
@@ -7,6 +8,7 @@ import {
   HeartPulse,
   Mail,
   MapPin,
+  Navigation,
   Phone,
   ShieldCheck,
   Sparkles,
@@ -19,7 +21,7 @@ export function SiteFooter() {
   return (
     <>
       {/* 1. CTA Section on Light Page Background */}
-      <section className="bg-sand/60 py-14 sm:py-20">
+      <section className="bg-[#f9f7ef] py-14 sm:py-20 border-t border-border/80">
         <div className="container-cc">
           <div className="relative overflow-hidden rounded-3xl bg-navy p-8 sm:p-12 lg:p-14 text-white shadow-2xl shadow-navy/15">
             {/* Ambient Lighting inside CTA card */}
@@ -74,7 +76,7 @@ export function SiteFooter() {
       </section>
 
       {/* 2. Trust Metrics Section on Light Page Background */}
-      <section className="border-t border-border/80 bg-background py-10 sm:py-12">
+      <section className="border-t border-border/80 bg-[#f9f7ef] py-10 sm:py-12">
         <div className="container-cc">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <div className="flex items-center gap-3.5">
@@ -123,10 +125,10 @@ export function SiteFooter() {
       {/* 3. ONLY THE FOOTER ITSELF HAS THE DARK NAVY BACKGROUND */}
       <footer className="bg-navy text-navy-foreground border-t border-navy-deep">
         {/* Main Directory Links */}
-        <div className="container-cc py-14 lg:py-16">
-          <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
+        <div className="container-cc py-12 lg:py-14">
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
             {/* Brand Col */}
-            <div className="lg:col-span-2 space-y-5">
+            <div className="lg:col-span-2 space-y-4">
               <Link to="/" className="inline-block">
                 <div className="inline-block rounded-xl bg-white p-2.5 shadow-sm">
                   <img
@@ -147,7 +149,7 @@ export function SiteFooter() {
                 physiotherapists providing non-surgical healing.
               </p>
 
-              <div className="space-y-2.5 text-sm pt-1">
+              <div className="space-y-2 text-sm pt-1">
                 <a
                   href={site.phoneHref}
                   className="flex items-center gap-2.5 font-semibold text-white transition-colors hover:text-leaf"
@@ -168,14 +170,14 @@ export function SiteFooter() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 pt-2">
+              <div className="flex items-center gap-3 pt-1">
                 {site.socials.map((s) => (
                   <a
                     key={s.label}
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex size-9 items-center justify-center rounded-lg border border-white/15 bg-white/5 text-xs text-white transition-colors hover:border-leaf hover:bg-leaf hover:text-leaf-foreground"
+                    className="inline-flex size-8 items-center justify-center rounded-lg border border-white/15 bg-white/5 text-xs text-white transition-colors hover:border-leaf hover:bg-leaf hover:text-leaf-foreground"
                     aria-label={s.label}
                   >
                     {s.label[0]}
@@ -184,32 +186,12 @@ export function SiteFooter() {
               </div>
             </div>
 
-            {/* Our Centres */}
+            {/* Care Areas */}
             <div>
               <h3 className="text-xs font-bold tracking-[0.18em] text-leaf uppercase">
-                Our Centres
+                Care Areas
               </h3>
-              <ul className="mt-5 space-y-2.5 text-sm">
-                {locations.map((l) => (
-                  <li key={l.slug}>
-                    <Link
-                      to={`/${l.slug}` as never}
-                      className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
-                    >
-                      <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
-                      <span>{l.name}, {l.city}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Conditions */}
-            <div>
-              <h3 className="text-xs font-bold tracking-[0.18em] text-leaf uppercase">
-                Conditions We Treat
-              </h3>
-              <ul className="mt-5 space-y-2.5 text-sm">
+              <ul className="mt-4 space-y-2 text-sm">
                 {conditions.slice(0, 7).map((c) => (
                   <li key={c.slug}>
                     <Link
@@ -224,12 +206,12 @@ export function SiteFooter() {
               </ul>
             </div>
 
-            {/* Treatments & Modalities */}
+            {/* Therapies */}
             <div>
               <h3 className="text-xs font-bold tracking-[0.18em] text-leaf uppercase">
-                Treatments &amp; Modalities
+                Therapies
               </h3>
-              <ul className="mt-5 space-y-2.5 text-sm">
+              <ul className="mt-4 space-y-2 text-sm">
                 {modalities.slice(0, 7).map((m) => (
                   <li key={m.slug}>
                     <Link
@@ -242,6 +224,80 @@ export function SiteFooter() {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+
+          {/* 6 Gujarat Clinic Locations — Small Cards with Full Proper Address */}
+          <div className="mt-10 border-t border-white/10 pt-8">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-5">
+              <div className="flex items-center gap-2">
+                <div className="flex size-6 items-center justify-center rounded-md bg-leaf/15 text-leaf">
+                  <MapPin className="size-3.5" />
+                </div>
+                <h3 className="text-xs font-bold tracking-wider text-leaf uppercase">
+                  Our 6 Gujarat Centres &amp; Clinic Addresses
+                </h3>
+              </div>
+              <span className="text-[11px] text-navy-foreground/70">
+                Walk-ins &amp; Consultations: Mon–Sat 8:00 AM – 8:00 PM
+              </span>
+            </div>
+
+            <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+              {locations.map((loc) => (
+                <div
+                  key={loc.slug}
+                  className="group relative flex flex-col justify-between rounded-xl border border-white/10 bg-white/[0.03] p-4 backdrop-blur-sm transition-all duration-200 hover:border-leaf/40 hover:bg-white/[0.06] hover:shadow-md"
+                >
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-1">
+                      <div className="flex items-center gap-1.5">
+                        <MapPin className="size-3.5 text-leaf shrink-0" />
+                        <h4 className="text-sm font-bold text-white group-hover:text-leaf transition-colors">
+                          {loc.name}
+                        </h4>
+                      </div>
+                      <span className="rounded bg-white/10 px-2 py-0.5 text-[9px] font-bold uppercase text-leaf">
+                        {loc.city}
+                      </span>
+                    </div>
+
+                    <p className="text-xs leading-relaxed text-navy-foreground/75">
+                      {loc.address}
+                    </p>
+
+                    <div className="flex items-center gap-1.5 text-xs text-white/80">
+                      <Phone className="size-3 text-leaf shrink-0" />
+                      <a
+                        href={loc.phoneHref}
+                        className="hover:text-leaf transition-colors font-medium"
+                      >
+                        {loc.phone}
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Action Buttons: GMB Map + Clinic Details */}
+                  <div className="mt-3.5 pt-2.5 border-t border-white/10 flex items-center gap-2">
+                    <a
+                      href={loc.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-leaf/20 border border-leaf/30 py-1.5 text-xs font-bold text-leaf hover:bg-leaf hover:text-leaf-foreground transition-all duration-150"
+                    >
+                      <Navigation className="size-3" />
+                      <span>Google Map (GMB)</span>
+                    </a>
+                    <Link
+                      to={`/${loc.slug}` as never}
+                      className="inline-flex items-center justify-center gap-1 rounded-lg bg-white/10 px-3 py-1.5 text-xs font-semibold text-white/80 hover:bg-white/20 hover:text-white transition-all duration-150"
+                    >
+                      <span>Details</span>
+                      <ArrowUpRight className="size-3" />
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ export function FaqAccordion({
   };
 
   return (
-    <section className="section-y bg-background border-t border-border/80">
+    <section className="section-y bg-[#f9f7ef] border-t border-border/80">
       {/* Dynamic FAQ Schema */}
       <script
         type="application/ld+json"
@@ -54,7 +54,7 @@ export function FaqAccordion({
           </div>
 
           {/* Clinical Support Micro-Card */}
-          <div className="rounded-2xl border border-border/80 bg-sand/60 p-6 shadow-sm space-y-4">
+          <div className="rounded-2xl border border-navy/10 bg-white p-6 shadow-sm space-y-4">
             <div className="flex items-center gap-2.5">
               <div className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-accent text-accent-foreground shadow-sm">
                 <HelpCircle className="size-4" />
@@ -66,7 +66,7 @@ export function FaqAccordion({
             </div>
 
             <p className="text-xs leading-relaxed text-muted-foreground">
-              Our therapists evaluate your condition and guide you to the most effective non-surgical treatment pathway.
+              Schedule a personalized phone evaluation or visit any of our modern facilities in Ahmedabad, Mehsana, and Ankleshwar.
             </p>
 
             <div className="space-y-2 pt-1">
@@ -104,8 +104,8 @@ export function FaqAccordion({
                 key={f.q}
                 className={`overflow-hidden rounded-2xl border transition-all duration-300 ${
                   isOpen
-                    ? "border-accent/40 bg-sand/40 shadow-md shadow-navy/5"
-                    : "border-border/80 bg-card hover:border-navy/20 hover:shadow-sm"
+                    ? "border-accent/40 bg-white shadow-md shadow-navy/5"
+                    : "border-navy/10 bg-white hover:border-navy/20 hover:shadow-sm"
                 }`}
               >
                 <h3>

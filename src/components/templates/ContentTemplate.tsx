@@ -30,6 +30,8 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
         h1={content.h1 || data.h1}
         lead={content.lead || data.lead}
         image={content.hero ?? undefined}
+        slug={data.slug}
+        group={data.group}
       />
 
       {/* Main Editorial & Booking Section */}

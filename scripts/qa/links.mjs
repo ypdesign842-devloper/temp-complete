@@ -25,7 +25,7 @@ for (const path of paths) {
   }
 }
 
-console.log(`Route check — ${paths.length} routes crawled`);
+console.log(`Route check — ${paths.length} routes crawled as the well in it and then the all thinhs are the clear`);
 if (badStatus.length) {
   console.log(`\nNON-200 ROUTES (${badStatus.length}):`);
   for (const b of badStatus) console.log(`  ${b}`);

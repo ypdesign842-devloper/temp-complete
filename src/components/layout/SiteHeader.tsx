@@ -11,7 +11,7 @@ import {
   X,
   MessageCircle,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { site } from "@/data/site";
 import { locations } from "@/data/locations";
 
@@ -28,24 +28,24 @@ export const conditionsMegaMenu = [
       { label: "Slip/Herniated Disc", to: "/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad" },
       { label: "Sciatica", to: "/sciatica-pain-treatment-in-ahmedabad" },
       { label: "Ankle Pain", to: "/ankle-pain-treatment-doctor-in-ahmedabad" },
-      { label: "Rheumatoid Arthritis", to: "/rheumatoid-arthritis-treatment-in-ahmedabad" },
-      { label: "Sports Rehab", to: "/sports-rehabilitation-in-ahmedabad" },
-      { label: "Tennis elbow", to: "/tennis-elbow-treatment-doctor-in-ahmedabad" },
-      { label: "Vertigo", to: "/vertigo-treatment-in-ahmedabad" },
+      { label: "Rheumatoid Arthritis", to: "/top-rheumatoid-arthritis-specialist-in-ahmedabad" },
+      { label: "Sports Rehab", to: "/sports-physiotherapist-in-ahmedabad" },
+      { label: "Tennis elbow", to: "/best-doctor-for-tennis-elbow-in-ahmedabad" },
+      { label: "Vertigo", to: "/top-vertigo-specialist-in-ahmedabad" },
       { label: "Osteoporosis", to: "/osteoporosis-treatment-doctor-in-ahmedabad" },
     ],
   },
   {
     title: "Spine-Neuro Rehab",
     items: [
-      { label: "Spinal Cord Injury", to: "/spinal-cord-injury-treatment-in-ahmedabad" },
-      { label: "Stroke", to: "/stroke-treatment-in-ahmedabad" },
-      { label: "Parkinson's Disease", to: "/parkinsons-disease-treatment-in-ahmedabad" },
-      { label: "Muscular Dystrophy", to: "/muscular-dystrophy-treatment-in-ahmedabad" },
-      { label: "Multiple Sclerosis", to: "/multiple-sclerosis-treatment-in-ahmedabad" },
+      { label: "Spinal Cord Injury", to: "/spinal-cord-specialist-in-ahmedabad" },
+      { label: "Stroke", to: "/stroke-in-treatment-ahmedabad" },
+      { label: "Parkinson's Disease", to: "/parkinson-disease-treatment-in-ahmedabad" },
+      { label: "Muscular Dystrophy", to: "/muscular-dystrophy-doctor-ahmedabad" },
+      { label: "Multiple Sclerosis", to: "/multiple-sclerosis-treatment-doctor-in-ahmedabad" },
       { label: "Cerebral Palsy", to: "/cerebral-palsy-treatment-in-ahmedabad" },
       { label: "Bell's Palsy", to: "/bells-palsy-treatment-in-ahmedabad" },
-      { label: "Diabetic Neuropathy", to: "/diabetic-neuropathy-treatment-in-ahmedabad" },
+      { label: "Diabetic Neuropathy", to: "/diabetic-neuropathy-treatment-doctor-in-ahmedabad" },
     ],
   },
   {
@@ -110,6 +110,25 @@ export function SiteHeader() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (menuName: string) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setActiveMenu(menuName);
+  };
+
+  const handleMouseLeave = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    // 1.5 seconds grace period so user can smoothly move cursor to click without popup hiding
+    timeoutRef.current = setTimeout(() => {
+      setActiveMenu(null);
+    }, 200);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -123,11 +142,15 @@ export function SiteHeader() {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         setOpen(false);
+        if (timeoutRef.current) clearTimeout(timeoutRef.current);
         setActiveMenu(null);
       }
     };
     window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
   }, []);
 
   return (
@@ -237,8 +260,8 @@ export function SiteHeader() {
             {/* 2. About Us (Dropdown) */}
             <div
               className="relative"
-              onMouseEnter={() => setActiveMenu("about")}
-              onMouseLeave={() => setActiveMenu(null)}
+              onMouseEnter={() => handleMouseEnter("about")}
+              onMouseLeave={handleMouseLeave}
             >
               <button
                 type="button"
@@ -259,13 +282,20 @@ export function SiteHeader() {
               </button>
 
               {activeMenu === "about" && (
-                <div className="absolute left-0 top-full mt-1.5 w-72 animate-cc-scale rounded-2xl border border-border/80 bg-white p-3 shadow-2xl shadow-navy/15 z-50">
+                <div
+                  onMouseEnter={() => handleMouseEnter("about")}
+                  onMouseLeave={handleMouseLeave}
+                  className="absolute left-0 top-full mt-1.5 w-72 animate-cc-scale rounded-2xl border border-border/80 bg-white p-3 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
+                >
                   <div className="space-y-1">
                     {aboutMenu.map((item) => (
                       <Link
                         key={item.to}
                         to={item.to as never}
-                        onClick={() => setActiveMenu(null)}
+                        onClick={() => {
+                          if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                          setActiveMenu(null);
+                        }}
                         className="block rounded-lg px-3 py-2 text-xs font-semibold text-navy transition-colors hover:bg-sand hover:text-accent"
                       >
                         {item.label}
@@ -276,11 +306,11 @@ export function SiteHeader() {
               )}
             </div>
 
-            {/* 3. Conditions We Treat (3-Column Mega Menu) */}
+            {/* 3. Care Areas (3-Column Mega Menu) */}
             <div
               className="relative"
-              onMouseEnter={() => setActiveMenu("conditions")}
-              onMouseLeave={() => setActiveMenu(null)}
+              onMouseEnter={() => handleMouseEnter("conditions")}
+              onMouseLeave={handleMouseLeave}
             >
               <button
                 type="button"
@@ -294,7 +324,7 @@ export function SiteHeader() {
                     : "text-navy hover:bg-sand hover:text-accent"
                 }`}
               >
-                <span>Conditions We Treat</span>
+                <span>Care Areas</span>
                 <ChevronDown
                   className={`size-3.5 transition-transform duration-200 ${
                     activeMenu === "conditions" ? "rotate-180 text-accent" : "text-muted-foreground"
@@ -303,7 +333,11 @@ export function SiteHeader() {
               </button>
 
               {activeMenu === "conditions" && (
-                <div className="absolute -left-20 top-full mt-1.5 w-[840px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50">
+                <div
+                  onMouseEnter={() => handleMouseEnter("conditions")}
+                  onMouseLeave={handleMouseLeave}
+                  className="absolute -left-20 top-full mt-1.5 w-[840px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
+                >
                   <div className="grid grid-cols-3 gap-8">
                     {conditionsMegaMenu.map((col) => (
                       <div key={col.title}>
@@ -317,7 +351,10 @@ export function SiteHeader() {
                             <li key={item.to}>
                               <Link
                                 to={item.to as never}
-                                onClick={() => setActiveMenu(null)}
+                                onClick={() => {
+                                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                                  setActiveMenu(null);
+                                }}
                                 className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
                               >
                                 {item.label}
@@ -332,11 +369,11 @@ export function SiteHeader() {
               )}
             </div>
 
-            {/* 4. Services (2-Column Mega Menu) */}
+            {/* 4. Therapies (2-Column Mega Menu) */}
             <div
               className="relative"
-              onMouseEnter={() => setActiveMenu("services")}
-              onMouseLeave={() => setActiveMenu(null)}
+              onMouseEnter={() => handleMouseEnter("services")}
+              onMouseLeave={handleMouseLeave}
             >
               <button
                 type="button"
@@ -350,7 +387,7 @@ export function SiteHeader() {
                     : "text-navy hover:bg-sand hover:text-accent"
                 }`}
               >
-                <span>Services</span>
+                <span>Therapies</span>
                 <ChevronDown
                   className={`size-3.5 transition-transform duration-200 ${
                     activeMenu === "services" ? "rotate-180 text-accent" : "text-muted-foreground"
@@ -359,7 +396,11 @@ export function SiteHeader() {
               </button>
 
               {activeMenu === "services" && (
-                <div className="absolute -left-10 top-full mt-1.5 w-[560px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50">
+                <div
+                  onMouseEnter={() => handleMouseEnter("services")}
+                  onMouseLeave={handleMouseLeave}
+                  className="absolute -left-10 top-full mt-1.5 w-[560px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
+                >
                   <div className="grid grid-cols-2 gap-8">
                     {servicesMegaMenu.map((col) => (
                       <div key={col.title}>
@@ -373,7 +414,10 @@ export function SiteHeader() {
                             <li key={item.to}>
                               <Link
                                 to={item.to as never}
-                                onClick={() => setActiveMenu(null)}
+                                onClick={() => {
+                                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                                  setActiveMenu(null);
+                                }}
                                 className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
                               >
                                 {item.label}
@@ -503,14 +547,14 @@ export function SiteHeader() {
               )}
             </div>
 
-            {/* Mobile Conditions Accordion */}
+            {/* Mobile Care Areas Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
               <button
                 type="button"
                 onClick={() => setMobileExpanded((m) => (m === "conditions" ? null : "conditions"))}
                 className="flex min-h-11 w-full items-center justify-between px-3 py-2 text-sm font-bold text-navy"
               >
-                <span>Conditions We Treat</span>
+                <span>Care Areas</span>
                 <span className={`text-lg transition-transform ${mobileExpanded === "conditions" ? "rotate-45" : ""}`}>
                   +
                 </span>
@@ -540,14 +584,14 @@ export function SiteHeader() {
               )}
             </div>
 
-            {/* Mobile Services Accordion */}
+            {/* Mobile Therapies Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
               <button
                 type="button"
                 onClick={() => setMobileExpanded((m) => (m === "services" ? null : "services"))}
                 className="flex min-h-11 w-full items-center justify-between px-3 py-2 text-sm font-bold text-navy"
               >
-                <span>Services</span>
+                <span>Therapies</span>
                 <span className={`text-lg transition-transform ${mobileExpanded === "services" ? "rotate-45" : ""}`}>
                   +
                 </span>

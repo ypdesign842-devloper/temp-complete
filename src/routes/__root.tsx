@@ -104,10 +104,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  const router = useRouter();
+  const pathname = router.state.location?.pathname || "/";
+  const canonicalUrl = `https://completecare.in${
+    pathname === "/" ? "/" : pathname.endsWith("/") ? pathname : `${pathname}/`
+  }`;
+
   return (
     <html lang="en">
       <head>
         <HeadContent />
+        <link rel="canonical" href={canonicalUrl} />
       </head>
       <body>
         {children}

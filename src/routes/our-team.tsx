@@ -35,7 +35,8 @@ function TeamPage() {
 
       {/* Director Spotlight Section */}
       <section className="section-y bg-background border-b border-border">
-        <div className="container-cc">
+        <div className="container-cc space-y-10">
+          {/* 1. Dr. Hardik Patel */}
           <div className="relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-sand via-background to-sand/50 p-8 shadow-xl sm:p-10 lg:p-12">
             <div className="grid gap-8 lg:grid-cols-[1fr_1.8fr] lg:items-center">
               <div className="relative mx-auto max-w-sm overflow-hidden rounded-2xl border-4 border-white shadow-xl">
@@ -61,7 +62,7 @@ function TeamPage() {
                 </h2>
 
                 <p className="text-sm font-bold tracking-wider text-accent uppercase">
-                  Director · Certified Chiropractor · Senior Physical Therapist
+                  Director · Certified Chiropractor · Senior Physical Therapist (FOMT Australia)
                 </p>
 
                 <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -93,6 +94,68 @@ function TeamPage() {
                     className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-accent-foreground shadow-md transition-all hover:bg-emerald-600"
                   >
                     <span>Consult with Dr. Hardik Patel</span>
+                    <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* 2. Dr. Foram Patel */}
+          <div className="relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-sand via-background to-sand/50 p-8 shadow-xl sm:p-10 lg:p-12">
+            <div className="grid gap-8 lg:grid-cols-[1fr_1.8fr] lg:items-center">
+              <div className="relative mx-auto max-w-sm overflow-hidden rounded-2xl border-4 border-white shadow-xl">
+                <img
+                  src="/assets/fitness/dr.-foram-patel-cc.webp"
+                  alt="Dr. Foram Patel (PT), Founder & Fitness Director"
+                  className="aspect-[4/5] w-full object-cover object-top"
+                />
+                <div className="absolute bottom-3 left-3 right-3 rounded-xl bg-white/90 p-3 text-center backdrop-blur-md">
+                  <div className="text-xs font-bold text-navy">Dr. Foram Patel (PT)</div>
+                  <div className="text-[11px] font-semibold text-accent">Founder &amp; Fitness Director</div>
+                </div>
+              </div>
+
+              <div className="space-y-5">
+                <div className="inline-flex items-center gap-2 rounded-full border border-navy/15 bg-white px-3.5 py-1 text-xs font-bold tracking-wider text-teal uppercase">
+                  <Award className="size-3.5 text-accent" />
+                  <span>7+ Years Clinical &amp; Fitness Leadership</span>
+                </div>
+
+                <h2 className="text-3xl font-semibold leading-tight text-navy sm:text-4xl">
+                  Dr. Foram Patel (PT)
+                </h2>
+
+                <p className="text-sm font-bold tracking-wider text-accent uppercase">
+                  Founder &amp; Director · Master Fitness Trainer (YOS Certified) · Women's Health Specialist
+                </p>
+
+                <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
+                  Dr. Foram Patel combines clinical physical therapy with certified fitness training. Holding a BPT from SNDT University, a Fellowship in Manual Therapy, and Master's in Fitness Training, she pioneers women's rehabilitation, prenatal/postnatal fitness, clinical Pilates, and weight management across Complete Care.
+                </p>
+
+                <div className="grid gap-3 sm:grid-cols-2 pt-2">
+                  {[
+                    "Pre- & Postnatal Fitness Protocols",
+                    "Clinical Pilates & Core Rehabilitation",
+                    "Manual Joint Mobilization & Dry Needling",
+                    "Advanced Female Fitness & Nutrition",
+                  ].map((spec) => (
+                    <div key={spec} className="flex items-center gap-2 text-sm font-semibold text-navy">
+                      <CheckCircle2 className="size-4 text-accent shrink-0" />
+                      <span>{spec}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="pt-3">
+                  <a
+                    href={site.whatsapp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-accent-foreground shadow-md transition-all hover:bg-emerald-600"
+                  >
+                    <span>Consult with Dr. Foram Patel</span>
                     <span>&rarr;</span>
                   </a>
                 </div>
