@@ -126,7 +126,7 @@ export function SiteFooter() {
       <footer className="bg-navy text-navy-foreground border-t border-navy-deep">
         {/* Main Directory Links */}
         <div className="container-cc py-12 lg:py-14">
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
             {/* Brand Col */}
             <div className="lg:col-span-2 space-y-4">
               <Link to="/" className="inline-block">
@@ -186,13 +186,67 @@ export function SiteFooter() {
               </div>
             </div>
 
+            {/* About Complete Care Column */}
+            <div>
+              <h3 className="text-xs font-bold tracking-[0.18em] text-leaf uppercase">
+                About Complete Care
+              </h3>
+              <ul className="mt-4 space-y-2 text-sm">
+                <li>
+                  <Link
+                    to="/best-physiotherapy-clinic-in-ahmedabad"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
+                  >
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>About Us</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/our-team"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
+                  >
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>Our Clinical Team</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/certifications"
+                    className="group flex items-center gap-1.5 font-medium text-white transition-colors hover:text-leaf"
+                  >
+                    <ChevronRight className="size-3 text-leaf transition-transform group-hover:translate-x-1" />
+                    <span className="text-leaf">Certifications &amp; Credentials</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/media"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
+                  >
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>Media &amp; Video Gallery</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/blogs"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
+                  >
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>Clinical Insights Blog</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
             {/* Care Areas */}
             <div>
               <h3 className="text-xs font-bold tracking-[0.18em] text-leaf uppercase">
                 Care Areas
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
-                {conditions.slice(0, 7).map((c) => (
+                {conditions.slice(0, 6).map((c) => (
                   <li key={c.slug}>
                     <Link
                       to={`/${c.slug}` as never}
@@ -212,7 +266,7 @@ export function SiteFooter() {
                 Therapies
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
-                {modalities.slice(0, 7).map((m) => (
+                {modalities.slice(0, 6).map((m) => (
                   <li key={m.slug}>
                     <Link
                       to={`/${m.slug}` as never}

@@ -41,6 +41,7 @@ import { Route as BlogsRouteImport } from './routes/blogs'
 import { Route as BoneStrengthPhysiotherapyForOsteoporosisRouteImport } from './routes/bone-strength-physiotherapy-for-osteoporosis'
 import { Route as CerebralPalsyPhysiotherapyWalkingRouteImport } from './routes/cerebral-palsy-physiotherapy-walking'
 import { Route as CerebralPalsyTreatmentInAhmedabadRouteImport } from './routes/cerebral-palsy-treatment-in-ahmedabad'
+import { Route as CertificationsRouteImport } from './routes/certifications'
 import { Route as ChiropracticBackPainTreatmentAhmedabadRouteImport } from './routes/chiropractic-back-pain-treatment-ahmedabad'
 import { Route as ChiropracticTipsForFirstTimePatientsInAhmedabadRouteImport } from './routes/chiropractic-tips-for-first-time-patients-in-ahmedabad'
 import { Route as ChiropracticTreatmentInAhmedabadRouteImport } from './routes/chiropractic-treatment-in-ahmedabad'
@@ -360,6 +361,11 @@ const CerebralPalsyTreatmentInAhmedabadRoute =
     path: '/cerebral-palsy-treatment-in-ahmedabad',
     getParentRoute: () => rootRouteImport,
   } as any)
+const CertificationsRoute = CertificationsRouteImport.update({
+  id: '/certifications',
+  path: '/certifications',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ChiropracticBackPainTreatmentAhmedabadRoute =
   ChiropracticBackPainTreatmentAhmedabadRouteImport.update({
     id: '/chiropractic-back-pain-treatment-ahmedabad',
@@ -1157,6 +1163,7 @@ export interface FileRoutesByFullPath {
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
+  '/certifications': typeof CertificationsRoute
   '/chiropractic-back-pain-treatment-ahmedabad': typeof ChiropracticBackPainTreatmentAhmedabadRoute
   '/chiropractic-tips-for-first-time-patients-in-ahmedabad': typeof ChiropracticTipsForFirstTimePatientsInAhmedabadRoute
   '/chiropractic-treatment-in-ahmedabad': typeof ChiropracticTreatmentInAhmedabadRoute
@@ -1319,6 +1326,7 @@ export interface FileRoutesByTo {
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
+  '/certifications': typeof CertificationsRoute
   '/chiropractic-back-pain-treatment-ahmedabad': typeof ChiropracticBackPainTreatmentAhmedabadRoute
   '/chiropractic-tips-for-first-time-patients-in-ahmedabad': typeof ChiropracticTipsForFirstTimePatientsInAhmedabadRoute
   '/chiropractic-treatment-in-ahmedabad': typeof ChiropracticTreatmentInAhmedabadRoute
@@ -1482,6 +1490,7 @@ export interface FileRoutesById {
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
+  '/certifications': typeof CertificationsRoute
   '/chiropractic-back-pain-treatment-ahmedabad': typeof ChiropracticBackPainTreatmentAhmedabadRoute
   '/chiropractic-tips-for-first-time-patients-in-ahmedabad': typeof ChiropracticTipsForFirstTimePatientsInAhmedabadRoute
   '/chiropractic-treatment-in-ahmedabad': typeof ChiropracticTreatmentInAhmedabadRoute
@@ -1646,6 +1655,7 @@ export interface FileRouteTypes {
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
+    | '/certifications'
     | '/chiropractic-back-pain-treatment-ahmedabad'
     | '/chiropractic-tips-for-first-time-patients-in-ahmedabad'
     | '/chiropractic-treatment-in-ahmedabad'
@@ -1808,6 +1818,7 @@ export interface FileRouteTypes {
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
+    | '/certifications'
     | '/chiropractic-back-pain-treatment-ahmedabad'
     | '/chiropractic-tips-for-first-time-patients-in-ahmedabad'
     | '/chiropractic-treatment-in-ahmedabad'
@@ -1970,6 +1981,7 @@ export interface FileRouteTypes {
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
+    | '/certifications'
     | '/chiropractic-back-pain-treatment-ahmedabad'
     | '/chiropractic-tips-for-first-time-patients-in-ahmedabad'
     | '/chiropractic-treatment-in-ahmedabad'
@@ -2133,6 +2145,7 @@ export interface RootRouteChildren {
   BoneStrengthPhysiotherapyForOsteoporosisRoute: typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   CerebralPalsyPhysiotherapyWalkingRoute: typeof CerebralPalsyPhysiotherapyWalkingRoute
   CerebralPalsyTreatmentInAhmedabadRoute: typeof CerebralPalsyTreatmentInAhmedabadRoute
+  CertificationsRoute: typeof CertificationsRoute
   ChiropracticBackPainTreatmentAhmedabadRoute: typeof ChiropracticBackPainTreatmentAhmedabadRoute
   ChiropracticTipsForFirstTimePatientsInAhmedabadRoute: typeof ChiropracticTipsForFirstTimePatientsInAhmedabadRoute
   ChiropracticTreatmentInAhmedabadRoute: typeof ChiropracticTreatmentInAhmedabadRoute
@@ -2487,6 +2500,13 @@ declare module '@tanstack/react-router' {
       path: '/cerebral-palsy-treatment-in-ahmedabad'
       fullPath: '/cerebral-palsy-treatment-in-ahmedabad'
       preLoaderRoute: typeof CerebralPalsyTreatmentInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/certifications': {
+      id: '/certifications'
+      path: '/certifications'
+      fullPath: '/certifications'
+      preLoaderRoute: typeof CertificationsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/chiropractic-back-pain-treatment-ahmedabad': {
@@ -3442,6 +3462,7 @@ const rootRouteChildren: RootRouteChildren = {
     CerebralPalsyPhysiotherapyWalkingRoute,
   CerebralPalsyTreatmentInAhmedabadRoute:
     CerebralPalsyTreatmentInAhmedabadRoute,
+  CertificationsRoute: CertificationsRoute,
   ChiropracticBackPainTreatmentAhmedabadRoute:
     ChiropracticBackPainTreatmentAhmedabadRoute,
   ChiropracticTipsForFirstTimePatientsInAhmedabadRoute:

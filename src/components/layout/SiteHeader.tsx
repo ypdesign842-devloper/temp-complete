@@ -98,11 +98,10 @@ export const servicesMegaMenu = [
 ];
 
 export const aboutMenu = [
-  { label: "Best Physiotherapy Clinic in Ahmedabad", to: "/best-physiotherapy-clinic-in-ahmedabad" },
-  { label: "Best Physiotherapist in Ahmedabad", to: "/best-physiotherapist-in-ahmedabad" },
+  { label: "About Complete Care", to: "/best-physiotherapy-clinic-in-ahmedabad" },
   { label: "Our Team", to: "/our-team" },
-  { label: "Media", to: "/media" },
-  { label: "Video", to: "/video" },
+  { label: "Certifications & Credentials", to: "/certifications" },
+  { label: "Our Centres", to: "/best-physiotherapy-center-thaltej-ahmedabad" },
 ];
 
 export function SiteHeader() {
