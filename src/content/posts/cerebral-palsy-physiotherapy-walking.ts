@@ -253,7 +253,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Supported standing can help children practice weight-bearing, posture, and balance."
+   "text": "Supported standing can help children practice weight bearing, posture, and balance."
   },
   {
    "t": "p",
@@ -411,7 +411,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For families who have difficulty traveling regularly, home-based physiotherapy may also be an option. Complete Care provides home physiotherapy services for neurological and pediatric conditions, including cerebral palsy."
+   "text": "For families who have difficulty traveling regularly, home based physiotherapy may also be an option. Complete Care provides home physiotherapy services for neurological and pediatric conditions, including cerebral palsy."
   },
   {
    "t": "h2",

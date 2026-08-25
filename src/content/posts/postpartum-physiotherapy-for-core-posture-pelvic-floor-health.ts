@@ -48,7 +48,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "After childbirth—whether normal delivery or C-section-these areas require targeted rehabilitation to heal properly. Without guidance, many women continue to face:"
+   "text": "After childbirth, whether normal delivery or C-section-these areas require targeted rehabilitation to heal properly. Without guidance, many women continue to face:"
   },
   {
    "t": "ul",
@@ -111,7 +111,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "At Complete Care, **Dr. Foram Patel** uses evidence-based pelvic floor training and personalized assessments to help new mothers rebuild strength safely and effectively."
+   "text": "At Complete Care, **Dr. Foram Patel** uses evidence based pelvic floor training and personalized assessments to help new mothers rebuild strength safely and effectively."
   },
   {
    "t": "h3",
@@ -159,7 +159,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "With guidance from an expert like **Dr. Foram Patel**, moms can avoid long-term posture issues and rebuild a strong, functional core."
+   "text": "With guidance from an expert like **Dr. Foram Patel**, moms can avoid long term posture issues and rebuild a strong, functional core."
   },
   {
    "t": "h3",
@@ -274,7 +274,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "You can start mild exercises after 4–6 weeks."
+   "text": "You can start mild exercises after 4 to 6 weeks."
   },
   {
    "t": "p",
@@ -282,7 +282,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Wait 8–12 weeks and get medical clearance."
+   "text": "Wait 8 to 12 weeks and get medical clearance."
   },
   {
    "t": "p",
@@ -294,7 +294,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Postpartum physiotherapy is not just about fitness-it is about healing, strengthening, and rebuilding your body from within. With the right guidance, new mothers can restore pelvic floor strength, improve posture, regain core stability, and prevent long-term complications."
+   "text": "Postpartum physiotherapy is not just about fitness-it is about healing, strengthening, and rebuilding your body from within. With the right guidance, new mothers can restore pelvic floor strength, improve posture, regain core stability, and prevent long term complications."
   },
   {
    "t": "p",

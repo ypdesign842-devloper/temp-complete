@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The demand for physiotherapy services has increased extremely in recent years, and with good cause. Physiotherapy assists people in recovering from injuries, managing chronic diseases, improving mobility, and preventing future injury. While usual clinic visits are successful, home-based physiotherapy has developed as a practical and efficient approach that allows patients to receive personalized treatment in the comfort of their own home."
+   "text": "The demand for physiotherapy services has increased extremely in recent years, and with good cause. Physiotherapy assists people in recovering from injuries, managing chronic diseases, improving mobility, and preventing future injury. While usual clinic visits are successful, home based physiotherapy has developed as a practical and efficient approach that allows patients to receive personalized treatment in the comfort of their own home."
   },
   {
    "t": "p",
@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "[**Physiotherapy at home**](/physiotherapy-at-home-in-ahmedabad/) is a service in which trained physiotherapists visit patients in their homes to provide treatments. These treatments may involve manual therapy, exercises, and guidance on posture, ergonomics, and lifestyle changes that can help with mobility and overall well-being. Home physiotherapy is adapted to each patient’s specific condition, resulting in a personalized and comfortable experience at home."
+   "text": "[**Physiotherapy at home**](/physiotherapy-at-home-in-ahmedabad/) is a service in which trained physiotherapists visit patients in their homes to provide treatments. These treatments may involve manual therapy, exercises, and guidance on posture, ergonomics, and lifestyle changes that can help with mobility and overall wellbeing. Home physiotherapy is adapted to each patient’s specific condition, resulting in a personalized and comfortable experience at home."
   },
   {
    "t": "p",
@@ -35,11 +35,11 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Convenience and Comfort:** One major advantage of physiotherapy at home is its convenience. No need for long drives or waiting in line—sessions are scheduled at your convenience, with the physiotherapist coming to you. The comfort of your home also helps you feel more relaxed during treatment.",
-    "**Personalized care:** Home physiotherapy provides one-on-one attention and personalized therapies that are entirely focused on your needs, free of clinic distractions.",
+    "**Convenience and Comfort:** One major advantage of physiotherapy at home is its convenience. No need for long drives or waiting in line, sessions are scheduled at your convenience, with the physiotherapist coming to you. The comfort of your home also helps you feel more relaxed during treatment.",
+    "**Personalized care:** Home physiotherapy provides one on one attention and personalized therapies that are entirely focused on your needs, free of clinic distractions.",
     "**Privacy and Comfort :** Receive care in a private, pleasant environment where you may openly discuss your concerns with complete secrecy.",
     "**Enhance consistency:** Home sessions make it simpler to stick to training plans, and close monitoring leads to better outcomes and faster recuperation.",
-    "**Ideal for post-surgery and injuries:** Avoid the stress of travel and begin your recovery. at home immediately after surgery or severe injuries."
+    "**Ideal for post surgery and injuries:** Avoid the stress of travel and begin your recovery. at home immediately after surgery or severe injuries."
    ]
   },
   {
@@ -53,10 +53,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Post-Surgical Recovery:** After surgeries such as joint replacements or spinal procedures, home physiotherapy allows patients to restore mobility and strength without having to drive to a clinic.",
+    "**post surgical  Recovery:** After surgeries such as joint replacements or spinal procedures, home physiotherapy allows patients to restore mobility and strength without having to drive to a clinic.",
     "**Chronic Pain Management:** Arthritis, fibromyalgia, and back pain can all be effectively controlled with specific workouts and therapies provided at home.",
     "**Neurological disorders :** For stroke rehabilitation, Parkinson’s disease, or multiple sclerosis, home sessions offer convenience and concentrated care to improve mobility and function.",
-    "**Elderly Care:** Physiotherapy at home benefits older persons with limited mobility or age-related problems by reducing the risk and difficulties of travel.",
+    "**Elderly Care:** Physiotherapy at home benefits older persons with limited mobility or age related problems by reducing the risk and difficulties of travel.",
     "**Serious injuries or mobility issues:**"
    ]
   },
@@ -87,12 +87,12 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Long-term Care:** Patients with terminal illnesses or chronic impairments can get compassionate and supportive care in their homes."
+    "**long term Care:** Patients with terminal illnesses or chronic impairments can get compassionate and supportive care in their homes."
    ]
   },
   {
    "t": "p",
-   "text": "Physiotherapy at home is a personalized, practical, and efficient way to recover from surgery, manage chronic pain, and increase mobility. Complete Care – [**Top Physiotherapy Center in Ahmedabad**](/) provides expert care to your home, offering high-quality treatment that is personalized to your specific needs. We provide one-on-one care and modern approaches to ensure a smooth recovery in the comfort of your own home. Are you ready to begin your recovery journey? Contact us immediately to set up a session and reclaim your health and mobility!"
+   "text": "Physiotherapy at home is a personalized, practical, and efficient way to recover from surgery, manage chronic pain, and increase mobility. Complete Care, [**Top Physiotherapy Center in Ahmedabad**](/) provides expert care to your home, offering hig quality treatment that is personalized to your specific needs. We provide one on one care and modern approaches to ensure a smooth recovery in the comfort of your own home. Are you ready to begin your recovery journey? Contact us immediately to set up a session and reclaim your health and mobility!"
   }
  ]
 };

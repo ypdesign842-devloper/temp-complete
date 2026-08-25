@@ -390,7 +390,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early physiotherapy is crucial when it comes to maintaining long-term functional wellness and managing multiple sclerosis symptoms in Ahmedabad."
+   "text": "Early physiotherapy is crucial when it comes to maintaining long term functional wellness and managing multiple sclerosis symptoms in Ahmedabad."
   }
  ]
 };

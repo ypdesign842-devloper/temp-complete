@@ -81,7 +81,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This makes it a preferred non-invasive therapy for patients who want natural pain relief alongside their regular medical treatment."
+   "text": "This makes it a preferred non invasive therapy for patients who want natural pain relief alongside their regular medical treatment."
   },
   {
    "t": "h3",
@@ -89,7 +89,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Joint pain can result from age, overuse, injury, or chronic conditions. While medications provide temporary relief, physiotherapy-based solutions offer long-term benefits."
+   "text": "Joint pain can result from age, overuse, injury, or chronic conditions. While medications provide temporary relief, physiotherapy-based solutions offer long term benefits."
   },
   {
    "t": "p",
@@ -101,7 +101,7 @@ export const content: PostContent = {
     "Wrist and elbow pain from repetitive work",
     "Stiffness after fractures or injuries",
     "Chronic joint pain in knees and ankles",
-    "Sports-related muscle tightness"
+    "sports related muscle tightness"
    ]
   },
   {
@@ -119,10 +119,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Advanced equipment** – Safe, automated wax bath machines for consistent results.",
-    "**Skilled therapists** – Experts who personalize therapy plans based on pain levels and medical history.",
-    "**Affordable sessions** – Compared to surgical interventions, paraffin therapy is cost-effective.",
-    "**Holistic care** – Many physiotherapy centers combine wax bath therapy with exercises and lifestyle counseling."
+    "**Advanced equipment**, Safe, automated wax bath machines for consistent results.",
+    "**Skilled therapists**, Experts who personalize therapy plans based on pain levels and medical history.",
+    "**Affordable sessions**, Compared to surgical interventions, paraffin therapy is cost-effective.",
+    "**Holistic care**, Many physiotherapy centers combine wax bath therapy with exercises and lifestyle counseling."
    ]
   },
   {
@@ -164,7 +164,7 @@ export const content: PostContent = {
     "Has certified physiotherapists with experience in arthritis and pain management",
     "Uses safe, hygienic, and advanced wax bath equipment",
     "Provides customized plans combining therapy, exercises, and lifestyle advice",
-    "Offers long-term follow-up care for chronic patients"
+    "Offers long term follow-up care for chronic patients"
    ]
   },
   {

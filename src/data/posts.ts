@@ -38,7 +38,7 @@ export const posts: Post[] = [
   "title": "Chiropractic Tips for First Time Patients in Ahmedabad",
   "date": "2025-05-24",
   "image": "/assets/blogs/Chiropractic-Tips-for-First-Time-Patients-in-Ahmedabad-Banner.webp",
-  "excerpt": "If you’re new to chiropractic care and considering visiting a chiropractor in Ahmedabad for first-time patients, you’re not alone. With increasing awareness of holistic health and non-invasive pain re",
+  "excerpt": "If you’re new to chiropractic care and considering visiting a chiropractor in Ahmedabad for first-time patients, you’re not alone. With increasing awareness of holistic health and non invasive pain re",
   "category": "Chiropractic Treatment"
  },
  {
@@ -54,7 +54,7 @@ export const posts: Post[] = [
   "title": "Top Health Benefits of PEMF Therapy",
   "date": "2025-07-04",
   "image": "/assets/blogs/Top-5-Health-Benefits-of-PEMF-Therapy-Who-Should-Consider-It-Banner.webp",
-  "excerpt": "In Last Couple of years, PEMF therapy has become popular in Ahmedabad because of its Physical Advantages. Pulsed Electromagnetic Field therapy(PEMF Therapy) is a non-invasive treatment which helps pat",
+  "excerpt": "In Last Couple of years, PEMF therapy has become popular in Ahmedabad because of its Physical Advantages. Pulsed Electromagnetic Field therapy(PEMF Therapy) is a non invasive treatment which helps pat",
   "category": "PEMF Therapy"
  },
  {
@@ -94,7 +94,7 @@ export const posts: Post[] = [
   "title": "Physiotherapy for Tendonitis",
   "date": "2025-07-09",
   "image": "/assets/blogs/Physiotherapy-for-Tendonitis-A-Clinically-Proven-Path-to-Recovery-Banner.webp",
-  "excerpt": "Tendonitis, the inflammation or irritation of a tendon, is a common issue among people who engage in repetitive movements—whether at work, in sports, or through daily activities. It causes pain, stiff",
+  "excerpt": "Tendonitis, the inflammation or irritation of a tendon, is a common issue among people who engage in repetitive movements, whether at work, in sports, or through daily activities. It causes pain, stiff",
   "category": "Physiotherapy Treatments"
  },
  {
@@ -206,7 +206,7 @@ export const posts: Post[] = [
   "title": "Why Small Shoulder Muscles are Key to Pain Free Movement",
   "date": "2025-08-22",
   "image": "/assets/blogs/Why-Small-Shoulder-Muscles-Are-Key-to-Pain-Free-Movement-Banner.webp",
-  "excerpt": "Shoulder pain is one of the most common problems people face today—whether due to poor posture, sports injuries, or long hours at the desk. While most people focus on big, visible muscles like the bic",
+  "excerpt": "Shoulder pain is one of the most common problems people face today, whether due to poor posture, sports injuries, or long hours at the desk. While most people focus on big, visible muscles like the bic",
   "category": "Shoulder Pain"
  },
  {
@@ -230,7 +230,7 @@ export const posts: Post[] = [
   "title": "Know About Dry Needling Benefits",
   "date": "2025-09-22",
   "image": "/assets/blogs/Dry-Needling-Benefits.png",
-  "excerpt": "Chronic pain and muscle stiffness can significantly affect daily life, limiting mobility and overall well-being. While traditional physiotherapy helps, many patients in Ahmedabad are discovering the b",
+  "excerpt": "Chronic pain and muscle stiffness can significantly affect daily life, limiting mobility and overall wellbeing. While traditional physiotherapy helps, many patients in Ahmedabad are discovering the b",
   "category": "Dry Needling"
  },
  {
@@ -278,7 +278,7 @@ export const posts: Post[] = [
   "title": "Work from Home Syndrome",
   "date": "2025-11-03",
   "image": "/assets/blogs/Physiotherapy-Solutions-for-Work-From-Home.png",
-  "excerpt": "Working from home has become the new normal – but so have neck, back, and shoulder pains. Long hours on laptops, poor posture, and lack of movement have led to what physiotherapists now call “Work-Fro",
+  "excerpt": "Working from home has become the new normal ,  but so have neck, back, and shoulder pains. Long hours on laptops, poor posture, and lack of movement have led to what physiotherapists now call “Work-Fro",
   "category": "Physiotherapy at Home"
  },
  {
@@ -302,7 +302,7 @@ export const posts: Post[] = [
   "title": "Healing Cervical Spine with Advanced Physiotherapy Care",
   "date": "2025-11-13",
   "image": "/assets/blogs/Cervical-Spine.png",
-  "excerpt": "Neck pain has become one of the most common health concerns in Ahmedabad – affecting students, office workers, homemakers, and even fitness enthusiasts. Whether it’s caused by long hours at a computer",
+  "excerpt": "Neck pain has become one of the most common health concerns in Ahmedabad ,  affecting students, office workers, homemakers, and even fitness enthusiasts. Whether it’s caused by long hours at a computer",
   "category": "Neck Pain"
  },
  {
@@ -430,7 +430,7 @@ export const posts: Post[] = [
   "title": "Neuromuscular Re Education Pain SCIence Back Pain",
   "date": "2026-02-19",
   "image": "/assets/blogs/Pain-Science-for-Back-Pain.png",
-  "excerpt": "Back pain is one of the most common health issues affecting adults today, and it can significantly impact daily life, work, and overall well-being. Fortunately, modern approaches like neuromuscular re",
+  "excerpt": "Back pain is one of the most common health issues affecting adults today, and it can significantly impact daily life, work, and overall wellbeing. Fortunately, modern approaches like neuromuscular re",
   "category": "Back Pain"
  },
  {
@@ -598,7 +598,7 @@ export const posts: Post[] = [
   "title": "Physiotherapy to Improve Balance after Stroke",
   "date": "2026-07-14",
   "image": "/assets/blogs/How-Physiotherapy-Helps-Improve-Balance-After-a-Stroke.jpeg",
-  "excerpt": "The recovery process from a stroke can be a long and testing one – and it takes patience, determination and the right rehabilitation plan. Many stroke survivors tend to concentrate on regaining streng",
+  "excerpt": "The recovery process from a stroke can be a long and testing one ,  and it takes patience, determination and the right rehabilitation plan. Many stroke survivors tend to concentrate on regaining streng",
   "category": "Physiotherapy"
  },
  {

@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**TECAR therapy**, or Transfer of Energy Capacitive and Resistive therapy, is a non-invasive physiotherapy treatment that uses radiofrequency energy to stimulate tissue repair. By targeting the deep layers of muscles and ligaments, TECAR therapy accelerates the body’s natural healing process, reduces inflammation, and improves blood circulation."
+   "text": "**TECAR therapy**, or Transfer of Energy Capacitive and Resistive therapy, is a non invasive physiotherapy treatment that uses radiofrequency energy to stimulate tissue repair. By targeting the deep layers of muscles and ligaments, TECAR therapy accelerates the body’s natural healing process, reduces inflammation, and improves blood circulation."
   },
   {
    "t": "p",
@@ -90,7 +90,7 @@ export const content: PostContent = {
     "Faster recovery from muscle strains and ligament injuries",
     "Reduced risk of re-injury due to enhanced tissue strength",
     "Improved flexibility, performance, and endurance",
-    "Non-invasive treatment with minimal side effects"
+    "non invasive treatment with minimal side effects"
    ]
   },
   {
@@ -99,7 +99,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "**Why Choose Complete Care – Best Physiotherapy Clinic in Ahmedabad**"
+   "text": "**Why Choose Complete Care, Best Physiotherapy Clinic in Ahmedabad**"
   },
   {
    "t": "p",
@@ -107,19 +107,19 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Expert Team** – Skilled physiotherapists trained in TECAR therapy and modern rehabilitation techniques."
+   "text": "1. **Expert Team**, Skilled physiotherapists trained in TECAR therapy and modern rehabilitation techniques."
   },
   {
    "t": "p",
-   "text": "2. **Advanced Technology** – State-of-the-art TECAR physiotherapy equipment for precise and effective treatments."
+   "text": "2. **Advanced Technology**, state of the art TECAR physiotherapy equipment for precise and effective treatments."
   },
   {
    "t": "p",
-   "text": "3. **Personalized Treatment Plans** – Every patient receives customized therapy based on injury type and recovery goals."
+   "text": "3. **Personalized Treatment Plans**, Every patient receives customized therapy based on injury type and recovery goals."
   },
   {
    "t": "p",
-   "text": "4. **Holistic Approach** – Integration of TECAR therapy with manual therapy, exercises, and lifestyle guidance for optimal recovery."
+   "text": "4. **Holistic Approach**, Integration of TECAR therapy with manual therapy, exercises, and lifestyle guidance for optimal recovery."
   },
   {
    "t": "p",
@@ -137,7 +137,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Accelerating recovery from sports injuries",
-    "Treating post-surgical muscle and ligament rehabilitation",
+    "Treating post surgical  muscle and ligament rehabilitation",
     "Managing chronic pain conditions such as tendinitis or arthritis"
    ]
   },

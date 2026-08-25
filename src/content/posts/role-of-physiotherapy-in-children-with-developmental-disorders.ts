@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Every child deserves the chance to move, play, and grow with confidence. However, for children with **developmental disorders**, achieving these milestones can be more challenging. This is where **Physiotherapy for Children** plays a crucial role – not just in treatment, but in empowerment."
+   "text": "Every child deserves the chance to move, play, and grow with confidence. However, for children with **developmental disorders**, achieving these milestones can be more challenging. This is where **Physiotherapy for Children** plays a crucial role, not just in treatment, but in empowerment."
   },
   {
    "t": "p",
@@ -34,7 +34,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The goal of **pediatric physiotherapy for developmental disorders** is to enhance mobility, strength, and independence – using techniques that are age-appropriate, engaging, and based on play."
+   "text": "The goal of **pediatric physiotherapy for developmental disorders** is to enhance mobility, strength, and independence, using techniques that are age-appropriate, engaging, and based on play."
   },
   {
    "t": "h3",
@@ -42,7 +42,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Physiotherapy for Children** focuses on helping kids improve their motor skills through specialized exercises, equipment, and movement-based therapies. Pediatric physiotherapists assess how children move, sit, crawl, stand, and walk – then design customized programs to support better control, flexibility, and endurance."
+   "text": "**Physiotherapy for Children** focuses on helping kids improve their motor skills through specialized exercises, equipment, and movement based therapies. Pediatric physiotherapists assess how children move, sit, crawl, stand, and walk, then design customized programs to support better control, flexibility, and endurance."
   },
   {
    "t": "p",
@@ -96,7 +96,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Children with autism may struggle with coordination, balance, or motor planning. Physiotherapy helps them learn to control movements through fun, sensory-rich activities. Play-based exercises also support emotional regulation and social interaction – making therapy both therapeutic and enjoyable."
+   "text": "Children with autism may struggle with coordination, balance, or motor planning. Physiotherapy helps them learn to control movements through fun, sensory-rich activities. Play-based exercises also support emotional regulation and social interaction, making therapy both therapeutic and enjoyable."
   },
   {
    "t": "h3",
@@ -104,7 +104,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Children learn best when they play – and physiotherapy is no exception! Play-based [**physiotherapy for children**](/) integrates games, toys, music, and movement into every session. It turns therapy into an adventure that motivates kids to move and explore."
+   "text": "Children learn best when they play, and physiotherapy is no exception! Play-based [**physiotherapy for children**](/) integrates games, toys, music, and movement into every session. It turns therapy into an adventure that motivates kids to move and explore."
   },
   {
    "t": "p",
@@ -125,11 +125,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Why Choose Dr. Hardik Patel – The Best Physiotherapist in Ahmedabad**"
+   "text": "**Why Choose Dr. Hardik Patel, The Best Physiotherapist in Ahmedabad**"
   },
   {
    "t": "p",
-   "text": "When it comes to pediatric care, parents need more than just a physiotherapist – they need a partner who understands children. **Dr. Hardik Patel**, founder of **Complete Care**, brings years of experience and advanced training in **pediatric and neuro-physiotherapy**."
+   "text": "When it comes to pediatric care, parents need more than just a physiotherapist, they need a partner who understands children. **Dr. Hardik Patel**, founder of **Complete Care**, brings years of experience and advanced training in **pediatric and neuro-physiotherapy**."
   },
   {
    "t": "p",
@@ -141,7 +141,7 @@ export const content: PostContent = {
     "Child-friendly clinic environment designed for comfort and safety",
     "Personalized treatment plans for each child",
     "Expertise in both developmental and neurological conditions",
-    "Use of modern equipment and evidence-based therapy methods",
+    "Use of modern equipment and evidence based therapy methods",
     "Family education and home exercise support"
    ]
   },
@@ -159,7 +159,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "At **Complete Care**, **Dr. Hardik Patel** helps children turn challenges into milestones – proving that with the right care, every child can move, play, and grow with confidence."
+   "text": "At **Complete Care**, **Dr. Hardik Patel** helps children turn challenges into milestones, proving that with the right care, every child can move, play, and grow with confidence."
   },
   {
    "t": "p",

@@ -80,7 +80,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Regular consultations with a chiropractor can prevent minor issues from escalating into chronic conditions, ensuring long-term spinal health."
+   "text": "Regular consultations with a chiropractor can prevent minor issues from escalating into chronic conditions, ensuring long term spinal health."
   },
   {
    "t": "h3",
@@ -118,12 +118,12 @@ export const content: PostContent = {
     "Improved flexibility and range of motion",
     "Faster recovery from injuries",
     "Enhanced posture and spinal alignment",
-    "Long-term prevention of chronic pain"
+    "long term prevention of chronic pain"
    ]
   },
   {
    "t": "p",
-   "text": "Unlike invasive procedures or prolonged medication use, chiropractic care offers a non-surgical, holistic approach to managing back pain."
+   "text": "Unlike invasive procedures or prolonged medication use, chiropractic care offers a non surgical, holistic approach to managing back pain."
   },
   {
    "t": "h3",
@@ -144,7 +144,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Some of the top-rated centers in Ahmedabad providing **Chiropractic Back Pain Treatment Ahmedabad** and physiotherapy include clinics recognized as the **Best Physiotherapy Center in Ahmedabad**, offering personalized care for long-term results."
+   "text": "Some of the top-rated centers in Ahmedabad providing **Chiropractic Back Pain Treatment Ahmedabad** and physiotherapy include clinics recognized as the **Best Physiotherapy Center in Ahmedabad**, offering personalized care for long term results."
   },
   {
    "t": "p",

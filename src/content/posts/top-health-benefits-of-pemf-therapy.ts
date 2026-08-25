@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In Last Couple of years, PEMF therapy has become popular in Ahmedabad because of its Physical Advantages. Pulsed Electromagnetic Field therapy(PEMF Therapy) is a non-invasive treatment which helps patient with problems like joint pain and constant tiredness. Because PEMF Therapy offers many healing benefits many people choose this for pain relief in Ahmedabad. Here we discuss the PEMF therapy benefits and also explore who can use PEMF therapy."
+   "text": "In Last Couple of years, PEMF therapy has become popular in Ahmedabad because of its Physical Advantages. Pulsed Electromagnetic Field therapy(PEMF Therapy) is a non invasive treatment which helps patient with problems like joint pain and constant tiredness. Because PEMF Therapy offers many healing benefits many people choose this for pain relief in Ahmedabad. Here we discuss the PEMF therapy benefits and also explore who can use PEMF therapy."
   },
   {
    "t": "h2",
@@ -46,7 +46,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "PEMF therapy boosts cellular metabolism, which means your body can heal faster. It’s particularly useful for post-surgery recovery, sports injuries, and fractures. Many orthopedic patients in Ahmedabad are turning to PEMF therapy after surgery to speed up bone and soft tissue repair."
+   "text": "PEMF therapy boosts cellular metabolism, which means your body can heal faster. It’s particularly useful for post surgery recovery, sports injuries, and fractures. Many orthopedic patients in Ahmedabad are turning to PEMF therapy after surgery to speed up bone and soft tissue repair."
   },
   {
    "t": "p",
@@ -156,7 +156,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "PEMF therapy is more than just a trend-it’s a scientifically-backed approach to improving health and well-being. From **pain relief** to better sleep and faster recovery, it offers numerous benefits with minimal side effects."
+   "text": "PEMF therapy is more than just a trend-it’s a scientifically-backed approach to improving health and wellbeing. From **pain relief** to better sleep and faster recovery, it offers numerous benefits with minimal side effects."
   },
   {
    "t": "p",

@@ -1,10 +1,10 @@
 import type { PostContent } from "@/data/types";
 
 export const content: PostContent = {
- "slug": "dry-needling-vs-trigger-point-injections-explained",
+ "slug": "dry-needling-vs-trigger point-injections-explained",
  "title": "Dry Needling vs Trigger Point Injections Explained",
  "date": "2026-01-29",
- "image": "/assets/blogs/Dry-Needling-vs-Trigger-Point-Injections.png",
+ "image": "/assets/blogs/Dry-Needling-vs-trigger point-Injections.png",
  "author": "Complete Care",
  "category": "Dry Needling",
  "blocks": [
@@ -188,7 +188,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad has seen growing awareness of advanced physiotherapy techniques. Choosing **Dry Needling Physiotherapy in Ahmedabad** at a trusted center ensures safe treatment, correct diagnosis, and long-term results."
+   "text": "Ahmedabad has seen growing awareness of advanced physiotherapy techniques. Choosing **Dry Needling Physiotherapy in Ahmedabad** at a trusted center ensures safe treatment, correct diagnosis, and long term results."
   },
   {
    "t": "p",
@@ -196,11 +196,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Complete Care – Best Physiotherapy Center in Ahmedabad**"
+   "text": "**Complete Care, Best Physiotherapy Center in Ahmedabad**"
   },
   {
    "t": "p",
-   "text": "Complete Care is recognized as a **[Best Physiotherapy Center in Ahmedabad](/)**, offering evidence-based treatments for musculoskeletal pain, sports injuries, and chronic conditions. The team is trained in advanced dry needling techniques and focuses on patient education, recovery, and prevention."
+   "text": "Complete Care is recognized as a **[Best Physiotherapy Center in Ahmedabad](/)**, offering evidence based treatments for musculoskeletal pain, sports injuries, and chronic conditions. The team is trained in advanced dry needling techniques and focuses on patient education, recovery, and prevention."
   },
   {
    "t": "p",

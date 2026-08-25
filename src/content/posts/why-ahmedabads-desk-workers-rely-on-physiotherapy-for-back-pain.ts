@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In today’s digital-driven world, where screen time has become an inseparable part of work life, back pain has silently evolved into one of the most common health issues among working professionals. Especially in cities like Ahmedabad, where the IT and service sectors are booming, thousands of desk-bound employees are facing posture-related problems that severely impact their quality of life. Thankfully, an increasing number of people are finding relief through **back pain physiotherapy in Ahmedabad**."
+   "text": "In today’s digital-driven world, where screen time has become an inseparable part of work life, back pain has silently evolved into one of the most common health issues among working professionals. Especially in cities like Ahmedabad, where the IT and service sectors are booming, thousands of desk-bound employees are facing posture related problems that severely impact their quality of life. Thankfully, an increasing number of people are finding relief through **back pain physiotherapy in Ahmedabad**."
   },
   {
    "t": "h2",
@@ -44,7 +44,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Over time, these habits can lead to serious conditions such as herniated discs, muscle imbalances, and spinal stiffness – making early intervention crucial."
+   "text": "Over time, these habits can lead to serious conditions such as herniated discs, muscle imbalances, and spinal stiffness, making early intervention crucial."
   },
   {
    "t": "h3",
@@ -52,7 +52,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad’s healthcare sector has rapidly adapted to the growing demand for non-invasive and drug-free treatment options. One of the most effective and increasingly preferred solutions is **physiotherapy for office workers in Ahmedabad**."
+   "text": "Ahmedabad’s healthcare sector has rapidly adapted to the growing demand for non invasive and drug-free treatment options. One of the most effective and increasingly preferred solutions is **physiotherapy for office workers in Ahmedabad**."
   },
   {
    "t": "p",
@@ -95,7 +95,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Non-invasive**: No surgery or strong medications involved",
+    "**non invasive**: No surgery or strong medications involved",
     "**Customizable**: Exercises are designed for your specific pain points and daily routine",
     "**Restorative**: Helps improve flexibility, strength, and posture",
     "**Preventive**: Teaches techniques to avoid future injuries and strain"
@@ -153,7 +153,7 @@ export const content: PostContent = {
    "items": [
     "Maintain good posture with feet flat on the floor and back supported",
     "Adjust your screen to eye level to avoid neck and back strain",
-    "Take short movement breaks every 30–45 minutes",
+    "Take short movement breaks every 30 to 45 minutes",
     "Use ergonomic chairs and desks",
     "Stretch daily to keep your spine flexible"
    ]
@@ -172,7 +172,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Don’t let your desk job define your health. Explore the benefits of **physiotherapy for office workers in Ahmedabad** and take the first step toward a healthier back – and a healthier you."
+   "text": "Don’t let your desk job define your health. Explore the benefits of **physiotherapy for office workers in Ahmedabad** and take the first step toward a healthier back, and a healthier you."
   }
  ]
 };

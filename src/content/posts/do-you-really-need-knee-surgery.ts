@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Knee pain is one of the leading causes of mobility issues in India, especially among people with long working hours, sports injuries, or age-related conditions like knee arthritis. When knee pain becomes consistent and severe, many individuals start worrying – **“Do I really need Knee Surgery?”**"
+   "text": "Knee pain is one of the leading causes of mobility issues in India, especially among people with long working hours, sports injuries, or age related conditions like knee arthritis. When knee pain becomes consistent and severe, many individuals start worrying, **“Do I really need Knee Surgery?”**"
   },
   {
    "t": "p",
-   "text": "But the truth is, **not every knee problem requires surgery**. With the right assessment and timely physiotherapy, many patients regain strength, reduce pain, and improve mobility – without undergoing an operation."
+   "text": "But the truth is, **not every knee problem requires surgery**. With the right assessment and timely physiotherapy, many patients regain strength, reduce pain, and improve mobility, without undergoing an operation."
   },
   {
    "t": "p",
@@ -76,11 +76,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Physiotherapy Before Surgery – The Global Standard**"
+   "text": "**Physiotherapy Before Surgery, The Global Standard**"
   },
   {
    "t": "p",
-   "text": "International medical guidelines recommend **trying non-surgical treatments first** because:"
+   "text": "International medical guidelines recommend **trying non surgical  treatments first** because:"
   },
   {
    "t": "p",
@@ -104,7 +104,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy not only treats the pain but also helps correct the **root cause** of the problem – like weak quadriceps, tight muscles, or improper movement patterns."
+   "text": "Physiotherapy not only treats the pain but also helps correct the **root cause** of the problem, like weak quadriceps, tight muscles, or improper movement patterns."
   },
   {
    "t": "h3",
@@ -112,7 +112,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "When you are confused about surgery recommendations, you need expert advice. **Dr. Hardik Patel**, known as one of the **Best Physiotherapists in Ahmedabad**, focuses on **accurate diagnosis** and **non-surgical rehabilitation** first."
+   "text": "When you are confused about surgery recommendations, you need expert advice. **Dr. Hardik Patel**, known as one of the **Best Physiotherapists in Ahmedabad**, focuses on **accurate diagnosis** and **non surgical  rehabilitation** first."
   },
   {
    "t": "p",
@@ -124,7 +124,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "✔ Post-surgery knee rehabilitation"
+   "text": "✔ post surgery knee rehabilitation"
   },
   {
    "t": "p",
@@ -140,7 +140,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "He has helped many Ahmedabad residents improve their knee health **without surgery**, by using evidence-based therapy methods."
+   "text": "He has helped many Ahmedabad residents improve their knee health **without surgery**, by using evidence based therapy methods."
   },
   {
    "t": "h3",
@@ -156,7 +156,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Personalized physiotherapy plans** for long-term relief"
+   "text": "**Personalized physiotherapy plans** for long term relief"
   },
   {
    "t": "p",
@@ -196,7 +196,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "✔ Exercise-based recovery plans tailored for each patient"
+   "text": "✔ exercise based recovery plans tailored for each patient"
   },
   {
    "t": "p",
@@ -204,7 +204,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Whether your knee pain is new or long-term, Dr. Hardik Patel ensures you receive **safe, effective, and trusted treatment** in Ahmedabad."
+   "text": "Whether your knee pain is new or long term, Dr. Hardik Patel ensures you receive **safe, effective, and trusted treatment** in Ahmedabad."
   },
   {
    "t": "h3",
@@ -226,7 +226,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For many patients, these approaches significantly reduce pain and restore function — making **Knee Surgery unnecessary**."
+   "text": "For many patients, these approaches significantly reduce pain and restore function, making **Knee Surgery unnecessary**."
   },
   {
    "t": "h3",
@@ -262,7 +262,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For residents of Ahmedabad, **Dr. Hardik Patel** provides trusted diagnosis and advanced knee therapy – making him one of the **Best Physiotherapists in Ahmedabad**."
+   "text": "For residents of Ahmedabad, **Dr. Hardik Patel** provides trusted diagnosis and advanced knee therapy, making him one of the **Best Physiotherapists in Ahmedabad**."
   },
   {
    "t": "h3",
@@ -270,7 +270,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If knee pain is affecting your life – walking, exercising or even sitting – don’t delay."
+   "text": "If knee pain is affecting your life, walking, exercising or even sitting, don’t delay."
   },
   {
    "t": "p",

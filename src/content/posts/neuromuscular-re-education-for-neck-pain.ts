@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you are seeking [**Physiotherapy Treatment for Neck Pain in Ahmedabad**](/neck-pain-treatment-doctor-in-ahmedabad/), understanding how neuromuscular re-education works can help you choose the right treatment for long-term relief."
+   "text": "If you are seeking [**Physiotherapy Treatment for Neck Pain in Ahmedabad**](/neck-pain-treatment-doctor-in-ahmedabad/), understanding how neuromuscular re-education works can help you choose the right treatment for long term relief."
   },
   {
    "t": "h2",
@@ -52,7 +52,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Neuromuscular re-education** is a specialized physiotherapy technique that retrains the brain, nerves, and muscles to work together correctly. Instead of focusing only on pain relief, it addresses the root cause—poor muscle activation and coordination."
+   "text": "**Neuromuscular re-education** is a specialized physiotherapy technique that retrains the brain, nerves, and muscles to work together correctly. Instead of focusing only on pain relief, it addresses the root cause, poor muscle activation and coordination."
   },
   {
    "t": "p",
@@ -152,7 +152,7 @@ export const content: PostContent = {
     "Recurrent stiffness or restricted movement",
     "Pain radiating to shoulders or arms",
     "Headaches linked to neck tension",
-    "Poor posture-related discomfort"
+    "Poor posture related discomfort"
    ]
   },
   {
@@ -174,9 +174,9 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "Evidence-based physiotherapy techniques",
+    "evidence based physiotherapy techniques",
     "Personalized rehabilitation programs",
-    "Long-term pain prevention strategies",
+    "long term pain prevention strategies",
     "Patient education and lifestyle guidance"
    ]
   },
@@ -211,7 +211,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Chronic neck pain should not be ignored or managed with painkillers alone. **Neuromuscular re-education for neck pain** offers a long-term solution by correcting the underlying movement dysfunctions that cause pain to persist."
+   "text": "Chronic neck pain should not be ignored or managed with painkillers alone. **Neuromuscular re-education for neck pain** offers a long term solution by correcting the underlying movement dysfunctions that cause pain to persist."
   },
   {
    "t": "p",

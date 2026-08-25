@@ -41,7 +41,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Paraffin wax bath therapy is offered as a calming treatment option for patients suffering from arthritis, joint stiffness, and muscular spasms by Complete Care – [**best Physiotherapy Center in Ahmedabad**](/), under the expert guidance of a qualified team. A paraffin wax bath includes soaking the affected area, usually the hands or feet, in warm, melted paraffin wax. The heat from the wax penetrates deep into the tissues, enhancing blood circulation, relieving pain, and improving flexibility."
+   "text": "Paraffin wax bath therapy is offered as a calming treatment option for patients suffering from arthritis, joint stiffness, and muscular spasms by Complete Care, [**best Physiotherapy Center in Ahmedabad**](/), under the expert guidance of a qualified team. A paraffin wax bath includes soaking the affected area, usually the hands or feet, in warm, melted paraffin wax. The heat from the wax penetrates deep into the tissues, enhancing blood circulation, relieving pain, and improving flexibility."
   }
  ],
  "quickLinks": [
@@ -63,7 +63,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

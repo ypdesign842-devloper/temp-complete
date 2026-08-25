@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "best-physiotherapy-clinic-in-ahmedabad",
  "h1": "Best Physiotherapy Clinic in Ahmedabad​ - Complete Care",
- "lead": "Welcome to the Complete Care – Best Physiotherapy Center in Ahmedabad . We have established in the year of  2014. We provide one stop solution for physiotherapy, fitness and spin & neuro rehabilitation. Serving Clients in Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Ankleshwar, Mehsana. Our team of experts and supportive staff believes in providing care which is personalized to each patient’s unique needs. We specialize in providing quality services in physical therapy and physiotherpay in Thaltej-Ahmedabad. Highly skilled, Experienced and specialist by training Dr Hardik Patel and Dr Foram Patel strives to offer best and consistent patients care services.",
+ "lead": "Welcome to the Complete Care, Best Physiotherapy Center in Ahmedabad . We have established in the year of  2014. We provide one stop solution for physiotherapy, fitness and spin & neuro rehabilitation. Serving Clients in Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Ankleshwar, Mehsana. Our team of experts and supportive staff believes in providing care which is personalized to each patient’s unique needs. We specialize in providing quality services in physical therapy and physiotherpay in Thaltej-Ahmedabad. Highly skilled, Experienced and specialist by training Dr Hardik Patel and Dr Foram Patel strives to offer best and consistent patients care services.",
  "hero": "/assets/treatments/cc-home-page-image.webp",
  "blocks": [
   {
@@ -12,7 +12,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Welcome to the **Complete Care** – [Best Physiotherapy Center in Ahmedabad](/) . We have established in the year of  2014. We provide one stop solution for physiotherapy, fitness and spin & neuro rehabilitation. Serving Clients in Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Ankleshwar, Mehsana. Our team of experts and supportive staff believes in providing care which is personalized to each patient’s unique needs. We specialize in providing quality services in physical therapy and physiotherpay in Thaltej-Ahmedabad. Highly skilled, Experienced and specialist by training Dr Hardik Patel and Dr Foram Patel strives to offer best and consistent patients care services."
+   "text": "Welcome to the **Complete Care**, [Best Physiotherapy Center in Ahmedabad](/) . We have established in the year of  2014. We provide one stop solution for physiotherapy, fitness and spin & neuro rehabilitation. Serving Clients in Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Ankleshwar, Mehsana. Our team of experts and supportive staff believes in providing care which is personalized to each patient’s unique needs. We specialize in providing quality services in physical therapy and physiotherpay in Thaltej-Ahmedabad. Highly skilled, Experienced and specialist by training Dr Hardik Patel and Dr Foram Patel strives to offer best and consistent patients care services."
   },
   {
    "t": "p",
@@ -20,7 +20,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Our mission is to provide high-quality, patient-centered physiotherapy and chiropractic care using advanced methodologies and technology."
+   "text": "Our mission is to provide hig quality, patient centered physiotherapy and chiropractic care using advanced methodologies and technology."
   },
   {
    "t": "p",
@@ -56,7 +56,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "P.E.M.F stands for Pulsed Electromagnetic Fields.It is a revolutionary , invisible & Non invasive therapy .It is a very efficient and simple therapy method,and is administered.."
+   "text": "P.E.M.F stands for Pulsed Electromagnetic Fields.It is a revolutionary, invisible & Non invasive therapy .It is a very efficient and simple therapy method,and is administered.."
   },
   {
    "t": "h3",
@@ -80,7 +80,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "SWD is the deep heating modality that involves the therapeutic application of high-radio frequency electrical currents. The therapeutically used frequencies…"
+   "text": "SWD is the deep heating modality that involves the therapeutic application of hig radio frequency electrical currents. The therapeutically used frequencies…"
   },
   {
    "t": "h3",
@@ -246,7 +246,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post-surgical pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
+   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post surgical  pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
   },
   {
    "t": "p",

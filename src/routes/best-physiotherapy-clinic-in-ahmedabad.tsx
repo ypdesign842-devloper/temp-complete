@@ -47,7 +47,7 @@ const servicesList = [
   { name: "TECAR Therapy", slug: "tecar-physiotherapy-treatment-in-ahmedabad", category: "Electro-Thermal" },
   { name: "IFT (Interferential Therapy)", slug: "best-ift-treatment-center-in-ahmedabad", category: "Electrotherapy" },
   { name: "TENS Pain Relief", slug: "effective-tens-treatment-in-ahmedabad-for-pain-relief", category: "Electrotherapy" },
-  { name: "Short Wave Diathermy (SWD)", slug: "top-short-wave-diathermy-treatment-in-ahmedabad", category: "Deep Heat" },
+  { name: "Short Wave Diathermy (SWD)", slug: "top-short wave-diathermy-treatment-in-ahmedabad", category: "Deep Heat" },
   { name: "Electrical Stimulation", slug: "best-electrical-stimulation-therapy-in-ahmedabad", category: "Muscle Re-education" },
   { name: "Therapeutic Ultrasound", slug: "ultra-sound-treatment-in-ahmedabad", category: "Deep Heat" },
   { name: "Infra-Red Radiation", slug: "infra-radiation-treatment-in-ahmedabad", category: "Thermal Therapy" },
@@ -60,7 +60,7 @@ const servicesList = [
   { name: "Dry Needling", slug: "top-dry-needling-therapy-services-in-ahmedabad", category: "Trigger Point" },
   { name: "Manual Therapy", slug: "manual-therapy-near-me-in-ahmedabad", category: "Joint Mobilization" },
   { name: "Kinesio Taping", slug: "expert-kinesio-tape-therapy-in-ahmedabad", category: "Sports Rehab" },
-  { name: "IASTM Therapy", slug: "top-instrumented-soft-tissue-mobilization-in-ahmedabad", category: "Soft Tissue" },
+  { name: "IASTM Therapy", slug: "top-instrumented-soft tissue-mobilization-in-ahmedabad", category: "Soft Tissue" },
 ];
 
 function AboutClinicPage() {
@@ -84,7 +84,7 @@ function AboutClinicPage() {
 
               <div className="inline-flex items-center gap-2 rounded-full border border-navy/15 bg-white px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase shadow-sm">
                 <Sparkles className="size-3.5 text-accent" />
-                <span>Established 2014 · Doctor-Led Physiotherapy</span>
+                <span>Established 2014 · doctor led Physiotherapy</span>
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-navy leading-[1.15]">
@@ -92,11 +92,11 @@ function AboutClinicPage() {
               </h1>
 
               <p className="text-base sm:text-lg leading-relaxed text-muted-foreground">
-                Welcome to <strong>Complete Care</strong>, founded in 2014 as a one-stop clinical centre for evidence-based physiotherapy, medical fitness, precision chiropractic alignment, and specialized spine &amp; neuro rehabilitation.
+                Welcome to <strong>Complete Care</strong>, founded in 2014 as a one-stop clinical centre for evidence based physiotherapy, medical fitness, precision chiropractic alignment, and specialized spine &amp; neuro rehabilitation.
               </p>
 
               <p className="text-sm sm:text-base leading-relaxed text-muted-foreground">
-                Serving patients across <strong>Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Mehsana, and Ankleshwar</strong>. Directed by <strong className="text-navy">Dr. Hardik Patel (PT)</strong> and <strong className="text-navy">Dr. Foram Patel (PT)</strong>, our multi-disciplinary team delivers tailored non-surgical recovery pathways for chronic pain and complex joint injuries.
+                Serving patients across <strong>Ahmedabad (Thaltej, Gota, South Bopal, Nikol), Mehsana, and Ankleshwar</strong>. Directed by <strong className="text-navy">Dr. Hardik Patel (PT)</strong> and <strong className="text-navy">Dr. Foram Patel (PT)</strong>, our multi-disciplinary team delivers tailored non surgical  recovery pathways for chronic pain and complex joint injuries.
               </p>
 
               <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -104,16 +104,16 @@ function AboutClinicPage() {
                   href={site.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-accent inline-flex items-center gap-2 px-6 py-3.5 text-sm font-bold shadow-md shadow-accent/20"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#166534] via-[#15803d] to-[#16a34a] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#166534]/25 transition-all duration-300 hover:shadow-xl hover:shadow-[#166534]/35 hover:-translate-y-0.5 active:translate-y-0"
                 >
-                  <Calendar className="size-4" />
+                  <Calendar className="size-4 text-emerald-200" />
                   <span>Book Consultation</span>
                 </a>
                 <a
                   href={site.phoneHref}
-                  className="btn-outline-navy inline-flex items-center gap-2 px-6 py-3.5 text-sm font-bold bg-white"
+                  className="inline-flex items-center gap-2.5 rounded-full border border-navy/15 bg-white/90 px-6 py-3.5 text-sm font-bold text-navy shadow-sm transition-all duration-300 hover:border-[#16803d]/40 hover:bg-white hover:text-[#16803d] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
                 >
-                  <Phone className="size-4 text-accent" />
+                  <Phone className="size-4 text-[#16803d]" />
                   <span>{site.phone}</span>
                 </a>
               </div>
@@ -153,7 +153,7 @@ function AboutClinicPage() {
               </div>
               <h2 className="text-xl font-bold text-navy">Our Mission</h2>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                To provide high-quality, patient-centered physiotherapy and chiropractic care using advanced evidence-based methodologies and modern electro-physical technology.
+                To provide hig quality, patient centered physiotherapy and chiropractic care using advanced evidence based methodologies and modern electro-physical technology.
               </p>
             </div>
 
@@ -343,64 +343,94 @@ function AboutClinicPage() {
         <div className="container-cc">
           <div className="overflow-hidden rounded-3xl border border-navy/15 bg-white p-8 sm:p-10 lg:p-12 shadow-sm">
             <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-              <div className="space-y-5">
-                <span className="badge-clinical text-teal">Doorstep Healthcare</span>
-                <h2 className="text-2xl sm:text-3xl font-bold text-navy">
-                  Physiotherapy at Home in Ahmedabad
-                </h2>
-                <p className="text-sm sm:text-base leading-relaxed text-muted-foreground">
-                  Are you suffering from severe back pain, post-surgical stiffness, sports injury, or are your elderly parents unable to travel to the clinic? Complete Care provides certified physiotherapists who visit your home with portable therapy equipment.
-                </p>
+              <div className="space-y-6">
+                <div>
+                  <span className="badge-clinical text-teal">Doorstep Healthcare</span>
+                  <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold text-navy">
+                    Physiotherapy at Home in Ahmedabad
+                  </h2>
+                  <p className="mt-3 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                    Are you suffering from severe back pain, post surgical  stiffness, sports injury, or are your elderly parents unable to travel to the clinic? Complete Care provides certified physiotherapists who visit your home with portable therapy equipment.
+                  </p>
+                </div>
 
-                {/* 4 Steps */}
-                <div className="grid gap-3 sm:grid-cols-2 pt-2">
-                  <div className="flex items-start gap-2.5 rounded-xl border border-navy/10 bg-[#f9f7ef]/50 p-3">
-                    <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-accent text-white font-bold text-xs">
-                      1
-                    </div>
-                    <div>
-                      <div className="text-xs font-bold text-navy">Make an Appointment</div>
-                      <div className="text-[11px] text-muted-foreground">Call or WhatsApp us</div>
-                    </div>
-                  </div>
+                {/* Why Choose Home Physiotherapy? */}
+                <div className="space-y-3 pt-1">
+                  <h3 className="text-sm sm:text-base font-bold tracking-wide text-navy">
+                    Why Choose Home Physiotherapy?
+                  </h3>
 
-                  <div className="flex items-start gap-2.5 rounded-xl border border-navy/10 bg-[#f9f7ef]/50 p-3">
-                    <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-accent text-white font-bold text-xs">
-                      2
+                  {/* 2-Column Benefit Layout */}
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {/* 01 Personalised Assessment */}
+                    <div className="flex items-center gap-3 rounded-xl border border-navy/10 bg-[#f9f7ef]/70 px-4 py-3 transition-all duration-200 hover:border-accent/30 hover:bg-[#f9f7ef]">
+                      <span className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-xs font-bold text-accent">
+                        01
+                      </span>
+                      <h4 className="text-xs sm:text-sm font-bold text-navy">
+                        Personalised Assessment
+                      </h4>
                     </div>
-                    <div>
-                      <div className="text-xs font-bold text-navy">Assessment on Call</div>
-                      <div className="text-[11px] text-muted-foreground">Doctor reviews your case</div>
-                    </div>
-                  </div>
 
-                  <div className="flex items-start gap-2.5 rounded-xl border border-navy/10 bg-[#f9f7ef]/50 p-3">
-                    <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-accent text-white font-bold text-xs">
-                      3
+                    {/* 02 Treatment Where You Need It */}
+                    <div className="flex items-center gap-3 rounded-xl border border-navy/10 bg-[#f9f7ef]/70 px-4 py-3 transition-all duration-200 hover:border-accent/30 hover:bg-[#f9f7ef]">
+                      <span className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-xs font-bold text-accent">
+                        02
+                      </span>
+                      <h4 className="text-xs sm:text-sm font-bold text-navy">
+                        Treatment Where You Need It
+                      </h4>
                     </div>
-                    <div>
-                      <div className="text-xs font-bold text-navy">Physiotherapist Visit</div>
-                      <div className="text-[11px] text-muted-foreground">Qualified physio arrives</div>
-                    </div>
-                  </div>
 
-                  <div className="flex items-start gap-2.5 rounded-xl border border-navy/10 bg-[#f9f7ef]/50 p-3">
-                    <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-accent text-white font-bold text-xs">
-                      4
+                    {/* 03 Ideal for Recovery & Mobility */}
+                    <div className="flex items-center gap-3 rounded-xl border border-navy/10 bg-[#f9f7ef]/70 px-4 py-3 transition-all duration-200 hover:border-accent/30 hover:bg-[#f9f7ef]">
+                      <span className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-xs font-bold text-accent">
+                        03
+                      </span>
+                      <h4 className="text-xs sm:text-sm font-bold text-navy">
+                        Ideal for Recovery &amp; Mobility
+                      </h4>
                     </div>
-                    <div>
-                      <div className="text-xs font-bold text-navy">Personalised Treatment</div>
-                      <div className="text-[11px] text-muted-foreground">Targeted recovery sessions</div>
+
+                    {/* 04 Individualised Recovery Plan */}
+                    <div className="flex items-center gap-3 rounded-xl border border-navy/10 bg-[#f9f7ef]/70 px-4 py-3 transition-all duration-200 hover:border-accent/30 hover:bg-[#f9f7ef]">
+                      <span className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-xs font-bold text-accent">
+                        04
+                      </span>
+                      <h4 className="text-xs sm:text-sm font-bold text-navy">
+                        Individualised Recovery Plan
+                      </h4>
                     </div>
                   </div>
                 </div>
 
-                <div className="pt-2">
+                {/* Subtle Horizontal Trust Strip */}
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-y border-navy/10 py-3 text-xs font-semibold text-navy">
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle2 className="size-3.5 text-accent shrink-0" />
+                    <span>Qualified Physiotherapists</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle2 className="size-3.5 text-accent shrink-0" />
+                    <span>Personalised Sessions</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle2 className="size-3.5 text-accent shrink-0" />
+                    <span>Portable Therapy Equipment</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <CheckCircle2 className="size-3.5 text-accent shrink-0" />
+                    <span>Ahmedabad Home Visits</span>
+                  </div>
+                </div>
+
+                {/* Prominent CTA */}
+                <div className="pt-1">
                   <Link
                     to="/physiotherapy-at-home-in-ahmedabad"
-                    className="btn-accent inline-flex items-center gap-2 px-6 py-3 text-xs sm:text-sm font-bold"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-accent px-7 py-3.5 text-sm font-bold text-accent-foreground shadow-md shadow-accent/20 transition-all hover:bg-emerald-600 hover:shadow-lg hover:shadow-accent/30"
                   >
-                    <span>Book Home Visit Session</span>
+                    <span>Book Home Physiotherapy</span>
                     <ArrowRight className="size-4" />
                   </Link>
                 </div>

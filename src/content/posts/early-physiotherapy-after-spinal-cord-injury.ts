@@ -38,7 +38,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early physiotherapy aims to minimize these problems before they become long-term challenges."
+   "text": "Early physiotherapy aims to minimize these problems before they become long term challenges."
   },
   {
    "t": "p",
@@ -58,7 +58,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Beginning rehabilitation at the right time-under medical guidance-can significantly improve long-term outcomes."
+   "text": "Beginning rehabilitation at the right time-under medical guidance-can significantly improve long term outcomes."
   },
   {
    "t": "h2",
@@ -66,7 +66,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Every spinal cord injury affects individuals differently. Some people experience temporary weakness, while others require long-term rehabilitation."
+   "text": "Every spinal cord injury affects individuals differently. Some people experience temporary weakness, while others require long term rehabilitation."
   },
   {
    "t": "p",
@@ -154,7 +154,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Even small improvements can make a significant difference in long-term independence."
+   "text": "Even small improvements can make a significant difference in long term independence."
   },
   {
    "t": "h3",
@@ -166,7 +166,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapists use stretching and range-of-motion exercises to maintain flexibility."
+   "text": "Physiotherapists use stretching and range of motion exercises to maintain flexibility."
   },
   {
    "t": "p",
@@ -231,7 +231,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "Range-of-Motion Exercises"
+   "text": "range of motion Exercises"
   },
   {
    "t": "p",
@@ -300,7 +300,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Preventing these problems often improves long-term mobility and quality of life."
+   "text": "Preventing these problems often improves long term mobility and quality of life."
   },
   {
    "t": "h2",
@@ -308,7 +308,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Recovery is not only physical-it also affects emotional well-being."
+   "text": "Recovery is not only physical-it also affects emotional wellbeing."
   },
   {
    "t": "p",
@@ -415,7 +415,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "Recovery Takes Time – And Consistency"
+   "text": "Recovery Takes Time, And Consistency"
   },
   {
    "t": "p",
@@ -435,7 +435,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "A spinal cord injury presents physical and emotional challenges, but timely rehabilitation can make a meaningful difference in recovery. Starting physiotherapy for spinal cord injury early helps maintain mobility, prevent complications, improve strength, and support long-term independence."
+   "text": "A spinal cord injury presents physical and emotional challenges, but timely rehabilitation can make a meaningful difference in recovery. Starting physiotherapy for spinal cord injury early helps maintain mobility, prevent complications, improve strength, and support long term independence."
   },
   {
    "t": "p",

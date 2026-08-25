@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Back pain and spine-related problems have become extremely common due to lifestyle changes, long desk jobs, and reduced physical activity. But when the pain becomes unbearable, many people start worrying – **“Do I need spine surgery?”** Before jumping to conclusions, it is important to understand that **not every spine condition requires surgery**. In fact, in many cases, non-surgical treatments such as physiotherapy can reduce pain, improve mobility, and help you return to an active life."
+   "text": "Back pain and spine-related problems have become extremely common due to lifestyle changes, long desk jobs, and reduced physical activity. But when the pain becomes unbearable, many people start worrying, **“Do I need spine surgery?”** Before jumping to conclusions, it is important to understand that **not every spine condition requires surgery**. In fact, in many cases, non surgical  treatments such as physiotherapy can reduce pain, improve mobility, and help you return to an active life."
   },
   {
    "t": "p",
@@ -61,7 +61,7 @@ export const content: PostContent = {
    "items": [
     "Poor posture",
     "Long working hours",
-    "Age-related changes",
+    "age related changes",
     "Lack of exercise",
     "Sudden injury or strain"
    ]
@@ -82,7 +82,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "There is **severe nerve compression**",
-    "Non-surgical treatments haven’t shown improvement over a long period",
+    "non surgical  treatments haven’t shown improvement over a long period",
     "There is progressive **weakness** or loss of movement",
     "Pain severely affects daily activities despite proper treatment",
     "There are structural issues like fractures or major disc problems that need correction"
@@ -98,7 +98,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Globally, doctors recommend trying **non-surgical methods** before opting for spine surgery. Here’s why physiotherapy plays a major role:"
+   "text": "Globally, doctors recommend trying **non surgical  methods** before opting for spine surgery. Here’s why physiotherapy plays a major role:"
   },
   {
    "t": "ul",
@@ -116,7 +116,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Dr. Hardik Patel – Guiding You Toward the Right Treatment**"
+   "text": "**Dr. Hardik Patel, Guiding You Toward the Right Treatment**"
   },
   {
    "t": "p",
@@ -128,7 +128,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "✔ Post-surgical spine rehabilitation"
+   "text": "✔ post surgical  spine rehabilitation"
   },
   {
    "t": "p",
@@ -152,23 +152,23 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "✔ **Honest guidance** – Helps you decide whether surgery is truly required"
+   "text": "✔ **Honest guidance**, Helps you decide whether surgery is truly required"
   },
   {
    "t": "p",
-   "text": "✔ **Holistic evaluation** – Checks posture, muscle strength, nerve symptoms"
+   "text": "✔ **Holistic evaluation**, Checks posture, muscle strength, nerve symptoms"
   },
   {
    "t": "p",
-   "text": "✔ **Evidence-based treatment** – Latest physiotherapy techniques"
+   "text": "✔ **evidence based treatment**, Latest physiotherapy techniques"
   },
   {
    "t": "p",
-   "text": "✔ **Personalized care** – Plans suitable for your daily lifestyle in Ahmedabad"
+   "text": "✔ **Personalized care**, Plans suitable for your daily lifestyle in Ahmedabad"
   },
   {
    "t": "p",
-   "text": "✔ **Strong track record** – Helped many patients avoid unnecessary surgery"
+   "text": "✔ **Strong track record**, Helped many patients avoid unnecessary surgery"
   },
   {
    "t": "p",
@@ -226,7 +226,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "2. **What if I have a slip disc? Do I still need surgery?** Many slip disc cases improve with exercises and guided spine therapy—consultation with a specialist is necessary to decide."
+   "text": "2. **What if I have a slip disc? Do I still need surgery?** Many slip disc cases improve with exercises and guided spine therapy, consultation with a specialist is necessary to decide."
   },
   {
    "t": "p",

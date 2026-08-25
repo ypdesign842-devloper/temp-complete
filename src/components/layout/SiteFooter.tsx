@@ -38,7 +38,7 @@ export function SiteFooter() {
               <div className="space-y-4">
                 <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3.5 py-1 text-[11px] font-bold tracking-wider text-leaf uppercase backdrop-blur-md">
                   <Sparkles className="size-3.5" />
-                  <span>Fast Recovery · Non-Surgical Care</span>
+                  <span>Fast Recovery · non surgical  Care</span>
                 </div>
 
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-white">
@@ -105,7 +105,7 @@ export function SiteFooter() {
               </div>
               <div>
                 <div className="text-sm sm:text-base font-bold text-navy">85,000+ Recoveries</div>
-                <div className="text-xs text-muted-foreground">Evidence-Based Rehabilitation</div>
+                <div className="text-xs text-muted-foreground">Evidence Based Rehabilitation</div>
               </div>
             </div>
 
@@ -146,7 +146,7 @@ export function SiteFooter() {
               <p className="max-w-sm text-sm leading-relaxed text-navy-foreground/80">
                 Doctor-led physiotherapy, precision chiropractic care, and comprehensive rehabilitation across Gujarat.
                 Directed by <strong className="font-semibold text-white">{site.director}</strong> with 40+ licensed
-                physiotherapists providing non-surgical healing.
+                physiotherapists providing non surgical  healing.
               </p>
 
               <div className="space-y-2 text-sm pt-1">
@@ -166,7 +166,7 @@ export function SiteFooter() {
                 </a>
                 <div className="flex items-center gap-2.5 text-xs text-navy-foreground/70">
                   <Clock className="size-4 text-leaf shrink-0" />
-                  <span>Mon – Sat: 8:00 AM – 8:00 PM</span>
+                  <span>Mon to Sat: 8:00 AM to 8:00 PM</span>
                 </div>
               </div>
 
@@ -257,6 +257,15 @@ export function SiteFooter() {
                     </Link>
                   </li>
                 ))}
+                <li className="pt-1">
+                  <Link
+                    to="/care-areas"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-leaf hover:underline"
+                  >
+                    <span>View All Care Areas</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -277,6 +286,15 @@ export function SiteFooter() {
                     </Link>
                   </li>
                 ))}
+                <li className="pt-1">
+                  <Link
+                    to="/therapies"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-leaf hover:underline"
+                  >
+                    <span>View All Therapies</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -293,7 +311,7 @@ export function SiteFooter() {
                 </h3>
               </div>
               <span className="text-[11px] text-navy-foreground/70">
-                Walk-ins &amp; Consultations: Mon–Sat 8:00 AM – 8:00 PM
+                Walk-ins and Consultations: Mon to Sat, 8:00 AM to 8:00 PM
               </span>
             </div>
 

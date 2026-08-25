@@ -21,7 +21,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "P.E.M.F stands for Pulsed Electromagnetic Fields.It is a revolutionary , invisible & Non invasive therapy .It is a very efficient and simple therapy method,and is administered…"
+   "text": "P.E.M.F stands for Pulsed Electromagnetic Fields.It is a revolutionary, invisible & Non invasive therapy .It is a very efficient and simple therapy method,and is administered…"
   },
   {
    "t": "img",
@@ -60,7 +60,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "SWD is the deep heating modality that involves the therapeutic application of high-radio frequency electrical currents. The therapeutically used frequencies…"
+   "text": "SWD is the deep heating modality that involves the therapeutic application of hig radio frequency electrical currents. The therapeutically used frequencies…"
   },
   {
    "t": "img",

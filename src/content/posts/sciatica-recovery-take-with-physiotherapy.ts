@@ -113,7 +113,7 @@ export const content: PostContent = {
    "items": [
     "Several months of rehabilitation",
     "Advanced treatment approaches",
-    "Long-term strengthening exercises"
+    "long term strengthening exercises"
    ]
   },
   {
@@ -184,7 +184,7 @@ export const content: PostContent = {
     "Faster pain reduction",
     "Improved mobility",
     "Reduced inflammation",
-    "Better long-term outcomes"
+    "Better long term outcomes"
    ]
   },
   {
@@ -228,7 +228,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For individuals seeking professional [**Physiotherapy for Sciatica Pain**](/sciatica-pain-treatment-in-ahmedabad/), targeted treatment programs can help manage pain and support long-term spinal health."
+   "text": "For individuals seeking professional [**Physiotherapy for Sciatica Pain**](/sciatica-pain-treatment-in-ahmedabad/), targeted treatment programs can help manage pain and support long term spinal health."
   },
   {
    "t": "h2",
@@ -435,7 +435,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Professional physiotherapy for sciatica remains one of the most effective ways to reduce pain, improve mobility, and support long-term recovery. Through targeted exercises, posture correction, and personalized treatment plans, physiotherapy helps address the underlying causes of sciatic nerve irritation."
+   "text": "Professional physiotherapy for sciatica remains one of the most effective ways to reduce pain, improve mobility, and support long term recovery. Through targeted exercises, posture correction, and personalized treatment plans, physiotherapy helps address the underlying causes of sciatic nerve irritation."
   },
   {
    "t": "p",

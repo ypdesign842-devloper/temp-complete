@@ -124,10 +124,10 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Experienced and licensed physiotherapists",
-    "Personalized, evidence-based treatment plans",
+    "Personalized, evidence based treatment plans",
     "Advanced equipment for rehabilitation and pain management",
     "Integrated care combining exercises, manual therapy, and lifestyle guidance",
-    "Focus on both short-term relief and long-term prevention"
+    "Focus on both short term relief and long term prevention"
    ]
   },
   {
@@ -183,7 +183,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For professional care, **Complete Care**, the **[Best Physiotherapy Center in Ahmedabad](/)**, provides expert evaluation, advanced treatment, and long-term support to help patients regain mobility and live pain-free."
+   "text": "For professional care, **Complete Care**, the **[Best Physiotherapy Center in Ahmedabad](/)**, provides expert evaluation, advanced treatment, and long term support to help patients regain mobility and live pain-free."
   },
   {
    "t": "p",

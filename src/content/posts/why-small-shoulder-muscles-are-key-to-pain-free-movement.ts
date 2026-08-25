@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Shoulder pain is one of the most common problems people face today—whether due to poor posture, sports injuries, or long hours at the desk. While most people focus on big, visible muscles like the biceps or chest, it is actually the **small stabilizing muscles of the shoulder** that play the most important role in preventing pain and injuries. Strengthening these hidden muscles through the right **shoulder pain physiotherapy exercises** can go a long way in protecting your shoulders and improving overall strength."
+   "text": "Shoulder pain is one of the most common problems people face today, whether due to poor posture, sports injuries, or long hours at the desk. While most people focus on big, visible muscles like the biceps or chest, it is actually the **small stabilizing muscles of the shoulder** that play the most important role in preventing pain and injuries. Strengthening these hidden muscles through the right **shoulder pain physiotherapy exercises** can go a long way in protecting your shoulders and improving overall strength."
   },
   {
    "t": "h2",
@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The shoulder joint is one of the most mobile joints in the body, allowing us to lift, rotate, and stretch in many directions. But this flexibility comes at a cost—without proper support, it becomes more prone to strain and injuries. Weak stabilizing muscles can lead to:"
+   "text": "The shoulder joint is one of the most mobile joints in the body, allowing us to lift, rotate, and stretch in many directions. But this flexibility comes at a cost, without proper support, it becomes more prone to strain and injuries. Weak stabilizing muscles can lead to:"
   },
   {
    "t": "ul",
@@ -39,7 +39,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This is where [**shoulder pain physiotherapy treatment**](/shoulder-pain-treatment-doctor-in-ahmedabad/) becomes crucial, as it focuses on strengthening both big and small muscles for long-term relief."
+   "text": "This is where [**shoulder pain physiotherapy treatment**](/shoulder-pain-treatment-doctor-in-ahmedabad/) becomes crucial, as it focuses on strengthening both big and small muscles for long term relief."
   },
   {
    "t": "h3",
@@ -72,7 +72,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Many patients ask—why choose physiotherapy instead of painkillers or rest alone? The answer lies in long-term prevention. The **best physiotherapy for shoulder pain prevention** not only targets the root cause of discomfort but also builds strength and flexibility to stop the pain from coming back."
+   "text": "Many patients ask, why choose physiotherapy instead of painkillers or rest alone? The answer lies in long term prevention. The **best physiotherapy for shoulder pain prevention** not only targets the root cause of discomfort but also builds strength and flexibility to stop the pain from coming back."
   },
   {
    "t": "p",
@@ -114,7 +114,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early consultation for **shoulder pain physiotherapy treatment** can save you from long-term complications and improve your quality of life."
+   "text": "Early consultation for **shoulder pain physiotherapy treatment** can save you from long term complications and improve your quality of life."
   },
   {
    "t": "p",
@@ -122,7 +122,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Small shoulder muscles may not be visible, but they are the foundation of a pain-free, mobile, and strong shoulder joint. By focusing on **shoulder pain physiotherapy exercises**—especially **rotator cuff strengthening for pain relief**—patients can prevent injuries and enjoy lasting comfort. For the best results, consult the **best physiotherapy center in Ahmedabad** where experts provide personalized care and guide you through safe, effective recovery."
+   "text": "Small shoulder muscles may not be visible, but they are the foundation of a pain-free, mobile, and strong shoulder joint. By focusing on **shoulder pain physiotherapy exercises**, especially **rotator cuff strengthening for pain relief**, patients can prevent injuries and enjoy lasting comfort. For the best results, consult the **best physiotherapy center in Ahmedabad** where experts provide personalized care and guide you through safe, effective recovery."
   }
  ]
 };

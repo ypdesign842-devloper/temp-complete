@@ -105,7 +105,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "The CuraLaser is a battery-powered device with two heads that makes use of light therapy and bio-stimulation to treat muscle and joint pain. It has the goal to provide long-term pain relief by addressing the underlying source of the pain rather than simply treating symptoms. Its portability allows for simple, portable treatment."
+   "text": "The CuraLaser is a battery-powered device with two heads that makes use of light therapy and bio-stimulation to treat muscle and joint pain. It has the goal to provide long term pain relief by addressing the underlying source of the pain rather than simply treating symptoms. Its portability allows for simple, portable treatment."
   },
   {
    "t": "p",
@@ -113,7 +113,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy at home offers multiple advantages, including convenience, personalized care, reduced stress, increased treatment compliance, family involvement, and a safe environment. It can be ideal for individuals with mobility limitations, chronic conditions, post-surgery recovery needs, or those who simply prefer the comfort and familiarity of their own home."
+   "text": "Physiotherapy at home offers multiple advantages, including convenience, personalized care, reduced stress, increased treatment compliance, family involvement, and a safe environment. It can be ideal for individuals with mobility limitations, chronic conditions, post surgery recovery needs, or those who simply prefer the comfort and familiarity of their own home."
   },
   {
    "t": "p",
@@ -145,7 +145,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "If you have mobility limitations, chronic conditions, post-surgery recovery needs, or any other factors that make it challenging to attend clinic sessions, home-based physiotherapy may be the perfect solution. Consult with a physiotherapist to assess your suitability."
+   "text": "If you have mobility limitations, chronic conditions, post surgery recovery needs, or any other factors that make it challenging to attend clinic sessions, home based physiotherapy may be the perfect solution. Consult with a physiotherapist to assess your suitability."
   },
   {
    "t": "p",
@@ -165,11 +165,11 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Can I switch physiotherapy from clinic to home-based treatment?"
+   "text": "Can I switch physiotherapy from clinic to home based treatment?"
   },
   {
    "t": "p",
-   "text": "Absolutely! If you’re currently receiving physiotherapy at a clinic but find it challenging to continue attending in person, our physiotherapists can discuss transitioning your treatment to home-based care."
+   "text": "Absolutely! If you’re currently receiving physiotherapy at a clinic but find it challenging to continue attending in person, our physiotherapists can discuss transitioning your treatment to home based care."
   },
   {
    "t": "p",
@@ -213,7 +213,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Remember: Physiotherapy at home can be a valuable tool for improving your physical health and well-being. If you have any questions or concerns, don’t hesitate to consult with a qualified physiotherapist."
+   "text": "Remember: Physiotherapy at home can be a valuable tool for improving your physical health and wellbeing. If you have any questions or concerns, don’t hesitate to consult with a qualified physiotherapist."
   }
  ],
  "quickLinks": []

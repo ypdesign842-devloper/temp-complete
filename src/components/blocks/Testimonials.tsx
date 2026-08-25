@@ -64,7 +64,7 @@ export function Testimonials({ limit }: { limit?: number }) {
               {reviewSummary}
             </h2>
             <p className="mt-2 text-base text-muted-foreground">
-              Real recovery experiences from patients across Ahmedabad, Mehsana, and Ankleshwar — in English, ગુજરાતી &amp; हिंदी.
+              Real recovery experiences from patients across Ahmedabad, Mehsana, and Ankleshwar in English, ગુજરાતી, and हिंदी.
             </p>
           </div>
 

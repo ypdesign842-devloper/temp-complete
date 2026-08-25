@@ -21,7 +21,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "HIIT called as high-intensity interval training or sprint interval training, is a form of interval training, a cardiovascular exercise strategy alternating short periods of intense…"
+   "text": "HIIT called as hig intensity interval training or sprint interval training, is a form of interval training, a cardiovascular exercise strategy alternating short periods of intense…"
   },
   {
    "t": "img",
@@ -34,7 +34,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Strength training — also known as weight or resistance training — is physical activity designed to improve muscular fitness by exercising a specific muscle…"
+   "text": "Strength training, also known as weight or resistance training, is physical activity designed to improve muscular fitness by exercising a specific muscle…"
   },
   {
    "t": "img",
@@ -47,7 +47,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Zumba is a fitness program that combines Latin and international music with dance moves. Zumba routines incorporate interval training — alternating fast and slow rhythms…"
+   "text": "Zumba is a fitness program that combines Latin and international music with dance moves. Zumba routines incorporate interval training, alternating fast and slow rhythms…"
   },
   {
    "t": "img",
@@ -126,6 +126,23 @@ export const content: PageContent = {
   {
    "t": "p",
    "text": "We are offering real-time classes that users can live stream from their own homes. Not only are these sessions helpful to maintaining physical and mental wellness…"
+  },
+  {
+   "t": "pricing",
+   "title": "Estimated Medical Fitness & Therapy Pricing",
+   "range": "₹500 to ₹2,000",
+   "consultationFee": "₹500 (Posture & Functional Movement Screening)",
+   "treatmentRange": "₹500 to ₹2,000 / session",
+   "lowPrice": 500,
+   "highPrice": 2000,
+   "currency": "INR",
+   "context": "Medical fitness therapy pricing ranges from ₹500 to ₹2,000, structured around individual physiotherapist supervision, biomechanical movement corrections, joint-safe strengthening, and personalized wellness plans.",
+   "inclusions": [
+    "Full-body movement screen",
+    "Physiotherapist-supervised workouts",
+    "Posture & core correction drills",
+    "Transparent membership & session passes"
+   ]
   }
  ],
  "quickLinks": []

@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Recovering from a herniated disc is a major milestone, but preventing it from coming back is equally important. Many people focus only on pain relief and overlook one of the most effective long-term solutions – building a stronger core. A weak core places extra stress on the spine, increasing the chances of repeated disc problems."
+   "text": "Recovering from a herniated disc is a major milestone, but preventing it from coming back is equally important. Many people focus only on pain relief and overlook one of the most effective long term solutions, building a stronger core. A weak core places extra stress on the spine, increasing the chances of repeated disc problems."
   },
   {
    "t": "p",
-   "text": "This is why core strengthening for herniated disc recovery is often a key part of physiotherapy programs. Strong core muscles support the spine, improve posture, and reduce the pressure that can lead to future injuries. In this guide, we’ll explore how core strength contributes to herniated disc recurrence prevention and why it is an important part of non-surgical recovery."
+   "text": "This is why core strengthening for herniated disc recovery is often a key part of physiotherapy programs. Strong core muscles support the spine, improve posture, and reduce the pressure that can lead to future injuries. In this guide, we’ll explore how core strength contributes to herniated disc recurrence prevention and why it is an important part of non surgical  recovery."
   },
   {
    "t": "h2",
@@ -128,7 +128,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These benefits make core strengthening for herniated disc recovery an essential part of long-term spinal health."
+   "text": "These benefits make core strengthening for herniated disc recovery an essential part of long term spinal health."
   },
   {
    "t": "p",
@@ -229,7 +229,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Core strengthening is often considered one of the most valuable components of non-surgical rehabilitation programs."
+   "text": "Core strengthening is often considered one of the most valuable components of non surgical  rehabilitation programs."
   },
   {
    "t": "h2",
@@ -306,7 +306,7 @@ export const content: PostContent = {
     "Proper movement assessment",
     "Posture correction",
     "Pain management strategies",
-    "Long-term prevention planning"
+    "long term prevention planning"
    ]
   },
   {
@@ -338,7 +338,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These habits complement core strengthening for herniated disc recovery and improve long-term outcomes."
+   "text": "These habits complement core strengthening for herniated disc recovery and improve long term outcomes."
   },
   {
    "t": "h2",
@@ -393,7 +393,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Recovery from a herniated disc does not end when the pain disappears. Long-term success depends on strengthening the body to prevent future injuries. That’s why core strengthening for herniated disc recovery plays such a vital role in spinal health."
+   "text": "Recovery from a herniated disc does not end when the pain disappears. long term success depends on strengthening the body to prevent future injuries. That’s why core strengthening for herniated disc recovery plays such a vital role in spinal health."
   },
   {
    "t": "p",

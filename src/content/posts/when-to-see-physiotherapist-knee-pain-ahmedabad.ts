@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Knee pain is one of the most common complaints among adults, affecting mobility and overall quality of life. For residents of Ahmedabad, understanding **when to visit a physiotherapist for knee pain** can make a significant difference in recovery and long-term joint health."
+   "text": "Knee pain is one of the most common complaints among adults, affecting mobility and overall quality of life. For residents of Ahmedabad, understanding **when to visit a physiotherapist for knee pain** can make a significant difference in recovery and long term joint health."
   },
   {
    "t": "p",
@@ -35,10 +35,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "Osteoarthritis or age-related degeneration",
+    "Osteoarthritis or age related degeneration",
     "Sports injuries like ligament tears or meniscus damage",
     "Overuse from daily activities or long periods of standing",
-    "Post-surgical recovery or joint replacement"
+    "post surgical  recovery or joint replacement"
    ]
   },
   {
@@ -71,7 +71,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "5. **Post-Injury or Surgery Recovery:** Physiotherapy is essential after knee surgeries, ligament repairs, or fractures to restore function and prevent complications."
+   "text": "5. **post injury or Surgery Recovery:** Physiotherapy is essential after knee surgeries, ligament repairs, or fractures to restore function and prevent complications."
   },
   {
    "t": "p",
@@ -83,7 +83,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is a non-invasive approach that focuses on **strengthening muscles, improving flexibility, and reducing pain**. Some key benefits include:"
+   "text": "Physiotherapy is a non invasive approach that focuses on **strengthening muscles, improving flexibility, and reducing pain**. Some key benefits include:"
   },
   {
    "t": "ul",
@@ -147,13 +147,13 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "To enhance the effectiveness of in-clinic treatment, consider these **healthy habits for knee health**:"
+   "text": "To enhance the effectiveness of in clinic treatment, consider these **healthy habits for knee health**:"
   },
   {
    "t": "ul",
    "items": [
     "Maintain a healthy weight to reduce stress on knees",
-    "Avoid high-impact activities that strain the joints",
+    "Avoid hig impact activities that strain the joints",
     "Follow prescribed exercise routines consistently",
     "Use supportive footwear for stability",
     "Apply ice or heat as recommended for pain relief"
@@ -177,7 +177,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Taking action early ensures long-term knee health and helps prevent chronic problems, making physiotherapy an essential part of knee care in Ahmedabad."
+   "text": "Taking action early ensures long term knee health and helps prevent chronic problems, making physiotherapy an essential part of knee care in Ahmedabad."
   }
  ]
 };

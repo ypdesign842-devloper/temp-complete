@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Understanding the **causes of shoulder pain from desk job** work and knowing how physiotherapy can help is essential for preventing long-term discomfort and maintaining productivity. Let’s explore why this problem has become so widespread and what can be done to manage it effectively."
+   "text": "Understanding the **causes of shoulder pain from desk job** work and knowing how physiotherapy can help is essential for preventing long term discomfort and maintaining productivity. Let’s explore why this problem has become so widespread and what can be done to manage it effectively."
   },
   {
    "t": "h2",
@@ -46,7 +46,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Many office spaces—whether in corporate setups or home offices—lack ergonomic furniture. Monitors placed too high or too low, chairs without proper back support, or desks set at incorrect heights are major contributors to shoulder strain."
+   "text": "Many office spaces, whether in corporate setups or home offices, lack ergonomic furniture. Monitors placed too high or too low, chairs without proper back support, or desks set at incorrect heights are major contributors to shoulder strain."
   },
   {
    "t": "p",
@@ -82,7 +82,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ignoring shoulder pain may seem harmless initially, but long-term discomfort can affect office performance and personal life. Untreated pain may lead to:"
+   "text": "Ignoring shoulder pain may seem harmless initially, but long term discomfort can affect office performance and personal life. Untreated pain may lead to:"
   },
   {
    "t": "ul",
@@ -120,7 +120,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Taking a break every 45–60 minutes helps relax tight muscles and improves blood flow."
+   "text": "Taking a break every 45 to 60 minutes helps relax tight muscles and improves blood flow."
   },
   {
    "t": "p",
@@ -152,7 +152,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is one of the most effective approaches to treating and preventing shoulder discomfort caused by long desk hours. Many people choose [**Shoulder Pain Physiotherapy Treatment in Ahmedabad**](/shoulder-pain-treatment-doctor-in-ahmedabad/) because it offers personalized care focused on long-term relief."
+   "text": "Physiotherapy is one of the most effective approaches to treating and preventing shoulder discomfort caused by long desk hours. Many people choose [**Shoulder Pain Physiotherapy Treatment in Ahmedabad**](/shoulder-pain-treatment-doctor-in-ahmedabad/) because it offers personalized care focused on long term relief."
   },
   {
    "t": "p",
@@ -231,7 +231,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Shoulder pain has become increasingly widespread among professionals due to long work hours, poor posture, and stressful schedules. Understanding the key **causes of shoulder pain from desk job** work can help office workers adopt healthier habits and prevent long-term problems."
+   "text": "Shoulder pain has become increasingly widespread among professionals due to long work hours, poor posture, and stressful schedules. Understanding the key **causes of shoulder pain from desk job** work can help office workers adopt healthier habits and prevent long term problems."
   },
   {
    "t": "p",

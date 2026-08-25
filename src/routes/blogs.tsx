@@ -40,7 +40,7 @@ function BlogsPage() {
       <PageHero
         eyebrow="Clinical Library"
         h1="Physiotherapy &amp; Rehabilitation Guides"
-        lead="Practical, evidence-informed guides on non-surgical pain relief, injury rehabilitation, spinal health, and movement recovery — authored by Complete Care licensed physiotherapists."
+        lead="Practical, evidence informed guides on non surgical  pain relief, injury rehabilitation, spinal health, and movement recovery, authored by Complete Care licensed physiotherapists."
       />
 
       {/* Featured Article Banner */}
@@ -88,7 +88,7 @@ function BlogsPage() {
                   </h2>
 
                   <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                    Discover clinical insights from our experienced physical therapists on non-surgical treatment pathways,
+                    Discover clinical insights from our experienced physical therapists on non surgical  treatment pathways,
                     disc decompression, and restorative exercise therapy.
                   </p>
 

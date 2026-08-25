@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the top advantages of physiotherapy is its ability to provide natural pain relief. Many people suffer from joint pain, back pain, neck stiffness, or post-injury discomfort. Rather than relying on painkillers, which may have side effects, **pain relief physiotherapy** offers targeted physical techniques like manual therapy, ultrasound, dry needling, and TENS therapy to reduce pain at its source."
+   "text": "One of the top advantages of physiotherapy is its ability to provide natural pain relief. Many people suffer from joint pain, back pain, neck stiffness, or post injury discomfort. Rather than relying on painkillers, which may have side effects, **pain relief physiotherapy** offers targeted physical techniques like manual therapy, ultrasound, dry needling, and TENS therapy to reduce pain at its source."
   },
   {
    "t": "p",
@@ -70,11 +70,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Additionally, **physiotherapy benefits in Ahmedabad** go beyond just healing—they also include injury prevention. By identifying imbalances and weak muscles, therapists help you avoid future problems through strengthening and conditioning routines."
+   "text": "Additionally, **physiotherapy benefits in Ahmedabad** go beyond just healing, they also include injury prevention. By identifying imbalances and weak muscles, therapists help you avoid future problems through strengthening and conditioning routines."
   },
   {
    "t": "h3",
-   "text": "Help for Long-Term Health Problems"
+   "text": "Help for long term Health Problems"
   },
   {
    "t": "p",
@@ -82,7 +82,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Regular therapy sessions reduce pain and stiffness, improve circulation, and support better joint function—allowing patients with chronic illnesses to lead more active and independent lives."
+   "text": "Regular therapy sessions reduce pain and stiffness, improve circulation, and support better joint function, allowing patients with chronic illnesses to lead more active and independent lives."
   },
   {
    "t": "h3",
@@ -94,15 +94,15 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Unlike generic treatments, physiotherapy is adaptable—whether you are a young athlete, a middle-aged office worker, or a senior citizen."
+   "text": "Unlike generic treatments, physiotherapy is adaptable, whether you are a young athlete, a middle-aged office worker, or a senior citizen."
   },
   {
    "t": "h3",
-   "text": "Cost-Effective Long-Term Solution"
+   "text": "Cost-Effective long term Solution"
   },
   {
    "t": "p",
-   "text": "Physiotherapy is often more affordable than surgery or long-term medication, especially when it prevents complications or repeated injuries. Regular sessions at a trusted **physiotherapy center in Ahmedabad** can help you maintain your health and well-being without recurring high medical costs."
+   "text": "Physiotherapy is often more affordable than surgery or long term medication, especially when it prevents complications or repeated injuries. Regular sessions at a trusted **physiotherapy center in Ahmedabad** can help you maintain your health and wellbeing without recurring high medical costs."
   },
   {
    "t": "h3",

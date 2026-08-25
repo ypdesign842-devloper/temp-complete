@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Chiropractic treatment** is a non-invasive therapy focusing on the diagnosis, treatment, and prevention of mechanical disorders of the musculoskeletal system, particularly the spine. Chiropractors use precise adjustments to align the spine, relieve nerve pressure, and improve mobility. These treatments can significantly reduce pain, enhance posture, and restore functional movement."
+   "text": "**Chiropractic treatment** is a non invasive therapy focusing on the diagnosis, treatment, and prevention of mechanical disorders of the musculoskeletal system, particularly the spine. Chiropractors use precise adjustments to align the spine, relieve nerve pressure, and improve mobility. These treatments can significantly reduce pain, enhance posture, and restore functional movement."
   },
   {
    "t": "h3",
@@ -50,23 +50,23 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Faster Recovery** – By addressing both structural and muscular issues, patients experience quicker relief from pain."
+   "text": "1. **Faster Recovery**, By addressing both structural and muscular issues, patients experience quicker relief from pain."
   },
   {
    "t": "p",
-   "text": "2. **Long-Term Results** – Strengthening muscles and correcting posture prevents recurrence of injuries."
+   "text": "2. **long term Results**, Strengthening muscles and correcting posture prevents recurrence of injuries."
   },
   {
    "t": "p",
-   "text": "3. **Personalized Treatment** – Each patient receives a customized care plan tailored to their specific needs."
+   "text": "3. **Personalized Treatment**, Each patient receives a customized care plan tailored to their specific needs."
   },
   {
    "t": "p",
-   "text": "4. **Holistic Pain Relief** – Focuses not just on the site of pain, but the body as a whole, improving overall mobility and wellness."
+   "text": "4. **Holistic Pain Relief**, Focuses not just on the site of pain, but the body as a whole, improving overall mobility and wellness."
   },
   {
    "t": "p",
-   "text": "5. **Reduced Dependency on Medications** – Non-invasive techniques minimize the need for painkillers and surgical interventions."
+   "text": "5. **Reduced Dependency on Medications**, non invasive techniques minimize the need for painkillers and surgical interventions."
   },
   {
    "t": "p",
@@ -112,7 +112,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Clinics that focus on **integrative chiropractic care** provide a seamless experience for patients, ensuring that every session contributes to long-term wellness."
+   "text": "Clinics that focus on **integrative chiropractic care** provide a seamless experience for patients, ensuring that every session contributes to long term wellness."
   },
   {
    "t": "h3",
@@ -120,7 +120,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Patients suffering from chronic back pain, neck pain, sports injuries, or post-surgical recovery needs can significantly benefit from combining chiropractic care with physical therapy. Even individuals with sedentary jobs, poor posture, or mild musculoskeletal discomfort can experience improvement in mobility, pain reduction, and overall wellbeing."
+   "text": "Patients suffering from chronic back pain, neck pain, sports injuries, or post surgical  recovery needs can significantly benefit from combining chiropractic care with physical therapy. Even individuals with sedentary jobs, poor posture, or mild musculoskeletal discomfort can experience improvement in mobility, pain reduction, and overall wellbeing."
   },
   {
    "t": "p",
@@ -128,7 +128,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For those in Ahmedabad looking for an effective, non-invasive solution to pain, combining **chiropractic treatment** with physical therapy is a game-changer. By leveraging **holistic pain management techniques** and **integrative chiropractic care**, patients enjoy faster recovery, long-term relief, and improved quality of life."
+   "text": "For those in Ahmedabad looking for an effective, non invasive solution to pain, combining **chiropractic treatment** with physical therapy is a game-changer. By leveraging **holistic pain management techniques** and **integrative chiropractic care**, patients enjoy faster recovery, long term relief, and improved quality of life."
   },
   {
    "t": "p",

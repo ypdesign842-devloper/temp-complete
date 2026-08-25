@@ -1,9 +1,22 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { PageHero } from "@/components/blocks/PageHero";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { CtaBand } from "@/components/blocks/CtaBand";
 import { teamBranches } from "@/data/team";
 import { site } from "@/data/site";
-import { Award, CheckCircle2, HeartPulse, MapPin, ShieldCheck, Sparkles, UserCheck } from "lucide-react";
+import {
+  Award,
+  Calendar,
+  CheckCircle2,
+  ChevronRight,
+  GraduationCap,
+  HeartPulse,
+  Home,
+  MapPin,
+  Phone,
+  ShieldCheck,
+  Sparkles,
+  UserCheck,
+  Users,
+} from "lucide-react";
 
 export const Route = createFileRoute("/our-team")({
   head: () => ({
@@ -26,12 +39,96 @@ export const Route = createFileRoute("/our-team")({
 
 function TeamPage() {
   return (
-    <>
-      <PageHero
-        eyebrow="Clinical Leadership"
-        h1="Meet Our Clinical Team"
-        lead="Directed by Dr. Hardik Patel (PT), Complete Care brings together over 40+ licensed physical therapists, certified chiropractors, and clinical rehabilitation specialists across Gujarat."
-      />
+    <div className="bg-[#f9f7ef] min-h-screen">
+      {/* Clean Modern 2-Column Hero Section */}
+      <section className="py-10 sm:py-14 lg:py-16 border-b border-border/80">
+        <div className="container-cc">
+          <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr] lg:items-center">
+            {/* LEFT SIDE: Breadcrumbs, Badge, H1, Lead, CTAs */}
+            <div className="space-y-4">
+              <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs font-semibold text-muted-foreground">
+                <Link to="/" className="inline-flex items-center gap-1 hover:text-accent transition-colors">
+                  <Home className="size-3.5" />
+                  <span>Home</span>
+                </Link>
+                <ChevronRight aria-hidden="true" className="size-3 text-muted-foreground/60" />
+                <Link to="/best-physiotherapy-clinic-in-ahmedabad" className="hover:text-accent transition-colors">
+                  About Complete Care
+                </Link>
+                <ChevronRight aria-hidden="true" className="size-3 text-muted-foreground/60" />
+                <span className="text-navy font-bold">Our Clinical Team</span>
+              </nav>
+
+              <div className="inline-flex items-center gap-2 rounded-full border border-navy/15 bg-white px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase shadow-sm">
+                <Sparkles className="size-3.5 text-accent" />
+                <span>Clinical Leadership &amp; 40+ Licensed Therapists</span>
+              </div>
+
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-navy leading-[1.15]">
+                Meet Our Clinical Team
+              </h1>
+
+              <p className="text-base sm:text-lg leading-relaxed text-muted-foreground pt-1">
+                Directed by <strong className="text-navy">Dr. Hardik Patel (PT)</strong> and <strong className="text-navy">Dr. Foram Patel (PT)</strong>, Complete Care brings together over 40+ licensed physical therapists, certified chiropractors, and clinical rehabilitation specialists across Gujarat.
+              </p>
+
+              <div className="flex flex-wrap items-center gap-3 pt-3">
+                <a
+                  href={site.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#166534] via-[#15803d] to-[#16a34a] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#166534]/25 transition-all duration-300 hover:shadow-xl hover:shadow-[#166534]/35 hover:-translate-y-0.5 active:translate-y-0"
+                >
+                  <Calendar className="size-4 text-emerald-200" />
+                  <span>Book Consultation</span>
+                </a>
+                <a
+                  href={site.phoneHref}
+                  className="inline-flex items-center gap-2.5 rounded-full border border-navy/15 bg-white/90 px-6 py-3.5 text-sm font-bold text-navy shadow-sm transition-all duration-300 hover:border-[#16803d]/40 hover:bg-white hover:text-[#16803d] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
+                >
+                  <Phone className="size-4 text-[#16803d]" />
+                  <span>{site.phone}</span>
+                </a>
+              </div>
+            </div>
+
+            {/* RIGHT SIDE: Editorial Highlight Area */}
+            <div className="rounded-3xl border border-navy/12 bg-white/80 p-6 sm:p-8 backdrop-blur-sm shadow-sm space-y-4">
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold text-navy">
+                  A Multidisciplinary Team
+                </h2>
+                <p className="mt-2 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                  Experienced professionals working together to deliver personalized physiotherapy, chiropractic care, rehabilitation, and fitness solutions.
+                </p>
+              </div>
+
+              <ul className="space-y-2.5 pt-2 border-t border-navy/10">
+                <li className="flex items-center gap-2.5 text-sm font-semibold text-navy">
+                  <CheckCircle2 className="size-4 text-accent shrink-0" />
+                  <span>Licensed Physiotherapists</span>
+                </li>
+                <li className="flex items-center gap-2.5 text-sm font-semibold text-navy">
+                  <CheckCircle2 className="size-4 text-accent shrink-0" />
+                  <span>Certified Chiropractors</span>
+                </li>
+                <li className="flex items-center gap-2.5 text-sm font-semibold text-navy">
+                  <CheckCircle2 className="size-4 text-accent shrink-0" />
+                  <span>Neuro &amp; Sports Rehabilitation Specialists</span>
+                </li>
+                <li className="flex items-center gap-2.5 text-sm font-semibold text-navy">
+                  <CheckCircle2 className="size-4 text-accent shrink-0" />
+                  <span>Fitness &amp; Rehabilitation Professionals</span>
+                </li>
+              </ul>
+
+              <div className="pt-2 border-t border-navy/10 text-xs font-semibold text-teal tracking-wide">
+                40+ Clinical Professionals · 6 Centres Across Gujarat
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Director Spotlight Section */}
       <section className="section-y bg-background border-b border-border">
@@ -66,9 +163,9 @@ function TeamPage() {
                 </p>
 
                 <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                  Dr. Hardik Patel is a pioneering clinical director in non-surgical spinal care in Gujarat. With over
+                  Dr. Hardik Patel is a pioneering clinical director in non surgical  spinal care in Gujarat. With over
                   16 years of expertise, he has guided thousands of patients away from invasive spine and joint surgeries
-                  through evidence-based decompression, precision manual chiropractic adjustments, and personalized
+                  through evidence based decompression, precision manual chiropractic adjustments, and personalized
                   neuro-muscular rehabilitation.
                 </p>
 
@@ -228,6 +325,6 @@ function TeamPage() {
       ))}
 
       <CtaBand />
-    </>
+    </div>
   );
 }

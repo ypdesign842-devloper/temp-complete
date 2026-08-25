@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The good news is that most cases can improve with proper care, posture correction, and physiotherapy for shoulder pain. In this guide, we’ll understand the causes, prevention tips, and treatment options available for long-term relief."
+   "text": "The good news is that most cases can improve with proper care, posture correction, and physiotherapy for shoulder pain. In this guide, we’ll understand the causes, prevention tips, and treatment options available for long term relief."
   },
   {
    "t": "h2",
@@ -165,7 +165,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the most effective non-surgical solutions is physiotherapy for shoulder pain. Instead of only masking symptoms, physiotherapy targets the root cause."
+   "text": "One of the most effective non surgical  solutions is physiotherapy for shoulder pain. Instead of only masking symptoms, physiotherapy targets the root cause."
   },
   {
    "t": "p",
@@ -184,7 +184,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early treatment often prevents long-term complications and improves sleep quality."
+   "text": "Early treatment often prevents long term complications and improves sleep quality."
   },
   {
    "t": "h3",
@@ -196,7 +196,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "– Common Treatment Methods"
+   "text": ", Common Treatment Methods"
   },
   {
    "t": "p",
@@ -287,7 +287,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "People dealing with chronic posture-related discomfort may benefit from [Chiropractic treatment in Gujarat](/) as part of a holistic recovery plan."
+   "text": "People dealing with chronic posture related discomfort may benefit from [Chiropractic treatment in Gujarat](/) as part of a holistic recovery plan."
   },
   {
    "t": "h3",
@@ -351,7 +351,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Fortunately, early intervention with proper posture correction and physiotherapy for shoulder pain can provide long-term relief without surgery. If symptoms persist, seeking expert shoulder pain at night treatment can help you sleep comfortably and regain pain-free movement."
+   "text": "Fortunately, early intervention with proper posture correction and physiotherapy for shoulder pain can provide long term relief without surgery. If symptoms persist, seeking expert shoulder pain at night treatment can help you sleep comfortably and regain pain-free movement."
   }
  ]
 };

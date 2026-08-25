@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Working from home has become the new normal – but so have **neck, back, and shoulder pains**. Long hours on laptops, poor posture, and lack of movement have led to what physiotherapists now call **“Work-From-Home Syndrome.”**"
+   "text": "Working from home has become the new normal, but so have **neck, back, and shoulder pains**. Long hours on laptops, poor posture, and lack of movement have led to what physiotherapists now call **“Work-From-Home Syndrome.”**"
   },
   {
    "t": "p",
@@ -56,7 +56,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy focuses on identifying the root cause of pain – often poor posture, muscle imbalance, or joint stiffness – and correcting it through manual therapy and specific exercises."
+   "text": "Physiotherapy focuses on identifying the root cause of pain, often poor posture, muscle imbalance, or joint stiffness, and correcting it through manual therapy and specific exercises."
   },
   {
    "t": "p",
@@ -76,7 +76,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "3. **Injury Prevention:** Regular physiotherapy sessions prevent recurrence of pain and posture-related injuries."
+   "text": "3. **Injury Prevention:** Regular physiotherapy sessions prevent recurrence of pain and posture related injuries."
   },
   {
    "t": "p",
@@ -153,7 +153,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Even 10 minutes of daily stretching can make a big difference. Pairing these with professional physiotherapy sessions ensures long-term relief."
+   "text": "Even 10 minutes of daily stretching can make a big difference. Pairing these with professional physiotherapy sessions ensures long term relief."
   },
   {
    "t": "h3",
@@ -161,7 +161,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For professionals with busy schedules, **Complete Care** also offers [**Physiotherapy at Home in Ahmedabad**](/physiotherapy-at-home-in-ahmedabad/) – providing expert guidance, advanced therapy devices, and one-on-one support right at your doorstep."
+   "text": "For professionals with busy schedules, **Complete Care** also offers [**Physiotherapy at Home in Ahmedabad**](/physiotherapy-at-home-in-ahmedabad/), providing expert guidance, advanced therapy devices, and one on one support right at your doorstep."
   },
   {
    "t": "p",
@@ -172,7 +172,7 @@ export const content: PostContent = {
    "items": [
     "Convenient and time-saving",
     "Personalized attention from trained physiotherapists",
-    "Same quality of care as in-clinic sessions",
+    "Same quality of care as in clinic sessions",
     "Safe and hygienic environment"
    ]
   },
@@ -211,7 +211,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Complete Care Physiotherapy Clinic** stands out for its holistic, evidence-based approach to pain management."
+   "text": "**Complete Care Physiotherapy Clinic** stands out for its holistic, evidence based approach to pain management."
   },
   {
    "t": "p",
@@ -224,12 +224,12 @@ export const content: PostContent = {
     "**Advanced Equipment:** Electrotherapy, laser, dry needling, and posture analysis tools.",
     "**Personalized Care:** Tailored exercise plans for every patient’s body type and lifestyle.",
     "**Home Visit Facility:** Convenient **Physiotherapy at Home in Ahmedabad** for working professionals and elderly patients.",
-    "**Preventive Focus:** Education on posture, ergonomics, and long-term musculoskeletal health."
+    "**Preventive Focus:** Education on posture, ergonomics, and long term musculoskeletal health."
    ]
   },
   {
    "t": "p",
-   "text": "Whether it’s **physiotherapy for neck and back pain** or **posture correction programs**, **Complete Care** ensures lasting results — not just temporary relief."
+   "text": "Whether it’s **physiotherapy for neck and back pain** or **posture correction programs**, **Complete Care** ensures lasting results, not just temporary relief."
   },
   {
    "t": "p",

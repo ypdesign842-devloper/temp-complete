@@ -41,7 +41,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "The Complete Care – [**Best Physiotherapy Center in Ahmedabad**](/) has qualified team of physiotherapists. Who provide Osteopathy Treatment with expert skills. Contact now for more details on Osteopathy."
+   "text": "The Complete Care, [**Best Physiotherapy Center in Ahmedabad**](/) has qualified team of physiotherapists. Who provide Osteopathy Treatment with expert skills. Contact now for more details on Osteopathy."
   }
  ],
  "quickLinks": [
@@ -67,7 +67,7 @@ export const content: PageContent = {
   },
   {
    "label": "IASTM",
-   "to": "/top-instrumented-soft-tissue-mobilization-in-ahmedabad"
+   "to": "/top-instrumented-soft tissue-mobilization-in-ahmedabad"
   },
   {
    "label": "Cupping Therapy",

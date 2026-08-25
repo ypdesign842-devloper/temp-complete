@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re living with constant back or leg pain caused by sciatica, you’re not alone. Millions of people experience the sharp, radiating discomfort that travels from the lower back down to the legs. The good news is that you don’t always need medication or surgery to find relief. With the right **Physiotherapy Treatment for Sciatica**, long-lasting recovery is possible — naturally and safely."
+   "text": "If you’re living with constant back or leg pain caused by sciatica, you’re not alone. Millions of people experience the sharp, radiating discomfort that travels from the lower back down to the legs. The good news is that you don’t always need medication or surgery to find relief. With the right **Physiotherapy Treatment for Sciatica**, long-lasting recovery is possible, naturally and safely."
   },
   {
    "t": "p",
-   "text": "In Ahmedabad, **Dr. Hardik Patel**, widely recognized as the **Best Physiotherapist in Ahmedabad**, has helped countless patients overcome sciatica through evidence-based physiotherapy care that focuses on the root cause, not just the symptoms."
+   "text": "In Ahmedabad, **Dr. Hardik Patel**, widely recognized as the **Best Physiotherapist in Ahmedabad**, has helped countless patients overcome sciatica through evidence based physiotherapy care that focuses on the root cause, not just the symptoms."
   },
   {
    "t": "h2",
@@ -44,7 +44,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The symptoms vary from mild tingling to severe pain, numbness, or weakness in one leg. But the underlying issue is often mechanical – and that’s where **physiotherapy for sciatica in Ahmedabad** plays a vital role."
+   "text": "The symptoms vary from mild tingling to severe pain, numbness, or weakness in one leg. But the underlying issue is often mechanical, and that’s where **physiotherapy for sciatica in Ahmedabad** plays a vital role."
   },
   {
    "t": "h3",
@@ -52,7 +52,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is a safe, non-invasive, and drug-free approach that targets the _source_ of nerve irritation. Instead of masking pain, physiotherapy works to restore normal movement, improve posture, and strengthen supportive muscles."
+   "text": "Physiotherapy is a safe, non invasive, and drug-free approach that targets the _source_ of nerve irritation. Instead of masking pain, physiotherapy works to restore normal movement, improve posture, and strengthen supportive muscles."
   },
   {
    "t": "p",
@@ -64,7 +64,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Dr. Hardik Patel uses specialized manual therapy techniques to relieve muscle tension, joint stiffness, and nerve compression. These gentle, controlled movements improve blood flow and release pressure on the sciatic nerve – providing noticeable pain relief."
+   "text": "Dr. Hardik Patel uses specialized manual therapy techniques to relieve muscle tension, joint stiffness, and nerve compression. These gentle, controlled movements improve blood flow and release pressure on the sciatic nerve, providing noticeable pain relief."
   },
   {
    "t": "p",
@@ -80,7 +80,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Strong muscles support your spine better. A customized exercise program designed by a **Physiotherapy Doctor for Sciatica** like Dr. Hardik Patel can strengthen your core, lower back, and hip muscles – reducing strain on the sciatic nerve."
+   "text": "Strong muscles support your spine better. A customized exercise program designed by a **Physiotherapy Doctor for Sciatica** like Dr. Hardik Patel can strengthen your core, lower back, and hip muscles, reducing strain on the sciatic nerve."
   },
   {
    "t": "p",
@@ -92,15 +92,15 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "#### **5\\. Educating for Long-Term Prevention**"
+   "text": "#### **5\\. Educating for long term Prevention**"
   },
   {
    "t": "p",
-   "text": "A major benefit of physiotherapy is education. You’ll learn correct movement patterns, posture habits, and preventive exercises – ensuring long-term relief and a healthier spine."
+   "text": "A major benefit of physiotherapy is education. You’ll learn correct movement patterns, posture habits, and preventive exercises, ensuring long term relief and a healthier spine."
   },
   {
    "t": "h3",
-   "text": "**Why Choose Dr. Hardik Patel – The Best Physiotherapist in Ahmedabad?**"
+   "text": "**Why Choose Dr. Hardik Patel, The Best Physiotherapist in Ahmedabad?**"
   },
   {
    "t": "p",
@@ -116,8 +116,8 @@ export const content: PostContent = {
     "**Extensive Experience:** Years of expertise in spine and nerve-related physiotherapy care.",
     "**Customized Programs:** Each treatment plan is tailored to the patient’s pain level, mobility, and recovery goals.",
     "**Advanced Equipment:** Modern modalities like laser therapy, dry needling, ultrasound, and electrotherapy.",
-    "**Holistic Approach:** Focuses on overall well-being, lifestyle correction, and preventive care.",
-    "**Patient-Centered Care:** Every session is guided personally by Dr. Patel for optimal outcomes."
+    "**Holistic Approach:** Focuses on overall wellbeing, lifestyle correction, and preventive care.",
+    "**patient centered Care:** Every session is guided personally by Dr. Patel for optimal outcomes."
    ]
   },
   {
@@ -134,27 +134,27 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Assessment & Diagnosis** – A detailed evaluation identifies the exact cause of sciatic nerve irritation."
+   "text": "1. **Assessment & Diagnosis**, A detailed evaluation identifies the exact cause of sciatic nerve irritation."
   },
   {
    "t": "p",
-   "text": "2. **Pain Relief Phase** – Targeted techniques and therapies reduce pain and inflammation."
+   "text": "2. **Pain Relief Phase**, Targeted techniques and therapies reduce pain and inflammation."
   },
   {
    "t": "p",
-   "text": "3. **Rehabilitation Phase** – Personalized exercises restore strength and flexibility."
+   "text": "3. **Rehabilitation Phase**, Personalized exercises restore strength and flexibility."
   },
   {
    "t": "p",
-   "text": "4. **Posture & Core Training** – Helps maintain spinal alignment and prevent recurrence."
+   "text": "4. **Posture & Core Training**, Helps maintain spinal alignment and prevent recurrence."
   },
   {
    "t": "p",
-   "text": "5. **Maintenance & Home Care** – Patients receive tailored routines for ongoing recovery and self-care."
+   "text": "5. **Maintenance & Home Care**, Patients receive tailored routines for ongoing recovery and self-care."
   },
   {
    "t": "p",
-   "text": "This structured approach ensures a smooth journey from pain to full mobility – without surgery or long-term medication."
+   "text": "This structured approach ensures a smooth journey from pain to full mobility, without surgery or long term medication."
   },
   {
    "t": "h3",
@@ -166,7 +166,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "With experienced professionals like **Dr. Hardik Patel**, the [**Best Physiotherapist in Ahmedabad**](/best-physiotherapist-in-ahmedabad/), patients no longer need to depend solely on painkillers or invasive procedures. Instead, they receive comprehensive care that restores function, reduces discomfort, and prevents recurrence – all within the comfort of a trusted local clinic."
+   "text": "With experienced professionals like **Dr. Hardik Patel**, the [**Best Physiotherapist in Ahmedabad**](/best-physiotherapist-in-ahmedabad/), patients no longer need to depend solely on painkillers or invasive procedures. Instead, they receive comprehensive care that restores function, reduces discomfort, and prevents recurrence, all within the comfort of a trusted local clinic."
   },
   {
    "t": "h3",
@@ -174,7 +174,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Living with sciatica doesn’t have to be your new normal. Physiotherapy offers a proven path to recovery — one that’s natural, gentle, and empowering."
+   "text": "Living with sciatica doesn’t have to be your new normal. Physiotherapy offers a proven path to recovery, one that’s natural, gentle, and empowering."
   },
   {
    "t": "p",
@@ -190,11 +190,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Physiotherapy for Sciatica in Ahmedabad** isn’t just about exercises – it’s about restoring your freedom of movement, rebuilding strength, and reclaiming your quality of life. Under the expert care of **Dr. Hardik Patel**, patients experience effective, natural recovery without the risks of surgery."
+   "text": "**Physiotherapy for Sciatica in Ahmedabad** isn’t just about exercises, it’s about restoring your freedom of movement, rebuilding strength, and reclaiming your quality of life. Under the expert care of **Dr. Hardik Patel**, patients experience effective, natural recovery without the risks of surgery."
   },
   {
    "t": "p",
-   "text": "Say goodbye to nerve pain and stiffness – and hello to a healthier, more active you with professional **Physiotherapy Treatment for Sciatica** in Ahmedabad."
+   "text": "Say goodbye to nerve pain and stiffness, and hello to a healthier, more active you with professional **Physiotherapy Treatment for Sciatica** in Ahmedabad."
   }
  ]
 };

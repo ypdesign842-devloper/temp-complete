@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Although there is currently no cure for Parkinson’s disease, the right rehabilitation program can significantly improve mobility, independence, and quality of life. Along with medical management, physiotherapy has become one of the most effective non-surgical approaches to managing movement-related symptoms."
+   "text": "Although there is currently no cure for Parkinson’s disease, the right rehabilitation program can significantly improve mobility, independence, and quality of life. Along with medical management, physiotherapy has become one of the most effective non surgical  approaches to managing movement-related symptoms."
   },
   {
    "t": "p",
@@ -59,7 +59,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These symptoms often progress gradually, making early rehabilitation an essential part of long-term management."
+   "text": "These symptoms often progress gradually, making early rehabilitation an essential part of long term management."
   },
   {
    "t": "h2",
@@ -227,7 +227,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Exercise is an important part of long-term Parkinson’s management."
+   "text": "Exercise is an important part of long term Parkinson’s management."
   },
   {
    "t": "p",
@@ -379,7 +379,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Small lifestyle improvements can support long-term mobility and overall well-being."
+   "text": "Small lifestyle improvements can support long term mobility and overall wellbeing."
   },
   {
    "t": "h2",
@@ -426,7 +426,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re looking for expert [**Parkinson’s disease treatment in Ahmedabad**](/parkinson-disease-treatment-in-ahmedabad/), early physiotherapy can help improve movement, maintain independence, and support long-term quality of life."
+   "text": "If you’re looking for expert [**Parkinson’s disease treatment in Ahmedabad**](/parkinson-disease-treatment-in-ahmedabad/), early physiotherapy can help improve movement, maintain independence, and support long term quality of life."
   },
   {
    "t": "h2",

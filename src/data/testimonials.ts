@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     name: "Amit Desai",
     location: "Thaltej, Ahmedabad",
     treatment: "Spinal Decompression & PEMF",
-    quote: "Underwent non-surgical spinal decompression and PEMF therapy for severe L4-L5 disc slip. Within 3 weeks, my sciatica nerve pain dropped from 9/10 to zero. Dr. Hardik Patel's team is exceptional.",
+    quote: "Underwent non surgical  spinal decompression and PEMF therapy for severe L4-L5 disc slip. Within 3 weeks, my sciatica nerve pain dropped from 9/10 to zero. Dr. Hardik Patel's team is exceptional.",
     rating: 5,
   },
   // 2. Gujarati in English text (Knee Pain)
@@ -139,7 +139,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Anjali Trivedi",
     location: "Doorstep Home Care, Ahmedabad",
-    treatment: "Post-Surgical Home Visit",
+    treatment: "post surgical  Home Visit",
     quote: "Humne doctor ke kehne par home visit physiotherapy li thi Ahmedabad mein. Senior therapist time par aate the aur bohot dedicated tareeqe se home exercises complete karwaye.",
     rating: 5,
   },

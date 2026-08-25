@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In this blog, we explore **the science behind knee pain**, what experts look for during assessment, and how physiotherapy plays a crucial role in long-term recovery."
+   "text": "In this blog, we explore **the science behind knee pain**, what experts look for during assessment, and how physiotherapy plays a crucial role in long term recovery."
   },
   {
    "t": "h2",
@@ -330,7 +330,7 @@ export const content: PostContent = {
     "Expert physiotherapists trained in biomechanics",
     "Modern equipment for rehab",
     "Individualized treatment plans",
-    "Long-term recovery programs",
+    "long term recovery programs",
     "Patient education and preventive care"
    ]
   },
@@ -348,7 +348,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Whether you’re dealing with long-standing discomfort, sports injuries, or age-related issues, undergoing a proper **Physiotherapy Assessment for Knee Pain** is the first step toward recovery."
+   "text": "Whether you’re dealing with long-standing discomfort, sports injuries, or age related issues, undergoing a proper **Physiotherapy Assessment for Knee Pain** is the first step toward recovery."
   },
   {
    "t": "p",

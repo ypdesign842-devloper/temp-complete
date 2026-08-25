@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Jaw pain, stiff shoulders, and persistent neck discomfort are increasingly common problems in today’s fast-paced, screen-heavy lifestyle. Long working hours, poor posture, stress, and improper ergonomics often lead to pain that affects not just one area, but the entire upper body chain. A targeted **jaw shoulder neck pain physiotherapy** approach can address the root cause rather than just the symptoms."
+   "text": "Jaw pain, stiff shoulders, and persistent neck discomfort are increasingly common problems in today’s fast paced, screen-heavy lifestyle. Long working hours, poor posture, stress, and improper ergonomics often lead to pain that affects not just one area, but the entire upper body chain. A targeted **jaw shoulder neck pain physiotherapy** approach can address the root cause rather than just the symptoms."
   },
   {
    "t": "p",
-   "text": "For people in Ahmedabad, physiotherapy offers a safe, effective, and long-term solution for managing and preventing these interconnected pain conditions."
+   "text": "For people in Ahmedabad, physiotherapy offers a safe, effective, and long term solution for managing and preventing these interconnected pain conditions."
   },
   {
    "t": "h2",
@@ -56,7 +56,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Physiotherapy treatment for neck and shoulder pain** focuses on restoring mobility, improving posture, and reducing muscle tension through evidence-based techniques."
+   "text": "**Physiotherapy treatment for neck and shoulder pain** focuses on restoring mobility, improving posture, and reducing muscle tension through evidence based techniques."
   },
   {
    "t": "h3",
@@ -69,7 +69,7 @@ export const content: PostContent = {
     "Improved jaw, neck, and shoulder mobility",
     "Better posture and muscle balance",
     "Reduced headaches and facial pain",
-    "Long-term prevention of recurring pain"
+    "long term prevention of recurring pain"
    ]
   },
   {
@@ -91,7 +91,7 @@ export const content: PostContent = {
     "Soft tissue release for facial and neck muscles",
     "Postural correction exercises",
     "Relaxation techniques for stress-induced clenching",
-    "Home exercise guidance for long-term relief"
+    "Home exercise guidance for long term relief"
    ]
   },
   {
@@ -122,7 +122,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "**Why Choose Complete Care – Best Physiotherapy Center in Ahmedabad**"
+   "text": "**Why Choose Complete Care, Best Physiotherapy Center in Ahmedabad**"
   },
   {
    "t": "p",
@@ -136,7 +136,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Experienced physiotherapists specializing in neck, shoulder, and TMJ conditions",
-    "One-on-one assessment and treatment sessions",
+    "one on one assessment and treatment sessions",
     "Advanced physiotherapy techniques combined with exercise therapy",
     "Customized rehabilitation plans for every patient",
     "Strong focus on education and prevention"
@@ -166,7 +166,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early physiotherapy intervention leads to faster recovery and prevents long-term complications."
+   "text": "Early physiotherapy intervention leads to faster recovery and prevents long term complications."
   },
   {
    "t": "p",

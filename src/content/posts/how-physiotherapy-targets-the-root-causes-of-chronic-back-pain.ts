@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For individuals seeking effective and long-term relief, choosing the right physiotherapy approach-and the right experts-makes all the difference. Complete Care, recognized as the **Best Physiotherapy Center in Ahmedabad**, provides advanced, evidence-based techniques to help patients recover naturally and regain mobility."
+   "text": "For individuals seeking effective and long term relief, choosing the right physiotherapy approach-and the right experts-makes all the difference. Complete Care, recognized as the **Best Physiotherapy Center in Ahmedabad**, provides advanced, evidence based techniques to help patients recover naturally and regain mobility."
   },
   {
    "t": "h2",
@@ -54,7 +54,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Here’s how physiotherapy targets root causes and delivers long-term relief from chronic back pain:"
+   "text": "Here’s how physiotherapy targets root causes and delivers long term relief from chronic back pain:"
   },
   {
    "t": "p",
@@ -86,7 +86,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Advanced manual therapy techniques—including joint mobilization, soft tissue release, trigger point therapy, and myofascial release—help reduce stiffness and enhance mobility."
+   "text": "Advanced manual therapy techniques, including joint mobilization, soft tissue release, trigger point therapy, and myofascial release, help reduce stiffness and enhance mobility."
   },
   {
    "t": "p",
@@ -107,7 +107,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These exercises are safe, guided, and scientifically structured to ensure long-term benefits."
+   "text": "These exercises are safe, guided, and scientifically structured to ensure long term benefits."
   },
   {
    "t": "h3",
@@ -122,10 +122,10 @@ export const content: PostContent = {
    "items": [
     "Detailed diagnosis",
     "Personalized therapy programs",
-    "Evidence-based treatment",
+    "evidence based treatment",
     "Proper education on posture and mechanics",
     "Lifestyle corrections",
-    "Long-term prevention strategies"
+    "long term prevention strategies"
    ]
   },
   {
@@ -154,7 +154,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "✔ **One-on-One Sessions:** Personalized attention helps achieve faster and more accurate results."
+   "text": "✔ **one on one Sessions:** Personalized attention helps achieve faster and more accurate results."
   },
   {
    "t": "p",
@@ -166,7 +166,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Whether you’re dealing with long-term back pain, stiffness, muscle imbalance, or recovering from an injury, Complete Care offers scientifically designed physiotherapy that leads to lasting results."
+   "text": "Whether you’re dealing with long term back pain, stiffness, muscle imbalance, or recovering from an injury, Complete Care offers scientifically designed physiotherapy that leads to lasting results."
   },
   {
    "t": "h3",
@@ -190,7 +190,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These long-term benefits make physiotherapy one of the safest and most effective treatments for chronic back pain."
+   "text": "These long term benefits make physiotherapy one of the safest and most effective treatments for chronic back pain."
   },
   {
    "t": "h3",
@@ -221,7 +221,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy does much more than reduce pain-it treats the root causes of chronic back pain and helps you build a healthier, stronger spine for life. For Ahmedabad residents seeking reliable relief and long-term recovery, Complete Care offers trusted **Physiotherapy Treatment for Back Pain in Ahmedabad** with experienced professionals and personalized care."
+   "text": "Physiotherapy does much more than reduce pain-it treats the root causes of chronic back pain and helps you build a healthier, stronger spine for life. For Ahmedabad residents seeking reliable relief and long term recovery, Complete Care offers trusted **Physiotherapy Treatment for Back Pain in Ahmedabad** with experienced professionals and personalized care."
   },
   {
    "t": "p",

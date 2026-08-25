@@ -16,7 +16,7 @@ export const content: LocationContent = {
  "blocks": [
   {
    "t": "p",
-   "text": "Complete care is one stop Physiotherapy center for Chiropractic Adjustment, Cupping Therapy,  Fitness, Spine-neuro Rehabilitation, Class IV Laser therapy & Non-surgical Spine Decompression Therapy."
+   "text": "Complete care is one stop Physiotherapy center for Chiropractic Adjustment, Cupping Therapy,  Fitness, Spine-neuro Rehabilitation, Class IV Laser therapy & non surgical  Spine Decompression Therapy."
   },
   {
    "t": "p",
@@ -44,7 +44,7 @@ export const content: LocationContent = {
   },
   {
    "t": "p",
-   "text": "We use the most advanced therapeutic techniques and the latest technology at Complete Care Physiotherapy Clinic to provide the best result for our patients,."
+   "text": "We use the most advanced therapeutic techniques and the latest technology at Complete Care Physiotherapy Clinic to provide the best result for our patients."
   },
   {
    "t": "img",
@@ -65,7 +65,7 @@ export const content: LocationContent = {
   },
   {
    "t": "p",
-   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post-surgical pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
+   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post surgical  pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
   },
   {
    "t": "p",

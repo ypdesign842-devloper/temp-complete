@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Back pain is one of the most common health issues affecting adults today, and it can significantly impact daily life, work, and overall well-being. Fortunately, modern approaches like **neuromuscular re-education for back pain** combined with insights from **pain science back pain treatment** are revolutionizing how patients recover and manage discomfort. If you are in Ahmedabad, understanding these **back pain management techniques** and seeking care from experts can make all the difference. **Complete Care**, recognized as the **Best Physiotherapy Center in Ahmedabad**, specializes in personalized treatment plans for lasting relief."
+   "text": "Back pain is one of the most common health issues affecting adults today, and it can significantly impact daily life, work, and overall wellbeing. Fortunately, modern approaches like **neuromuscular re-education for back pain** combined with insights from **pain science back pain treatment** are revolutionizing how patients recover and manage discomfort. If you are in Ahmedabad, understanding these **back pain management techniques** and seeking care from experts can make all the difference. **Complete Care**, recognized as the **Best Physiotherapy Center in Ahmedabad**, specializes in personalized treatment plans for lasting relief."
   },
   {
    "t": "h2",
@@ -58,12 +58,12 @@ export const content: PostContent = {
    "items": [
     "Help patients understand their pain and reduce fear-avoidance behaviors",
     "Design exercises that safely challenge the spine and muscles",
-    "Promote long-term recovery by addressing both physical and neurological aspects of pain"
+    "Promote long term recovery by addressing both physical and neurological aspects of pain"
    ]
   },
   {
    "t": "p",
-   "text": "This evidence-based approach ensures that treatment is not only effective in the short term but also prevents recurrence and enhances overall spinal health."
+   "text": "This evidence based approach ensures that treatment is not only effective in the short term but also prevents recurrence and enhances overall spinal health."
   },
   {
    "t": "h3",
@@ -120,8 +120,8 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "**Expert Team**: Skilled physiotherapists trained in the latest neuromuscular and pain science techniques",
-    "**Advanced Equipment**: State-of-the-art facilities for rehabilitation and therapy",
-    "**Patient-Centered Care**: Customized treatment plans focusing on individual goals and recovery pace",
+    "**Advanced Equipment**: state of the art facilities for rehabilitation and therapy",
+    "**patient centered Care**: Customized treatment plans focusing on individual goals and recovery pace",
     "**Proven Results**: High success rates in managing chronic and acute back pain"
    ]
   },
@@ -135,7 +135,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Back pain doesn’t have to limit your life. Integrating **neuromuscular re-education for back pain** with **pain science back pain treatment** offers a modern, evidence-based approach to recovery. Using these **back pain management techniques** under the guidance of professionals ensures lasting relief and improved function. For residents of Ahmedabad, **Complete Care**, the **[Best Physiotherapy Center in Ahmedabad](/)**, provides comprehensive, personalized physiotherapy treatment designed to restore mobility, reduce pain, and enhance quality of life."
+   "text": "Back pain doesn’t have to limit your life. Integrating **neuromuscular re-education for back pain** with **pain science back pain treatment** offers a modern, evidence based approach to recovery. Using these **back pain management techniques** under the guidance of professionals ensures lasting relief and improved function. For residents of Ahmedabad, **Complete Care**, the **[Best Physiotherapy Center in Ahmedabad](/)**, provides comprehensive, personalized physiotherapy treatment designed to restore mobility, reduce pain, and enhance quality of life."
   },
   {
    "t": "p",

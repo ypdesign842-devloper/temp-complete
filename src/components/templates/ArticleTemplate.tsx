@@ -129,7 +129,7 @@ export function ArticleTemplate({ post, content }: { post: Post; content: PostCo
               </span>
               <h2 className="text-2xl font-bold text-navy">Speak with Our Physiotherapists</h2>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Get relief from acute or chronic pain with evidence-based physiotherapy, chiropractic adjustments, and spinal decompression.
+                Get relief from acute or chronic pain with evidence based physiotherapy, chiropractic adjustments, and spinal decompression.
               </p>
 
               <div className="space-y-3 pt-2">

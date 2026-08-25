@@ -8,7 +8,7 @@ export const content: PageContent = {
  "blocks": [
   {
    "t": "p",
-   "text": "Ultrasound therapy is a widely used physiotherapy technique performed using a **ultrasound machine** with an ultrasound transducer (sound head). A small amount of gel is applied to the targeted area, and the [**best physiotherapists in Ahmedabad**](/best-physiotherapist-in-ahmedabad/) gently move the sound head in circular motions to deliver therapeutic ultrasound waves. The therapist adjusts various settings to control the depth and intensity of the waves, ensuring effective treatment at different stages of healing. This non-invasive therapy helps reduce pain, improve circulation, and accelerate recovery, making it a preferred choice for rehabilitation by expert physiotherapists in Ahmedabad."
+   "text": "Ultrasound therapy is a widely used physiotherapy technique performed using a **ultrasound machine** with an ultrasound transducer (sound head). A small amount of gel is applied to the targeted area, and the [**best physiotherapists in Ahmedabad**](/best-physiotherapist-in-ahmedabad/) gently move the sound head in circular motions to deliver therapeutic ultrasound waves. The therapist adjusts various settings to control the depth and intensity of the waves, ensuring effective treatment at different stages of healing. This non invasive therapy helps reduce pain, improve circulation, and accelerate recovery, making it a preferred choice for rehabilitation by expert physiotherapists in Ahmedabad."
   },
   {
    "t": "h2",
@@ -36,7 +36,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "The Complete Care [**Physiotherapy Center in Ahmedabad**](/) offers therapeutic ultrasound as an effective treatment for a wide range of musculoskeletal disorders. Under the competent direction of a qualified team in Therapeutic ultrasound is the use of high-frequency sound waves to penetrate deep into tissues, increasing blood circulation, lowering inflammation, and speeding up tissue recovery. This therapy is especially effective for tendonitis, bursitis, muscular strains, and ligament problems."
+   "text": "The Complete Care [**Physiotherapy Center in Ahmedabad**](/) offers therapeutic ultrasound as an effective treatment for a wide range of musculoskeletal disorders. Under the competent direction of a qualified team in Therapeutic ultrasound is the use of high frequency sound waves to penetrate deep into tissues, increasing blood circulation, lowering inflammation, and speeding up tissue recovery. This therapy is especially effective for tendonitis, bursitis, muscular strains, and ligament problems."
   }
  ],
  "quickLinks": [
@@ -58,7 +58,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

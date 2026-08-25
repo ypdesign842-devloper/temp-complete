@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Fortunately, modern physiotherapy for vertigo offers an effective, non-invasive way to address the root cause of balance problems and reduce the frequency of recurring episodes. Rather than simply controlling symptoms, physiotherapy helps retrain the body’s balance system for long-term improvement."
+   "text": "Fortunately, modern physiotherapy for vertigo offers an effective, non invasive way to address the root cause of balance problems and reduce the frequency of recurring episodes. Rather than simply controlling symptoms, physiotherapy helps retrain the body’s balance system for long term improvement."
   },
   {
    "t": "p",
@@ -55,7 +55,7 @@ export const content: PostContent = {
     "Vestibular system dysfunction",
     "Balance control issues",
     "Poor movement adaptation",
-    "Age-related balance decline",
+    "age related balance decline",
     "Previous untreated vertigo episodes"
    ]
   },
@@ -245,7 +245,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy fills this gap by focusing on long-term recovery and prevention."
+   "text": "Physiotherapy fills this gap by focusing on long term recovery and prevention."
   },
   {
    "t": "p",
@@ -302,7 +302,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Small daily improvements often contribute to better long-term outcomes."
+   "text": "Small daily improvements often contribute to better long term outcomes."
   },
   {
    "t": "h2",
@@ -353,7 +353,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Early intervention often leads to faster recovery and better long-term results."
+   "text": "Early intervention often leads to faster recovery and better long term results."
   },
   {
    "t": "h2",
@@ -369,7 +369,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you are searching for effective dizziness and balance disorder treatment or looking for long-term recurring vertigo treatment, professional physiotherapy may be the solution that helps you regain control and return to your daily activities with confidence."
+   "text": "If you are searching for effective dizziness and balance disorder treatment or looking for long term recurring vertigo treatment, professional physiotherapy may be the solution that helps you regain control and return to your daily activities with confidence."
   }
  ]
 };

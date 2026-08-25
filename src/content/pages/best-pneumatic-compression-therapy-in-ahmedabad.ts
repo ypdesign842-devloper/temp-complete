@@ -32,7 +32,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care – [**Best Physiotherapy Center in Ahmedabad**](/) offers pneumatic compression therapy as an efficient alternative for swelling management, improved circulation, and faster recovery, so patients can contribute to a higher quality of life. Our qualified physiotherapy team of physiotherapist performs therapy that includes the use of inflatable sleeves or boots that deliver intermittent pressure to the limbs, stimulating fluid mobility and reducing swelling. It is especially useful for patients with lymphedema, venous insufficiency, or post-surgical swelling."
+   "text": "Complete Care, [**Best Physiotherapy Center in Ahmedabad**](/) offers pneumatic compression therapy as an efficient alternative for swelling management, improved circulation, and faster recovery, so patients can contribute to a higher quality of life. Our qualified physiotherapy team of physiotherapist performs therapy that includes the use of inflatable sleeves or boots that deliver intermittent pressure to the limbs, stimulating fluid mobility and reducing swelling. It is especially useful for patients with lymphedema, venous insufficiency, or post surgical  swelling."
   }
  ],
  "quickLinks": [
@@ -54,7 +54,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

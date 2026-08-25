@@ -79,12 +79,12 @@ export const content: PostContent = {
     "Deep, aching pain inside the joint",
     "Stiffness, especially after rest",
     "Reduced range of motion",
-    "Pain during weight-bearing activities"
+    "Pain during weight bearing activities"
    ]
   },
   {
    "t": "p",
-   "text": "Joint pain often worsens with prolonged standing or walking, which is common in daily routines and work environments in Ahmedabad. Early intervention with **physiotherapy treatment for ankle pain in Ahmedabad** can improve mobility and prevent long-term degeneration."
+   "text": "Joint pain often worsens with prolonged standing or walking, which is common in daily routines and work environments in Ahmedabad. Early intervention with **physiotherapy treatment for ankle pain in Ahmedabad** can improve mobility and prevent long term degeneration."
   },
   {
    "t": "p",
@@ -106,7 +106,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Burning, tingling, or electric-shock sensations",
-    "Numbness or pins-and-needles feeling",
+    "Numbness or pins and needles feeling",
     "Pain that radiates up or down the foot",
     "Symptoms that worsen at night or with prolonged standing"
    ]
@@ -141,7 +141,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "| Movement Effect | Worse with activity | Worse with weight-bearing | Varies |"
+   "text": "| Movement Effect | Worse with activity | Worse with weight bearing | Varies |"
   },
   {
    "t": "p",
@@ -175,7 +175,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Addressing the root cause through professional physiotherapy prevents long-term disability and recurring pain."
+   "text": "Addressing the root cause through professional physiotherapy prevents long term disability and recurring pain."
   },
   {
    "t": "h3",
@@ -183,7 +183,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "With increasing work hours, sports participation, and lifestyle demands, ankle injuries are becoming more common. Choosing the **Best Physiotherapy Center in Ahmedabad** ensures access to skilled professionals who use evidence-based techniques to treat all **types of ankle pain**."
+   "text": "With increasing work hours, sports participation, and lifestyle demands, ankle injuries are becoming more common. Choosing the **Best Physiotherapy Center in Ahmedabad** ensures access to skilled professionals who use evidence based techniques to treat all **types of ankle pain**."
   },
   {
    "t": "p",
@@ -204,7 +204,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ankle pain should never be ignored, especially when it persists or worsens over time. Understanding the difference between tendon, joint, and nerve pain is the first step toward effective treatment. Proper identification of **tendon vs joint vs nerve ankle pain** helps address the real **causes of chronic ankle pain** and ensures long-term recovery."
+   "text": "Ankle pain should never be ignored, especially when it persists or worsens over time. Understanding the difference between tendon, joint, and nerve pain is the first step toward effective treatment. Proper identification of **tendon vs joint vs nerve ankle pain** helps address the real **causes of chronic ankle pain** and ensures long term recovery."
   },
   {
    "t": "p",

@@ -142,7 +142,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1\\. Take Movement Breaks Every 30-45 Minutes"
+   "text": "1\\. Take Movement Breaks Every 30 to 45 Minutes"
   },
   {
    "t": "p",
@@ -306,7 +306,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you are searching for the [**Best Physiotherapy Center in Ahmedabad**](/), choosing experienced professionals can speed up recovery and improve long-term spinal health."
+   "text": "If you are searching for the [**Best Physiotherapy Center in Ahmedabad**](/), choosing experienced professionals can speed up recovery and improve long term spinal health."
   },
   {
    "t": "h3",

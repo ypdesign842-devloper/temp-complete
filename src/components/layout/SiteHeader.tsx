@@ -193,7 +193,7 @@ export function SiteHeader() {
             <span className="text-white/20">|</span>
             <span className="inline-flex items-center gap-1.5 text-navy-foreground/80">
               <Clock className="size-3.5 text-leaf" />
-              <span>Mon – Sat: 8:00 AM – 8:00 PM</span>
+              <span>Mon to Sat: 8:00 AM to 8:00 PM</span>
             </span>
           </div>
 
@@ -262,10 +262,12 @@ export function SiteHeader() {
               onMouseEnter={() => handleMouseEnter("about")}
               onMouseLeave={handleMouseLeave}
             >
-              <button
-                type="button"
-                aria-expanded={activeMenu === "about"}
-                onClick={() => setActiveMenu((m) => (m === "about" ? null : "about"))}
+              <Link
+                to="/best-physiotherapy-clinic-in-ahmedabad"
+                onClick={() => {
+                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                  setActiveMenu(null);
+                }}
                 className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
                   activeMenu === "about"
                     ? "bg-sand text-accent"
@@ -278,7 +280,7 @@ export function SiteHeader() {
                     activeMenu === "about" ? "rotate-180 text-accent" : "text-muted-foreground"
                   }`}
                 />
-              </button>
+              </Link>
 
               {activeMenu === "about" && (
                 <div
@@ -311,12 +313,12 @@ export function SiteHeader() {
               onMouseEnter={() => handleMouseEnter("conditions")}
               onMouseLeave={handleMouseLeave}
             >
-              <button
-                type="button"
-                aria-expanded={activeMenu === "conditions"}
-                onClick={() =>
-                  setActiveMenu((m) => (m === "conditions" ? null : "conditions"))
-                }
+              <Link
+                to="/care-areas"
+                onClick={() => {
+                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                  setActiveMenu(null);
+                }}
                 className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
                   activeMenu === "conditions"
                     ? "bg-sand text-accent"
@@ -329,7 +331,7 @@ export function SiteHeader() {
                     activeMenu === "conditions" ? "rotate-180 text-accent" : "text-muted-foreground"
                   }`}
                 />
-              </button>
+              </Link>
 
               {activeMenu === "conditions" && (
                 <div
@@ -364,6 +366,22 @@ export function SiteHeader() {
                       </div>
                     ))}
                   </div>
+
+                  {/* Direct Link to Dedicated Care Areas Page */}
+                  <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
+                    <span className="text-xs text-muted-foreground">Looking for our complete care directory?</span>
+                    <Link
+                      to="/care-areas"
+                      onClick={() => {
+                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                        setActiveMenu(null);
+                      }}
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                    >
+                      <span>Explore All Care Areas</span>
+                      <span>&rarr;</span>
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
@@ -374,12 +392,12 @@ export function SiteHeader() {
               onMouseEnter={() => handleMouseEnter("services")}
               onMouseLeave={handleMouseLeave}
             >
-              <button
-                type="button"
-                aria-expanded={activeMenu === "services"}
-                onClick={() =>
-                  setActiveMenu((m) => (m === "services" ? null : "services"))
-                }
+              <Link
+                to="/therapies"
+                onClick={() => {
+                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                  setActiveMenu(null);
+                }}
                 className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
                   activeMenu === "services"
                     ? "bg-sand text-accent"
@@ -392,7 +410,7 @@ export function SiteHeader() {
                     activeMenu === "services" ? "rotate-180 text-accent" : "text-muted-foreground"
                   }`}
                 />
-              </button>
+              </Link>
 
               {activeMenu === "services" && (
                 <div
@@ -426,6 +444,22 @@ export function SiteHeader() {
                         </ul>
                       </div>
                     ))}
+                  </div>
+
+                  {/* Direct Link to Dedicated Therapies Page */}
+                  <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
+                    <span className="text-xs text-muted-foreground">Looking for all clinical therapies?</span>
+                    <Link
+                      to="/therapies"
+                      onClick={() => {
+                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                        setActiveMenu(null);
+                      }}
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                    >
+                      <span>Explore All Therapies</span>
+                      <span>&rarr;</span>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -466,17 +500,6 @@ export function SiteHeader() {
 
           {/* Action CTAs */}
           <div className="flex items-center gap-3">
-            {/* WhatsApp Green Icon Button */}
-            <a
-              href={site.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex size-10 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition-transform hover:scale-105"
-              aria-label="Chat with Complete Care on WhatsApp"
-            >
-              <MessageCircle className="size-5 fill-current" />
-            </a>
-
             {/* Book Consultation Button */}
             <a
               href={site.whatsapp}
@@ -520,16 +543,25 @@ export function SiteHeader() {
 
             {/* Mobile About Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
-              <button
-                type="button"
-                onClick={() => setMobileExpanded((m) => (m === "about" ? null : "about"))}
-                className="flex min-h-11 w-full items-center justify-between px-3 py-2 text-sm font-bold text-navy"
-              >
-                <span>About Us</span>
-                <span className={`text-lg transition-transform ${mobileExpanded === "about" ? "rotate-45" : ""}`}>
-                  +
-                </span>
-              </button>
+              <div className="flex min-h-11 w-full items-center justify-between px-3 py-1">
+                <Link
+                  to="/best-physiotherapy-clinic-in-ahmedabad"
+                  onClick={() => setOpen(false)}
+                  className="text-sm font-bold text-navy hover:text-accent flex-1 py-1"
+                >
+                  About Us
+                </Link>
+                <button
+                  type="button"
+                  aria-label="Toggle About Us menu"
+                  onClick={() => setMobileExpanded((m) => (m === "about" ? null : "about"))}
+                  className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
+                >
+                  <span className={`transition-transform duration-200 ${mobileExpanded === "about" ? "rotate-45" : ""}`}>
+                    +
+                  </span>
+                </button>
+              </div>
               {mobileExpanded === "about" && (
                 <div className="space-y-1 border-t border-border/60 pt-2">
                   {aboutMenu.map((item) => (
@@ -548,16 +580,25 @@ export function SiteHeader() {
 
             {/* Mobile Care Areas Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
-              <button
-                type="button"
-                onClick={() => setMobileExpanded((m) => (m === "conditions" ? null : "conditions"))}
-                className="flex min-h-11 w-full items-center justify-between px-3 py-2 text-sm font-bold text-navy"
-              >
-                <span>Care Areas</span>
-                <span className={`text-lg transition-transform ${mobileExpanded === "conditions" ? "rotate-45" : ""}`}>
-                  +
-                </span>
-              </button>
+              <div className="flex min-h-11 w-full items-center justify-between px-3 py-1">
+                <Link
+                  to="/care-areas"
+                  onClick={() => setOpen(false)}
+                  className="text-sm font-bold text-navy hover:text-accent flex-1 py-1"
+                >
+                  Care Areas
+                </Link>
+                <button
+                  type="button"
+                  aria-label="Toggle Care Areas menu"
+                  onClick={() => setMobileExpanded((m) => (m === "conditions" ? null : "conditions"))}
+                  className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
+                >
+                  <span className={`transition-transform duration-200 ${mobileExpanded === "conditions" ? "rotate-45" : ""}`}>
+                    +
+                  </span>
+                </button>
+              </div>
               {mobileExpanded === "conditions" && (
                 <div className="space-y-4 border-t border-border/60 pt-3">
                   {conditionsMegaMenu.map((col) => (
@@ -579,22 +620,40 @@ export function SiteHeader() {
                       </div>
                     </div>
                   ))}
+                  <div className="border-t border-border/60 pt-2 pl-3">
+                    <Link
+                      to="/care-areas"
+                      onClick={() => setOpen(false)}
+                      className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                    >
+                      Explore All Care Areas &rarr;
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
 
             {/* Mobile Therapies Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
-              <button
-                type="button"
-                onClick={() => setMobileExpanded((m) => (m === "services" ? null : "services"))}
-                className="flex min-h-11 w-full items-center justify-between px-3 py-2 text-sm font-bold text-navy"
-              >
-                <span>Therapies</span>
-                <span className={`text-lg transition-transform ${mobileExpanded === "services" ? "rotate-45" : ""}`}>
-                  +
-                </span>
-              </button>
+              <div className="flex min-h-11 w-full items-center justify-between px-3 py-1">
+                <Link
+                  to="/therapies"
+                  onClick={() => setOpen(false)}
+                  className="text-sm font-bold text-navy hover:text-accent flex-1 py-1"
+                >
+                  Therapies
+                </Link>
+                <button
+                  type="button"
+                  aria-label="Toggle Therapies menu"
+                  onClick={() => setMobileExpanded((m) => (m === "services" ? null : "services"))}
+                  className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
+                >
+                  <span className={`transition-transform duration-200 ${mobileExpanded === "services" ? "rotate-45" : ""}`}>
+                    +
+                  </span>
+                </button>
+              </div>
               {mobileExpanded === "services" && (
                 <div className="space-y-4 border-t border-border/60 pt-3">
                   {servicesMegaMenu.map((col) => (
@@ -616,6 +675,15 @@ export function SiteHeader() {
                       </div>
                     </div>
                   ))}
+                  <div className="border-t border-border/60 pt-2 pl-3">
+                    <Link
+                      to="/therapies"
+                      onClick={() => setOpen(false)}
+                      className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                    >
+                      Explore All Therapies &rarr;
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>

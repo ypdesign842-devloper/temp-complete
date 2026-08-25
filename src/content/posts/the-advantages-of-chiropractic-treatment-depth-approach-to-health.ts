@@ -59,7 +59,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Chiropractic treatment provides natural, non-invasive holistic care that addresses the underlying causes of suffering while encouraging long-term health and wellness. Here are several significant advantages:"
+   "text": "Chiropractic treatment provides natural, non invasive holistic care that addresses the underlying causes of suffering while encouraging long term health and wellness. Here are several significant advantages:"
   },
   {
    "t": "ul",
@@ -77,7 +77,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Chiropractic therapy is a safe, natural, and effective technique to alleviate pain, increase mobility, and improve overall health. **Complete Care** [**Best Physiotherapy Center in Ahmedabad**](/), provides competent, specialized treatments that are perfect for what you need most. Whether treating back pain, neck stiffness, or injury recovery, our expert physiotherapists use innovative techniques and patient-centered care to achieve long-lasting benefits. Take the first step toward better health by contacting our staff today and experiencing relief and increased strength!"
+   "text": "Chiropractic therapy is a safe, natural, and effective technique to alleviate pain, increase mobility, and improve overall health. **Complete Care** [**Best Physiotherapy Center in Ahmedabad**](/), provides competent, specialized treatments that are perfect for what you need most. Whether treating back pain, neck stiffness, or injury recovery, our expert physiotherapists use innovative techniques and patient centered care to achieve long-lasting benefits. Take the first step toward better health by contacting our staff today and experiencing relief and increased strength!"
   }
  ]
 };

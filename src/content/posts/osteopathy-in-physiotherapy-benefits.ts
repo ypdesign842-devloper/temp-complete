@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Musculoskeletal pain, postural issues, and movement limitations are common challenges faced by many residents of Ahmedabad. While physiotherapy has long been a trusted approach to restore mobility and reduce pain, combining it with osteopathy can provide a more holistic solution. Integrating **osteopathy in physiotherapy** ensures a comprehensive approach to musculoskeletal health, helping patients achieve faster recovery and long-term wellness."
+   "text": "Musculoskeletal pain, postural issues, and movement limitations are common challenges faced by many residents of Ahmedabad. While physiotherapy has long been a trusted approach to restore mobility and reduce pain, combining it with osteopathy can provide a more holistic solution. Integrating **osteopathy in physiotherapy** ensures a comprehensive approach to musculoskeletal health, helping patients achieve faster recovery and long term wellness."
   },
   {
    "t": "h2",
@@ -43,7 +43,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For patients in Ahmedabad seeking advanced care, centers offering **Osteopathy Treatment in Ahmedabad** alongside physiotherapy provide an integrated and patient-centered approach."
+   "text": "For patients in Ahmedabad seeking advanced care, centers offering **Osteopathy Treatment in Ahmedabad** alongside physiotherapy provide an integrated and patient centered approach."
   },
   {
    "t": "h3",
@@ -121,20 +121,20 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad is home to several advanced physiotherapy and osteopathy centers that focus on patient-centered care. When looking for the **Best Physiotherapy Center in Ahmedabad**, consider the following:"
+   "text": "Ahmedabad is home to several advanced physiotherapy and osteopathy centers that focus on patient centered care. When looking for the **Best Physiotherapy Center in Ahmedabad**, consider the following:"
   },
   {
    "t": "ul",
    "items": [
     "Experienced therapists trained in both physiotherapy and osteopathy",
     "Availability of personalized, holistic treatment plans",
-    "Patient-friendly facilities and modern rehabilitation equipment",
+    "patient friendly facilities and modern rehabilitation equipment",
     "Positive patient reviews and proven outcomes"
    ]
   },
   {
    "t": "p",
-   "text": "Centers offering [**Osteopathy Treatment in Ahmedabad**](/leading-osteopathy-treatment-in-ahmedabad/) ensure patients receive seamless care that combines manual therapy, exercise prescription, and lifestyle guidance, optimizing recovery and long-term musculoskeletal health."
+   "text": "Centers offering [**Osteopathy Treatment in Ahmedabad**](/leading-osteopathy-treatment-in-ahmedabad/) ensure patients receive seamless care that combines manual therapy, exercise prescription, and lifestyle guidance, optimizing recovery and long term musculoskeletal health."
   },
   {
    "t": "h3",
@@ -174,7 +174,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you are looking for the [**Best Physiotherapy Center in Ahmedabad**](/) offering both physiotherapy and **Osteopathy Treatment in Ahmedabad**, choosing a center with experienced professionals ensures personalized care and long-term wellness. Embrace this integrated approach to achieve a stronger, healthier body and prevent future injuries."
+   "text": "If you are looking for the [**Best Physiotherapy Center in Ahmedabad**](/) offering both physiotherapy and **Osteopathy Treatment in Ahmedabad**, choosing a center with experienced professionals ensures personalized care and long term wellness. Embrace this integrated approach to achieve a stronger, healthier body and prevent future injuries."
   }
  ]
 };

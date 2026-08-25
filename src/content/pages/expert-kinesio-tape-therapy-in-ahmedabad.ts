@@ -86,7 +86,7 @@ export const content: PageContent = {
   },
   {
    "label": "IASTM",
-   "to": "/top-instrumented-soft-tissue-mobilization-in-ahmedabad"
+   "to": "/top-instrumented-soft tissue-mobilization-in-ahmedabad"
   },
   {
    "label": "Cupping Therapy",

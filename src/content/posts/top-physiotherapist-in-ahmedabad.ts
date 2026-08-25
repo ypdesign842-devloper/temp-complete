@@ -31,7 +31,7 @@ export const content: PostContent = {
     "**Managing Chronic Pain:** Reduce chronic pain from arthritis, back pain, or fibromyalgia while improving mobility and daily function.",
     "**Preventing and treating sports injuries:** Reduce chronic pain from arthritis, back pain, or fibromyalgia while improving mobility and daily function.",
     "**Support for neurological conditions:** Reduce chronic pain from arthritis, back pain, or fibromyalgia while improving mobility and daily function.",
-    "**Assistance with Age-Related Issues:** Treat osteoporosis, stiffness, and balance difficulties in seniors to improve independence and reduce falls.",
+    "**Assistance with age related Issues:** Treat osteoporosis, stiffness, and balance difficulties in seniors to improve independence and reduce falls.",
     "**Prenatal and Postnatal Care:** Provide workouts for pregnant pain alleviation, core strength, and postpartum rehabilitation.",
     "**Posture and Workplace Health:** Treat sitting or repeated duties that cause back discomfort, neck stiffness, and carpal tunnel syndrome.",
     "**Promoting overall health and wellness:** Preventive physiotherapy can help you improve your flexibility, strength, and balance, lowering your risk of injury and chronic health issues."
@@ -47,7 +47,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Experience and Specialization:** A professional physiotherapist should have a lot of experience treating specific conditions such as sports injuries, chronic pain, and post-surgical recovery."
+   "text": "**Experience and Specialization:** A professional physiotherapist should have a lot of experience treating specific conditions such as sports injuries, chronic pain, and post surgical  recovery."
   },
   {
    "t": "p",
@@ -55,7 +55,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Their approach to treatment:** Top physiotherapists customize treatment plans for each individual, combining manual therapy, contemporary techniques, and exercise-based rehabilitation."
+   "text": "**Their approach to treatment:** Top physiotherapists customize treatment plans for each individual, combining manual therapy, contemporary techniques, and exercise based rehabilitation."
   },
   {
    "t": "p",
@@ -71,7 +71,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "All of these variables contribute to the selection of a physiotherapist who can give comprehensive, effective, and long-term outcomes."
+   "text": "All of these variables contribute to the selection of a physiotherapist who can give comprehensive, effective, and long term outcomes."
   },
   {
    "t": "h3",
@@ -79,11 +79,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Dr. Hardik Patel and Dr. Foram Patel are well-known as two of [**Ahmedabad’s top physiotherapists**](/best-physiotherapist-in-ahmedabad/). They have 15 years of experience and specialize in treating a variety of illnesses, including sports injuries, orthopedic disorders, post-surgical rehabilitation, and chronic pain management. Their clinic, Complete Care Physiotherapy, stands out for its patient-centered approach, with each treatment plan adapted to the patient’s individual needs and purposes. Dr. Hardik Patel specializes in manual therapy, dry needling, and neuro-rehabilitation, whereas Dr. Foram Patel takes a comprehensive approach to care, integrating sophisticated physiotherapy techniques with lifestyle changes to promote long-term recovery."
+   "text": "Dr. Hardik Patel and Dr. Foram Patel are well-known as two of [**Ahmedabad’s top physiotherapists**](/best-physiotherapist-in-ahmedabad/). They have 15 years of experience and specialize in treating a variety of illnesses, including sports injuries, orthopedic disorders, post surgical  rehabilitation, and chronic pain management. Their clinic, Complete Care Physiotherapy, stands out for its patient centered approach, with each treatment plan adapted to the patient’s individual needs and purposes. Dr. Hardik Patel specializes in manual therapy, dry needling, and neuro-rehabilitation, whereas Dr. Foram Patel takes a comprehensive approach to care, integrating sophisticated physiotherapy techniques with lifestyle changes to promote long term recovery."
   },
   {
    "t": "p",
-   "text": "Their commitment to combining current technologies with traditional methods ensures that patients receive the finest possible care for increased mobility, pain alleviation, and general well-being."
+   "text": "Their commitment to combining current technologies with traditional methods ensures that patients receive the finest possible care for increased mobility, pain alleviation, and general wellbeing."
   },
   {
    "t": "h3",
@@ -91,7 +91,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care is the [**best physiotherapy center in Ahmedabad**](/), known for its expert treatment and patient-centered approach. With four ideally situated branches in Thaltej, Nikol, Gota, and South Bopal, it offers convenient access to high-quality physiotherapy services throughout the city. Dr. Hardik Patel and Dr. Foram Patel developed and led the clinic, which specializes in treating a variety of problems such as sports injuries, post-surgical rehabilitation, chronic pain, and orthopedic issues. Using modern approaches including manual therapy, dry needling, and advanced rehabilitation procedures."
+   "text": "Complete Care is the [**best physiotherapy center in Ahmedabad**](/), known for its expert treatment and patient centered approach. With four ideally situated branches in Thaltej, Nikol, Gota, and South Bopal, it offers convenient access to hig quality physiotherapy services throughout the city. Dr. Hardik Patel and Dr. Foram Patel developed and led the clinic, which specializes in treating a variety of problems such as sports injuries, post surgical  rehabilitation, chronic pain, and orthopedic issues. Using modern approaches including manual therapy, dry needling, and advanced rehabilitation procedures."
   }
  ]
 };

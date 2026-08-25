@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The good news? Physiotherapy offers a proven, non-invasive solution. If you’re searching for **[effective neck pain treatment with physiotherapy](/neck-pain-treatment-doctor-in-ahmedabad/)**, this guide will walk you through the techniques that actually work, along with the **best exercises for neck pain physiotherapy** experts recommend."
+   "text": "The good news? Physiotherapy offers a proven, non invasive solution. If you’re searching for **[effective neck pain treatment with physiotherapy](/neck-pain-treatment-doctor-in-ahmedabad/)**, this guide will walk you through the techniques that actually work, along with the **best exercises for neck pain physiotherapy** experts recommend."
   },
   {
    "t": "h2",
@@ -41,7 +41,7 @@ export const content: PostContent = {
    "items": [
     "**Poor Posture** (especially “tech neck” from smartphones and laptops)",
     "**Muscle Strain** due to long sitting hours",
-    "**Cervical Spondylosis** (age-related wear and tear)",
+    "**Cervical Spondylosis** (age related wear and tear)",
     "**Stress & Tension** leading to tight neck muscles",
     "**Injuries** such as whiplash or sudden jerks"
    ]
@@ -162,7 +162,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Tilt your head toward one shoulder",
-    "Hold for 15–20 seconds",
+    "Hold for 15 to 20 seconds",
     "Repeat on the other side"
    ]
   },
@@ -208,7 +208,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Squeeze your shoulder blades together",
-    "Hold for 5–10 seconds"
+    "Hold for 5 to 10 seconds"
    ]
   },
   {
@@ -271,7 +271,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Maintain proper screen height (eye level)",
-    "Take breaks every 30-45 minutes while working",
+    "Take breaks every 30 to 45 minutes while working",
     "Use an ergonomic chair and pillow",
     "Avoid holding your phone between your ear and shoulder",
     "Practice regular stretching"

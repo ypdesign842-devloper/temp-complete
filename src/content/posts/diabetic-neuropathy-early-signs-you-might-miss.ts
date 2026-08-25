@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Diabetic neuropathy is one of the most common complications of diabetes, yet it often goes unnoticed in its early stages. Recognizing the **early signs of diabetic neuropathy** is crucial to prevent long-term nerve damage and maintain a healthy, active lifestyle-especially for individuals in Ahmedabad where lifestyle-related diabetes is on the rise."
+   "text": "Diabetic neuropathy is one of the most common complications of diabetes, yet it often goes unnoticed in its early stages. Recognizing the **early signs of diabetic neuropathy** is crucial to prevent long term nerve damage and maintain a healthy, active lifestyle-especially for individuals in Ahmedabad where lifestyle-related diabetes is on the rise."
   },
   {
    "t": "h2",
@@ -123,7 +123,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is one of the most effective non-invasive approaches for managing diabetic neuropathy."
+   "text": "Physiotherapy is one of the most effective non invasive approaches for managing diabetic neuropathy."
   },
   {
    "t": "h3",
@@ -144,7 +144,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "**Why Choose Complete Care – Best Physiotherapy Center in Ahmedabad?**"
+   "text": "**Why Choose Complete Care, Best Physiotherapy Center in Ahmedabad?**"
   },
   {
    "t": "p",
@@ -160,7 +160,7 @@ export const content: PostContent = {
     "**Experienced Physiotherapists:** Skilled in treating nerve-related conditions",
     "**Personalized Treatment Plans:** Tailored to individual patient needs",
     "**Advanced Equipment:** Modern techniques for effective recovery",
-    "**Holistic Approach:** Focus on long-term health and prevention"
+    "**Holistic Approach:** Focus on long term health and prevention"
    ]
   },
   {
@@ -199,7 +199,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you notice any **diabetic neuropathy symptoms warning signs**, don’t delay seeking professional help. Opting for expert **Diabetic Neuropathy Treatment in Ahmedabad** at the **Best Physiotherapy Center in Ahmedabad**, like Complete Care, ensures you receive the right support for recovery and long-term wellness."
+   "text": "If you notice any **diabetic neuropathy symptoms warning signs**, don’t delay seeking professional help. Opting for expert **Diabetic Neuropathy Treatment in Ahmedabad** at the **Best Physiotherapy Center in Ahmedabad**, like Complete Care, ensures you receive the right support for recovery and long term wellness."
   },
   {
    "t": "p",

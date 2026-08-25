@@ -143,7 +143,7 @@ export function BlogCard({ post }: { post: Post }) {
           </h3>
 
           <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
-            {post.excerpt ?? "Evidence-based physiotherapy and recovery guidance from Complete Care clinicians."}
+            {post.excerpt ?? "Evidence based physiotherapy and recovery guidance from Complete Care clinicians."}
           </p>
         </div>
       </div>

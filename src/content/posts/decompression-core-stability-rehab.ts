@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In today’s fast-paced world, spinal injuries, back pain, and postural issues are increasingly common. Residents of Ahmedabad are now prioritizing rehabilitation methods that not only relieve pain but also strengthen the body to prevent future injuries. One of the most effective approaches is **rehabilitation with core and decompression**, which combines **spinal decompression therapy** with targeted **core stability exercises for rehab**."
+   "text": "In today’s fast paced world, spinal injuries, back pain, and postural issues are increasingly common. Residents of Ahmedabad are now prioritizing rehabilitation methods that not only relieve pain but also strengthen the body to prevent future injuries. One of the most effective approaches is **rehabilitation with core and decompression**, which combines **spinal decompression therapy** with targeted **core stability exercises for rehab**."
   },
   {
    "t": "p",
@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Spinal decompression therapy** is a non-surgical, drug-free treatment designed to relieve pressure on the spinal discs. This therapy gently stretches the spine, creating negative pressure that encourages proper alignment and promotes the movement of nutrients into the discs."
+   "text": "**Spinal decompression therapy** is a non surgical, drug-free treatment designed to relieve pressure on the spinal discs. This therapy gently stretches the spine, creating negative pressure that encourages proper alignment and promotes the movement of nutrients into the discs."
   },
   {
    "t": "p",
@@ -97,7 +97,7 @@ export const content: PostContent = {
    "items": [
     "Individuals recovering from herniated discs or spinal surgery.",
     "People with chronic back or neck pain.",
-    "Athletes and office workers with posture-related issues."
+    "Athletes and office workers with posture related issues."
    ]
   },
   {
@@ -106,7 +106,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad has many clinics, but **Complete Care** stands out as the **[Best Physiotherapy Center in Ahmedabad](/)** because of our patient-centered approach:"
+   "text": "Ahmedabad has many clinics, but **Complete Care** stands out as the **[Best Physiotherapy Center in Ahmedabad](/)** because of our patient centered approach:"
   },
   {
    "t": "p",
@@ -114,7 +114,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "2. **Advanced Equipment:** We use state-of-the-art devices for **spinal decompression therapy** and functional rehabilitation."
+   "text": "2. **Advanced Equipment:** We use state of the art devices for **spinal decompression therapy** and functional rehabilitation."
   },
   {
    "t": "p",
@@ -122,11 +122,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "4. **Holistic Recovery:** Combining decompression, core exercises, and lifestyle guidance for long-term health."
+   "text": "4. **Holistic Recovery:** Combining decompression, core exercises, and lifestyle guidance for long term health."
   },
   {
    "t": "p",
-   "text": "Patients across Ahmedabad, from the busy areas of CG Road to residential sectors like Bopal and Satellite, trust **Complete Care** for effective, non-invasive rehab solutions."
+   "text": "Patients across Ahmedabad, from the busy areas of CG Road to residential sectors like Bopal and Satellite, trust **Complete Care** for effective, non invasive rehab solutions."
   },
   {
    "t": "h3",
@@ -155,7 +155,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Combining **spinal decompression therapy** with **core stability exercises for rehab** represents the gold standard for non-surgical spinal care. Residents seeking **rehabilitation with core and decompression** in Ahmedabad can rely on **Complete Care, the Best Physiotherapy Center in Ahmedabad**, for expert guidance, advanced equipment, and a patient-centered approach that ensures long-term wellness."
+   "text": "Combining **spinal decompression therapy** with **core stability exercises for rehab** represents the gold standard for non surgical  spinal care. Residents seeking **rehabilitation with core and decompression** in Ahmedabad can rely on **Complete Care, the Best Physiotherapy Center in Ahmedabad**, for expert guidance, advanced equipment, and a patient centered approach that ensures long term wellness."
   },
   {
    "t": "p",

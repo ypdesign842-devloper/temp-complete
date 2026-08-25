@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "tecar-physiotherapy-treatment-in-ahmedabad",
  "h1": "Tecar Physiotherapy Treatment in Ahmedabad",
- "lead": "Tecar therapy uses an advanced Tecar therapy machine that delivers high-frequency electrical energy to targeted body tissues for effective pain relief and faster healing. The Tecar therapy machine works by stimulating natural biological processes, helping to improve blood circulation, boost cellular metabolism, and accelerate tissue repair. Unlike conventional physiotherapy modalities, this machine-based therapy acts from within the tissues, making it highly effective for both acute and chronic conditions. In physiotherapy practice, the Tecar therapy machine is often used alongside manual therapy and therapeutic exercises to enhance treatment outcomes. It is non-invasive, comfortable for patients, and well suited for treating musculoskeletal conditions and sports-related injuries.",
+ "lead": "Tecar therapy uses an advanced Tecar therapy machine that delivers high frequency electrical energy to targeted body tissues for effective pain relief and faster healing. The Tecar therapy machine works by stimulating natural biological processes, helping to improve blood circulation, boost cellular metabolism, and accelerate tissue repair. Unlike conventional physiotherapy modalities, this machine-based therapy acts from within the tissues, making it highly effective for both acute and chronic conditions. In physiotherapy practice, the Tecar therapy machine is often used alongside manual therapy and therapeutic exercises to enhance treatment outcomes. It is non invasive, comfortable for patients, and well suited for treating musculoskeletal conditions and sports related injuries.",
  "hero": "/assets/treatments/Tecar-Physiotherapy-Treatment.png",
  "blocks": [
   {
@@ -42,7 +42,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Tecar therapy is used in Ahmedabad physiotherapy clinics to treat a wide range of orthopedic, neurological, and sports-related conditions. It is effective for both acute injuries and long-standing chronic pain problems."
+   "text": "Tecar therapy is used in Ahmedabad physiotherapy clinics to treat a wide range of orthopedic, neurological, and sports related conditions. It is effective for both acute injuries and long-standing chronic pain problems."
   },
   {
    "t": "h3",
@@ -55,7 +55,7 @@ export const content: PageContent = {
     "Knee pain, shoulder pain, and joint stiffness",
     "Sports injuries like muscle strains and ligament tears",
     "Tendinitis, plantar fasciitis, and tennis elbow",
-    "Post-surgical rehabilitation and injury recovery"
+    "post surgical  rehabilitation and injury recovery"
    ]
   },
   {
@@ -68,7 +68,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care offers advanced Tecar physiotherapy treatment in Ahmedabad with a strong focus on personalized and result-oriented care. Our experienced physiotherapists use the latest Tecar technology to provide effective pain relief, faster healing, and improved mobility. Each treatment plan is customized based on individual assessment, ensuring safe and optimal recovery. We combine Tecar therapy with manual techniques and therapeutic exercises for long-term results. With modern facilities, patient-centered care, and proven clinical expertise, Complete Care is a trusted choice for high-quality [physiotherapy treatments in Ahmedabad](/)."
+   "text": "Complete Care offers advanced Tecar physiotherapy treatment in Ahmedabad with a strong focus on personalized and result-oriented care. Our experienced physiotherapists use the latest Tecar technology to provide effective pain relief, faster healing, and improved mobility. Each treatment plan is customized based on individual assessment, ensuring safe and optimal recovery. We combine Tecar therapy with manual techniques and therapeutic exercises for long term results. With modern facilities, patient centered care, and proven clinical expertise, Complete Care is a trusted choice for hig quality [physiotherapy treatments in Ahmedabad](/)."
   },
   {
    "t": "h3",

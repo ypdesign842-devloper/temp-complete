@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "best-cupping-therapy-in-ahmedabad",
  "h1": "Cupping Therapy Treatment​ Ahmedabad",
- "lead": "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction. People get it for many purposes, including to help with pain, inflammation, blood flow, relaxation and well-being, and as a type of deep-tissue massage.",
+ "lead": "Cupping therapy is an ancient form of alternative medicine in which a therapist puts special cups on your skin for a few minutes to create suction. People get it for many purposes, including to help with pain, inflammation, blood flow, relaxation and wellbeing, and as a type of deep-tissue massage.",
  "hero": "/assets/treatments/Cupping-Therapy-1.webp",
  "blocks": [
   {
@@ -48,7 +48,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Cupping therapy is a popular alternative treatment that helps relieve muscle tension, improve blood circulation, and promote healing. This ancient therapy involves placing suction cups on the skin to create a vacuum effect, reducing pain and inflammation. If you’re looking for professional cupping therapy treatment in Ahmedabad, visiting a reputable [**physiotherapy center in Ahmedabad**](/) can ensure safe and effective treatment. Expert physiotherapists use cupping therapy to address conditions like back pain, migraines, and sports injuries. With personalized care and modern techniques, Ahmedabad’s physiotherapy centers provide holistic healing solutions to enhance overall well-being."
+   "text": "Cupping therapy is a popular alternative treatment that helps relieve muscle tension, improve blood circulation, and promote healing. This ancient therapy involves placing suction cups on the skin to create a vacuum effect, reducing pain and inflammation. If you’re looking for professional cupping therapy treatment in Ahmedabad, visiting a reputable [**physiotherapy center in Ahmedabad**](/) can ensure safe and effective treatment. Expert physiotherapists use cupping therapy to address conditions like back pain, migraines, and sports injuries. With personalized care and modern techniques, Ahmedabad’s physiotherapy centers provide holistic healing solutions to enhance overall wellbeing."
   }
  ],
  "quickLinks": [
@@ -74,7 +74,7 @@ export const content: PageContent = {
   },
   {
    "label": "IASTM",
-   "to": "/top-instrumented-soft-tissue-mobilization-in-ahmedabad"
+   "to": "/top-instrumented-soft tissue-mobilization-in-ahmedabad"
   },
   {
    "label": "Cupping Therapy",

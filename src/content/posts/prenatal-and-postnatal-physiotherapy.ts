@@ -62,11 +62,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Restoring Core Strength:** After delivery, the abdominal muscles, especially the rectus abdominis, may become weak or separate (diastasis recti). Physiotherapy includes core-strengthening exercises to restore stability and prevent long-term issues."
+   "text": "1. **Restoring Core Strength:** After delivery, the abdominal muscles, especially the rectus abdominis, may become weak or separate (diastasis recti). Physiotherapy includes core-strengthening exercises to restore stability and prevent long term issues."
   },
   {
    "t": "p",
-   "text": "2. **Pelvic Floor Rehabilitation:** Postpartum pelvic floor weakness can lead to urinary incontinence and discomfort. Physiotherapists provide targeted exercises to strengthen these muscles, improving bladder control and overall well-being."
+   "text": "2. **Pelvic Floor Rehabilitation:** Postpartum pelvic floor weakness can lead to urinary incontinence and discomfort. Physiotherapists provide targeted exercises to strengthen these muscles, improving bladder control and overall wellbeing."
   },
   {
    "t": "p",
@@ -78,7 +78,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "5. **Emotional and Physical Well-Being:** Physiotherapy not only supports physical recovery but also helps in reducing postpartum anxiety and depression. Gentle exercises and relaxation techniques promote overall mental wellness."
+   "text": "5. **Emotional and Physical wellbeing:** Physiotherapy not only supports physical recovery but also helps in reducing postpartum anxiety and depression. Gentle exercises and relaxation techniques promote overall mental wellness."
   },
   {
    "t": "h3",
@@ -86,11 +86,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care is a [**Physiotherapy center**](/) who specialises in Maternal Care and Chiropractic Adjustment. It also offers Cupping Therapy, Spine-Neuro Rehabilitation, Class IV Laser Therapy, and Non-Surgical Spine Decompression Therapy."
+   "text": "Complete Care is a [**Physiotherapy center**](/) who specialises in Maternal Care and Chiropractic Adjustment. It also offers Cupping Therapy, Spine-Neuro Rehabilitation, Class IV Laser Therapy, and non surgical  Spine Decompression Therapy."
   },
   {
    "t": "p",
-   "text": "With experienced team members they provide personalized care to the new mothers, ensuring comfort, pain relief, and overall well-being throughout their journey."
+   "text": "With experienced team members they provide personalized care to the new mothers, ensuring comfort, pain relief, and overall wellbeing throughout their journey."
   },
   {
    "t": "p",
@@ -111,11 +111,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Pregnancy and postpartum recovery can be challenging, but **physiotherapy for pregnant women** provides the support needed for a smooth journey. From pain management to strengthening the pelvic floor, **physiotherapy in pregnancy** ensures a healthier, more comfortable experience. Postnatal physiotherapy helps mothers recover efficiently, regain strength, and prevent long-term complications."
+   "text": "Pregnancy and postpartum recovery can be challenging, but **physiotherapy for pregnant women** provides the support needed for a smooth journey. From pain management to strengthening the pelvic floor, **physiotherapy in pregnancy** ensures a healthier, more comfortable experience. Postnatal physiotherapy helps mothers recover efficiently, regain strength, and prevent long term complications."
   },
   {
    "t": "p",
-   "text": "To ensure the best care, find the **best physiotherapy center** that specializes in maternal health and supports both prenatal and postnatal well-being. A healthy mother leads to a happy baby, making physiotherapy an essential part of motherhood."
+   "text": "To ensure the best care, find the **best physiotherapy center** that specializes in maternal health and supports both prenatal and postnatal wellbeing. A healthy mother leads to a happy baby, making physiotherapy an essential part of motherhood."
   }
  ]
 };

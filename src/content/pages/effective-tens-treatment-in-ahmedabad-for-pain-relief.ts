@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "effective-tens-treatment-in-ahmedabad-for-pain-relief",
  "h1": "TENS Physiotherapy Treatment Ahmedabad",
- "lead": "Transcutaneous Electrical Nerve Stimulation (TENS) therapy is a popular method for pain relief that uses low-voltage electrical currents to stimulate sensory nerves. TENS therapy in physiotherapy is commonly used to manage musculoskeletal pain, including back pain, arthritis, and joint issues. It works by activating the pain gate mechanism and stimulating the body’s natural opioid system to reduce discomfort.",
+ "lead": "Transcutaneous Electrical Nerve Stimulation (TENS) therapy is a popular method for pain relief that uses low voltage electrical currents to stimulate sensory nerves. TENS therapy in physiotherapy is commonly used to manage musculoskeletal pain, including back pain, arthritis, and joint issues. It works by activating the pain gate mechanism and stimulating the body’s natural opioid system to reduce discomfort.",
  "hero": "/assets/treatments/TENs.webp",
  "blocks": [
   {
@@ -68,7 +68,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care – [**Best Physiotherapy Center in Ahmedabad**](/) provides Transcutaneous Electrical Nerve Stimulation (TENS) therapy as an effective pain management solution under the expert guidance of the clinic’s qualified team. TENS stimulates nerves with low-voltage electrical currents, which helps reduce pain signals transmitted to the brain while increasing endorphin production, the body’s natural painkiller."
+   "text": "Complete Care, [**Best Physiotherapy Center in Ahmedabad**](/) provides Transcutaneous Electrical Nerve Stimulation (TENS) therapy as an effective pain management solution under the expert guidance of the clinic’s qualified team. TENS stimulates nerves with low voltage electrical currents, which helps reduce pain signals transmitted to the brain while increasing endorphin production, the body’s natural painkiller."
   }
  ],
  "quickLinks": [
@@ -90,7 +90,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Tennis elbow, known medically as lateral epicondylitis, is a condition that develops from overusing the muscles in the forearm and arm. While it’s often linked to tennis players, it actually affects many people who do repeated hand or arm movements, such as typing, painting, lifting objects, or gardening. The pain typically appears on the outer part of the elbow and can interfere with simple daily activities. Thankfully, physiotherapy offers a highly effective and non-surgical approach to managing and recovering from tennis elbow, focusing on easing pain, improving strength, and restoring normal function."
+   "text": "Tennis elbow, known medically as lateral epicondylitis, is a condition that develops from overusing the muscles in the forearm and arm. While it’s often linked to tennis players, it actually affects many people who do repeated hand or arm movements, such as typing, painting, lifting objects, or gardening. The pain typically appears on the outer part of the elbow and can interfere with simple daily activities. Thankfully, physiotherapy offers a highly effective and non surgical  approach to managing and recovering from tennis elbow, focusing on easing pain, improving strength, and restoring normal function."
   },
   {
    "t": "p",

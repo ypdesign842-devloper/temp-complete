@@ -7,9 +7,9 @@ export const Route = createFileRoute("/slipped-herniated-disc-physiotherapy-trea
   head: () => ({
     meta: [
       { title: "Slipped Disc Physiotherapy Treatment in Ahmedabad | Complete Care" },
-      { name: "description", content: "Non-surgical treatment for slipped and herniated discs in Ahmedabad with US-FDA approved computerised spine decompression and graded core rehabilitation." },
+      { name: "description", content: "non surgical  treatment for slipped and herniated discs in Ahmedabad with US-FDA approved computerised spine decompression and graded core rehabilitation." },
       { property: "og:title", content: "Slipped Disc Physiotherapy Treatment in Ahmedabad | Complete Care" },
-      { property: "og:description", content: "Non-surgical treatment for slipped and herniated discs in Ahmedabad with US-FDA approved computerised spine decompression and graded core rehabilitation." },
+      { property: "og:description", content: "non surgical  treatment for slipped and herniated discs in Ahmedabad with US-FDA approved computerised spine decompression and graded core rehabilitation." },
     ],
   }),
   component: () => <ContentTemplate data={page("slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad")} content={content} />,

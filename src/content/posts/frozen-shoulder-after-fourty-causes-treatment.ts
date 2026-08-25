@@ -49,7 +49,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Many patients initially ignore these symptoms, assuming they are temporary muscle strain or age-related discomfort."
+   "text": "Many patients initially ignore these symptoms, assuming they are temporary muscle strain or age related discomfort."
   },
   {
    "t": "h2",
@@ -126,7 +126,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This is why many diabetic patients require specialized **shoulder stiffness treatment** for long-term relief."
+   "text": "This is why many diabetic patients require specialized **shoulder stiffness treatment** for long term relief."
   },
   {
    "t": "p",
@@ -252,7 +252,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the most effective ways to manage this condition is through **physiotherapy for frozen shoulder**. Early physiotherapy can improve movement, reduce pain, and prevent long-term complications."
+   "text": "One of the most effective ways to manage this condition is through **physiotherapy for frozen shoulder**. Early physiotherapy can improve movement, reduce pain, and prevent long term complications."
   },
   {
    "t": "h3",
@@ -330,7 +330,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These methods make **physiotherapy for frozen shoulder** highly effective for non-surgical recovery."
+   "text": "These methods make **physiotherapy for frozen shoulder** highly effective for non surgical  recovery."
   },
   {
    "t": "h2",

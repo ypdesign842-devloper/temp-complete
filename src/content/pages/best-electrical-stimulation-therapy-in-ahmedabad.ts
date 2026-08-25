@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "best-electrical-stimulation-therapy-in-ahmedabad",
  "h1": "Electrical Stimulation Therapy in Ahmedabad",
- "lead": "Electrical stimulation treatment in Ahmedabad is a highly effective physiotherapy technique used to relieve pain, enhance muscle function, and accelerate recovery. This therapy works by delivering controlled electrical impulses to targeted muscles and nerves, improving circulation and reducing discomfort. It is particularly beneficial for conditions such as muscle weakness, nerve damage, and post-surgical rehabilitation. Leading physiotherapy centers in Ahmedabad offer advanced electrical stimulation treatments tailored to individual needs. With expert care and state-of-the-art technology, patients receive safe and effective therapy to support their healing process, making Ahmedabad a hub for quality electrical stimulation treatment.",
+ "lead": "Electrical stimulation treatment in Ahmedabad is a highly effective physiotherapy technique used to relieve pain, enhance muscle function, and accelerate recovery. This therapy works by delivering controlled electrical impulses to targeted muscles and nerves, improving circulation and reducing discomfort. It is particularly beneficial for conditions such as muscle weakness, nerve damage, and post surgical  rehabilitation. Leading physiotherapy centers in Ahmedabad offer advanced electrical stimulation treatments tailored to individual needs. With expert care and state of the art technology, patients receive safe and effective therapy to support their healing process, making Ahmedabad a hub for quality electrical stimulation treatment.",
  "hero": "/assets/treatments/Electrical-Stimulation.webp",
  "blocks": [
   {
@@ -27,7 +27,7 @@ export const content: PageContent = {
    "t": "ul",
    "items": [
     "Low back pain",
-    "Post-surgical pain",
+    "post surgical  pain",
     "For muscle weakness or poor motor control",
     "Tendonitis",
     "Bursitis",
@@ -95,7 +95,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

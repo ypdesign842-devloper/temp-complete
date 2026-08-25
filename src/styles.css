@@ -6,13 +6,13 @@
 
 /*
  * Complete Care Luxury Healthcare & Physiotherapy Design System.
- * Deep clinical navy base, Complete Care emerald/leaf green for high-impact actions,
+ * Deep clinical navy base, Complete Care emerald/leaf green for hig impact actions,
  * clinical teal for data/stats highlights, warm ivory/sand reading surfaces.
  */
 
 @theme inline {
-  --font-display: "Fraunces", ui-serif, Georgia, serif;
-  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "DM Serif Display", ui-serif, Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -197,9 +197,8 @@
   h3,
   h4 {
     font-family: var(--font-display);
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    font-variation-settings: "SOFT" 0, "WONK" 0;
+    font-weight: 400;
+    letter-spacing: -0.015em;
   }
 }
 

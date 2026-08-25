@@ -39,6 +39,7 @@ import { Route as BestPneumaticCompressionTherapyInAhmedabadRouteImport } from '
 import { Route as BestPowerYogaClassesAhmedabadRouteImport } from './routes/best-power-yoga-classes-ahmedabad'
 import { Route as BlogsRouteImport } from './routes/blogs'
 import { Route as BoneStrengthPhysiotherapyForOsteoporosisRouteImport } from './routes/bone-strength-physiotherapy-for-osteoporosis'
+import { Route as CareAreasRouteImport } from './routes/care-areas'
 import { Route as CerebralPalsyPhysiotherapyWalkingRouteImport } from './routes/cerebral-palsy-physiotherapy-walking'
 import { Route as CerebralPalsyTreatmentInAhmedabadRouteImport } from './routes/cerebral-palsy-treatment-in-ahmedabad'
 import { Route as CertificationsRouteImport } from './routes/certifications'
@@ -147,6 +148,7 @@ import { Route as TecarTherapyMuscleLigamentRecoveryRouteImport } from './routes
 import { Route as TennisElbowTreatmentDoctorInAhmedabadRouteImport } from './routes/tennis-elbow-treatment-doctor-in-ahmedabad'
 import { Route as TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRouteImport } from './routes/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
 import { Route as TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRouteImport } from './routes/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
+import { Route as TherapiesRouteImport } from './routes/therapies'
 import { Route as ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRouteImport } from './routes/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
 import { Route as TopDryNeedlingTherapyServicesInAhmedabadRouteImport } from './routes/top-dry-needling-therapy-services-in-ahmedabad'
 import { Route as TopFitnessCentreCoursesInAhmedabadRouteImport } from './routes/top-fitness-centre-courses-in-ahmedabad'
@@ -349,6 +351,11 @@ const BoneStrengthPhysiotherapyForOsteoporosisRoute =
     path: '/bone-strength-physiotherapy-for-osteoporosis',
     getParentRoute: () => rootRouteImport,
   } as any)
+const CareAreasRoute = CareAreasRouteImport.update({
+  id: '/care-areas',
+  path: '/care-areas',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CerebralPalsyPhysiotherapyWalkingRoute =
   CerebralPalsyPhysiotherapyWalkingRouteImport.update({
     id: '/cerebral-palsy-physiotherapy-walking',
@@ -994,6 +1001,11 @@ const TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute =
     path: '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy',
     getParentRoute: () => rootRouteImport,
   } as any)
+const TherapiesRoute = TherapiesRouteImport.update({
+  id: '/therapies',
+  path: '/therapies',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute =
   ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRouteImport.update({
     id: '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad',
@@ -1161,6 +1173,7 @@ export interface FileRoutesByFullPath {
   '/best-power-yoga-classes-ahmedabad': typeof BestPowerYogaClassesAhmedabadRoute
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
+  '/care-areas': typeof CareAreasRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1269,6 +1282,7 @@ export interface FileRoutesByFullPath {
   '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
+  '/therapies': typeof TherapiesRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
   '/top-dry-needling-therapy-services-in-ahmedabad': typeof TopDryNeedlingTherapyServicesInAhmedabadRoute
   '/top-fitness-centre-courses-in-ahmedabad': typeof TopFitnessCentreCoursesInAhmedabadRoute
@@ -1324,6 +1338,7 @@ export interface FileRoutesByTo {
   '/best-power-yoga-classes-ahmedabad': typeof BestPowerYogaClassesAhmedabadRoute
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
+  '/care-areas': typeof CareAreasRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1432,6 +1447,7 @@ export interface FileRoutesByTo {
   '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
+  '/therapies': typeof TherapiesRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
   '/top-dry-needling-therapy-services-in-ahmedabad': typeof TopDryNeedlingTherapyServicesInAhmedabadRoute
   '/top-fitness-centre-courses-in-ahmedabad': typeof TopFitnessCentreCoursesInAhmedabadRoute
@@ -1488,6 +1504,7 @@ export interface FileRoutesById {
   '/best-power-yoga-classes-ahmedabad': typeof BestPowerYogaClassesAhmedabadRoute
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
+  '/care-areas': typeof CareAreasRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1596,6 +1613,7 @@ export interface FileRoutesById {
   '/tennis-elbow-treatment-doctor-in-ahmedabad': typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   '/the-advantages-of-chiropractic-treatment-depth-approach-to-health': typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy': typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
+  '/therapies': typeof TherapiesRoute
   '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
   '/top-dry-needling-therapy-services-in-ahmedabad': typeof TopDryNeedlingTherapyServicesInAhmedabadRoute
   '/top-fitness-centre-courses-in-ahmedabad': typeof TopFitnessCentreCoursesInAhmedabadRoute
@@ -1653,6 +1671,7 @@ export interface FileRouteTypes {
     | '/best-power-yoga-classes-ahmedabad'
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
+    | '/care-areas'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -1761,6 +1780,7 @@ export interface FileRouteTypes {
     | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
+    | '/therapies'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
     | '/top-dry-needling-therapy-services-in-ahmedabad'
     | '/top-fitness-centre-courses-in-ahmedabad'
@@ -1816,6 +1836,7 @@ export interface FileRouteTypes {
     | '/best-power-yoga-classes-ahmedabad'
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
+    | '/care-areas'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -1924,6 +1945,7 @@ export interface FileRouteTypes {
     | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
+    | '/therapies'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
     | '/top-dry-needling-therapy-services-in-ahmedabad'
     | '/top-fitness-centre-courses-in-ahmedabad'
@@ -1979,6 +2001,7 @@ export interface FileRouteTypes {
     | '/best-power-yoga-classes-ahmedabad'
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
+    | '/care-areas'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -2087,6 +2110,7 @@ export interface FileRouteTypes {
     | '/tennis-elbow-treatment-doctor-in-ahmedabad'
     | '/the-advantages-of-chiropractic-treatment-depth-approach-to-health'
     | '/therapeutic-stretching-vs-general-flexibility-in-physiotherapy'
+    | '/therapies'
     | '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
     | '/top-dry-needling-therapy-services-in-ahmedabad'
     | '/top-fitness-centre-courses-in-ahmedabad'
@@ -2143,6 +2167,7 @@ export interface RootRouteChildren {
   BestPowerYogaClassesAhmedabadRoute: typeof BestPowerYogaClassesAhmedabadRoute
   BlogsRoute: typeof BlogsRoute
   BoneStrengthPhysiotherapyForOsteoporosisRoute: typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
+  CareAreasRoute: typeof CareAreasRoute
   CerebralPalsyPhysiotherapyWalkingRoute: typeof CerebralPalsyPhysiotherapyWalkingRoute
   CerebralPalsyTreatmentInAhmedabadRoute: typeof CerebralPalsyTreatmentInAhmedabadRoute
   CertificationsRoute: typeof CertificationsRoute
@@ -2251,6 +2276,7 @@ export interface RootRouteChildren {
   TennisElbowTreatmentDoctorInAhmedabadRoute: typeof TennisElbowTreatmentDoctorInAhmedabadRoute
   TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute: typeof TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute
   TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute: typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute
+  TherapiesRoute: typeof TherapiesRoute
   ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute: typeof ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute
   TopDryNeedlingTherapyServicesInAhmedabadRoute: typeof TopDryNeedlingTherapyServicesInAhmedabadRoute
   TopFitnessCentreCoursesInAhmedabadRoute: typeof TopFitnessCentreCoursesInAhmedabadRoute
@@ -2486,6 +2512,13 @@ declare module '@tanstack/react-router' {
       path: '/bone-strength-physiotherapy-for-osteoporosis'
       fullPath: '/bone-strength-physiotherapy-for-osteoporosis'
       preLoaderRoute: typeof BoneStrengthPhysiotherapyForOsteoporosisRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/care-areas': {
+      id: '/care-areas'
+      path: '/care-areas'
+      fullPath: '/care-areas'
+      preLoaderRoute: typeof CareAreasRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cerebral-palsy-physiotherapy-walking': {
@@ -3244,6 +3277,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/therapies': {
+      id: '/therapies'
+      path: '/therapies'
+      fullPath: '/therapies'
+      preLoaderRoute: typeof TherapiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad': {
       id: '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
       path: '/things-to-check-before-book-neuro-physiotherapy-clinic-in-ahmedabad'
@@ -3458,6 +3498,7 @@ const rootRouteChildren: RootRouteChildren = {
   BlogsRoute: BlogsRoute,
   BoneStrengthPhysiotherapyForOsteoporosisRoute:
     BoneStrengthPhysiotherapyForOsteoporosisRoute,
+  CareAreasRoute: CareAreasRoute,
   CerebralPalsyPhysiotherapyWalkingRoute:
     CerebralPalsyPhysiotherapyWalkingRoute,
   CerebralPalsyTreatmentInAhmedabadRoute:
@@ -3648,6 +3689,7 @@ const rootRouteChildren: RootRouteChildren = {
     TheAdvantagesOfChiropracticTreatmentDepthApproachToHealthRoute,
   TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute:
     TherapeuticStretchingVsGeneralFlexibilityInPhysiotherapyRoute,
+  TherapiesRoute: TherapiesRoute,
   ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute:
     ThingsToCheckBeforeBookNeuroPhysiotherapyClinicInAhmedabadRoute,
   TopDryNeedlingTherapyServicesInAhmedabadRoute:

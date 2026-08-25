@@ -47,8 +47,20 @@ export function PageHero({
   variant?: MediaVariant;
   facts?: [HeroFact, HeroFact, HeroFact, HeroFact] | undefined;
 }) {
+  // Check if image is a doctor portrait or team profile
+  const isDoctorPortrait = Boolean(image) && (
+    image!.toLowerCase().includes("doctor") ||
+    image!.toLowerCase().includes("dr-") ||
+    image!.toLowerCase().includes("dr.-") ||
+    image!.toLowerCase().includes("foram") ||
+    image!.toLowerCase().includes("hardik") ||
+    image!.toLowerCase().includes("/team/") ||
+    slug === "female-fitness-trainer-in-ahmedabad" ||
+    slug === "best-physiotherapist-in-ahmedabad"
+  );
+
   // Determine if this is a wide 1024x400 landscape banner
-  const isLandscapeBanner = Boolean(image) && (
+  const isLandscapeBanner = Boolean(image) && !isDoctorPortrait && (
     variant === "banner" ||
     (variant === "auto" && (
       image!.toLowerCase().includes("/conditions/") ||
@@ -129,16 +141,16 @@ export function PageHero({
                   href={site.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-accent-foreground shadow-md shadow-accent/20 transition-all hover:bg-emerald-600 hover:shadow-lg"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#166534] via-[#15803d] to-[#16a34a] px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#166534]/25 transition-all duration-300 hover:shadow-xl hover:shadow-[#166534]/35 hover:-translate-y-0.5 active:translate-y-0"
                 >
-                  <Calendar className="size-4" />
+                  <Calendar className="size-4 text-emerald-200" />
                   <span>Book Consultation</span>
                 </a>
                 <a
                   href={site.phoneHref}
-                  className="inline-flex items-center gap-2 rounded-xl border border-navy/20 bg-white/90 px-6 py-3.5 text-sm font-bold text-navy shadow-sm transition-all hover:border-navy hover:bg-navy hover:text-white"
+                  className="inline-flex items-center gap-2.5 rounded-full border border-navy/15 bg-white/90 px-7 py-3.5 text-sm font-bold text-navy shadow-sm transition-all duration-300 hover:border-[#16803d]/40 hover:bg-white hover:text-[#16803d] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
                 >
-                  <Phone className="size-4 text-teal" />
+                  <Phone className="size-4 text-[#16803d]" />
                   <span>{site.phone}</span>
                 </a>
               </div>
@@ -175,23 +187,24 @@ export function PageHero({
             </div>
           </div>
 
-          {/* Full Landscape Banner Container - Complete 1024x400 artwork preserved with ZERO cropping */}
-          <div className="relative overflow-hidden rounded-2xl border border-border bg-card shadow-xl shadow-navy/8">
-            <div className="relative w-full aspect-[2.56/1] bg-sand/40 flex items-center justify-center overflow-hidden">
-              <img
-                src={image}
-                alt={h1}
-                fetchPriority="high"
-                decoding="async"
-                className="size-full object-contain"
-              />
-            </div>
-            <div className="flex flex-col gap-2 border-t border-border/60 bg-white/90 px-4 py-3 text-xs sm:flex-row sm:items-center sm:justify-between">
-              <span className="flex items-center gap-1.5 font-bold text-teal">
-                <ShieldCheck className="size-4 text-accent" />
-                Complete Care Protocol · Evidence-Based Rehabilitation
+          {/* Full-Bleed 1024x400 Clean Image Banner Below */}
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-navy/15 bg-white shadow-xl shadow-navy/5">
+            <ResponsiveMedia
+              src={image}
+              alt={h1}
+              variant="banner"
+              priority
+              className="border-0 shadow-none rounded-none"
+            />
+            {/* Banner trust footer */}
+            <div className="border-t border-border/70 bg-gradient-to-r from-sand/90 via-background to-sand/90 px-4 py-2.5 sm:px-6 sm:py-3 flex flex-wrap items-center justify-between gap-2 text-[11px] sm:text-xs text-muted-foreground">
+              <span className="inline-flex items-center gap-1.5 font-semibold text-teal">
+                <ShieldCheck className="size-3.5 text-accent" />
+                <span>Complete Care Protocol · Evidence Based Rehabilitation</span>
               </span>
-              <span className="font-semibold text-navy">6 Centres Across Gujarat · Direct WhatsApp Booking</span>
+              <span className="hidden sm:inline font-medium text-navy/70">
+                6 Centres Across Gujarat · Direct WhatsApp Booking
+              </span>
             </div>
           </div>
         </div>
@@ -199,7 +212,7 @@ export function PageHero({
     );
   }
 
-  // Standard Two-column layout for other pages or fallback
+  // Standard Two-column layout for other pages or doctor profiles
   return (
     <section className="relative overflow-hidden border-b border-border/80 bg-gradient-to-b from-sand via-background to-sand/40 py-12 lg:py-16">
       <div
@@ -221,7 +234,7 @@ export function PageHero({
 
           {/* Eyebrow badge */}
           {eyebrow && (
-            <div className="inline-flex items-center gap-2 rounded-full border border-navy/12 bg-white/80 px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 rounded-full border border-navy/12 bg-white/80 px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase backdrop-blur-sm shadow-sm">
               <Sparkles className="size-3 text-accent" />
               <span>{eyebrow}</span>
             </div>
@@ -242,16 +255,16 @@ export function PageHero({
               href={site.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-accent-foreground shadow-sm transition-all hover:bg-emerald-600 hover:shadow-md"
+              className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#166534] via-[#15803d] to-[#16a34a] px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#166534]/25 transition-all duration-300 hover:shadow-xl hover:shadow-[#166534]/35 hover:-translate-y-0.5 active:translate-y-0"
             >
-              <Calendar className="size-4" />
+              <Calendar className="size-4 text-emerald-200" />
               <span>Book Consultation</span>
             </a>
             <a
               href={site.phoneHref}
-              className="inline-flex items-center gap-2 rounded-xl border border-navy/20 bg-white/80 px-6 py-3.5 text-sm font-bold text-navy transition-all hover:border-navy hover:bg-navy hover:text-white"
+              className="inline-flex items-center gap-2.5 rounded-full border border-navy/15 bg-white/90 px-7 py-3.5 text-sm font-bold text-navy shadow-sm transition-all duration-300 hover:border-[#16803d]/40 hover:bg-white hover:text-[#16803d] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0"
             >
-              <Phone className="size-4 text-teal" />
+              <Phone className="size-4 text-[#16803d]" />
               <span>{site.phone}</span>
             </a>
           </div>

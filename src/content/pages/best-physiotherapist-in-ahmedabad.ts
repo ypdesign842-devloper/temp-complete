@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "best-physiotherapist-in-ahmedabad",
  "h1": "Best Physiotherapist in Ahmedabad",
- "lead": "Dr Hardik Patel is specialist in Chiropractic Treatment, Physiotherapy , Dry Needling , Cupping Therapy , Kinesio Tapping",
+ "lead": "Dr Hardik Patel is specialist in Chiropractic Treatment, Physiotherapy, Dry Needling, Cupping Therapy, Kinesio Tapping",
  "hero": "/assets/treatments/Complete-Care-Doctor-Image-cc.webp",
  "blocks": [
   {
@@ -14,13 +14,13 @@ export const content: PageContent = {
    "t": "ul",
    "items": [
     "Founder & Director of Complete Care",
-    "Specialist in Chiropractic Treatment, Physiotherapy , Dry Needling , Cupping Therapy , Kinesio Tapping",
+    "Specialist in Chiropractic Treatment, Physiotherapy, Dry Needling, Cupping Therapy, Kinesio Tapping",
     "Experience: 15 Years of Experience"
    ]
   },
   {
    "t": "p",
-   "text": "**Dr Hardik Patel** is [specialist in Chiropractic Treatment](/chiropractic-treatment-in-ahmedabad/), Physiotherapy , Dry Needling , Cupping Therapy , Kinesio Tapping"
+   "text": "**Dr Hardik Patel** is [specialist in Chiropractic Treatment](/chiropractic-treatment-in-ahmedabad/), Physiotherapy, Dry Needling, Cupping Therapy, Kinesio Tapping"
   },
   {
    "t": "p",

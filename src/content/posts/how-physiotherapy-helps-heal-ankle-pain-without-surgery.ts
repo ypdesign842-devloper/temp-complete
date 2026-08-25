@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In this blog, we’ll explore how physiotherapy provides a safe, non-invasive, and effective path to healing ankle pain, and what to expect from the process."
+   "text": "In this blog, we’ll explore how physiotherapy provides a safe, non invasive, and effective path to healing ankle pain, and what to expect from the process."
   },
   {
    "t": "h2",
@@ -45,7 +45,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Most of these conditions can be managed with **non-surgical treatment for ankle injury**, especially when diagnosed early and treated by experienced physiotherapists."
+   "text": "Most of these conditions can be managed with **non surgical  treatment for ankle injury**, especially when diagnosed early and treated by experienced physiotherapists."
   },
   {
    "t": "h3",
@@ -53,7 +53,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Surgery can be costly, painful, and require long recovery periods. Unless there is a severe structural issue or fracture, many ankle injuries respond well to non-invasive treatments. That’s where **ankle pain relief with physiotherapy** comes in."
+   "text": "Surgery can be costly, painful, and require long recovery periods. Unless there is a severe structural issue or fracture, many ankle injuries respond well to non invasive treatments. That’s where **ankle pain relief with physiotherapy** comes in."
   },
   {
    "t": "p",
@@ -65,13 +65,13 @@ export const content: PostContent = {
     "**No surgical risks** such as infection or complications",
     "**Faster recovery time**",
     "**Cost-effective**",
-    "**Improved long-term joint function**",
+    "**Improved long term joint function**",
     "**Customized treatment plans**"
    ]
   },
   {
    "t": "p",
-   "text": "For those in Gujarat, visiting the **Best Physiotherapy Center in Ahmedabad** ensures that you receive high-quality, professional care tailored to your specific condition."
+   "text": "For those in Gujarat, visiting the **Best Physiotherapy Center in Ahmedabad** ensures that you receive hig quality, professional care tailored to your specific condition."
   },
   {
    "t": "h3",
@@ -79,7 +79,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Let’s break down how physiotherapy works as an effective **non-surgical treatment for ankle injury**."
+   "text": "Let’s break down how physiotherapy works as an effective **non surgical  treatment for ankle injury**."
   },
   {
    "t": "p",
@@ -87,7 +87,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "A physiotherapist will first assess the extent and cause of your ankle pain. This may include physical exams, movement analysis, and strength tests. A proper diagnosis helps design a personalized treatment plan, which is crucial for long-term healing."
+   "text": "A physiotherapist will first assess the extent and cause of your ankle pain. This may include physical exams, movement analysis, and strength tests. A proper diagnosis helps design a personalized treatment plan, which is crucial for long term healing."
   },
   {
    "t": "p",
@@ -164,7 +164,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "State-of-the-art equipment",
+    "state of the art equipment",
     "Experienced therapists familiar with local lifestyle-related injuries",
     "Affordable care options",
     "Convenient follow-up and continuity of care"
@@ -202,7 +202,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Physiotherapy for ankle pain** is a proven, non-invasive solution that can significantly reduce discomfort, improve mobility, and get you back to your daily activities without the need for surgery. Whether you’re an athlete, a working professional, or a senior citizen, physiotherapy offers a personalized and effective path to recovery."
+   "text": "**Physiotherapy for ankle pain** is a proven, non invasive solution that can significantly reduce discomfort, improve mobility, and get you back to your daily activities without the need for surgery. Whether you’re an athlete, a working professional, or a senior citizen, physiotherapy offers a personalized and effective path to recovery."
   },
   {
    "t": "p",

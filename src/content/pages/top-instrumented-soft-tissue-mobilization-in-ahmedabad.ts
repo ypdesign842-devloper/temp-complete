@@ -1,7 +1,7 @@
 import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
- "slug": "top-instrumented-soft-tissue-mobilization-in-ahmedabad",
+ "slug": "top-instrumented-soft tissue-mobilization-in-ahmedabad",
  "h1": "IASTM Therapy in Ahmedabad",
  "lead": "Instrument Assisted Soft Tissue Mobilization (IASTM) is a relatively new form of treatment, however similar treatments have been used for centuries with origins as far back as Hippocrates, the most well-known is Gua Sha which originated in China centuries ago.",
  "hero": "/assets/treatments/IASTM.webp",
@@ -20,7 +20,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "As the technique has evolved and we learn more and more about the possible mechanisms of this approach. It becomes quite apparent that in clinical practice, the response from the technique occurs with in a small timeframe of 2-5 minutes depending on the size of the area. One mechanism that has the potential to cause alteration in tissue tension within such a timeframe, is the nervous system. The focus on purely a mechanical effect on breaking down soft tissue dysfunctions has encouraged a far too aggressive approach and causing unnecessary tissue trauma."
+   "text": "As the technique has evolved and we learn more and more about the possible mechanisms of this approach. It becomes quite apparent that in clinical practice, the response from the technique occurs with in a small timeframe of 2 to 5 minutes depending on the size of the area. One mechanism that has the potential to cause alteration in tissue tension within such a timeframe, is the nervous system. The focus on purely a mechanical effect on breaking down soft tissue dysfunctions has encouraged a far too aggressive approach and causing unnecessary tissue trauma."
   },
   {
    "t": "p",
@@ -58,7 +58,7 @@ export const content: PageContent = {
   },
   {
    "label": "IASTM",
-   "to": "/top-instrumented-soft-tissue-mobilization-in-ahmedabad"
+   "to": "/top-instrumented-soft tissue-mobilization-in-ahmedabad"
   },
   {
    "label": "Cupping Therapy",

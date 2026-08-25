@@ -224,7 +224,7 @@ function CertificationsPage() {
         </div>
       </section>
 
-      {/* Lightbox Modal for High-Resolution Certificate Viewing */}
+      {/* Lightbox Modal for hig Resolution Certificate Viewing */}
       {selectedCert && (
         <div
           role="dialog"

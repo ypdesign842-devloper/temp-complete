@@ -56,10 +56,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Painkillers (NSAIDs)** – Reduce inflammation and relieve pain",
-    "**Muscle relaxants** – Help ease muscle spasms",
-    "**Neuropathic pain drugs** – Address nerve-related pain",
-    "**Steroid injections** – Reduce inflammation in severe cases"
+    "**Painkillers (NSAIDs)**, Reduce inflammation and relieve pain",
+    "**Muscle relaxants**, Help ease muscle spasms",
+    "**Neuropathic pain drugs**, Address nerve-related pain",
+    "**Steroid injections**, Reduce inflammation in severe cases"
    ]
   },
   {
@@ -88,7 +88,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Medication can be useful for short-term relief but is rarely a complete solution for long-term recovery."
+   "text": "Medication can be useful for short term relief but is rarely a complete solution for long term recovery."
   },
   {
    "t": "h3",
@@ -105,11 +105,11 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Strengthening exercises** – Build core and back muscles to support the spine",
-    "**Stretching routines** – Improve flexibility and reduce nerve pressure",
-    "**Manual therapy** – Hands-on techniques to improve mobility",
-    "**Posture training** – Reduce strain on the spine",
-    "**Education** – Teach safe movement habits to prevent recurrence"
+    "**Strengthening exercises**, Build core and back muscles to support the spine",
+    "**Stretching routines**, Improve flexibility and reduce nerve pressure",
+    "**Manual therapy**, Hands-on techniques to improve mobility",
+    "**Posture training**, Reduce strain on the spine",
+    "**Education**, Teach safe movement habits to prevent recurrence"
    ]
   },
   {
@@ -138,11 +138,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "Physiotherapy vs Medication for Sciatica – Which Is Better?"
+   "text": "Physiotherapy vs Medication for Sciatica, Which Is Better?"
   },
   {
    "t": "p",
-   "text": "When comparing **physiotherapy vs medication for sciatica**, the choice depends on your goals. Medication is effective for short-term pain management, especially during intense flare-ups. Physiotherapy, on the other hand, provides a long-term solution by correcting the underlying problem and preventing future episodes."
+   "text": "When comparing **physiotherapy vs medication for sciatica**, the choice depends on your goals. Medication is effective for short term pain management, especially during intense flare-ups. Physiotherapy, on the other hand, provides a long term solution by correcting the underlying problem and preventing future episodes."
   },
   {
    "t": "p",
@@ -159,7 +159,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "One-on-one therapist sessions",
+    "one on one therapist sessions",
     "Customized exercise programs",
     "Modern equipment for spinal rehabilitation",
     "Education on lifestyle and posture changes"
@@ -175,23 +175,23 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Stay Active** – Avoid prolonged bed rest; gentle movement helps healing."
+   "text": "1. **Stay Active**, Avoid prolonged bed rest; gentle movement helps healing."
   },
   {
    "t": "p",
-   "text": "2. **Follow Your Exercise Plan** – Consistency is key in physiotherapy."
+   "text": "2. **Follow Your Exercise Plan**, Consistency is key in physiotherapy."
   },
   {
    "t": "p",
-   "text": "3. **Maintain Good Posture** – Support your spine while sitting, standing, and lifting."
+   "text": "3. **Maintain Good Posture**, Support your spine while sitting, standing, and lifting."
   },
   {
    "t": "p",
-   "text": "4. **Use Hot and Cold Therapy** – Reduce inflammation and muscle tension."
+   "text": "4. **Use Hot and Cold Therapy**, Reduce inflammation and muscle tension."
   },
   {
    "t": "p",
-   "text": "5. **Monitor Progress** – Keep track of improvements and consult your therapist for adjustments."
+   "text": "5. **Monitor Progress**, Keep track of improvements and consult your therapist for adjustments."
   },
   {
    "t": "p",
@@ -199,7 +199,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Both medication and physiotherapy have roles in managing sciatica pain. Medication can provide fast relief, but physiotherapy offers long-term results and reduces the risk of recurrence. For most patients, physiotherapy emerges as the **best treatment for sciatica pain**, especially when guided by experts at the **Best Physiotherapy Center in Ahmedabad**."
+   "text": "Both medication and physiotherapy have roles in managing sciatica pain. Medication can provide fast relief, but physiotherapy offers long term results and reduces the risk of recurrence. For most patients, physiotherapy emerges as the **best treatment for sciatica pain**, especially when guided by experts at the **Best Physiotherapy Center in Ahmedabad**."
   },
   {
    "t": "p",

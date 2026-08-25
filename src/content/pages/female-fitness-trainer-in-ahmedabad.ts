@@ -2,7 +2,7 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
  "slug": "female-fitness-trainer-in-ahmedabad",
- "h1": "Top Female Fitness Trainer in Ahmedabad \\| Dr. Foram Patel",
+ "h1": "Top Female Fitness Trainer in Ahmedabad | Dr. Foram Patel",
  "lead": "Dr. Foram Patel specialised for Rehabilitation and Fitness",
  "hero": "/assets/fitness/dr.-foram-patel-cc.webp",
  "blocks": [
@@ -14,7 +14,7 @@ export const content: PageContent = {
    "t": "ul",
    "items": [
     "Founder & Director of Complete Care",
-    "Specialist in Chiropractic Treatment, Physiotherapy , Dry Needling , Cupping Therapy , Kinesio Tapping",
+    "Specialist in Chiropractic Treatment, Physiotherapy, Dry Needling, Cupping Therapy, Kinesio Tapping",
     "Experience: 7 Years of Experience"
    ]
   },
@@ -69,6 +69,23 @@ export const content: PageContent = {
   {
    "t": "p",
    "text": "**Dr. Foram Patel** also specializes in Prenatal and Postnatal training, which offers women safe and effective workouts during and after pregnancy."
+  },
+  {
+   "t": "pricing",
+   "title": "Estimated Women's Fitness & Therapy Pricing",
+   "range": "₹500 to ₹2,000",
+   "consultationFee": "₹500 (Women's Health & Postnatal Assessment)",
+   "treatmentRange": "₹500 to ₹2,000 / session",
+   "lowPrice": 500,
+   "highPrice": 2000,
+   "currency": "INR",
+   "context": "Specialized women's health and medical fitness therapy pricing ranges from ₹500 to ₹2,000, tailored to prenatal/postnatal care, diastasis recti recovery, pelvic floor conditioning, and strength training guided by Dr. Foram Patel.",
+   "inclusions": [
+    "Specialized female health screening",
+    "Diastasis recti & core evaluation",
+    "Physiotherapist-guided strength workouts",
+    "Transparent, tailored packages"
+   ]
   }
  ],
  "quickLinks": []

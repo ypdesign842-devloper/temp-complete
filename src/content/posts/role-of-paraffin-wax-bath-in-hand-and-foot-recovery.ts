@@ -34,7 +34,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The affected area is dipped multiple times into warm wax, covered with insulation, and left for about 15–20 minutes. This controlled heat exposure improves tissue elasticity and prepares the joints and muscles for further physiotherapy exercises."
+   "text": "The affected area is dipped multiple times into warm wax, covered with insulation, and left for about 15 to 20 minutes. This controlled heat exposure improves tissue elasticity and prepares the joints and muscles for further physiotherapy exercises."
   },
   {
    "t": "h3",
@@ -70,11 +70,11 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Post-fracture stiffness of hand or foot",
-    "Post-surgical recovery (tendon repair, joint surgery)",
+    "post surgical  recovery (tendon repair, joint surgery)",
     "Osteoarthritis and rheumatoid arthritis",
     "Chronic joint stiffness due to inactivity",
     "Tendonitis and ligament tightness",
-    "Sports-related hand and foot injuries"
+    "sports related hand and foot injuries"
    ]
   },
   {
@@ -83,7 +83,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Role of Paraffin Wax Bath in Post-Injury Recovery**"
+   "text": "**Role of Paraffin Wax Bath in post injury Recovery**"
   },
   {
    "t": "p",
@@ -95,7 +95,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "**Role in Post-Surgical Hand and Foot Rehabilitation**"
+   "text": "**Role in post surgical  Hand and Foot Rehabilitation**"
   },
   {
    "t": "p",
@@ -108,7 +108,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "Reduces post-surgical pain",
+    "Reduces post surgical  pain",
     "Improves scar tissue mobility",
     "Allows safer and more comfortable exercises",
     "Speeds up functional recovery"
@@ -177,7 +177,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Q. How many paraffin wax bath sessions are needed?** Most patients benefit from 5–10 sessions, depending on the condition."
+   "text": "**Q. How many paraffin wax bath sessions are needed?** Most patients benefit from 5 to 10 sessions, depending on the condition."
   },
   {
    "t": "p",

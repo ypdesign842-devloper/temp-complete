@@ -82,7 +82,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. Recovery may take 4–6 weeks"
+   "text": "1. Recovery may take 4 to 6 weeks"
   },
   {
    "t": "p",
@@ -98,7 +98,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. Recovery may require 2–3 months"
+   "text": "1. Recovery may require 2 to 3 months"
   },
   {
    "t": "p",
@@ -218,7 +218,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the most effective methods for non-surgical recovery is **physiotherapy for slip disc**."
+   "text": "One of the most effective methods for non surgical  recovery is **physiotherapy for slip disc**."
   },
   {
    "t": "p",
@@ -240,7 +240,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "With proper therapy, many patients avoid long-term complications."
+   "text": "With proper therapy, many patients avoid long term complications."
   },
   {
    "t": "h2",
@@ -329,7 +329,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Week 1–2"
+   "text": "Week 1 to 2"
   },
   {
    "t": "p",
@@ -349,7 +349,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Week 3–6"
+   "text": "Week 3 to 6"
   },
   {
    "t": "p",
@@ -369,11 +369,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "After 2–3 Months"
+   "text": "After 2 to 3 Months"
   },
   {
    "t": "p",
-   "text": "Long-Term Goals"
+   "text": "long term Goals"
   },
   {
    "t": "ul",
@@ -471,7 +471,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Choosing the right rehabilitation plan and following healthy daily habits are key to long-term spinal health. If you are struggling with back pain or nerve-related symptoms, early **herniated disc treatment without surgery** can help you recover safely and comfortably."
+   "text": "Choosing the right rehabilitation plan and following healthy daily habits are key to long term spinal health. If you are struggling with back pain or nerve-related symptoms, early **herniated disc treatment without surgery** can help you recover safely and comfortably."
   }
  ]
 };

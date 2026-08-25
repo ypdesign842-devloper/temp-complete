@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Most people rely on painkillers or bed rest – but these only give short-term relief."
+   "text": "Most people rely on painkillers or bed rest, but these only give short term relief."
   },
   {
    "t": "p",
@@ -48,7 +48,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Rest or painkillers might dull the pain, but they don’t fix these root causes. That’s why many people in Ahmedabad are now turning to **physiotherapy** – a **natural treatment for back pain** that heals from within."
+   "text": "Rest or painkillers might dull the pain, but they don’t fix these root causes. That’s why many people in Ahmedabad are now turning to **physiotherapy**, a **natural treatment for back pain** that heals from within."
   },
   {
    "t": "h3",
@@ -56,7 +56,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is a safe, non-surgical approach that helps your body recover naturally. It focuses on movement, posture, and strength to rebuild your back’s stability."
+   "text": "Physiotherapy is a safe, non surgical  approach that helps your body recover naturally. It focuses on movement, posture, and strength to rebuild your back’s stability."
   },
   {
    "t": "p",
@@ -64,27 +64,27 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Posture Correction** – Identifying poor sitting or working habits and correcting them to prevent further strain."
+   "text": "1. **Posture Correction**, Identifying poor sitting or working habits and correcting them to prevent further strain."
   },
   {
    "t": "p",
-   "text": "2. **Manual Therapy** – Gentle, hands-on techniques by the physiotherapist to reduce stiffness and improve movement."
+   "text": "2. **Manual Therapy**, Gentle, hands-on techniques by the physiotherapist to reduce stiffness and improve movement."
   },
   {
    "t": "p",
-   "text": "3. **Customized Exercises** – Strengthening and stretching plans tailored to your condition."
+   "text": "3. **Customized Exercises**, Strengthening and stretching plans tailored to your condition."
   },
   {
    "t": "p",
-   "text": "4. **Electrotherapy & Heat Therapy** – Safe machines and heat packs are used to ease inflammation and relax muscles."
+   "text": "4. **Electrotherapy & Heat Therapy**, Safe machines and heat packs are used to ease inflammation and relax muscles."
   },
   {
    "t": "p",
-   "text": "5. **Lifestyle Guidance** – Teaching you proper posture, lifting methods, and daily habits for a healthy back."
+   "text": "5. **Lifestyle Guidance**, Teaching you proper posture, lifting methods, and daily habits for a healthy back."
   },
   {
    "t": "p",
-   "text": "With **Dr. Hardik Patel’s complete care approach**, patients receive a personalized recovery plan – focusing not just on pain relief, but long-term spinal health."
+   "text": "With **Dr. Hardik Patel’s complete care approach**, patients receive a personalized recovery plan, focusing not just on pain relief, but long term spinal health."
   },
   {
    "t": "h3",
@@ -127,7 +127,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "One-on-one sessions for personalized attention",
+    "one on one sessions for personalized attention",
     "Modern physiotherapy equipment (IFT, ultrasound, traction, laser therapy)",
     "Posture correction and ergonomic training for office workers",
     "Home exercise plans and follow-up programs"
@@ -135,7 +135,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This ensures your recovery continues even after the clinic sessions are over – preventing pain from coming back."
+   "text": "This ensures your recovery continues even after the clinic sessions are over, preventing pain from coming back."
   },
   {
    "t": "h3",
@@ -167,7 +167,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Dr. Hardik Patel’s patients often feel noticeable relief within the first few sessions. Most complete their recovery within **4–8 weeks**, depending on the severity of their pain."
+   "text": "Dr. Hardik Patel’s patients often feel noticeable relief within the first few sessions. Most complete their recovery within **4 to 8 weeks**, depending on the severity of their pain."
   },
   {
    "t": "h3",
@@ -180,10 +180,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Dry Needling** – For deep muscle relaxation",
-    "**Cupping Therapy** – Improves blood flow and reduces muscle tightness",
-    "**Electrotherapy** – Reduces nerve pain and inflammation",
-    "**Core Stabilization Exercises** – Strengthens muscles supporting the spine"
+    "**Dry Needling**, For deep muscle relaxation",
+    "**Cupping Therapy**, Improves blood flow and reduces muscle tightness",
+    "**Electrotherapy**, Reduces nerve pain and inflammation",
+    "**Core Stabilization Exercises**, Strengthens muscles supporting the spine"
    ]
   },
   {
@@ -201,19 +201,19 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "You’ve had back pain for more than 2–3 weeks",
+    "You’ve had back pain for more than 2 to 3 weeks",
     "Pain spreads to your legs or causes tingling/numbness",
     "Sitting, standing, or walking worsens pain",
-    "Painkillers give only short-term relief"
+    "Painkillers give only short term relief"
    ]
   },
   {
    "t": "p",
-   "text": "Don’t wait for the pain to become severe – early physiotherapy gives faster results and prevents chronic issues."
+   "text": "Don’t wait for the pain to become severe, early physiotherapy gives faster results and prevents chronic issues."
   },
   {
    "t": "h3",
-   "text": "**Meet Dr. Hardik Patel – Best Physiotherapist in Ahmedabad**"
+   "text": "**Meet Dr. Hardik Patel, Best Physiotherapist in Ahmedabad**"
   },
   {
    "t": "p",
@@ -221,7 +221,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "He believes in treating pain through movement, posture correction, and long-term functional recovery — not just symptom management."
+   "text": "He believes in treating pain through movement, posture correction, and long term functional recovery, not just symptom management."
   },
   {
    "t": "p",
@@ -232,12 +232,12 @@ export const content: PostContent = {
    "items": [
     "His detailed assessments and clear communication",
     "Modern techniques blended with traditional rehabilitation methods",
-    "Focus on total well-being and prevention of future injuries"
+    "Focus on total wellbeing and prevention of future injuries"
    ]
   },
   {
    "t": "p",
-   "text": "If you’re searching _“best physiotherapist for back pain near me”_ – **Dr. Hardik Patel** and his team at Complete Care are your trusted local experts."
+   "text": "If you’re searching _“best physiotherapist for back pain near me”_, **Dr. Hardik Patel** and his team at Complete Care are your trusted local experts."
   },
   {
    "t": "p",
@@ -245,7 +245,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Don’t let back pain control your life. With **physiotherapy for chronic back pain**, you can heal naturally – without surgery or long-term medication."
+   "text": "Don’t let back pain control your life. With **physiotherapy for chronic back pain**, you can heal naturally, without surgery or long term medication."
   },
   {
    "t": "p",

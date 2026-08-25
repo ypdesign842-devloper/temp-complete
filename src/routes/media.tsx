@@ -33,7 +33,7 @@ function MediaPage() {
       <PageHero
         eyebrow="Clinic Media Gallery"
         h1="Inside Our Centres Across Gujarat"
-        lead="Take a look inside the Complete Care clinical facilities — advanced therapy suites, spinal decompression units, and rehabilitation gymnasiums in Gota, Thaltej, South Bopal, Mehsana, and Ankleshwar."
+        lead="Take a look inside the Complete Care clinical facilities, advanced therapy suites, spinal decompression units, and rehabilitation gymnasiums in Gota, Thaltej, South Bopal, Mehsana, and Ankleshwar."
       />
 
       <section className="section-y bg-background">

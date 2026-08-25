@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Finding time to exercise is one of the biggest challenges in today’s busy lifestyle. Many people assume they need to spend an hour or more at the gym to achieve fitness goals, but that’s not always true. High-Intensity Interval Training (HIIT) has gained popularity because it delivers impressive results in a shorter amount of time."
+   "text": "Finding time to exercise is one of the biggest challenges in today’s busy lifestyle. Many people assume they need to spend an hour or more at the gym to achieve fitness goals, but that’s not always true. hig Intensity Interval Training (HIIT) has gained popularity because it delivers impressive results in a shorter amount of time."
   },
   {
    "t": "p",
@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "HIIT, or High-Intensity Interval Training, involves alternating short bursts of intense exercise with brief recovery periods. Instead of maintaining a moderate pace for a long duration, HIIT pushes your body to work harder in less time."
+   "text": "HIIT, or hig Intensity Interval Training, involves alternating short bursts of intense exercise with brief recovery periods. Instead of maintaining a moderate pace for a long duration, HIIT pushes your body to work harder in less time."
   },
   {
    "t": "h3",
@@ -39,9 +39,9 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "30 seconds of high-intensity exercise",
+    "30 seconds of hig intensity exercise",
     "30-60 seconds of recovery",
-    "Repeat for 15-20 minutes"
+    "Repeat for 15 to 20 minutes"
    ]
   },
   {
@@ -86,7 +86,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "While cardio remains an effective fitness method, it requires more time to achieve similar calorie-burning results compared to high-intensity training."
+   "text": "While cardio remains an effective fitness method, it requires more time to achieve similar calorie-burning results compared to hig intensity training."
   },
   {
    "t": "h2",
@@ -176,7 +176,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "After high-intensity exercise, the body works to recover and restore normal function."
+   "text": "After hig intensity exercise, the body works to recover and restore normal function."
   },
   {
    "t": "p",
@@ -306,7 +306,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Balanced training is essential for long-term success."
+   "text": "Balanced training is essential for long term success."
   },
   {
    "t": "h2",

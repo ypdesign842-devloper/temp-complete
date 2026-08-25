@@ -104,7 +104,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "One-on-one sessions with ongoing reassessments",
+    "one on one sessions with ongoing reassessments",
     "Goal tracking and milestone-based programs"
    ]
   },
@@ -114,11 +114,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "5\\. In-Clinic vs. Home-Based Therapy Options"
+   "text": "5\\. in clinic vs. home based Therapy Options"
   },
   {
    "t": "p",
-   "text": "If travel is difficult for the patient, especially post-stroke or after a spinal cord injury, look for clinics that offer home-based neuro physio services in Ahmedabad. Some of the best clinics have mobile units with trained staff to deliver quality therapy at home."
+   "text": "If travel is difficult for the patient, especially post stroke or after a spinal cord injury, look for clinics that offer home based neuro physio services in Ahmedabad. Some of the best clinics have mobile units with trained staff to deliver quality therapy at home."
   },
   {
    "t": "p",
@@ -128,7 +128,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Do they offer home visits?",
-    "Is the therapist experienced with home-based neuro care?",
+    "Is the therapist experienced with home based neuro care?",
     "What kind of tools and monitoring do they bring for home sessions?"
    ]
   },
@@ -178,7 +178,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Finding the right **neuro physiotherapy clinic in Ahmedabad** involves more than just location-it’s about expertise, specialization, and patient-centered care. Whether you’re recovering from a stroke, managing Parkinson’s, or supporting a child with cerebral palsy, these 7 points will help guide your decision."
+   "text": "Finding the right **neuro physiotherapy clinic in Ahmedabad** involves more than just location-it’s about expertise, specialization, and patient centered care. Whether you’re recovering from a stroke, managing Parkinson’s, or supporting a child with cerebral palsy, these 7 points will help guide your decision."
   }
  ]
 };

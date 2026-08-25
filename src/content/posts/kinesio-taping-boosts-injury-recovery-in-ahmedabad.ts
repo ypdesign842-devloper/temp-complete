@@ -48,7 +48,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad, with its growing community of runners, cricketers, badminton players, and gym-goers, is seeing a surge in sports-related injuries. With the demand for faster and non-invasive recovery methods increasing, Kinesio taping is gaining traction as a go-to solution."
+   "text": "Ahmedabad, with its growing community of runners, cricketers, badminton players, and gym-goers, is seeing a surge in sports related injuries. With the demand for faster and non invasive recovery methods increasing, Kinesio taping is gaining traction as a go-to solution."
   },
   {
    "t": "p",
@@ -64,11 +64,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "2. **Faster Recovery from Sports Injuries:** For athletes in Ahmedabad, recovery time is crucial. Kinesio tape helps reduce muscle fatigue, improve oxygen delivery, and clear metabolic waste – all of which promote quicker healing after intense activity or injury."
+   "text": "2. **Faster Recovery from Sports Injuries:** For athletes in Ahmedabad, recovery time is crucial. Kinesio tape helps reduce muscle fatigue, improve oxygen delivery, and clear metabolic waste, all of which promote quicker healing after intense activity or injury."
   },
   {
    "t": "p",
-   "text": "3. **Improved Muscle Activation and Joint Stability:** Post-injury, muscles can weaken or fail to fire properly. Taping supports weak muscles, improves posture, and helps in retaining movement patterns, making it an essential tool in physiotherapy recovery programs."
+   "text": "3. **Improved Muscle Activation and Joint Stability:** post injury, muscles can weaken or fail to fire properly. Taping supports weak muscles, improves posture, and helps in retaining movement patterns, making it an essential tool in physiotherapy recovery programs."
   },
   {
    "t": "p",
@@ -93,7 +93,7 @@ export const content: PostContent = {
     "Positive patient reviews and case studies",
     "Personalized treatment plans",
     "Experience in sports physiotherapy",
-    "Use of evidence-based techniques"
+    "Use of evidence based techniques"
    ]
   },
   {
@@ -118,11 +118,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Kinesio taping is more than a trend – it’s a scientifically backed technique that complements the body’s natural healing process. For anyone dealing with muscle strain, joint issues, or looking for effective **sports injury treatment with Kinesio tape**, Ahmedabad offers some of the best options."
+   "text": "Kinesio taping is more than a trend, it’s a scientifically backed technique that complements the body’s natural healing process. For anyone dealing with muscle strain, joint issues, or looking for effective **sports injury treatment with Kinesio tape**, Ahmedabad offers some of the best options."
   },
   {
    "t": "p",
-   "text": "If you’re exploring **Kinesio Taping in Ahmedabad**, make sure to visit a reputable physiotherapy clinic that understands your unique recovery goals. Whether you’re an athlete or someone looking for long-term pain relief, this simple yet powerful method might be the key to your comeback."
+   "text": "If you’re exploring **Kinesio Taping in Ahmedabad**, make sure to visit a reputable physiotherapy clinic that understands your unique recovery goals. Whether you’re an athlete or someone looking for long term pain relief, this simple yet powerful method might be the key to your comeback."
   }
  ]
 };

@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Muscle stiffness, joint pain, and reduced mobility are common concerns among people of all ages in **Ahmedabad**. Whether caused by long working hours, poor posture, sports injuries, or age-related conditions, flexibility issues often lead people to physiotherapy. One of the most common questions patients ask is about **therapeutic stretching vs general flexibility**-are they the same, or do they serve different purposes?"
+   "text": "Muscle stiffness, joint pain, and reduced mobility are common concerns among people of all ages in **Ahmedabad**. Whether caused by long working hours, poor posture, sports injuries, or age related conditions, flexibility issues often lead people to physiotherapy. One of the most common questions patients ask is about **therapeutic stretching vs general flexibility**-are they the same, or do they serve different purposes?"
   },
   {
    "t": "p",
@@ -54,7 +54,7 @@ export const content: PostContent = {
    "items": [
     "Back and neck pain",
     "Sports injuries",
-    "Post-surgical rehabilitation",
+    "post surgical  rehabilitation",
     "Arthritis and joint stiffness"
    ]
   },
@@ -117,7 +117,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "| Customization | Condition-specific | Generic |"
+   "text": "| Customization | condition specific | Generic |"
   },
   {
    "t": "p",
@@ -137,7 +137,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Modern physiotherapy clinics in Ahmedabad use evidence-based **physiotherapy stretching techniques** to ensure safe and effective recovery."
+   "text": "Modern physiotherapy clinics in Ahmedabad use evidence based **physiotherapy stretching techniques** to ensure safe and effective recovery."
   },
   {
    "t": "h3",
@@ -146,10 +146,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Passive Stretching** – therapist moves the joint for you",
-    "**Active Stretching** – patient actively stretches under guidance",
-    "**PNF Stretching** – advanced neuromuscular technique for flexibility",
-    "**Myofascial Release Stretching** – reduces deep tissue tightness"
+    "**Passive Stretching**, therapist moves the joint for you",
+    "**Active Stretching**, patient actively stretches under guidance",
+    "**PNF Stretching**, advanced neuromuscular technique for flexibility",
+    "**Myofascial Release Stretching**, reduces deep tissue tightness"
    ]
   },
   {
@@ -215,8 +215,8 @@ export const content: PostContent = {
    "items": [
     "Advanced assessment techniques",
     "Personalized stretching programs",
-    "Evidence-based physiotherapy stretching techniques",
-    "Patient education for long-term results"
+    "evidence based physiotherapy stretching techniques",
+    "Patient education for long term results"
    ]
   },
   {

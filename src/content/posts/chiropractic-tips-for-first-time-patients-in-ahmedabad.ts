@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re new to chiropractic care and considering visiting a **chiropractor in Ahmedabad for first-time patients**, you’re not alone. With increasing awareness of holistic health and non-invasive pain relief methods, [**chiropractic treatment in Ahmedabad**](/chiropractic-treatment-in-ahmedabad/) is gaining momentum among individuals suffering from back pain, posture issues, migraines, and even sports injuries."
+   "text": "If you’re new to chiropractic care and considering visiting a **chiropractor in Ahmedabad for first-time patients**, you’re not alone. With increasing awareness of holistic health and non invasive pain relief methods, [**chiropractic treatment in Ahmedabad**](/chiropractic-treatment-in-ahmedabad/) is gaining momentum among individuals suffering from back pain, posture issues, migraines, and even sports injuries."
   },
   {
    "t": "p",
-   "text": "Before your first session, it’s normal to have questions or even a few concerns. Let’s walk you through what chiropractic care involves, what you should expect on your first visit, and how it can benefit your overall well-being."
+   "text": "Before your first session, it’s normal to have questions or even a few concerns. Let’s walk you through what chiropractic care involves, what you should expect on your first visit, and how it can benefit your overall wellbeing."
   },
   {
    "t": "h2",
@@ -34,7 +34,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In **Ahmedabad**, chiropractic treatment is becoming a trusted solution for managing chronic pain, improving mobility, and even enhancing posture — especially among office workers and students."
+   "text": "In **Ahmedabad**, chiropractic treatment is becoming a trusted solution for managing chronic pain, improving mobility, and even enhancing posture, especially among office workers and students."
   },
   {
    "t": "h3",
@@ -46,11 +46,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Initial Consultation:** The chiropractor will begin with a detailed discussion about your medical history, lifestyle, diet, and the symptoms that brought you in. Be open and specific — whether it’s lower back pain, headaches, or numbness — so the doctor can better understand your needs."
+   "text": "1. **Initial Consultation:** The chiropractor will begin with a detailed discussion about your medical history, lifestyle, diet, and the symptoms that brought you in. Be open and specific, whether it’s lower back pain, headaches, or numbness, so the doctor can better understand your needs."
   },
   {
    "t": "p",
-   "text": "2. **Physical Examination:** After your consultation, the chiropractor may perform a physical exam, which can include posture analysis, spinal alignment check, reflex tests, and range-of-motion evaluations. In some cases, they might recommend an X-ray or MRI if needed."
+   "text": "2. **Physical Examination:** After your consultation, the chiropractor may perform a physical exam, which can include posture analysis, spinal alignment check, reflex tests, and range of motion evaluations. In some cases, they might recommend an X-ray or MRI if needed."
   },
   {
    "t": "p",
@@ -86,7 +86,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For anyone hesitant about visiting a **chiropractor in Ahmedabad for first-time patients**, it’s helpful to know that most treatments are gentle, non-invasive, and designed with your comfort in mind."
+   "text": "For anyone hesitant about visiting a **chiropractor in Ahmedabad for first-time patients**, it’s helpful to know that most treatments are gentle, non invasive, and designed with your comfort in mind."
   },
   {
    "t": "h3",
@@ -125,7 +125,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Several well-established clinics in Ahmedabad offer world-class chiropractic services with a focus on patient education, long-term care, and personalized treatment plans."
+   "text": "Several well-established clinics in Ahmedabad offer world-class chiropractic services with a focus on patient education, long term care, and personalized treatment plans."
   },
   {
    "t": "p",

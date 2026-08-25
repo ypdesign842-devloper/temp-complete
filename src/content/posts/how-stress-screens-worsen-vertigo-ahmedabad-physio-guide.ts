@@ -55,7 +55,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Today’s desk-bound professionals, students, and gamers spend up to 10–12 hours daily on digital screens. Prolonged screen time can cause:"
+   "text": "Today’s desk-bound professionals, students, and gamers spend up to 10 to 12 hours daily on digital screens. Prolonged screen time can cause:"
   },
   {
    "t": "ul",
@@ -76,11 +76,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad’s growing tech industry, expanding student population, and fast-paced lifestyle are leading to a rise in **stress-induced vertigo cases**. Physiotherapy clinics across the city report more young adults and working professionals complaining of dizziness, imbalance, and head pressure after screen-heavy routines."
+   "text": "Ahmedabad’s growing tech industry, expanding student population, and fast paced lifestyle are leading to a rise in **stress-induced vertigo cases**. Physiotherapy clinics across the city report more young adults and working professionals complaining of dizziness, imbalance, and head pressure after screen-heavy routines."
   },
   {
    "t": "p",
-   "text": "This has given rise to a need for holistic, non-invasive care-and **vestibular physiotherapy for vertigo** has stepped in to fill that gap."
+   "text": "This has given rise to a need for holistic, non invasive care-and **vestibular physiotherapy for vertigo** has stepped in to fill that gap."
   },
   {
    "t": "h3",
@@ -123,7 +123,7 @@ export const content: PostContent = {
    "items": [
     "Sit and stand without straining neck and shoulder muscles",
     "Position your screen to reduce vestibular stress",
-    "Take movement and eye-rest breaks every 30–45 minutes"
+    "Take movement and eye-rest breaks every 30 to 45 minutes"
    ]
   },
   {
@@ -154,10 +154,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Complete Care Physiotherapy Clinic** – Offers advanced VRT protocols and balance retraining",
-    "**Healing Touch Physio** – Specializes in posture correction and BPPV maneuvers",
-    "**ReLiva Physiotherapy** – Known for tech-assisted rehab and virtual vertigo sessions",
-    "**Cura and Aries Physiocare** – Combine neuro-vestibular rehab with lifestyle counseling"
+    "**Complete Care Physiotherapy Clinic**, Offers advanced VRT protocols and balance retraining",
+    "**Healing Touch Physio**, Specializes in posture correction and BPPV maneuvers",
+    "**ReLiva Physiotherapy**, Known for tech-assisted rehab and virtual vertigo sessions",
+    "**Cura and Aries Physiocare**, Combine neuro-vestibular rehab with lifestyle counseling"
    ]
   },
   {
@@ -182,7 +182,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’ve ever wondered, **“Can stress cause vertigo and dizziness?”**-the answer is a clear yes. And if you’re living in a fast-paced, screen-heavy environment like Ahmedabad, you’re even more vulnerable."
+   "text": "If you’ve ever wondered, **“Can stress cause vertigo and dizziness?”**-the answer is a clear yes. And if you’re living in a fast paced, screen-heavy environment like Ahmedabad, you’re even more vulnerable."
   },
   {
    "t": "p",

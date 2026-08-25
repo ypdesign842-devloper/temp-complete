@@ -1,10 +1,10 @@
 import type { PostContent } from "@/data/types";
 
 export const content: PostContent = {
- "slug": "how-physiotherapy-helps-manage-common-age-related-conditions",
+ "slug": "how-physiotherapy-helps-manage-common-age related-conditions",
  "title": "How Physiotherapy Helps Manage Common Age Related Conditions",
  "date": "2025-07-09",
- "image": "/assets/blogs/How-Physiotherapy-Helps-Manage-Common-Age-Related-Conditions-Like-Arthritis-and-Osteoporosis-Banner.webp",
+ "image": "/assets/blogs/How-Physiotherapy-Helps-Manage-Common-age related-Conditions-Like-Arthritis-and-Osteoporosis-Banner.webp",
  "author": "Complete Care",
  "category": "Physiotherapy Treatments",
  "blocks": [
@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "When we are getting old, our body parts become weak as time goes on. Because of these, our daily life activities are affected like walking, sitting and travelling for a long time. Arthritis and Osteoporosis are the most common age-related health problems that can affect old age people. In this case, physiotherapy becomes an effective solution as it is a non-invasive way to reduce these issues."
+   "text": "When we are getting old, our body parts become weak as time goes on. Because of these, our daily life activities are affected like walking, sitting and travelling for a long time. Arthritis and Osteoporosis are the most common age related health problems that can affect old age people. In this case, physiotherapy becomes an effective solution as it is a non invasive way to reduce these issues."
   },
   {
    "t": "p",
@@ -46,15 +46,15 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Both of these conditions can limit mobility, affect independence, and increase the risk of falls or injury—making early intervention essential."
+   "text": "Both of these conditions can limit mobility, affect independence, and increase the risk of falls or injury, making early intervention essential."
   },
   {
    "t": "h3",
-   "text": "The Role of Physiotherapy in Managing Age-Related Conditions"
+   "text": "The Role of Physiotherapy in Managing age related Conditions"
   },
   {
    "t": "p",
-   "text": "Physiotherapy focuses on restoring movement and function while reducing pain and stiffness. It is especially valuable in treating **age-related conditions** like arthritis and osteoporosis through personalized, low-impact interventions."
+   "text": "Physiotherapy focuses on restoring movement and function while reducing pain and stiffness. It is especially valuable in treating **age related conditions** like arthritis and osteoporosis through personalized, low-impact interventions."
   },
   {
    "t": "p",
@@ -90,7 +90,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "**Postural correction** to reduce the risk of spinal fractures",
-    "**Weight-bearing and resistance exercises** to increase bone density",
+    "**weight bearing and resistance exercises** to increase bone density",
     "**Fall prevention strategies** and home safety recommendations",
     "**Core strengthening** to improve balance and spinal alignment"
    ]
@@ -122,7 +122,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This personalized care is essential in managing **age-related conditions with physiotherapy** and ensuring long-term success."
+   "text": "This personalized care is essential in managing **age related conditions with physiotherapy** and ensuring long term success."
   },
   {
    "t": "h3",
@@ -136,7 +136,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "**Skilled and certified physiotherapists** with geriatric experience",
-    "**Modern equipment and evidence-based treatments**",
+    "**Modern equipment and evidence based treatments**",
     "**Individualized therapy sessions**",
     "**Home visit options** for those with mobility limitations",
     "**Holistic support** including diet, lifestyle, and rehabilitation counseling"

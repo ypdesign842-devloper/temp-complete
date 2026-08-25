@@ -18,11 +18,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re struggling with neck stiffness, pain, or reduced mobility, physiotherapy can be an effective and natural way to relieve your symptoms. Whether your pain is due to poor posture, stress, long working hours, or an injury, seeing a physiotherapist can put you on the path to lasting relief. But if it’s your **first physiotherapy session for neck pain**, you might be wondering—what really happens during the visit?"
+   "text": "If you’re struggling with neck stiffness, pain, or reduced mobility, physiotherapy can be an effective and natural way to relieve your symptoms. Whether your pain is due to poor posture, stress, long working hours, or an injury, seeing a physiotherapist can put you on the path to lasting relief. But if it’s your **first physiotherapy session for neck pain**, you might be wondering, what really happens during the visit?"
   },
   {
    "t": "p",
-   "text": "In this blog, we’ll guide you through **what happens at physiotherapy for neck pain**, how the **neck pain physiotherapy assessment process** works, and what you can expect in your recovery journey—especially if you’re searching for the **Best Physiotherapy Clinic in Ahmedabad**."
+   "text": "In this blog, we’ll guide you through **what happens at physiotherapy for neck pain**, how the **neck pain physiotherapy assessment process** works, and what you can expect in your recovery journey, especially if you’re searching for the **Best Physiotherapy Clinic in Ahmedabad**."
   },
   {
    "t": "h2",
@@ -51,7 +51,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Your **first physiotherapy session for neck pain** is more than just an exercise session—it’s a complete evaluation and treatment planning experience. Here’s a step-by-step overview of what to expect:"
+   "text": "Your **first physiotherapy session for neck pain** is more than just an exercise session, it’s a complete evaluation and treatment planning experience. Here’s a step-by-step overview of what to expect:"
   },
   {
    "t": "p",
@@ -106,9 +106,9 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "Frequency of sessions (e.g., 2–3 times per week initially)",
+    "Frequency of sessions (e.g., 2 to 3 times per week initially)",
     "At-home care routines",
-    "Short-term and long-term goals (e.g., reduce pain within 2 weeks, restore full motion in 4 weeks)"
+    "short term and long term goals (e.g., reduce pain within 2 weeks, restore full motion in 4 weeks)"
    ]
   },
   {
@@ -165,7 +165,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Finally, you’ll receive practical tips for daily activities—like how to sit properly at work, adjust your pillow, or avoid phone-neck. This is especially relevant for urban professionals in Ahmedabad dealing with tech-related neck strain."
+   "text": "Finally, you’ll receive practical tips for daily activities, like how to sit properly at work, adjust your pillow, or avoid phone-neck. This is especially relevant for urban professionals in Ahmedabad dealing with tech-related neck strain."
   },
   {
    "t": "h3",
@@ -198,7 +198,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re based in Ahmedabad and seeking natural, evidence-based care, consult a reputable physiotherapist today. With the right guidance, your **first physiotherapy session for neck pain** can be the first step toward a pain-free life."
+   "text": "If you’re based in Ahmedabad and seeking natural, evidence based care, consult a reputable physiotherapist today. With the right guidance, your **first physiotherapy session for neck pain** can be the first step toward a pain-free life."
   }
  ]
 };

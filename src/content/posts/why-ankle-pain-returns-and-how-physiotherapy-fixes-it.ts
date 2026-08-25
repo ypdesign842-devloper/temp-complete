@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For effective, long-term solutions, visiting the **Best Physiotherapy Center in Ahmedabad** ensures professional care and customized treatment plans."
+   "text": "For effective, long term solutions, visiting the **Best Physiotherapy Center in Ahmedabad** ensures professional care and customized treatment plans."
   },
   {
    "t": "h2",
@@ -117,9 +117,9 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Personalized recovery plans based on injury type",
-    "Evidence-based exercises for faster healing",
+    "evidence based exercises for faster healing",
     "Reduced dependency on pain medication",
-    "Long-term prevention of reinjury",
+    "long term prevention of reinjury",
     "Expert guidance from trained physiotherapists"
    ]
   },
@@ -156,7 +156,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Wear supportive footwear suitable for your activity",
-    "Avoid sudden high-impact exercises after injury",
+    "Avoid sudden hig impact exercises after injury",
     "Incorporate ankle-strengthening routines into regular workouts",
     "Maintain a healthy weight to reduce stress on joints"
    ]
@@ -167,7 +167,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Recurring ankle pain can severely impact mobility and quality of life. Understanding **ankle pain causes and treatment** and seeking specialized care is essential to prevent it from coming back. **Physiotherapy for ankle pain** offers a structured, effective solution to restore strength, improve balance, and promote long-term recovery."
+   "text": "Recurring ankle pain can severely impact mobility and quality of life. Understanding **ankle pain causes and treatment** and seeking specialized care is essential to prevent it from coming back. **Physiotherapy for ankle pain** offers a structured, effective solution to restore strength, improve balance, and promote long term recovery."
   },
   {
    "t": "p",

@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "[**Back pain**](/back-pain-doctor-in-ahmedabad/) may arise from a number of causes, including muscle strain, poor posture, traumas, degenerative disorders, and sedentary lifestyles. Muscle strain is sometimes caused by excessive workload, heavy lifting, or sudden uncomfortable motions that can harm the muscles and ligaments in the back. Continuous sitting, especially with incorrect layout, can cause muscle fatigue and discomfort. Accidents, falls, and sports-related injuries can all cause acute or persistent pain, while progressive diseases like arthritis, herniated discs, and spinal stenosis can exacerbate existing problems, especially as we age. Furthermore, a lack of physical exercise can weaken back muscles, increasing their susceptibility to injury."
+   "text": "[**Back pain**](/back-pain-doctor-in-ahmedabad/) may arise from a number of causes, including muscle strain, poor posture, traumas, degenerative disorders, and sedentary lifestyles. Muscle strain is sometimes caused by excessive workload, heavy lifting, or sudden uncomfortable motions that can harm the muscles and ligaments in the back. Continuous sitting, especially with incorrect layout, can cause muscle fatigue and discomfort. Accidents, falls, and sports related injuries can all cause acute or persistent pain, while progressive diseases like arthritis, herniated discs, and spinal stenosis can exacerbate existing problems, especially as we age. Furthermore, a lack of physical exercise can weaken back muscles, increasing their susceptibility to injury."
   },
   {
    "t": "h3",
@@ -58,7 +58,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "In conclusion, physiotherapy offers effective, non-invasive solutions for managing back pain, focusing on exercises, manual therapy, and lifestyle adjustments to restore mobility and alleviate discomfort. Seeking care from the [**best physiotherapy center in Ahmedabad**](/) ensures personalized treatment plans tailored to your specific needs, promoting faster recovery and long-term wellness. Whether your back pain is due to injury, posture issues, or chronic conditions, expert physiotherapists can help you regain strength, improve flexibility, and lead a pain-free life."
+   "text": "In conclusion, physiotherapy offers effective, non invasive solutions for managing back pain, focusing on exercises, manual therapy, and lifestyle adjustments to restore mobility and alleviate discomfort. Seeking care from the [**best physiotherapy center in Ahmedabad**](/) ensures personalized treatment plans tailored to your specific needs, promoting faster recovery and long term wellness. Whether your back pain is due to injury, posture issues, or chronic conditions, expert physiotherapists can help you regain strength, improve flexibility, and lead a pain-free life."
   }
  ]
 };

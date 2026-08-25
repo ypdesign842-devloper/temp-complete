@@ -34,7 +34,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Interferential Therapy (IFT) machines provide deep tissue stimulation, helping to block pain, reduce swelling, and decrease inflammation. This advanced physiotherapy technique is widely used for pain relief and rehabilitation. Due to its ease of use, lack of side effects, and effective results, IFT has gained popularity among individuals dealing with various conditions. If you’re looking for expert care, the [**best physiotherapists in Ahmedabad**](/best-physiotherapist-in-ahmedabad/) can help you incorporate IFT therapy into your treatment plan, ensuring safe and effective pain management. With professional guidance, you can experience faster recovery and improved mobility through this non-invasive physiotherapy technique."
+   "text": "Interferential Therapy (IFT) machines provide deep tissue stimulation, helping to block pain, reduce swelling, and decrease inflammation. This advanced physiotherapy technique is widely used for pain relief and rehabilitation. Due to its ease of use, lack of side effects, and effective results, IFT has gained popularity among individuals dealing with various conditions. If you’re looking for expert care, the [**best physiotherapists in Ahmedabad**](/best-physiotherapist-in-ahmedabad/) can help you incorporate IFT therapy into your treatment plan, ensuring safe and effective pain management. With professional guidance, you can experience faster recovery and improved mobility through this non invasive physiotherapy technique."
   },
   {
    "t": "h3",
@@ -64,7 +64,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

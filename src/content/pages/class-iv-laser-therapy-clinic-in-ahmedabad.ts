@@ -24,7 +24,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Class 4 laser therapy is an advanced, non-invasive treatment that uses high-powered laser light to promote healing and reduce pain. It penetrates deep into tissues, accelerating cellular repair and reducing inflammation. This therapy is widely used in physiotherapy, sports injury recovery, and chronic pain management."
+   "text": "Class 4 laser therapy is an advanced, non invasive treatment that uses hig powered laser light to promote healing and reduce pain. It penetrates deep into tissues, accelerating cellular repair and reducing inflammation. This therapy is widely used in physiotherapy, sports injury recovery, and chronic pain management."
   },
   {
    "t": "p",
@@ -43,14 +43,14 @@ export const content: PageContent = {
    "items": [
     "**Fast Pain Relief**: Helps reduce joint, muscle, and nerve pain quickly",
     "**Accelerated Healing**: Boosts tissue repair at a cellular level",
-    "**Non-Invasive**: No drugs, no surgery, and minimal side effects",
+    "**non invasive**: No drugs, no surgery, and minimal side effects",
     "**Improved Mobility**: Reduces stiffness and restores range of motion",
     "**Effective for Chronic Conditions**: Useful for arthritis, tendonitis, and neuropathy"
    ]
   },
   {
    "t": "p",
-   "text": "Class 4 laser therapy is ideal for patients seeking a safe, effective alternative to long-term medication or invasive procedures."
+   "text": "Class 4 laser therapy is ideal for patients seeking a safe, effective alternative to long term medication or invasive procedures."
   },
   {
    "t": "h3",
@@ -58,7 +58,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care the [**best Physiotherapy Clinic in Ahmedabad**](/best-physiotherapy-clinic-in-ahmedabad/) provides advanced Class 4 laser treatments under the expert guidance of the clinic’s qualified team. This therapy uses a high-powered laser that goes deep into tissues, going too fast to heal by minimizing irritation, decreasing pain, and boosting cellular repair."
+   "text": "Complete Care the [**best Physiotherapy Clinic in Ahmedabad**](/best-physiotherapy-clinic-in-ahmedabad/) provides advanced Class 4 laser treatments under the expert guidance of the clinic’s qualified team. This therapy uses a hig powered laser that goes deep into tissues, going too fast to heal by minimizing irritation, decreasing pain, and boosting cellular repair."
   }
  ],
  "quickLinks": [
@@ -80,7 +80,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

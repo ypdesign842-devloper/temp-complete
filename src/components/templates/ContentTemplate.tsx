@@ -1,13 +1,15 @@
+import { useMemo } from "react";
+import { Link } from "@tanstack/react-router";
+import { ArrowUpRight, Compass, ShieldCheck, Sparkles } from "lucide-react";
 import { PageHero } from "@/components/blocks/PageHero";
 import { CtaBand } from "@/components/blocks/CtaBand";
 import { AppointmentForm } from "@/components/blocks/AppointmentForm";
 import { BlockContent } from "@/components/blocks/BlockContent";
 import { LinkCard } from "@/components/blocks/Cards";
 import { Testimonials } from "@/components/blocks/Testimonials";
-import { Link } from "@tanstack/react-router";
 import { contentBySlug } from "@/data";
+import { site } from "@/data/site";
 import type { ContentPage, PageContent } from "@/data/types";
-import { ArrowUpRight, Compass, ShieldCheck } from "lucide-react";
 
 const eyebrow: Record<ContentPage["group"], string> = {
   pillar: "About Complete Care",
@@ -22,8 +24,126 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
     .map((slug) => contentBySlug.get(slug))
     .filter((p): p is ContentPage => Boolean(p));
 
+  // Extract FAQs from blocks for JSON-LD structured data
+  const faqs = useMemo(() => {
+    const faqBlock = content.blocks.find((b) => b.t === "faq");
+    if (faqBlock && faqBlock.t === "faq") {
+      return faqBlock.faqs;
+    }
+    return [];
+  }, [content.blocks]);
+
+  // Extract Pricing from blocks for JSON-LD structured data
+  const pricingBlock = useMemo(() => {
+    const p = content.blocks.find((b) => b.t === "pricing");
+    if (p && p.t === "pricing") {
+      return p;
+    }
+    return null;
+  }, [content.blocks]);
+
+  // Construct valid medical JSON-LD schema
+  const jsonLd = useMemo(() => {
+    const schemas: Record<string, unknown>[] = [
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        name: data.title || content.h1 || data.h1,
+        description: data.description || content.lead || data.lead,
+        url: `https://completecare.in/${data.slug}`,
+        about: {
+          "@type": "MedicalCondition",
+          name: data.label || data.h1,
+        },
+        author: {
+          "@type": "Person",
+          name: site.director,
+          jobTitle: "Chief Physiotherapist & Clinical Director",
+        },
+        publisher: {
+          "@type": "MedicalOrganization",
+          name: site.name,
+          url: "https://completecare.in",
+          logo: "https://completecare.in/assets/logo.png",
+          telephone: site.phone,
+        },
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://completecare.in/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Care Areas",
+            item: "https://completecare.in/care-areas",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: data.label || data.h1,
+            item: `https://completecare.in/${data.slug}`,
+          },
+        ],
+      },
+    ];
+
+    if (pricingBlock) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "MedicalProcedure",
+        name: data.label || content.h1 || data.h1,
+        procedureType: "NoninvasiveProcedure",
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: pricingBlock.currency || "INR",
+          lowPrice: pricingBlock.lowPrice ? String(pricingBlock.lowPrice) : "500",
+          highPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "1500",
+          offerCount: "1",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            priceCurrency: pricingBlock.currency || "INR",
+            minPrice: pricingBlock.lowPrice ? String(pricingBlock.lowPrice) : "500",
+            maxPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "1500",
+            unitText: "SESSION",
+          },
+          description: pricingBlock.context,
+        },
+      });
+    }
+
+    if (faqs.length > 0) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, ""),
+          },
+        })),
+      });
+    }
+
+    return JSON.stringify(schemas);
+  }, [data, content, faqs, pricingBlock]);
+
   return (
     <>
+      {/* Inject Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
+
       {/* Page Hero */}
       <PageHero
         eyebrow={eyebrow[data.group]}
@@ -43,7 +163,7 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
 
             {/* Quick Links Tag Cloud */}
             {content.quickLinks && content.quickLinks.length > 0 && (
-              <div className="rounded-2xl border border-border/80 bg-sand/60 p-6 sm:p-7">
+              <div className="rounded-3xl border border-navy/10 bg-white p-6 sm:p-7 shadow-sm">
                 <div className="flex items-center gap-2 text-xs font-bold tracking-wider text-teal uppercase">
                   <Compass className="size-4 text-accent" />
                   <span>Explore Related Treatments &amp; Clinical Protocols</span>
@@ -54,7 +174,7 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
                     <Link
                       key={l.to}
                       to={l.to as never}
-                      className="inline-flex items-center gap-1.5 rounded-xl border border-border bg-card px-4 py-2 text-xs font-semibold text-navy shadow-sm transition-all hover:border-accent hover:bg-accent hover:text-accent-foreground"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-navy/12 bg-white px-4 py-2 text-xs font-semibold text-navy shadow-sm transition-all hover:border-[#16803d]/45 hover:text-[#16803d]"
                     >
                       <span>{l.label}</span>
                       <ArrowUpRight className="size-3 text-muted-foreground" />

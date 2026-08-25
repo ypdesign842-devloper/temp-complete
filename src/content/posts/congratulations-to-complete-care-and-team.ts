@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "**About Complete Care – A Leading Physiotherapy Network in Gujarat**"
+   "text": "**About Complete Care, A Leading Physiotherapy Network in Gujarat**"
   },
   {
    "t": "p",
@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care’s team has grown to **40+ skilled professionals**, including physiotherapists, chiropractors, and rehabilitation experts, all working together to provide **personalized and patient-centered care**. Today, Complete Care operates **6 branches across Gujarat**, making high-quality physiotherapy accessible to patients across the city."
+   "text": "Complete Care’s team has grown to **40+ skilled professionals**, including physiotherapists, chiropractors, and rehabilitation experts, all working together to provide **personalized and patient centered care**. Today, Complete Care operates **6 branches across Gujarat**, making hig quality physiotherapy accessible to patients across the city."
   },
   {
    "t": "h2",
@@ -42,7 +42,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "With **15+ years of experience**, [**Dr. Hardik Patel**](/best-physiotherapist-in-ahmedabad/) is a pioneer in chiropractic treatment, dry-needling, cupping therapy, and sports/orthopedic physiotherapy. He is known for his ability to combine advanced techniques with empathetic care, ensuring patients achieve long-term relief and improved mobility. His expertise has helped thousands of patients regain functionality and confidence in their daily lives."
+   "text": "With **15+ years of experience**, [**Dr. Hardik Patel**](/best-physiotherapist-in-ahmedabad/) is a pioneer in chiropractic treatment, dry-needling, cupping therapy, and sports/orthopedic physiotherapy. He is known for his ability to combine advanced techniques with empathetic care, ensuring patients achieve long term relief and improved mobility. His expertise has helped thousands of patients regain functionality and confidence in their daily lives."
   },
   {
    "t": "h3",
@@ -65,7 +65,7 @@ export const content: PostContent = {
    "items": [
     "Years of dedicated service and clinical excellence",
     "Successful rehabilitation of over **75,000 patients**",
-    "Innovative treatment techniques and evidence-based therapies",
+    "Innovative treatment techniques and evidence based therapies",
     "Leadership of a **40+ member strong team** across **6 branches**",
     "Commitment to providing advanced physiotherapy with a patient-first approach"
    ]
@@ -80,7 +80,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Personalized Treatment Plans** Every patient receives care tailored to their specific condition, whether it’s spinal pain, sports injuries, post-surgery recovery, or chronic pain management."
+   "text": "1. **Personalized Treatment Plans** Every patient receives care tailored to their specific condition, whether it’s spinal pain, sports injuries, post surgery recovery, or chronic pain management."
   },
   {
    "t": "p",
@@ -88,7 +88,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "3. **Experienced Professionals** With over **15 years of experience**, the team ensures consistent, high-quality outcomes for every patient."
+   "text": "3. **Experienced Professionals** With over **15 years of experience**, the team ensures consistent, hig quality outcomes for every patient."
   },
   {
    "t": "p",
@@ -104,7 +104,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Their comprehensive services include **manual therapy, chiropractic care, dry-needling, cupping therapy, Kinesio taping, sports physiotherapy, neuro-rehabilitation, spinal care, and post-surgery recovery**. Each treatment plan is personalized, focusing on restoring mobility, reducing pain, and improving quality of life. Combining modern techniques with compassionate care, Complete Care ensures that patients of all ages achieve optimal recovery outcomes in a safe and supportive environment, making it one of the most trusted **physiotherapy centers in Gujarat**."
+   "text": "Their comprehensive services include **manual therapy, chiropractic care, dry-needling, cupping therapy, Kinesio taping, sports physiotherapy, neuro-rehabilitation, spinal care, and post surgery recovery**. Each treatment plan is personalized, focusing on restoring mobility, reducing pain, and improving quality of life. Combining modern techniques with compassionate care, Complete Care ensures that patients of all ages achieve optimal recovery outcomes in a safe and supportive environment, making it one of the most trusted **physiotherapy centers in Gujarat**."
   },
   {
    "t": "h2",

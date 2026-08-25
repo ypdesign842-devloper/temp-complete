@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Frozen shoulder, also known as adhesive capsulitis, is a painful condition that restricts shoulder movement and affects daily activities. Many people in Ahmedabad experience this issue due to sedentary lifestyles, diabetes, or post-injury stiffness. The good news is that **[frozen shoulder physiotherapy](/frozen-shoulder-treatment-doctor-in-ahmedabad/)** can effectively restore mobility-if done correctly at each stage."
+   "text": "Frozen shoulder, also known as adhesive capsulitis, is a painful condition that restricts shoulder movement and affects daily activities. Many people in Ahmedabad experience this issue due to sedentary lifestyles, diabetes, or post injury stiffness. The good news is that **[frozen shoulder physiotherapy](/frozen-shoulder-treatment-doctor-in-ahmedabad/)** can effectively restore mobility-if done correctly at each stage."
   },
   {
    "t": "p",

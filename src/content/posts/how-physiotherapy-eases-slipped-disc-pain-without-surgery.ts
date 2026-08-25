@@ -55,7 +55,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Today’s desk-bound professionals, students, and gamers spend up to 10–12 hours daily on digital screens. Prolonged screen time can cause:"
+   "text": "Today’s desk-bound professionals, students, and gamers spend up to 10 to 12 hours daily on digital screens. Prolonged screen time can cause:"
   },
   {
    "t": "ul",
@@ -155,11 +155,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "#### Why Choose Non-surgical Treatment for Slipped Disc?"
+   "text": "#### Why Choose non surgical  Treatment for Slipped Disc?"
   },
   {
    "t": "p",
-   "text": "While surgery can help in some severe cases, most slipped discs improve with conservative treatment. Advantages of non-surgical treatment include:"
+   "text": "While surgery can help in some severe cases, most slipped discs improve with conservative treatment. Advantages of non surgical  treatment include:"
   },
   {
    "t": "ul",
@@ -167,12 +167,12 @@ export const content: PostContent = {
     "Lower risk and cost",
     "No hospital stay",
     "Fewer complications",
-    "Focus on long-term spine health"
+    "Focus on long term spine health"
    ]
   },
   {
    "t": "p",
-   "text": "Research shows that after 6–12 weeks of structured physiotherapy, many patients experience significant pain relief and functional improvement."
+   "text": "Research shows that after 6 to 12 weeks of structured physiotherapy, many patients experience significant pain relief and functional improvement."
   },
   {
    "t": "p",
@@ -193,7 +193,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Visiting the [**Best Physiotherapy Center in Ahmedabad**](/) ensures you get modern facilities, trained staff, and evidence-based treatment."
+   "text": "Visiting the [**Best Physiotherapy Center in Ahmedabad**](/) ensures you get modern facilities, trained staff, and evidence based treatment."
   },
   {
    "t": "p",

@@ -42,7 +42,7 @@ export const content: PostContent = {
     "Preventing muscle stiffness",
     "Improving nerve-muscle coordination",
     "Restoring natural facial expressions",
-    "Reducing long-term complications such as synkinesis (abnormal facial movements)"
+    "Reducing long term complications such as synkinesis (abnormal facial movements)"
    ]
   },
   {
@@ -55,7 +55,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "At **Complete Care**, therapists use evidence-based methods such as:"
+   "text": "At **Complete Care**, therapists use evidence based methods such as:"
   },
   {
    "t": "ul",
@@ -163,7 +163,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Our structured and evidence-based approach has helped many patients in Ahmedabad regain facial control and confidence."
+   "text": "Our structured and evidence based approach has helped many patients in Ahmedabad regain facial control and confidence."
   },
   {
    "t": "h3",
@@ -192,7 +192,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Bell’s Palsy can impact both physical appearance and emotional well-being, but **the right physiotherapy makes a significant difference**. **Facial muscle re-education therapy** is one of the most effective methods to restore natural facial movements and prevent long-term complications."
+   "text": "Bell’s Palsy can impact both physical appearance and emotional wellbeing, but **the right physiotherapy makes a significant difference**. **Facial muscle re-education therapy** is one of the most effective methods to restore natural facial movements and prevent long term complications."
   },
   {
    "t": "p",

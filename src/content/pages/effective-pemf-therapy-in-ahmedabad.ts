@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "effective-pemf-therapy-in-ahmedabad",
  "h1": "PEMF Therapy In Ahmedabad",
- "lead": "P.E.M.F, or Pulsed Electromagnetic Fields, is a revolutionary, non-invasive therapy widely used for effective healing. This simple yet efficient method involves applying magnetic fields in impulse bundles to target the body either locally or generally. The invisible magnetic field penetrates every cell, reaching deep into areas that other methods may not efficiently influence. Offered by the best physiotherapist in Ahmedabad, this advanced therapy promotes healing at the cellular level, ensuring effective results for various conditions.",
+ "lead": "P.E.M.F, or Pulsed Electromagnetic Fields, is a revolutionary, non invasive therapy widely used for effective healing. This simple yet efficient method involves applying magnetic fields in impulse bundles to target the body either locally or generally. The invisible magnetic field penetrates every cell, reaching deep into areas that other methods may not efficiently influence. Offered by the best physiotherapist in Ahmedabad, this advanced therapy promotes healing at the cellular level, ensuring effective results for various conditions.",
  "hero": "/assets/treatments/PEMF-Therapy.webp",
  "blocks": [
   {
@@ -53,7 +53,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "**Complete Care** –  **[Best Physiotherapy Center in Ahmedabad](/)** provides Pulsed Electromagnetic Field (PEMF) therapy as a new treatment option for a variety of musculoskeletal and neurological disorders, guided by an expert team. PEMF therapy uses electromagnetic waves to promote and improve the body’s natural healing mechanisms at the cellular level. This non-invasive treatment boosts blood circulation, decreases inflammation, and promotes tissue regeneration, making it useful for controlling chronic pain, bone mending, and overall recovery."
+   "text": "**Complete Care**, **[Best Physiotherapy Center in Ahmedabad](/)** provides Pulsed Electromagnetic Field (PEMF) therapy as a new treatment option for a variety of musculoskeletal and neurological disorders, guided by an expert team. PEMF therapy uses electromagnetic waves to promote and improve the body’s natural healing mechanisms at the cellular level. This non invasive treatment boosts blood circulation, decreases inflammation, and promotes tissue regeneration, making it useful for controlling chronic pain, bone mending, and overall recovery."
   }
  ],
  "quickLinks": [
@@ -75,7 +75,7 @@ export const content: PageContent = {
   },
   {
    "label": "SWD",
-   "to": "/top-short-wave-diathermy-treatment-in-ahmedabad"
+   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
   },
   {
    "label": "Electrical Stimulation",

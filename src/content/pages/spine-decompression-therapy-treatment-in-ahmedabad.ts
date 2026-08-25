@@ -3,7 +3,7 @@ import type { PageContent } from "@/data/types";
 export const content: PageContent = {
  "slug": "spine-decompression-therapy-treatment-in-ahmedabad",
  "h1": "Spine Decompression Therapy Treatment in Ahmedabad",
- "lead": "Spine decompression therapy is a non-surgical physiotherapy treatment designed to relieve pressure on the spinal discs and nerves. It uses a specialized decompression table that gently stretches the spine in a controlled manner. This creates negative pressure within the discs, helping bulging or herniated discs move back into place. Improved spinal alignment allows better blood flow, oxygen, and nutrients to reach injured tissues, promoting natural healing. The therapy is safe, comfortable, and closely monitored by trained physiotherapists. Spine decompression therapy is commonly used as part of a comprehensive rehabilitation program for long-term spine health.",
+ "lead": "Spine decompression therapy is a non surgical  physiotherapy treatment designed to relieve pressure on the spinal discs and nerves. It uses a specialized decompression table that gently stretches the spine in a controlled manner. This creates negative pressure within the discs, helping bulging or herniated discs move back into place. Improved spinal alignment allows better blood flow, oxygen, and nutrients to reach injured tissues, promoting natural healing. The therapy is safe, comfortable, and closely monitored by trained physiotherapists. Spine decompression therapy is commonly used as part of a comprehensive rehabilitation program for long term spine health.",
  "hero": "/assets/treatments/Spine-Decompression-Therapy-Treatment.png",
  "blocks": [
   {
@@ -16,7 +16,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Spine decompression therapy offers effective pain relief while supporting long-term spinal health. It is especially beneficial for patients seeking non-surgical solutions."
+   "text": "Spine decompression therapy offers effective pain relief while supporting long term spinal health. It is especially beneficial for patients seeking non surgical  solutions."
   },
   {
    "t": "h3",
@@ -34,7 +34,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Because the therapy is gentle and non-invasive, it is suitable for many patients with chronic spine conditions. Regular sessions can significantly improve daily comfort, posture, and overall quality of life."
+   "text": "Because the therapy is gentle and non invasive, it is suitable for many patients with chronic spine conditions. Regular sessions can significantly improve daily comfort, posture, and overall quality of life."
   },
   {
    "t": "h2",
@@ -68,7 +68,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Complete Care provides advanced spine decompression therapy treatment in Ahmedabad with a focus on safe, non-surgical relief from back and neck pain. Our experienced physiotherapists use modern decompression technology to reduce spinal pressure and promote natural healing. Each treatment plan is personalized after a detailed assessment to ensure effective and long-lasting results. We combine spine decompression therapy with physiotherapy exercises, posture correction, and lifestyle guidance for complete recovery. With a patient-first approach, modern facilities, and proven clinical expertise, Complete Care is a trusted choice for [spine care and treatment in Ahmedabad](/)."
+   "text": "Complete Care provides advanced spine decompression therapy treatment in Ahmedabad with a focus on safe, non surgical  relief from back and neck pain. Our experienced physiotherapists use modern decompression technology to reduce spinal pressure and promote natural healing. Each treatment plan is personalized after a detailed assessment to ensure effective and long-lasting results. We combine spine decompression therapy with physiotherapy exercises, posture correction, and lifestyle guidance for complete recovery. With a patient-first approach, modern facilities, and proven clinical expertise, Complete Care is a trusted choice for [spine care and treatment in Ahmedabad](/)."
   },
   {
    "t": "h3",

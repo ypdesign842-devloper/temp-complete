@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Neck pain has become one of the most common health concerns in Ahmedabad – affecting students, office workers, homemakers, and even fitness enthusiasts. Whether it’s caused by long hours at a computer, poor posture, or injury, chronic neck pain can severely limit movement and quality of life. Fortunately, **physiotherapy for chronic neck pain** offers safe, effective, and lasting relief – especially when guided by experts at **Complete Care**, recognized as the **Best Physiotherapy Clinic in Ahmedabad**."
+   "text": "Neck pain has become one of the most common health concerns in Ahmedabad, affecting students, office workers, homemakers, and even fitness enthusiasts. Whether it’s caused by long hours at a computer, poor posture, or injury, chronic neck pain can severely limit movement and quality of life. Fortunately, **physiotherapy for chronic neck pain** offers safe, effective, and lasting relief, especially when guided by experts at **Complete Care**, recognized as the **Best Physiotherapy Clinic in Ahmedabad**."
   },
   {
    "t": "h2",
@@ -52,7 +52,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "**Physiotherapy treatment for neck pain** is a medically supervised, non-invasive approach that focuses on restoring neck mobility, reducing pain, and preventing recurrence. At **Complete Care**, the process begins with a detailed assessment by qualified physiotherapists who identify the root cause – whether muscular, joint-related, or postural."
+   "text": "**Physiotherapy treatment for neck pain** is a medically supervised, non invasive approach that focuses on restoring neck mobility, reducing pain, and preventing recurrence. At **Complete Care**, the process begins with a detailed assessment by qualified physiotherapists who identify the root cause, whether muscular, joint-related, or postural."
   },
   {
    "t": "p",
@@ -84,7 +84,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Regularly performing **cervical spine physiotherapy exercises** under professional supervision ensures long-term pain relief and stability."
+   "text": "Regularly performing **cervical spine physiotherapy exercises** under professional supervision ensures long term pain relief and stability."
   },
   {
    "t": "p",
@@ -100,7 +100,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapists teach correct posture for work, study, and daily activities. This helps prevent recurrent strain, especially in people working long hours on screens — a common issue among professionals in Ahmedabad."
+   "text": "Physiotherapists teach correct posture for work, study, and daily activities. This helps prevent recurrent strain, especially in people working long hours on screens, a common issue among professionals in Ahmedabad."
   },
   {
    "t": "p",
@@ -108,7 +108,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Patients learn self-care routines, stretching techniques, and daily habits that protect the cervical spine and promote long-term wellness."
+   "text": "Patients learn self-care routines, stretching techniques, and daily habits that protect the cervical spine and promote long term wellness."
   },
   {
    "t": "h3",
@@ -116,29 +116,29 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Ahmedabad is home to several physiotherapy centers, but **Complete Care** stands out for its evidence-based, patient-centered approach. The clinic uses a blend of **manual therapy**, **exercise therapy**, and **modern physiotherapy technologies** to provide the most effective **neck pain physiotherapy treatment**."
+   "text": "Ahmedabad is home to several physiotherapy centers, but **Complete Care** stands out for its evidence based, patient centered approach. The clinic uses a blend of **manual therapy**, **exercise therapy**, and **modern physiotherapy technologies** to provide the most effective **neck pain physiotherapy treatment**."
   },
   {
    "t": "p",
-   "text": "Whether your neck pain is acute, chronic, or post-injury, the specialists at **Complete Care** customize each treatment plan to your lifestyle and recovery goals. Their focus is not just on pain relief but also on improving strength, posture, and spinal alignment for lasting results."
+   "text": "Whether your neck pain is acute, chronic, or post injury, the specialists at **Complete Care** customize each treatment plan to your lifestyle and recovery goals. Their focus is not just on pain relief but also on improving strength, posture, and spinal alignment for lasting results."
   },
   {
    "t": "h3",
-   "text": "**Why Choose Complete Care – The Best Physiotherapy Clinic in Ahmedabad?**"
+   "text": "**Why Choose Complete Care, The Best Physiotherapy Clinic in Ahmedabad?**"
   },
   {
    "t": "ul",
    "items": [
     "**Experienced Physiotherapists:** A team of highly skilled professionals specializing in spine and musculoskeletal rehabilitation.",
     "**Advanced Equipment:** Use of latest electrotherapy machines and posture correction tools.",
-    "**Personalized Care:** Each patient receives a tailored plan — combining exercise, manual therapy, and ergonomic advice.",
+    "**Personalized Care:** Each patient receives a tailored plan, combining exercise, manual therapy, and ergonomic advice.",
     "**Convenient and Accessible:** Located in Ahmedabad with flexible appointment options for working professionals and students.",
     "**Proven Results:** Hundreds of satisfied patients who regained pain-free neck mobility and confidence."
    ]
   },
   {
    "t": "p",
-   "text": "If you’re looking for trusted [**physiotherapy treatment for neck pain in Ahmedabad**](/neck-pain-treatment-doctor-in-ahmedabad/), **Complete Care** offers world-class therapy close to home — ensuring faster recovery and a better quality of life."
+   "text": "If you’re looking for trusted [**physiotherapy treatment for neck pain in Ahmedabad**](/neck-pain-treatment-doctor-in-ahmedabad/), **Complete Care** offers world-class therapy close to home, ensuring faster recovery and a better quality of life."
   },
   {
    "t": "h3",
@@ -152,7 +152,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Maintain correct posture while sitting or using devices.",
-    "Take short breaks every 30–45 minutes if working at a desk.",
+    "Take short breaks every 30 to 45 minutes if working at a desk.",
     "Perform **cervical spine physiotherapy exercises** regularly to keep muscles strong.",
     "Use ergonomic pillows that support the natural curve of your neck.",
     "Avoid sudden, jerky head movements and prolonged strain."
@@ -160,7 +160,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Consistent preventive care helps you enjoy long-term results from your **neck pain physiotherapy treatment**."
+   "text": "Consistent preventive care helps you enjoy long term results from your **neck pain physiotherapy treatment**."
   },
   {
    "t": "p",
@@ -176,7 +176,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If persistent neck pain is affecting your daily life, it’s time to act now — schedule your consultation at **Complete Care** and start your journey toward a pain-free, stronger cervical spine."
+   "text": "If persistent neck pain is affecting your daily life, it’s time to act now, schedule your consultation at **Complete Care** and start your journey toward a pain-free, stronger cervical spine."
   }
  ]
 };

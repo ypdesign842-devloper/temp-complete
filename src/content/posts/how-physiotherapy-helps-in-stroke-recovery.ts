@@ -75,7 +75,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "[**Stroke treatment**](/stroke-in-treatment-ahmedabad/) doesn’t end with emergency care; rehabilitation is essential for long-term recovery. Physiotherapy helps patients adapt to their post-stroke condition and regain lost abilities."
+   "text": "[**Stroke treatment**](/stroke-in-treatment-ahmedabad/) doesn’t end with emergency care; rehabilitation is essential for long term recovery. Physiotherapy helps patients adapt to their post stroke condition and regain lost abilities."
   },
   {
    "t": "p",
@@ -83,23 +83,23 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Initial Assessment** – A physiotherapist evaluates the patient’s movement, strength, and overall condition to design a personalized therapy plan."
+   "text": "1. **Initial Assessment**, A physiotherapist evaluates the patient’s movement, strength, and overall condition to design a personalized therapy plan."
   },
   {
    "t": "p",
-   "text": "2. **Strength & Mobility Exercises** – Specific exercises are introduced to improve muscle function and prevent stiffness."
+   "text": "2. **Strength & Mobility Exercises**, Specific exercises are introduced to improve muscle function and prevent stiffness."
   },
   {
    "t": "p",
-   "text": "3. **Balance & Coordination Training** – Helps in reducing the risk of falls and improving movement efficiency."
+   "text": "3. **Balance & Coordination Training**, Helps in reducing the risk of falls and improving movement efficiency."
   },
   {
    "t": "p",
-   "text": "4. **Gait Training** – Focuses on walking techniques and using assistive devices if needed."
+   "text": "4. **Gait Training**, Focuses on walking techniques and using assistive devices if needed."
   },
   {
    "t": "p",
-   "text": "5. **Neuroplasticity Training** – Encourages the brain to form new neural connections, aiding recovery."
+   "text": "5. **Neuroplasticity Training**, Encourages the brain to form new neural connections, aiding recovery."
   },
   {
    "t": "h3",
@@ -107,11 +107,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "To find a [**top physiotherapy center**](/) is a must for stroke rehabilitation. Visit Complete Care – a leading physiotherapy center in Ahmedabad offers Chiropractic Adjustment, Cupping Therapy, Spine-Neuro Rehabilitation, Class IV Laser Therapy, Non-Surgical Spine Decompression Therapy."
+   "text": "To find a [**top physiotherapy center**](/) is a must for stroke rehabilitation. Visit Complete Care, a leading physiotherapy center in Ahmedabad offers Chiropractic Adjustment, Cupping Therapy, Spine-Neuro Rehabilitation, Class IV Laser Therapy, non surgical  Spine Decompression Therapy."
   },
   {
    "t": "p",
-   "text": "With the expert team members, they provide specialized care to every patient. **Complete Care**– Specialized in chiropractic and physiotherapy services. Physiotherapy services available at locations such as Thaltej, Gota, South Bopal, Ankleshwar, and Mehsana."
+   "text": "With the expert team members, they provide specialized care to every patient. **Complete Care**, Specialized in chiropractic and physiotherapy services. Physiotherapy services available at locations such as Thaltej, Gota, South Bopal, Ankleshwar, and Mehsana."
   },
   {
    "t": "p",

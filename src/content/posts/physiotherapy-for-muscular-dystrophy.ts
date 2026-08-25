@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This blog will explore how physiotherapy for muscular dystrophy can help maintain long-term mobility, how this physiotherapy can benefit your day-to-day life, and why physiotherapy plans are so important in the treatment and management of muscular dystrophy."
+   "text": "This blog will explore how physiotherapy for muscular dystrophy can help maintain long term mobility, how this physiotherapy can benefit your day to day life, and why physiotherapy plans are so important in the treatment and management of muscular dystrophy."
   },
   {
    "t": "h2",
@@ -50,7 +50,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the pillars of long-term treatment of muscular dystrophy is physiotherapy. Its aim is to ensure patients can continue to move, avoid stiffening their joints, improve their posture, and stay independent in their everyday lives."
+   "text": "One of the pillars of long term treatment of muscular dystrophy is physiotherapy. Its aim is to ensure patients can continue to move, avoid stiffening their joints, improve their posture, and stay independent in their everyday lives."
   },
   {
    "t": "p",
@@ -122,7 +122,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapists use gentle stretching and range-of-motion exercises to keep joints flexible and reduce discomfort."
+   "text": "Physiotherapists use gentle stretching and range of motion exercises to keep joints flexible and reduce discomfort."
   },
   {
    "t": "p",
@@ -238,7 +238,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "Range-of-Motion Exercises"
+   "text": "range of motion Exercises"
   },
   {
    "t": "p",
@@ -334,7 +334,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Preventing these issues often improves long-term comfort and functional independence."
+   "text": "Preventing these issues often improves long term comfort and functional independence."
   },
   {
    "t": "h2",
@@ -410,7 +410,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Consistency is one of the most important factors in long-term rehabilitation success."
+   "text": "Consistency is one of the most important factors in long term rehabilitation success."
   },
   {
    "t": "h2",
@@ -462,7 +462,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "However, early intervention often provides the greatest long-term benefits."
+   "text": "However, early intervention often provides the greatest long term benefits."
   },
   {
    "t": "p",

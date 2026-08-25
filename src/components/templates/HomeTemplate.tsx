@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import {
   Activity,
@@ -13,6 +12,7 @@ import {
   Phone,
   ShieldCheck,
   Sparkles,
+  Target,
   Users,
 } from "lucide-react";
 import { CtaBand } from "@/components/blocks/CtaBand";
@@ -27,37 +27,6 @@ import { site } from "@/data/site";
 import { modalities, neuroConditions, orthoConditions } from "@/data";
 
 export function HomeTemplate() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const heroSlides = [
-    {
-      src: "/assets/media/Complete-care-Thaltej-Ahmedabad-Clinic-photos1.webp",
-      alt: "Complete Care Premier Physiotherapy & Rehabilitation Centre Thaltej Ahmedabad",
-    },
-    {
-      src: "/assets/media/Complete-care-Gota-Ahmedabad-Clinic-photos1.webp",
-      alt: "Complete Care Advanced Physiotherapy & Spine Clinic Gota Ahmedabad",
-    },
-    {
-      src: "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos1.webp",
-      alt: "Complete Care Modern Rehabilitation Clinic South Bopal Ahmedabad",
-    },
-    {
-      src: "/assets/media/Complete-care-Thaltej-Ahmedabad-Clinic-photos2.webp",
-      alt: "Complete Care Therapy and Rehabilitation Floor Ahmedabad",
-    },
-    {
-      src: "/assets/media/Complete-care-Gota-Ahmedabad-Clinic-photos4.webp",
-      alt: "Complete Care Rehabilitation Centre Gota Ahmedabad",
-    },
-  ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 3800);
-    return () => clearInterval(timer);
-  }, [heroSlides.length]);
   return (
     <>
       {/* Cinematic Hero Section */}
@@ -77,19 +46,19 @@ export function HomeTemplate() {
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 rounded-full border border-navy/15 bg-white/90 px-3.5 py-1.5 shadow-sm backdrop-blur-sm">
               <Sparkles className="size-3.5 text-accent" />
-              <span className="text-xs font-bold tracking-wider text-navy uppercase">
-                Directed by {site.director} · 16+ Years Clinical Excellence
-              </span>
+              <h1 className="text-xs font-bold tracking-wider text-navy uppercase">
+                Best Physiotherapy Centre in Ahmedabad
+              </h1>
             </div>
 
-            <h1 className="text-4xl font-semibold leading-[1.08] tracking-tight text-navy sm:text-5xl lg:text-[3.6rem]">
-              Physiotherapy that gets you <span className="italic text-accent">out of pain</span> — and keeps you there.
-            </h1>
+            <p className="text-4xl font-semibold leading-[1.08] tracking-tight text-navy sm:text-5xl lg:text-[3.6rem]">
+              Expert Physiotherapy for <span className="text-accent">Better Movement</span> and Lasting Recovery.
+            </p>
 
             <p className="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               Directed by <strong className="font-semibold text-navy">{site.director}</strong> and a dedicated team
-              of 40+ licensed physical therapists (BPT/MPT), we integrate precision chiropractic adjustments, US-FDA approved
-              spinal decompression, PEMF cellular therapy, Class IV laser, and neuro-rehabilitation to restore pain-free mobility
+              of 40+ licensed physical therapists (BPT/MPT), we integrate precision chiropractic adjustments, US FDA approved
+              spinal decompression, PEMF cellular therapy, Class IV laser, and neuro rehabilitation to restore pain free mobility
               without surgery.
             </p>
 
@@ -117,48 +86,22 @@ export function HomeTemplate() {
             <div className="grid grid-cols-2 gap-4 pt-6 sm:grid-cols-4 border-t border-border/80">
               {site.stats.map((s) => (
                 <div key={s.label} className="rounded-xl border border-border/60 bg-white p-3.5 shadow-sm">
-                  <div className="font-display text-2xl font-bold text-teal sm:text-3xl">{s.value}</div>
+                  <div className="text-2xl font-bold text-teal sm:text-3xl tracking-tight">{s.value}</div>
                   <div className="mt-1 text-[11px] font-semibold leading-tight text-muted-foreground">{s.label}</div>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Right Column: Full-Bleed Auto-Swiping Clinic Photo Showcase (Full Height, Pristine, Fully Visible) */}
-          <div className="relative">
-            <div className="relative w-full h-[440px] sm:h-[500px] lg:h-[540px] xl:h-[580px] overflow-hidden rounded-2xl bg-white shadow-2xl shadow-navy/15">
-              {heroSlides.map((slide, index) => (
-                <img
-                  key={slide.src}
-                  src={slide.src}
-                  alt={slide.alt}
-                  fetchPriority={index === 0 ? "high" : "low"}
-                  decoding="async"
-                  className={`absolute inset-0 h-full w-full object-cover object-center transition-all duration-1000 ease-in-out ${
-                    index === currentSlide
-                      ? "opacity-100 scale-100 z-10"
-                      : "opacity-0 scale-105 z-0 pointer-events-none"
-                  }`}
-                />
-              ))}
-
-              {/* Subtle Pagination Indicators */}
-              <div className="absolute bottom-4 left-1/2 z-20 flex -translate-x-1/2 items-center gap-2 rounded-full bg-navy/50 px-3.5 py-1.5 backdrop-blur-md shadow-md">
-                {heroSlides.map((_, index) => (
-                  <button
-                    key={index}
-                    type="button"
-                    aria-label={`Go to clinic photo ${index + 1}`}
-                    onClick={() => setCurrentSlide(index)}
-                    className={`h-2 rounded-full transition-all duration-300 ${
-                      index === currentSlide
-                        ? "w-6 bg-white shadow-sm"
-                        : "w-2 bg-white/50 hover:bg-white/80"
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
+          {/* Right Column: Clean Showcase with cc-home-page-image (Transparent Background, Fully Visible) */}
+          <div className="relative flex items-center justify-center py-4 lg:py-0">
+            <img
+              src="/assets/treatments/cc-home-page-image.webp"
+              alt="Complete Care Physiotherapy Centres across Gujarat"
+              fetchPriority="high"
+              decoding="async"
+              className="w-full max-w-[420px] sm:max-w-[480px] lg:max-w-[540px] xl:max-w-[580px] h-auto object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
+            />
           </div>
         </div>
       </section>
@@ -172,22 +115,20 @@ export function HomeTemplate() {
                 Why Complete Care
               </span>
               <h2 className="mt-4 text-3xl font-semibold leading-tight text-navy sm:text-4xl">
-                A specialized clinical team — not a massage counter
+                Clinical Expertise. Personalised Care. Better Recovery.
               </h2>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Every patient at Complete Care undergoes an evidence-informed assessment by a licensed physiotherapist
-                before any intervention begins. Your recovery plan is engineered around your specific anatomy and diagnosis,
-                re-evaluated at each milestone, and transitioned into supervised fitness so your results endure.
+                Every patient at Complete Care begins with a detailed clinical assessment by an experienced physiotherapist. Your care plan is tailored to your condition, movement, goals, and recovery needs bringing together evidence informed physiotherapy, rehabilitation, and guided exercise for a structured path toward better function and long term wellbeing.
               </p>
             </div>
 
             {/* Checklist Grid */}
             <div className="grid gap-3 sm:grid-cols-2">
               {[
-                "Detailed physiotherapist-led clinical assessment",
+                "Detailed physiotherapist led clinical assessment",
                 "Advanced modalities: Laser, PEMF, TECAR & Decompression",
                 "Certified Chiropractic & manual joint mobilization",
-                "Comprehensive neuro and post-surgical rehabilitation",
+                "Comprehensive neuro and post surgical rehabilitation",
                 "Doorstep home physiotherapy across Ahmedabad",
                 "Supervised medical fitness to prevent recurrence",
               ].map((item) => (
@@ -234,14 +175,16 @@ export function HomeTemplate() {
                     </div>
                     <div className="space-y-2.5 flex-1">
                       <div className="flex flex-wrap items-center gap-2.5">
-                        <h3 className="text-xl sm:text-2xl font-bold text-navy">Dr. Hardik Patel (PT)</h3>
+                        <Link to="/best-physiotherapist-in-ahmedabad" className="text-xl sm:text-2xl font-bold text-navy hover:text-accent transition-colors">
+                          Dr. Hardik Patel (PT)
+                        </Link>
                         <span className="badge-emerald text-xs px-2.5 py-0.5 font-bold">Director</span>
                       </div>
                       <p className="text-xs font-bold tracking-wider text-teal uppercase">
                         Certified Chiropractor &amp; Senior Physical Therapist (FOMT Australia)
                       </p>
                       <p className="text-sm leading-relaxed text-muted-foreground">
-                        With over 16+ years of clinical practice across Gujarat, Dr. Hardik Patel directs a dedicated team of 40+ licensed physiotherapists specializing in non-surgical spinal decompression, joint realignment, and evidence-based neuro-rehabilitation.
+                        With 16+ years of clinical experience across Gujarat, Dr. Hardik Patel leads a team of 40+ licensed physiotherapists. His clinical expertise includes spinal care, joint rehabilitation, chiropractic care, and neuro rehabilitation.
                       </p>
                       <div className="pt-2 flex flex-wrap items-center justify-between gap-3">
                         <span className="inline-flex items-center gap-1.5 rounded-full bg-[#f9f7ef] px-3 py-1 text-xs font-semibold text-navy">
@@ -249,7 +192,7 @@ export function HomeTemplate() {
                           <span>Spine &amp; Neuro Rehab Lead</span>
                         </span>
                         <Link
-                          to="/our-team"
+                          to="/best-physiotherapist-in-ahmedabad"
                           className="inline-flex items-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-xs font-bold text-accent-foreground shadow-sm transition-all hover:bg-emerald-600"
                         >
                           <span>View Clinical Profile</span>
@@ -276,14 +219,16 @@ export function HomeTemplate() {
                     </div>
                     <div className="space-y-2.5 flex-1">
                       <div className="flex flex-wrap items-center gap-2.5">
-                        <h3 className="text-xl sm:text-2xl font-bold text-navy">Dr. Foram Patel (PT)</h3>
+                        <Link to="/female-fitness-trainer-in-ahmedabad" className="text-xl sm:text-2xl font-bold text-navy hover:text-accent transition-colors">
+                          Dr. Foram Patel (PT)
+                        </Link>
                         <span className="badge-emerald text-xs px-2.5 py-0.5 font-bold">Founder &amp; Director</span>
                       </div>
                       <p className="text-xs font-bold tracking-wider text-teal uppercase">
                         Master Fitness Trainer (YOS Certified) &amp; Women's Health Specialist
                       </p>
                       <p className="text-sm leading-relaxed text-muted-foreground">
-                        Holding a Fellowship in Manual Therapy and Master's in Fitness Training, Dr. Foram Patel pioneers women's rehabilitation, prenatal and postnatal fitness protocols, clinical Pilates, and weight management across Complete Care.
+                        Dr. Foram Patel specialises in women’s rehabilitation, prenatal and postnatal fitness, clinical Pilates, manual therapy, and personalised fitness programs. She brings a focused approach to women’s health and long term physical wellbeing.
                       </p>
                       <div className="pt-2 flex flex-wrap items-center justify-between gap-3">
                         <span className="inline-flex items-center gap-1.5 rounded-full bg-[#f9f7ef] px-3 py-1 text-xs font-semibold text-navy">
@@ -321,7 +266,7 @@ export function HomeTemplate() {
                 Advanced Modalities
               </span>
               <h2 className="mt-3 max-w-2xl text-3xl font-semibold leading-tight text-navy sm:text-4xl">
-                Hospital-grade physiotherapy technology under one roof
+                Hospital grade physiotherapy technology under one roof
               </h2>
             </div>
             <Link
@@ -335,7 +280,7 @@ export function HomeTemplate() {
 
           {/* Modality Grid */}
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {modalities.slice(0, 9).map((m) => (
+            {modalities.slice(0, 12).map((m) => (
               <Link
                 key={m.slug}
                 to={`/${m.slug}` as never}
@@ -365,6 +310,220 @@ export function HomeTemplate() {
         </div>
       </section>
 
+      {/* Specialised Chiropractic & Spinal Health Section */}
+      <section className="section-y bg-[#f9f7ef] border-t border-border/80 overflow-hidden">
+        <div className="container-cc">
+          {/* Main Showcase Panel */}
+          <div className="relative overflow-hidden rounded-3xl border border-navy/12 bg-white p-4 sm:p-8 lg:p-12 shadow-sm">
+            {/* Subtle background decorative glows */}
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute -right-20 top-1/2 -translate-y-1/2 size-96 rounded-full bg-teal/5 blur-3xl"
+            />
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute left-1/3 top-1/4 size-72 rounded-full bg-[#16803d]/5 blur-2xl"
+            />
+
+            <div className="relative grid gap-6 sm:gap-8 lg:grid-cols-12 lg:items-center">
+              {/* Left Column (Zone 1) - Typography & CTA */}
+              <div className="space-y-4 sm:space-y-5 lg:col-span-5">
+                <div className="inline-flex items-center gap-2 rounded-full border border-navy/10 bg-[#f9f7ef] px-3 sm:px-3.5 py-1 text-[11px] sm:text-xs font-bold tracking-wider text-teal uppercase">
+                  <ShieldCheck className="size-3.5 text-accent" />
+                  <span>SPECIALISED CHIROPRACTIC CARE</span>
+                </div>
+
+                <h2 className="text-2xl sm:text-4xl lg:text-[2.4rem] font-semibold leading-tight text-navy">
+                  Expert Chiropractic Care for Better Spinal Health
+                </h2>
+
+                <div className="space-y-3 sm:space-y-3.5 text-sm sm:text-base leading-relaxed text-muted-foreground">
+                  <p>
+                    Dr. Hardik Patel (PT) brings a specialised clinical approach to chiropractic care, combining spinal expertise with a strong focus on posture, mobility, alignment, and functional recovery.
+                  </p>
+                  <p>
+                    Complete Care delivers personalised care through detailed assessment, precise chiropractic techniques, and structured rehabilitation for neck pain, back pain, sciatica, and other spinal conditions.
+                  </p>
+                </div>
+
+                <div className="pt-2 hidden lg:block">
+                  <Link
+                    to="/chiropractic-treatment-in-ahmedabad"
+                    className="inline-flex items-center gap-2.5 rounded-xl bg-accent px-7 py-3.5 text-sm font-bold text-accent-foreground shadow-md shadow-accent/20 transition-all hover:bg-emerald-600 hover:shadow-lg hover:shadow-accent/30"
+                  >
+                    <span>Book a Chiropractic Consultation</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Right Stage (Zone 2 & Zone 3) - Unified Connected Spine & Doctor Visual */}
+              <div className="relative lg:col-span-7 flex items-center justify-center lg:justify-end py-1 sm:py-2">
+                <div className="relative flex items-center justify-center max-w-full">
+                  {/* Spine & Connected Callouts Wrapper */}
+                  <div className="relative w-[130px] xs:w-[150px] sm:w-[320px] md:w-[360px] lg:w-[390px] h-[280px] xs:h-[310px] sm:h-[390px] lg:h-[430px] flex items-center justify-center shrink-0">
+                    {/* Spine Image */}
+                    <img
+                      src="/assets/heroes/Floating%20spine.webp"
+                      alt="Anatomical spinal column"
+                      loading="lazy"
+                      className="relative z-0 h-full w-auto object-contain drop-shadow-xl"
+                    />
+
+                    {/* SVG Connection Lines overlay connecting markers directly to spine vertebrae (Desktop/Tablet only) */}
+                    <svg
+                      className="hidden sm:block absolute inset-0 w-full h-full pointer-events-none z-10"
+                      viewBox="0 0 390 430"
+                      fill="none"
+                    >
+                      {/* Line 1: Neck Pain to Upper Cervical Spine */}
+                      <path
+                        d="M 115 50 L 160 50 L 195 55"
+                        stroke="#16803d"
+                        strokeWidth="2"
+                        strokeDasharray="4 3"
+                        strokeOpacity="0.85"
+                      />
+                      <circle cx="195" cy="55" r="5" fill="#16803d" />
+                      <circle cx="195" cy="55" r="9" fill="#16803d" fillOpacity="0.25" />
+
+                      {/* Line 2: Back Pain to Mid Thoracic/Lumbar Spine */}
+                      <path
+                        d="M 115 195 L 165 195 L 210 195"
+                        stroke="#16803d"
+                        strokeWidth="2"
+                        strokeDasharray="4 3"
+                        strokeOpacity="0.85"
+                      />
+                      <circle cx="210" cy="195" r="5" fill="#16803d" />
+                      <circle cx="210" cy="195" r="9" fill="#16803d" fillOpacity="0.25" />
+
+                      {/* Line 3: Sciatica to Lower Lumbar/Sacral Spine */}
+                      <path
+                        d="M 115 340 L 160 340 L 195 345"
+                        stroke="#16803d"
+                        strokeWidth="2"
+                        strokeDasharray="4 3"
+                        strokeOpacity="0.85"
+                      />
+                      <circle cx="195" cy="345" r="5" fill="#16803d" />
+                      <circle cx="195" cy="345" r="9" fill="#16803d" fillOpacity="0.25" />
+                    </svg>
+
+                    {/* 3 Interactive Markers positioned on the left of the lines (Desktop/Tablet only) */}
+                    {/* Marker 1: Neck Pain */}
+                    <div className="hidden sm:block absolute left-1 sm:left-2 top-[12%] -translate-y-1/2 z-20">
+                      <div className="flex items-center gap-1.5 sm:gap-2 rounded-full border-2 border-[#16803d]/40 bg-white px-3 sm:px-3.5 py-1.5 shadow-md shadow-navy/10 backdrop-blur-sm transition-all hover:border-[#16803d] hover:scale-105">
+                        <div className="flex size-5 sm:size-6 shrink-0 items-center justify-center rounded-full bg-[#16803d]/10 text-[#16803d]">
+                          <Activity className="size-3 sm:size-3.5" />
+                        </div>
+                        <span className="text-xs sm:text-sm font-bold text-navy whitespace-nowrap">Neck Pain</span>
+                      </div>
+                    </div>
+
+                    {/* Marker 2: Back Pain */}
+                    <div className="hidden sm:block absolute left-1 sm:left-2 top-[45%] -translate-y-1/2 z-20">
+                      <div className="flex items-center gap-1.5 sm:gap-2 rounded-full border-2 border-[#16803d]/40 bg-white px-3 sm:px-3.5 py-1.5 shadow-md shadow-navy/10 backdrop-blur-sm transition-all hover:border-[#16803d] hover:scale-105">
+                        <div className="flex size-5 sm:size-6 shrink-0 items-center justify-center rounded-full bg-[#16803d]/10 text-[#16803d]">
+                          <HeartPulse className="size-3 sm:size-3.5" />
+                        </div>
+                        <span className="text-xs sm:text-sm font-bold text-navy whitespace-nowrap">Back Pain</span>
+                      </div>
+                    </div>
+
+                    {/* Marker 3: Sciatica */}
+                    <div className="hidden sm:block absolute left-1 sm:left-2 top-[79%] -translate-y-1/2 z-20">
+                      <div className="flex items-center gap-1.5 sm:gap-2 rounded-full border-2 border-[#16803d]/40 bg-white px-3 sm:px-3.5 py-1.5 shadow-md shadow-navy/10 backdrop-blur-sm transition-all hover:border-[#16803d] hover:scale-105">
+                        <div className="flex size-5 sm:size-6 shrink-0 items-center justify-center rounded-full bg-[#16803d]/10 text-[#16803d]">
+                          <Target className="size-3 sm:size-3.5" />
+                        </div>
+                        <span className="text-xs sm:text-sm font-bold text-navy whitespace-nowrap">Sciatica</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Right: Dr. Hardik Patel Image & Credential Badge */}
+                  <div className="relative flex flex-col items-center justify-end shrink-0 -ml-2 xs:-ml-4 sm:-ml-10 md:-ml-12 z-20">
+                    <div className="relative w-full max-w-[140px] xs:max-w-[160px] sm:max-w-[190px] md:max-w-[220px]">
+                      <img
+                        src="/assets/heroes/Dr-Hardik-Patel.webp"
+                        alt="Dr. Hardik Patel (PT), Director and Senior Physical Therapist"
+                        loading="lazy"
+                        className="w-full h-auto object-contain drop-shadow-2xl"
+                      />
+
+                      {/* Credential Badge */}
+                      <div className="mt-1.5 sm:mt-2 rounded-xl sm:rounded-2xl border border-navy/10 bg-[#f9f7ef]/95 p-1.5 sm:p-2.5 shadow-sm backdrop-blur-sm text-center sm:text-left">
+                        <div className="flex items-center justify-center sm:justify-start gap-1 sm:gap-1.5 text-[10px] sm:text-xs font-bold text-navy">
+                          <ShieldCheck className="size-3 sm:size-3.5 text-accent shrink-0" />
+                          <span>Dr. Hardik Patel (PT)</span>
+                        </div>
+                        <div className="text-[8px] sm:text-[11px] text-muted-foreground mt-0.5 leading-tight">
+                          Director &amp; Senior Physical Therapist
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Mobile CTA */}
+              <div className="pt-2 text-center lg:hidden col-span-full">
+                <Link
+                  to="/chiropractic-treatment-in-ahmedabad"
+                  className="inline-flex w-full items-center justify-center gap-2.5 rounded-xl bg-accent px-5 py-3.5 text-sm font-bold text-accent-foreground shadow-md shadow-accent/20 transition-all hover:bg-emerald-600"
+                >
+                  <span>Book a Chiropractic Consultation</span>
+                  <span>&rarr;</span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Bottom Row: 3 Compact Clinical Highlights */}
+            <div className="mt-8 grid gap-4 sm:grid-cols-3">
+              {/* Highlight 1 */}
+              <div className="rounded-2xl border border-navy/10 bg-[#f9f7ef]/60 p-5 transition-colors hover:border-accent/30 hover:bg-[#f9f7ef]">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="flex size-7 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                    <ShieldCheck className="size-4" />
+                  </div>
+                  <h3 className="text-sm font-bold font-sans text-navy">Clinical Assessment</h3>
+                </div>
+                <p className="text-xs sm:text-sm leading-relaxed text-muted-foreground">
+                  Care begins with an evaluation of your movement, symptoms, posture, and functional needs.
+                </p>
+              </div>
+
+              {/* Highlight 2 */}
+              <div className="rounded-2xl border border-navy/10 bg-[#f9f7ef]/60 p-5 transition-colors hover:border-accent/30 hover:bg-[#f9f7ef]">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="flex size-7 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                    <Sparkles className="size-4" />
+                  </div>
+                  <h3 className="text-sm font-bold font-sans text-navy">Personalised Chiropractic Care</h3>
+                </div>
+                <p className="text-xs sm:text-sm leading-relaxed text-muted-foreground">
+                  Treatment is planned around your condition, mobility, comfort, and recovery goals.
+                </p>
+              </div>
+
+              {/* Highlight 3 */}
+              <div className="rounded-2xl border border-navy/10 bg-[#f9f7ef]/60 p-5 transition-colors hover:border-accent/30 hover:bg-[#f9f7ef]">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="flex size-7 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                    <Activity className="size-4" />
+                  </div>
+                  <h3 className="text-sm font-bold font-sans text-navy">Rehabilitation Support</h3>
+                </div>
+                <p className="text-xs sm:text-sm leading-relaxed text-muted-foreground">
+                  Chiropractic care can be combined with physiotherapy and guided exercise when clinically appropriate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Conditions We Treat */}
       <section className="section-y bg-[#f9f7ef] border-t border-border/80">
         <div className="container-cc">
@@ -376,12 +535,12 @@ export function HomeTemplate() {
               From everyday joint pain to complex spine &amp; neuro rehabilitation
             </h2>
             <p className="mt-3 text-base text-muted-foreground">
-              Targeted clinical pathways designed for fast relief, root-cause resolution, and long-term functional recovery.
+              Targeted clinical pathways designed for fast relief, root cause resolution, and long term functional recovery.
             </p>
           </div>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {[...orthoConditions.slice(0, 6), ...neuroConditions.slice(0, 3)].map((c) => (
+            {[...orthoConditions.slice(0, 8), ...neuroConditions.slice(0, 4)].map((c) => (
               <LinkCard
                 key={c.slug}
                 page={c}

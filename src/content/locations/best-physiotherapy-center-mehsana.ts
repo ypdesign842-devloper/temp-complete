@@ -16,7 +16,7 @@ export const content: LocationContent = {
  "blocks": [
   {
    "t": "p",
-   "text": "Complete care is one stop Physiotherapy center for Chiropractic Adjustment, Cupping Therapy,  Fitness, Spine-neuro Rehabilitation, Class IV Laser therapy & Non-surgical Spine Decompression Therapy."
+   "text": "Complete care is one stop Physiotherapy center for Chiropractic Adjustment, Cupping Therapy,  Fitness, Spine-neuro Rehabilitation, Class IV Laser therapy & non surgical  Spine Decompression Therapy."
   },
   {
    "t": "p",
@@ -65,11 +65,11 @@ export const content: LocationContent = {
   },
   {
    "t": "p",
-   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post-surgical pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
+   "text": "Are you suffering different types of pain? Like back pain, neck pain, joint pain, muscle pain, post surgical  pain, chronic pain conditions, headaches, sports injuries, and postural pain? Or are you or your elderly parents unable to visit the clinic for physiotherapy?"
   },
   {
    "t": "p",
-   "text": "Complete Care – [**physiotherapy center**](/) offers  physiotherapy service  at home   in  areas of Mahesana like Radhanpur Char Rasta, Modhera Char Rasta, Nagalpur, Mahesana Paru, Ramosana, cross road  – Gujarat  with personalized therapy plans and all necessary equipment. Our flexible home visits ensure focused, individual attention for a more comfortable and efficient recovery with flexible scheduling."
+   "text": "Complete Care, [**physiotherapy center**](/) offers  physiotherapy service  at home   in  areas of Mahesana like Radhanpur Char Rasta, Modhera Char Rasta, Nagalpur, Mahesana Paru, Ramosana, cross road, Gujarat  with personalized therapy plans and all necessary equipment. Our flexible home visits ensure focused, individual attention for a more comfortable and efficient recovery with flexible scheduling."
   },
   {
    "t": "img",

@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The recovery process from a stroke can be a long and testing one – and it takes patience, determination and the right rehabilitation plan. Many stroke survivors tend to concentrate on regaining strength in their arms or legs, but one of the most difficult things is regaining balance. Walking, climbing stairs, getting out of bed and everyday activities can be challenging if you have difficulty maintaining balance."
+   "text": "The recovery process from a stroke can be a long and testing one, and it takes patience, determination and the right rehabilitation plan. Many stroke survivors tend to concentrate on regaining strength in their arms or legs, but one of the most difficult things is regaining balance. Walking, climbing stairs, getting out of bed and everyday activities can be challenging if you have difficulty maintaining balance."
   },
   {
    "t": "p",
@@ -130,7 +130,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "This personalized approach makes stroke physiotherapy treatment an essential part of long-term recovery."
+   "text": "This personalized approach makes stroke physiotherapy treatment an essential part of long term recovery."
   },
   {
    "t": "h2",
@@ -450,11 +450,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Progress may feel slow at times, but every improvement – whether standing for longer, walking a few extra steps, or climbing stairs more confidently – is an important milestone."
+   "text": "Progress may feel slow at times, but every improvement, whether standing for longer, walking a few extra steps, or climbing stairs more confidently, is an important milestone."
   },
   {
    "t": "p",
-   "text": "Working closely with a physiotherapist provides guidance, motivation, and regular progress assessments that help patients stay focused on long-term recovery."
+   "text": "Working closely with a physiotherapist provides guidance, motivation, and regular progress assessments that help patients stay focused on long term recovery."
   },
   {
    "t": "h2",

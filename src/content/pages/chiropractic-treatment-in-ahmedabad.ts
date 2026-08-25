@@ -16,7 +16,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Chiropractic treatment is a natural, practical approach to medical therapy that focuses on the diagnosis and treatment of musculoskeletal diseases, with a special emphasis on spinal health. Chiropractors make precise adjustments to the spine and other portions of the body to correct alignment disorders, relax pain, and help the body repair itself. This non-invasive therapy is based on the concept that perfect spine alignment is necessary for overall health and can significantly improve nerve system performance."
+   "text": "Chiropractic treatment is a natural, practical approach to medical therapy that focuses on the diagnosis and treatment of musculoskeletal diseases, with a special emphasis on spinal health. Chiropractors make precise adjustments to the spine and other portions of the body to correct alignment disorders, relax pain, and help the body repair itself. This non invasive therapy is based on the concept that perfect spine alignment is necessary for overall health and can significantly improve nerve system performance."
   },
   {
    "t": "h3",
@@ -72,7 +72,7 @@ export const content: PageContent = {
   },
   {
    "t": "p",
-   "text": "Choosing Complete Care [**Best Physiotherapy Center in Ahmedabad**](/) for chiropractic treatment means taking a complete, patient-centered approach to the care you receive. Our expert and qualified chiropractors are committed to providing personalized therapy that targets the root causes of your pain. Whether you’re seeking relief from pain or looking to enhance your overall health contact the Complete Care Physiotherapy Clinic."
+   "text": "Choosing Complete Care [**Best Physiotherapy Center in Ahmedabad**](/) for chiropractic treatment means taking a complete, patient centered approach to the care you receive. Our expert and qualified chiropractors are committed to providing personalized therapy that targets the root causes of your pain. Whether you’re seeking relief from pain or looking to enhance your overall health contact the Complete Care Physiotherapy Clinic."
   },
   {
    "t": "h3",
@@ -106,7 +106,7 @@ export const content: PageContent = {
   },
   {
    "label": "IASTM",
-   "to": "/top-instrumented-soft-tissue-mobilization-in-ahmedabad"
+   "to": "/top-instrumented-soft tissue-mobilization-in-ahmedabad"
   },
   {
    "label": "Cupping Therapy",

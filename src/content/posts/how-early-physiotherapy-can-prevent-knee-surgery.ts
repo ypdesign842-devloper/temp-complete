@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Knee pain is one of the most common musculoskeletal problems affecting people of all ages. Whether it’s due to long working hours, sports injuries, or age-related wear and tear, many individuals delay treatment until the pain becomes severe. At that stage, surgery is often suggested-but it’s not always necessary."
+   "text": "Knee pain is one of the most common musculoskeletal problems affecting people of all ages. Whether it’s due to long working hours, sports injuries, or age related wear and tear, many individuals delay treatment until the pain becomes severe. At that stage, surgery is often suggested-but it’s not always necessary."
   },
   {
    "t": "p",
@@ -180,7 +180,7 @@ export const content: PostContent = {
     "Minimal pain",
     "No surgery required",
     "Lower medical costs",
-    "Better long-term joint health"
+    "Better long term joint health"
    ]
   },
   {
@@ -250,7 +250,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "However, even in these cases, physiotherapy plays a critical role in pre- and post-surgical recovery."
+   "text": "However, even in these cases, physiotherapy plays a critical role in pre- and post surgical  recovery."
   },
   {
    "t": "h3",
@@ -291,7 +291,7 @@ export const content: PostContent = {
     "Personalized treatment plans",
     "Supervised exercises",
     "Faster and safer recovery",
-    "Long-term prevention strategies"
+    "long term prevention strategies"
    ]
   },
   {
@@ -308,7 +308,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "The key is early action. Starting early physiotherapy for knee pain helps address the root cause, prevents further damage, and supports long-term joint health."
+   "text": "The key is early action. Starting early physiotherapy for knee pain helps address the root cause, prevents further damage, and supports long term joint health."
   },
   {
    "t": "p",

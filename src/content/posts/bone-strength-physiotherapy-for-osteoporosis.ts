@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you’re looking for effective non surgical osteoporosis treatment, understanding the role of physiotherapy can help you make informed decisions about your long-term bone health."
+   "text": "If you’re looking for effective non surgical osteoporosis treatment, understanding the role of physiotherapy can help you make informed decisions about your long term bone health."
   },
   {
    "t": "h2",
@@ -110,7 +110,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "2\\. Encourages Safe Weight-Bearing Activities"
+   "text": "2\\. Encourages Safe weight bearing Activities"
   },
   {
    "t": "p",
@@ -118,7 +118,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "One of the goals of physiotherapy for osteoporosis is introducing appropriate weight-bearing exercises that encourage bone stimulation while minimizing injury risk."
+   "text": "One of the goals of physiotherapy for osteoporosis is introducing appropriate weight bearing exercises that encourage bone stimulation while minimizing injury risk."
   },
   {
    "t": "p",
@@ -173,7 +173,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Exercise is one of the most effective long-term strategies for maintaining healthy bones."
+   "text": "Exercise is one of the most effective long term strategies for maintaining healthy bones."
   },
   {
    "t": "p",
@@ -189,7 +189,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "(1) Weight-Bearing Walking"
+   "text": "(1) weight bearing Walking"
   },
   {
    "t": "p",
@@ -290,7 +290,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "These improvements contribute to a higher quality of life and encourage long-term physical activity."
+   "text": "These improvements contribute to a higher quality of life and encourage long term physical activity."
   },
   {
    "t": "h2",
@@ -353,11 +353,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "For comprehensive [osteoporosis treatment in Ahmedabad](/osteoporosis-treatment-doctor-in-ahmedabad/), Complete Care offers personalized assessments and rehabilitation programs that combine physiotherapy with evidence-based management strategies."
+   "text": "For comprehensive [osteoporosis treatment in Ahmedabad](/osteoporosis-treatment-doctor-in-ahmedabad/), Complete Care offers personalized assessments and rehabilitation programs that combine physiotherapy with evidence based management strategies."
   },
   {
    "t": "h2",
-   "text": "Physiotherapy as Part of Non-Surgical Osteoporosis Treatment"
+   "text": "Physiotherapy as Part of non surgical  Osteoporosis Treatment"
   },
   {
    "t": "p",
@@ -375,7 +375,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Physiotherapy",
-    "Weight-bearing exercise programs",
+    "weight bearing exercise programs",
     "Posture correction",
     "Fall prevention strategies",
     "Nutritional guidance",
@@ -393,7 +393,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Yes. Although osteoporosis requires long-term management, many people continue to live active and independent lives."
+   "text": "Yes. Although osteoporosis requires long term management, many people continue to live active and independent lives."
   },
   {
    "t": "p",
@@ -409,7 +409,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Living with osteoporosis doesn’t mean giving up an active lifestyle. In fact, staying active safely is one of the most effective ways to support long-term bone health."
+   "text": "Living with osteoporosis doesn’t mean giving up an active lifestyle. In fact, staying active safely is one of the most effective ways to support long term bone health."
   },
   {
    "t": "p",

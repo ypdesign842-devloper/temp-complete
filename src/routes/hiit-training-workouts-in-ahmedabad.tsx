@@ -7,9 +7,9 @@ export const Route = createFileRoute("/hiit-training-workouts-in-ahmedabad")({
   head: () => ({
     meta: [
       { title: "HIIT Training Workouts in Ahmedabad | Complete Care Fitness" },
-      { name: "description", content: "Supervised high-intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning." },
+      { name: "description", content: "Supervised hig intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning." },
       { property: "og:title", content: "HIIT Training Workouts in Ahmedabad | Complete Care Fitness" },
-      { property: "og:description", content: "Supervised high-intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning." },
+      { property: "og:description", content: "Supervised hig intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning." },
     ],
   }),
   component: () => <ContentTemplate data={page("hiit-training-workouts-in-ahmedabad")} content={content} />,

@@ -1,10 +1,10 @@
 import type { PostContent } from "@/data/types";
 
 export const content: PostContent = {
- "slug": "movement-based-diagnosis-back-pain-root-cause",
+ "slug": "movement based-diagnosis-back-pain-root cause",
  "title": "Movement Based Diagnosis Back Pain Root Cause",
  "date": "2026-04-24",
- "image": "/assets/blogs/Movement-Based-Diagnosis-in-Back-Pain.png",
+ "image": "/assets/blogs/movement based-Diagnosis-in-Back-Pain.png",
  "author": "Complete Care",
  "category": "Back Pain",
  "blocks": [
@@ -22,7 +22,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "What Is Movement-Based Diagnosis?"
+   "text": "What Is movement based Diagnosis?"
   },
   {
    "t": "p",
@@ -30,7 +30,7 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "Key Elements of Movement-Based Diagnosis"
+   "text": "Key Elements of movement based Diagnosis"
   },
   {
    "t": "ul",
@@ -60,7 +60,7 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "Long-term pain relief instead of temporary fixes",
+    "long term pain relief instead of temporary fixes",
     "Reduced chances of recurring pain",
     "Improved mobility and posture",
     "Personalized treatment plans"
@@ -136,7 +136,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Movement-based assessment helps identify various causes of back pain that may not be visible in scans."
+   "text": "movement based assessment helps identify various causes of back pain that may not be visible in scans."
   },
   {
    "t": "h3",
@@ -184,7 +184,7 @@ export const content: PostContent = {
   },
   {
    "t": "h2",
-   "text": "Advantages of Movement-Based Diagnosis"
+   "text": "Advantages of movement based Diagnosis"
   },
   {
    "t": "p",
@@ -225,12 +225,12 @@ export const content: PostContent = {
     "Qualified and experienced therapists",
     "Personalized treatment plans",
     "Advanced diagnostic techniques",
-    "Focus on long-term recovery"
+    "Focus on long term recovery"
    ]
   },
   {
    "t": "h2",
-   "text": "Lifestyle Changes for Long-Term Relief"
+   "text": "Lifestyle Changes for long term Relief"
   },
   {
    "t": "p",

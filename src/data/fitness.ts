@@ -41,8 +41,8 @@ export const fitness: ContentPage[] = [
   "label": "HIIT Training",
   "h1": "Hiit Interval Training Workouts In Ahmedabad",
   "title": "HIIT Training Workouts in Ahmedabad | Complete Care Fitness",
-  "description": "Supervised high-intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning.",
-  "lead": "HIIT, or High-Intensity Interval Training, is a cardiovascular workout alternating short bursts of intense exercise with low-intensity recovery periods. It enhances endurance, strength, and overall fitness. For safe and effective training, consult the best physiotherapists in Ahmedabad , who can guide you with personalized exercise plans to prevent injuries and optimize results.",
+  "description": "Supervised hig intensity interval training in Ahmedabad for fat loss, metabolic fitness and time-efficient conditioning.",
+  "lead": "HIIT, or hig Intensity Interval Training, is a cardiovascular workout alternating short bursts of intense exercise with low-intensity recovery periods. It enhances endurance, strength, and overall fitness. For safe and effective training, consult the best physiotherapists in Ahmedabad , who can guide you with personalized exercise plans to prevent injuries and optimize results.",
   "image": "/assets/fitness/HIIT-Training.webp",
   "related": []
  },
@@ -115,8 +115,8 @@ export const fitness: ContentPage[] = [
  {
   "slug": "female-fitness-trainer-in-ahmedabad",
   "group": "fitness",
-  "label": "Female Fitness Trainer",
-  "h1": "Top Female Fitness Trainer in Ahmedabad \\| Dr. Foram Patel",
+  "label": "Medical Fitness & Recovery",
+  "h1": "Top Female Fitness Trainer in Ahmedabad | Dr. Foram Patel",
   "title": "Female Fitness Trainer in Ahmedabad | Complete Care",
   "description": "Qualified female fitness trainers and physiotherapists in Ahmedabad for women's strength, post-natal recovery and bone health programmes.",
   "lead": "Dr. Foram Patel specialised for Rehabilitation and Fitness",

@@ -86,7 +86,7 @@ function VideoPage() {
           <div className="rounded-2xl border border-border bg-sand/60 p-8 text-center sm:p-10">
             <h3 className="text-2xl font-bold text-navy">Looking for more patient case studies?</h3>
             <p className="mt-2 text-sm text-muted-foreground max-w-xl mx-auto">
-              Visit our official YouTube channel to explore patient recovery journeys across back pain, slip disc, knee arthritis, and post-stroke rehabilitation.
+              Visit our official YouTube channel to explore patient recovery journeys across back pain, slip disc, knee arthritis, and post stroke rehabilitation.
             </p>
             <div className="mt-5">
               <a

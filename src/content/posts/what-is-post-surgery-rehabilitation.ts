@@ -1,10 +1,10 @@
 import type { PostContent } from "@/data/types";
 
 export const content: PostContent = {
- "slug": "what-is-post-surgery-rehabilitation",
+ "slug": "what-is-post surgery-rehabilitation",
  "title": "What is Post Surgery Rehabilitation",
  "date": "2025-03-22",
- "image": "/assets/blogs/Learn-about-Post-Surgery-Rehabilitation-Banner.webp",
+ "image": "/assets/blogs/Learn-about-post surgery-Rehabilitation-Banner.webp",
  "author": "Complete Care",
  "category": "Rehabilitation",
  "blocks": [
@@ -34,15 +34,15 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Physiotherapy is a key component of post-surgery rehabilitation. It helps in the following ways:"
+   "text": "Physiotherapy is a key component of post surgery rehabilitation. It helps in the following ways:"
   },
   {
    "t": "ul",
    "items": [
-    "**Restores Movement** – After surgery, muscles and joints may become stiff. Physiotherapy helps in regaining movement and flexibility.",
-    "**Helps ease pain and swelling** – Therapeutic exercises and treatments like massage, ultrasound, and heat therapy help in pain relief.",
-    "**Prevents Complications** – Lack of movement can lead to blood clots, muscle weakness, and stiffness. Physiotherapy ensures proper blood circulation and muscle activation.",
-    "**Strengthens Muscles** – Weak muscles can lead to further injuries. A physiotherapist designs exercises to strengthen muscles and improve balance."
+    "**Restores Movement**, After surgery, muscles and joints may become stiff. Physiotherapy helps in regaining movement and flexibility.",
+    "**Helps ease pain and swelling**, Therapeutic exercises and treatments like massage, ultrasound, and heat therapy help in pain relief.",
+    "**Prevents Complications**, Lack of movement can lead to blood clots, muscle weakness, and stiffness. Physiotherapy ensures proper blood circulation and muscle activation.",
+    "**Strengthens Muscles**, Weak muscles can lead to further injuries. A physiotherapist designs exercises to strengthen muscles and improve balance."
    ]
   },
   {
@@ -57,9 +57,9 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Strengthening exercises to improve joint stability.",
-    "Range-of-motion exercises to reduce stiffness.",
+    "range of motion exercises to reduce stiffness.",
     "Ice therapy and compression techniques to manage swelling.",
-    "Gradual weight-bearing activities to restore normal function."
+    "Gradual weight bearing activities to restore normal function."
    ]
   },
   {
@@ -99,10 +99,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Early Phase (Immediate Post-Op)** – Focuses on pain management, wound healing, and gentle movements.",
-    "**Mid-Phase (Recovery Stage)** – Includes strengthening exercises, stretching, and guided physical therapy sessions.",
-    "**Late Phase (Functional Recovery)** – Helps in returning to normal activities and sports training for active individuals.",
-    "**Long-Term Maintenance** – Continued physiotherapy to maintain mobility and prevent further injuries."
+    "**Early Phase (Immediate Post-Op)**, Focuses on pain management, wound healing, and gentle movements.",
+    "**Mid-Phase (Recovery Stage)**, Includes strengthening exercises, stretching, and guided physical therapy sessions.",
+    "**Late Phase (Functional Recovery)**, Helps in returning to normal activities and sports training for active individuals.",
+    "**long term Maintenance**, Continued physiotherapy to maintain mobility and prevent further injuries."
    ]
   },
   {
@@ -111,7 +111,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "If you ignore post-surgery rehab, you may have physical health issues like ongoing pain, trouble moving, and slower healing."
+   "text": "If you ignore post surgery rehab, you may have physical health issues like ongoing pain, trouble moving, and slower healing."
   },
   {
    "t": "p",
@@ -120,10 +120,10 @@ export const content: PostContent = {
   {
    "t": "ul",
    "items": [
-    "**Faster Recovery** – Proper rehab speeds up healing and helps in regaining independence.",
-    "**Pain Reduction** – Helps in managing pain without excessive medication.",
-    "**Improved Strength and Mobility** – Ensures that the affected body part regains full function.",
-    "**Better Mental Health** – Post-surgery stress and anxiety can be managed with guided rehabilitation programs."
+    "**Faster Recovery**, Proper rehab speeds up healing and helps in regaining independence.",
+    "**Pain Reduction**, Helps in managing pain without excessive medication.",
+    "**Improved Strength and Mobility**, Ensures that the affected body part regains full function.",
+    "**Better Mental Health**, post surgery stress and anxiety can be managed with guided rehabilitation programs."
    ]
   },
   {
@@ -132,7 +132,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Post-surgery rehabilitation plays a major role in a patient’s smoother recovery. If you need treatment for knee pain, shoulder pain or spinal issues, you should follow a proper rehab plan. **Complete Care** – **Physiotherapy Center** helps patients to get back strength, movement, and confidence after surgery. For the best Rehabilitation plan you should consult a physiotherapist."
+   "text": "post surgery rehabilitation plays a major role in a patient’s smoother recovery. If you need treatment for knee pain, shoulder pain or spinal issues, you should follow a proper rehab plan. **Complete Care**, **Physiotherapy Center** helps patients to get back strength, movement, and confidence after surgery. For the best Rehabilitation plan you should consult a physiotherapist."
   }
  ]
 };

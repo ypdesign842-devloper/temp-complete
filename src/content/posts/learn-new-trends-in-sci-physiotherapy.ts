@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Spinal cord injuries (SCI) can deeply impact a person’s mobility, independence, and quality of life. But thanks to **new physiotherapy techniques for spinal cord injury**, there is growing hope for better recovery and improved function. At the Best Physiotherapy Center in Ahmedabad, specialists now combine advanced technologies like **electrical stimulation therapy in SCI rehab** with modern activity-based rehabilitation programs to help patients regain strength, movement, and confidence."
+   "text": "Spinal cord injuries (SCI) can deeply impact a person’s mobility, independence, and quality of life. But thanks to **new physiotherapy techniques for spinal cord injury**, there is growing hope for better recovery and improved function. At the Best Physiotherapy Center in Ahmedabad, specialists now combine advanced technologies like **electrical stimulation therapy in SCI rehab** with modern activity based rehabilitation programs to help patients regain strength, movement, and confidence."
   },
   {
    "t": "p",
@@ -30,11 +30,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Traditionally, physiotherapy after SCI focused on basic range-of-motion exercises, muscle strengthening, and preventing complications such as joint stiffness or pressure sores. While these are still important, modern rehab now goes further — aiming not just to maintain what’s left, but to **reactivate and retrain** the nervous system and muscles wherever possible."
+   "text": "Traditionally, physiotherapy after SCI focused on basic range of motion exercises, muscle strengthening, and preventing complications such as joint stiffness or pressure sores. While these are still important, modern rehab now goes further, aiming not just to maintain what’s left, but to **reactivate and retrain** the nervous system and muscles wherever possible."
   },
   {
    "t": "p",
-   "text": "This shift towards recovery-focused therapy is at the heart of new methods like **electrical stimulation therapy in SCI rehab** and **activity-based rehabilitation for SCI patients**."
+   "text": "This shift towards recovery-focused therapy is at the heart of new methods like **electrical stimulation therapy in SCI rehab** and **activity based rehabilitation for SCI patients**."
   },
   {
    "t": "h3",
@@ -67,11 +67,11 @@ export const content: PostContent = {
   },
   {
    "t": "h3",
-   "text": "Activity-Based Rehabilitation for SCI Patients"
+   "text": "activity based Rehabilitation for SCI Patients"
   },
   {
    "t": "p",
-   "text": "Another innovation is **activity-based rehabilitation (ABR)**. Unlike traditional therapy that may focus mainly on compensating for lost function, ABR emphasizes repetitive, task-specific exercises designed to stimulate the nervous system and encourage neuroplasticity."
+   "text": "Another innovation is **activity based rehabilitation (ABR)**. Unlike traditional therapy that may focus mainly on compensating for lost function, ABR emphasizes repetitive, task-specific exercises designed to stimulate the nervous system and encourage neuroplasticity."
   },
   {
    "t": "p",
@@ -108,11 +108,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "While high-tech devices like FES bikes, robotic exoskeletons, and smart treadmills play a big role, the expertise of physiotherapists remains essential. Therapists help design programs, monitor progress, and adjust training intensity."
+   "text": "While hig tech devices like FES bikes, robotic exoskeletons, and smart treadmills play a big role, the expertise of physiotherapists remains essential. Therapists help design programs, monitor progress, and adjust training intensity."
   },
   {
    "t": "p",
-   "text": "At the [**Best Physiotherapy Center in Ahmedabad**](/), patients benefit from a blend of advanced technology and skilled manual therapy — ensuring each program is tailored to the patient’s needs and goals."
+   "text": "At the [**Best Physiotherapy Center in Ahmedabad**](/), patients benefit from a blend of advanced technology and skilled manual therapy, ensuring each program is tailored to the patient’s needs and goals."
   },
   {
    "t": "p",
@@ -147,7 +147,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Latest equipment like FES systems and robotic gait trainers",
-    "Personalized, patient-centered programs",
+    "Personalized, patient centered programs",
     "Experienced physiotherapists trained in **new physiotherapy techniques for spinal cord injury**",
     "Supportive environment to build confidence and independence"
    ]
@@ -162,7 +162,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "SCI rehabilitation is evolving faster than ever. **Electrical stimulation therapy in SCI rehab** and **activity-based rehabilitation for SCI patients** offer real hope for better movement, strength, and quality of life."
+   "text": "SCI rehabilitation is evolving faster than ever. **Electrical stimulation therapy in SCI rehab** and **activity based rehabilitation for SCI patients** offer real hope for better movement, strength, and quality of life."
   },
   {
    "t": "p",

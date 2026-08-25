@@ -4,7 +4,7 @@ export const content: PostContent = {
  "slug": "best-physiotherapy-techniques-for-senior-back-pain",
  "title": "Best Physiotherapy Techniques for Senior Back Pain",
  "date": "2026-03-19",
- "image": "/assets/blogs/Managing-Age-Related-Back-Pain.png",
+ "image": "/assets/blogs/Managing-age related-Back-Pain.png",
  "author": "Complete Care",
  "category": "Back Pain",
  "blocks": [
@@ -18,15 +18,15 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "As we age, back pain becomes a common concern that can affect mobility, independence, and overall quality of life. For many families in Ahmedabad, finding safe and effective solutions for seniors is a priority. Fortunately, **age-related back pain treatment** through physiotherapy offers a non-invasive and highly effective approach to recovery and long-term relief."
+   "text": "As we age, back pain becomes a common concern that can affect mobility, independence, and overall quality of life. For many families in Ahmedabad, finding safe and effective solutions for seniors is a priority. Fortunately, **age related back pain treatment** through physiotherapy offers a non invasive and highly effective approach to recovery and long term relief."
   },
   {
    "t": "h2",
-   "text": "**Understanding Age-Related Back Pain**"
+   "text": "**Understanding age related Back Pain**"
   },
   {
    "t": "p",
-   "text": "Age-related back pain is often caused by natural wear and tear of the spine, reduced bone density, muscle weakness, or conditions like arthritis and spinal degeneration. Seniors may experience stiffness, chronic discomfort, or reduced flexibility, making daily activities more challenging."
+   "text": "age related back pain is often caused by natural wear and tear of the spine, reduced bone density, muscle weakness, or conditions like arthritis and spinal degeneration. Seniors may experience stiffness, chronic discomfort, or reduced flexibility, making daily activities more challenging."
   },
   {
    "t": "p",
@@ -38,7 +38,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Unlike medications that only provide temporary relief, **physiotherapy for seniors back pain** focuses on long-term healing. It is safe, personalized, and designed to suit the physical condition of elderly patients."
+   "text": "Unlike medications that only provide temporary relief, **physiotherapy for seniors back pain** focuses on long term healing. It is safe, personalized, and designed to suit the physical condition of elderly patients."
   },
   {
    "t": "p",
@@ -158,7 +158,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Managing back pain in seniors requires a combination of expert care, targeted exercises, and lifestyle changes. With the right approach, **age-related back pain treatment** can significantly improve comfort and quality of life."
+   "text": "Managing back pain in seniors requires a combination of expert care, targeted exercises, and lifestyle changes. With the right approach, **age related back pain treatment** can significantly improve comfort and quality of life."
   },
   {
    "t": "p",

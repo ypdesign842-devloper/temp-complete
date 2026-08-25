@@ -18,7 +18,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Chronic pain, muscle stiffness, and joint discomfort are common concerns for many residents of Ahmedabad. Whether it’s due to long working hours, sedentary lifestyles, or sports-related injuries, finding effective pain relief is crucial. While **traditional heat therapy** has been a staple for decades, **infrared therapy** has emerged as a modern alternative. This blog explores the differences between these two therapies, helping you make an informed choice for your health."
+   "text": "Chronic pain, muscle stiffness, and joint discomfort are common concerns for many residents of Ahmedabad. Whether it’s due to long working hours, sedentary lifestyles, or sports related injuries, finding effective pain relief is crucial. While **traditional heat therapy** has been a staple for decades, **infrared therapy** has emerged as a modern alternative. This blog explores the differences between these two therapies, helping you make an informed choice for your health."
   },
   {
    "t": "h2",
@@ -38,7 +38,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "While effective for temporary relief, traditional heat therapy mainly targets the **surface tissues**, which may not be sufficient for deep muscle or chronic joint pain. Many physiotherapy centers in Ahmedabad still recommend it for acute discomfort or short-term relief."
+   "text": "While effective for temporary relief, traditional heat therapy mainly targets the **surface tissues**, which may not be sufficient for deep muscle or chronic joint pain. Many physiotherapy centers in Ahmedabad still recommend it for acute discomfort or short term relief."
   },
   {
    "t": "h2",
@@ -58,7 +58,7 @@ export const content: PostContent = {
     "Enhanced **blood circulation and oxygen delivery** to tissues",
     "Faster **recovery of damaged muscles and ligaments**",
     "Reduction of **chronic pain and inflammation**",
-    "Relaxation of deep-seated **muscle tension**"
+    "Relaxation of deep seated **muscle tension**"
    ]
   },
   {
@@ -103,7 +103,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "| **Ideal For** | Acute soreness, minor stiffness | Chronic pain, joint issues, post-injury recovery |"
+   "text": "| **Ideal For** | Acute soreness, minor stiffness | Chronic pain, joint issues, post injury recovery |"
   },
   {
    "t": "h3",
@@ -117,12 +117,12 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "**Acute pain or temporary relief:** Traditional heat therapy works well for quick comfort at home.",
-    "**Chronic pain, deep tissue issues, or post-injury recovery:** Infrared therapy is more effective due to deeper tissue penetration."
+    "**Chronic pain, deep tissue issues, or post injury recovery:** Infrared therapy is more effective due to deeper tissue penetration."
    ]
   },
   {
    "t": "p",
-   "text": "Many patients benefit from combining both methods—using traditional heat for short-term relief and infrared therapy for long-term healing."
+   "text": "Many patients benefit from combining both methods, using traditional heat for short term relief and infrared therapy for long term healing."
   },
   {
    "t": "h3",
@@ -155,7 +155,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "1. **Start Slowly:** Limit initial infrared sessions to 10–15 minutes."
+   "text": "1. **Start Slowly:** Limit initial infrared sessions to 10 to 15 minutes."
   },
   {
    "t": "p",
@@ -179,11 +179,11 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Both **infrared therapy** and **traditional heat therapy** offer effective pain relief, but they serve different purposes. For **surface-level pain and minor stiffness**, traditional heat therapy is convenient and effective. For **deep tissue healing, chronic pain relief, and post-injury recovery**, infrared therapy provides superior results."
+   "text": "Both **infrared therapy** and **traditional heat therapy** offer effective pain relief, but they serve different purposes. For **surface-level pain and minor stiffness**, traditional heat therapy is convenient and effective. For **deep tissue healing, chronic pain relief, and post injury recovery**, infrared therapy provides superior results."
   },
   {
    "t": "p",
-   "text": "Residents seeking professional care in Ahmedabad should consider the [**best physiotherapy center in Ahmedabad**](/) offering **infrared radiation therapy in Ahmedabad** for safe, effective, and customized treatment. Combining modern therapy with expert guidance ensures faster recovery, long-term relief, and improved quality of life."
+   "text": "Residents seeking professional care in Ahmedabad should consider the [**best physiotherapy center in Ahmedabad**](/) offering **infrared radiation therapy in Ahmedabad** for safe, effective, and customized treatment. Combining modern therapy with expert guidance ensures faster recovery, long term relief, and improved quality of life."
   }
  ]
 };
