@@ -32,3 +32,4 @@ dist-ssr
 *.sw?
 dist_cpanel
 *.zip
+.vercel
