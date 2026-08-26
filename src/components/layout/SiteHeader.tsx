@@ -484,25 +484,23 @@ export function SiteHeader() {
                   onClick={() => setMobileExpanded((m) => (m === "about" ? null : "about"))}
                   className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
                 >
-                  <span className={`transition-transform duration-200 ${mobileExpanded === "about" ? "rotate-45" : ""}`}>
+                  <span className={`inline-block transition-transform duration-200 ${mobileExpanded === "about" ? "rotate-45" : ""}`}>
                     +
                   </span>
                 </button>
               </div>
-              {mobileExpanded === "about" && (
-                <div className="space-y-1 border-t border-border/60 pt-2">
-                  {aboutMenu.map((item) => (
-                    <Link
-                      key={item.to}
-                      to={item.to as never}
-                      onClick={() => setOpen(false)}
-                      className="block rounded-lg py-2 pl-4 pr-3 text-xs font-medium text-muted-foreground hover:bg-sand hover:text-navy"
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
+              <div className={`space-y-1 border-t border-border/60 pt-2 ${mobileExpanded === "about" ? "block" : "hidden"}`}>
+                {aboutMenu.map((item) => (
+                  <Link
+                    key={item.to}
+                    to={item.to as never}
+                    onClick={() => setOpen(false)}
+                    className="block rounded-lg py-2 pl-4 pr-3 text-xs font-medium text-muted-foreground hover:bg-sand hover:text-navy"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
 
             {/* Mobile Care Areas Accordion */}
@@ -521,47 +519,45 @@ export function SiteHeader() {
                   onClick={() => setMobileExpanded((m) => (m === "conditions" ? null : "conditions"))}
                   className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
                 >
-                  <span className={`transition-transform duration-200 ${mobileExpanded === "conditions" ? "rotate-45" : ""}`}>
+                  <span className={`inline-block transition-transform duration-200 ${mobileExpanded === "conditions" ? "rotate-45" : ""}`}>
                     +
                   </span>
                 </button>
               </div>
-              {mobileExpanded === "conditions" && (
-                <div className="space-y-4 border-t border-border/60 pt-3">
-                  {conditionsMegaMenu.map((col) => (
-                    <div key={col.title} className="pl-3">
-                      <Link
-                        to={col.to as never}
-                        onClick={() => setOpen(false)}
-                        className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
-                      >
-                        {col.title}
-                      </Link>
-                      <div className="space-y-1">
-                        {col.items.map((item) => (
-                          <Link
-                            key={item.to}
-                            to={item.to as never}
-                            onClick={() => setOpen(false)}
-                            className="block py-1 pl-2 text-xs text-muted-foreground hover:text-accent"
-                          >
-                            {item.label}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                  <div className="border-t border-border/60 pt-2 pl-3">
+              <div className={`space-y-4 border-t border-border/60 pt-3 ${mobileExpanded === "conditions" ? "block" : "hidden"}`}>
+                {conditionsMegaMenu.map((col) => (
+                  <div key={col.title} className="pl-3">
                     <Link
-                      to="/care-areas"
+                      to={col.to as never}
                       onClick={() => setOpen(false)}
-                      className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                      className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
                     >
-                      Explore All Care Areas &rarr;
+                      {col.title}
                     </Link>
+                    <div className="space-y-1">
+                      {col.items.map((item) => (
+                        <Link
+                          key={item.to}
+                          to={item.to as never}
+                          onClick={() => setOpen(false)}
+                          className="block py-1 pl-2 text-xs text-muted-foreground hover:text-accent"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
+                ))}
+                <div className="border-t border-border/60 pt-2 pl-3">
+                  <Link
+                    to="/care-areas"
+                    onClick={() => setOpen(false)}
+                    className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                  >
+                    Explore All Care Areas &rarr;
+                  </Link>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Mobile Therapies Accordion */}
@@ -580,47 +576,45 @@ export function SiteHeader() {
                   onClick={() => setMobileExpanded((m) => (m === "services" ? null : "services"))}
                   className="flex size-9 items-center justify-center rounded-lg hover:bg-sand text-navy text-lg font-bold"
                 >
-                  <span className={`transition-transform duration-200 ${mobileExpanded === "services" ? "rotate-45" : ""}`}>
+                  <span className={`inline-block transition-transform duration-200 ${mobileExpanded === "services" ? "rotate-45" : ""}`}>
                     +
                   </span>
                 </button>
               </div>
-              {mobileExpanded === "services" && (
-                <div className="space-y-4 border-t border-border/60 pt-3">
-                  {servicesMegaMenu.map((col) => (
-                    <div key={col.title} className="pl-3">
-                      <Link
-                        to={col.to as never}
-                        onClick={() => setOpen(false)}
-                        className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
-                      >
-                        {col.title}
-                      </Link>
-                      <div className="space-y-1">
-                        {col.items.map((item) => (
-                          <Link
-                            key={item.to}
-                            to={item.to as never}
-                            onClick={() => setOpen(false)}
-                            className="block py-1 pl-2 text-xs text-muted-foreground hover:text-accent"
-                          >
-                            {item.label}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                  <div className="border-t border-border/60 pt-2 pl-3">
+              <div className={`space-y-4 border-t border-border/60 pt-3 ${mobileExpanded === "services" ? "block" : "hidden"}`}>
+                {servicesMegaMenu.map((col) => (
+                  <div key={col.title} className="pl-3">
                     <Link
-                      to="/therapies"
+                      to={col.to as never}
                       onClick={() => setOpen(false)}
-                      className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                      className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
                     >
-                      Explore All Therapies &rarr;
+                      {col.title}
                     </Link>
+                    <div className="space-y-1">
+                      {col.items.map((item) => (
+                        <Link
+                          key={item.to}
+                          to={item.to as never}
+                          onClick={() => setOpen(false)}
+                          className="block py-1 pl-2 text-xs text-muted-foreground hover:text-accent"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
+                ))}
+                <div className="border-t border-border/60 pt-2 pl-3">
+                  <Link
+                    to="/therapies"
+                    onClick={() => setOpen(false)}
+                    className="block py-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                  >
+                    Explore All Therapies &rarr;
+                  </Link>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Other Mobile Links */}
