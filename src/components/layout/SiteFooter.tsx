@@ -374,13 +374,10 @@ export function SiteFooter() {
           </div>
         </div>
 
-        {/* Sub-Footer Legal / Medical Disclaimer */}
+        {/* Sub-Footer Legal */}
         <div className="border-t border-white/10 bg-navy-deep/90">
           <div className="container-cc flex flex-col gap-3 py-6 text-xs text-navy-foreground/60 sm:flex-row sm:items-center sm:justify-between">
             <p>© {new Date().getFullYear()} Complete Care Physiotherapy, Fitness &amp; Rehabilitation. All rights reserved.</p>
-            <p className="max-w-md text-navy-foreground/50">
-              Medical Disclaimer: Content on this website is for educational purposes and does not substitute individual clinical diagnosis.
-            </p>
           </div>
         </div>
       </footer>
