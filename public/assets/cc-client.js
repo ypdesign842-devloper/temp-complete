@@ -1,7 +1,7 @@
 // Complete Care Production Client Interactive Engine
 (function () {
   function init() {
-    // 1. Mobile Menu Toggle
+    // 1. Mobile Menu Toggle & Accordions
     const mobileMenuBtn = document.querySelector('button[aria-controls="mobile-nav"]');
     const mobileNav = document.getElementById("mobile-nav");
     if (mobileMenuBtn && mobileNav) {
@@ -9,13 +9,39 @@
         const isHidden = mobileNav.classList.contains("hidden");
         if (isHidden) {
           mobileNav.classList.remove("hidden");
+          mobileNav.classList.add("block");
           mobileMenuBtn.setAttribute("aria-expanded", "true");
         } else {
+          mobileNav.classList.remove("block");
           mobileNav.classList.add("hidden");
           mobileMenuBtn.setAttribute("aria-expanded", "false");
         }
       });
     }
+
+    // Global Click Delegation for Mobile Accordions
+    document.addEventListener("click", function (e) {
+      const btn = e.target.closest('#mobile-nav button[aria-label*="Toggle"]');
+      if (btn) {
+        e.preventDefault();
+        e.stopPropagation();
+        const parent = btn.closest(".rounded-xl");
+        const panel = parent ? parent.querySelector("div[class*='border-t']") : null;
+        const icon = btn.querySelector("span");
+        if (panel) {
+          const isHidden = panel.classList.contains("hidden");
+          if (isHidden) {
+            panel.classList.remove("hidden");
+            panel.classList.add("block");
+            if (icon) icon.classList.add("rotate-45");
+          } else {
+            panel.classList.remove("block");
+            panel.classList.add("hidden");
+            if (icon) icon.classList.remove("rotate-45");
+          }
+        }
+      }
+    });
 
     // 2. Desktop Dropdowns Hover & Focus
     const navItems = document.querySelectorAll(".header-nav-item");
