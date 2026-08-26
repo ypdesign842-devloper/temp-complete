@@ -1,14 +1,76 @@
+# Complete Care Physiotherapy & Rehabilitation
+# Official website: https://completecare.in/
+
+User-agent: *
+Allow: /
+
+# Major Search Engines
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: Twitterbot
+User-agent: Yandex
 Allow: /
 
+User-agent: Baiduspider
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI, LLM & Answer Engine Discovery Crawlers (AEO / GEO)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Social & Link Preview Crawlers
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: Twitterbot
 Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# XML Sitemaps
+Sitemap: https://completecare.in/sitemap.xml
+Sitemap: https://completecare.in/page-sitemap.xml
+Sitemap: https://completecare.in/post-sitemap.xml

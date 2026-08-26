@@ -19,6 +19,7 @@ import { locations } from "@/data/locations";
 export const conditionsMegaMenu = [
   {
     title: "Physiotherapy",
+    to: "/top-physiotherapy-services-center-in-ahmedabad",
     items: [
       { label: "Neck Pain", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
       { label: "Back Pain", to: "/back-pain-doctor-in-ahmedabad" },
@@ -33,10 +34,12 @@ export const conditionsMegaMenu = [
       { label: "Tennis elbow", to: "/best-doctor-for-tennis-elbow-in-ahmedabad" },
       { label: "Vertigo", to: "/top-vertigo-specialist-in-ahmedabad" },
       { label: "Osteoporosis", to: "/osteoporosis-treatment-doctor-in-ahmedabad" },
+      { label: "Post Surgical Rehab", to: "/post-surgical-rehabilitation-in-ahmedabad" },
     ],
   },
   {
     title: "Spine-Neuro Rehab",
+    to: "/best-neuro-spine-rehabilitation-centre-in-ahmedabad",
     items: [
       { label: "Spinal Cord Injury", to: "/spinal-cord-specialist-in-ahmedabad" },
       { label: "Stroke", to: "/stroke-in-treatment-ahmedabad" },
@@ -50,6 +53,7 @@ export const conditionsMegaMenu = [
   },
   {
     title: "Fitness",
+    to: "/top-fitness-centre-courses-in-ahmedabad",
     items: [
       { label: "Aerobics", to: "/best-aerobics-classes-in-ahmedabad" },
       { label: "HIIT Training", to: "/hiit-training-workouts-in-ahmedabad" },
@@ -68,6 +72,7 @@ export const conditionsMegaMenu = [
 export const servicesMegaMenu = [
   {
     title: "Electro Therapy",
+    to: "/best-electro-therapy-in-ahmedabad",
     items: [
       { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
       { label: "PEMF Therapy", to: "/effective-pemf-therapy-in-ahmedabad" },
@@ -86,6 +91,7 @@ export const servicesMegaMenu = [
   },
   {
     title: "Advance Therapy",
+    to: "/advanced-physical-therapy-in-ahmedabad",
     items: [
       { label: "Osteopathy", to: "/leading-osteopathy-treatment-in-ahmedabad" },
       { label: "Dry Needling", to: "/top-dry-needling-therapy-services-in-ahmedabad" },
@@ -99,6 +105,8 @@ export const servicesMegaMenu = [
 
 export const aboutMenu = [
   { label: "About Complete Care", to: "/best-physiotherapy-clinic-in-ahmedabad" },
+  { label: "Dr. Hardik Patel", to: "/best-physiotherapist-in-ahmedabad" },
+  { label: "Dr. Foram Patel", to: "/female-fitness-trainer-in-ahmedabad" },
   { label: "Our Team", to: "/our-team" },
   { label: "Certifications & Credentials", to: "/certifications" },
   { label: "Our Centres", to: "/best-physiotherapy-center-thaltej-ahmedabad" },
@@ -257,212 +265,132 @@ export function SiteHeader() {
             </Link>
 
             {/* 2. About Us (Dropdown) */}
-            <div
-              className="relative"
-              onMouseEnter={() => handleMouseEnter("about")}
-              onMouseLeave={handleMouseLeave}
-            >
+            <div className="group relative">
               <Link
                 to="/best-physiotherapy-clinic-in-ahmedabad"
-                onClick={() => {
-                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                  setActiveMenu(null);
-                }}
-                className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
-                  activeMenu === "about"
-                    ? "bg-sand text-accent"
-                    : "text-navy hover:bg-sand hover:text-accent"
-                }`}
+                className="inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all group-hover:bg-sand group-hover:text-accent"
               >
                 <span>About Us</span>
-                <ChevronDown
-                  className={`size-3.5 transition-transform duration-200 ${
-                    activeMenu === "about" ? "rotate-180 text-accent" : "text-muted-foreground"
-                  }`}
-                />
+                <ChevronDown className="size-3.5 transition-transform duration-200 text-muted-foreground group-hover:rotate-180 group-hover:text-accent" />
               </Link>
 
-              {activeMenu === "about" && (
-                <div
-                  onMouseEnter={() => handleMouseEnter("about")}
-                  onMouseLeave={handleMouseLeave}
-                  className="absolute left-0 top-full mt-1.5 w-72 animate-cc-scale rounded-2xl border border-border/80 bg-white p-3 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
-                >
-                  <div className="space-y-1">
-                    {aboutMenu.map((item) => (
-                      <Link
-                        key={item.to}
-                        to={item.to as never}
-                        onClick={() => {
-                          if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                          setActiveMenu(null);
-                        }}
-                        className="block rounded-lg px-3 py-2 text-xs font-semibold text-navy transition-colors hover:bg-sand hover:text-accent"
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
+              <div className="absolute left-0 top-full mt-1.5 w-72 rounded-2xl border border-border/80 bg-white p-3 shadow-2xl shadow-navy/15 z-50 hidden group-hover:block before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']">
+                <div className="space-y-1">
+                  {aboutMenu.map((item) => (
+                    <Link
+                      key={item.to}
+                      to={item.to as never}
+                      className="block rounded-lg px-3 py-2 text-xs font-semibold text-navy transition-colors hover:bg-sand hover:text-accent"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
                 </div>
-              )}
+              </div>
             </div>
 
             {/* 3. Care Areas (3-Column Mega Menu) */}
-            <div
-              className="relative"
-              onMouseEnter={() => handleMouseEnter("conditions")}
-              onMouseLeave={handleMouseLeave}
-            >
+            <div className="group relative">
               <Link
                 to="/care-areas"
-                onClick={() => {
-                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                  setActiveMenu(null);
-                }}
-                className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
-                  activeMenu === "conditions"
-                    ? "bg-sand text-accent"
-                    : "text-navy hover:bg-sand hover:text-accent"
-                }`}
+                className="inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all group-hover:bg-sand group-hover:text-accent"
               >
                 <span>Care Areas</span>
-                <ChevronDown
-                  className={`size-3.5 transition-transform duration-200 ${
-                    activeMenu === "conditions" ? "rotate-180 text-accent" : "text-muted-foreground"
-                  }`}
-                />
+                <ChevronDown className="size-3.5 transition-transform duration-200 text-muted-foreground group-hover:rotate-180 group-hover:text-accent" />
               </Link>
 
-              {activeMenu === "conditions" && (
-                <div
-                  onMouseEnter={() => handleMouseEnter("conditions")}
-                  onMouseLeave={handleMouseLeave}
-                  className="absolute -left-20 top-full mt-1.5 w-[840px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
-                >
-                  <div className="grid grid-cols-3 gap-8">
-                    {conditionsMegaMenu.map((col) => (
-                      <div key={col.title}>
-                        <div className="border-b-2 border-navy pb-2">
-                          <h3 className="text-sm font-bold text-navy tracking-wide">
-                            {col.title}
-                          </h3>
-                        </div>
-                        <ul className="mt-3.5 space-y-2">
-                          {col.items.map((item) => (
-                            <li key={item.to}>
-                              <Link
-                                to={item.to as never}
-                                onClick={() => {
-                                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                                  setActiveMenu(null);
-                                }}
-                                className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
-                              >
-                                {item.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+              <div className="absolute -left-20 top-full mt-1.5 w-[840px] rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 hidden group-hover:block before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']">
+                <div className="grid grid-cols-3 gap-8">
+                  {conditionsMegaMenu.map((col) => (
+                    <div key={col.title}>
+                      <div className="border-b-2 border-navy pb-2">
+                        <Link
+                          to={col.to as never}
+                          className="text-sm font-bold text-navy tracking-wide hover:text-accent transition-colors block"
+                        >
+                          {col.title}
+                        </Link>
                       </div>
-                    ))}
-                  </div>
-
-                  {/* Direct Link to Dedicated Care Areas Page */}
-                  <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
-                    <span className="text-xs text-muted-foreground">Looking for our complete care directory?</span>
-                    <Link
-                      to="/care-areas"
-                      onClick={() => {
-                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                        setActiveMenu(null);
-                      }}
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
-                    >
-                      <span>Explore All Care Areas</span>
-                      <span>&rarr;</span>
-                    </Link>
-                  </div>
+                      <ul className="mt-3.5 space-y-2">
+                        {col.items.map((item) => (
+                          <li key={item.to}>
+                            <Link
+                              to={item.to as never}
+                              className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
                 </div>
-              )}
+
+                {/* Direct Link to Dedicated Care Areas Page */}
+                <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
+                  <span className="text-xs text-muted-foreground">Looking for our complete care directory?</span>
+                  <Link
+                    to="/care-areas"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                  >
+                    <span>Explore All Care Areas</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* 4. Therapies (2-Column Mega Menu) */}
-            <div
-              className="relative"
-              onMouseEnter={() => handleMouseEnter("services")}
-              onMouseLeave={handleMouseLeave}
-            >
+            <div className="group relative">
               <Link
                 to="/therapies"
-                onClick={() => {
-                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                  setActiveMenu(null);
-                }}
-                className={`inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold transition-all ${
-                  activeMenu === "services"
-                    ? "bg-sand text-accent"
-                    : "text-navy hover:bg-sand hover:text-accent"
-                }`}
+                className="inline-flex items-center gap-1 rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all group-hover:bg-sand group-hover:text-accent"
               >
                 <span>Therapies</span>
-                <ChevronDown
-                  className={`size-3.5 transition-transform duration-200 ${
-                    activeMenu === "services" ? "rotate-180 text-accent" : "text-muted-foreground"
-                  }`}
-                />
+                <ChevronDown className="size-3.5 transition-transform duration-200 text-muted-foreground group-hover:rotate-180 group-hover:text-accent" />
               </Link>
 
-              {activeMenu === "services" && (
-                <div
-                  onMouseEnter={() => handleMouseEnter("services")}
-                  onMouseLeave={handleMouseLeave}
-                  className="absolute -left-10 top-full mt-1.5 w-[560px] animate-cc-scale rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']"
-                >
-                  <div className="grid grid-cols-2 gap-8">
-                    {servicesMegaMenu.map((col) => (
-                      <div key={col.title}>
-                        <div className="border-b-2 border-navy pb-2">
-                          <h3 className="text-sm font-bold text-navy tracking-wide">
-                            {col.title}
-                          </h3>
-                        </div>
-                        <ul className="mt-3.5 space-y-2">
-                          {col.items.map((item) => (
-                            <li key={item.to}>
-                              <Link
-                                to={item.to as never}
-                                onClick={() => {
-                                  if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                                  setActiveMenu(null);
-                                }}
-                                className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
-                              >
-                                {item.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+              <div className="absolute -left-10 top-full mt-1.5 w-[560px] rounded-2xl border border-border/80 bg-white p-7 shadow-2xl shadow-navy/15 z-50 hidden group-hover:block before:absolute before:-top-3 before:left-0 before:right-0 before:h-3 before:content-['']">
+                <div className="grid grid-cols-2 gap-8">
+                  {servicesMegaMenu.map((col) => (
+                    <div key={col.title}>
+                      <div className="border-b-2 border-navy pb-2">
+                        <Link
+                          to={col.to as never}
+                          className="text-sm font-bold text-navy tracking-wide hover:text-accent transition-colors block"
+                        >
+                          {col.title}
+                        </Link>
                       </div>
-                    ))}
-                  </div>
-
-                  {/* Direct Link to Dedicated Therapies Page */}
-                  <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
-                    <span className="text-xs text-muted-foreground">Looking for all clinical therapies?</span>
-                    <Link
-                      to="/therapies"
-                      onClick={() => {
-                        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                        setActiveMenu(null);
-                      }}
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
-                    >
-                      <span>Explore All Therapies</span>
-                      <span>&rarr;</span>
-                    </Link>
-                  </div>
+                      <ul className="mt-3.5 space-y-2">
+                        {col.items.map((item) => (
+                          <li key={item.to}>
+                            <Link
+                              to={item.to as never}
+                              className="inline-block text-xs font-medium text-navy/85 transition-colors hover:text-accent hover:translate-x-0.5 transform"
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
                 </div>
-              )}
+
+                {/* Direct Link to Dedicated Therapies Page */}
+                <div className="mt-6 flex items-center justify-between border-t border-navy/10 pt-4">
+                  <span className="text-xs text-muted-foreground">Looking for all clinical therapies?</span>
+                  <Link
+                    to="/therapies"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#16803d] hover:underline"
+                  >
+                    <span>Explore All Therapies</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* 5. Chiropractic Treatment */}
@@ -527,11 +455,10 @@ export function SiteHeader() {
       </div>
 
       {/* Mobile Navigation Drawer */}
-      {open && (
-        <div
-          id="mobile-nav"
-          className="fixed inset-x-0 top-full max-h-[85vh] overflow-y-auto border-b border-border bg-card/98 p-5 shadow-2xl backdrop-blur-xl xl:hidden z-50"
-        >
+      <div
+        id="mobile-nav"
+        className={`fixed inset-x-0 top-full max-h-[85vh] overflow-y-auto border-b border-border bg-card/98 p-5 shadow-2xl backdrop-blur-xl xl:hidden z-50 ${open ? "block" : "hidden"}`}
+      >
           <div className="space-y-3 pb-6">
             <Link
               to="/"
@@ -603,9 +530,13 @@ export function SiteHeader() {
                 <div className="space-y-4 border-t border-border/60 pt-3">
                   {conditionsMegaMenu.map((col) => (
                     <div key={col.title} className="pl-3">
-                      <div className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2">
+                      <Link
+                        to={col.to as never}
+                        onClick={() => setOpen(false)}
+                        className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
+                      >
                         {col.title}
-                      </div>
+                      </Link>
                       <div className="space-y-1">
                         {col.items.map((item) => (
                           <Link
@@ -658,9 +589,13 @@ export function SiteHeader() {
                 <div className="space-y-4 border-t border-border/60 pt-3">
                   {servicesMegaMenu.map((col) => (
                     <div key={col.title} className="pl-3">
-                      <div className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2">
+                      <Link
+                        to={col.to as never}
+                        onClick={() => setOpen(false)}
+                        className="text-xs font-bold text-navy border-b border-navy/30 pb-1 mb-2 block hover:text-accent"
+                      >
                         {col.title}
-                      </div>
+                      </Link>
                       <div className="space-y-1">
                         {col.items.map((item) => (
                           <Link
@@ -740,7 +675,6 @@ export function SiteHeader() {
             </div>
           </div>
         </div>
-      )}
     </header>
   );
 }

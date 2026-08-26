@@ -119,6 +119,7 @@ import { Route as PhysiotherapyToImproveBalanceAfterStrokeRouteImport } from './
 import { Route as PhysiotherapyTreatmentsForCommonSportsInjuriesRouteImport } from './routes/physiotherapy-treatments-for-common-sports-injuries'
 import { Route as PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRouteImport } from './routes/physiotherapy-vs-medication-which-works-better-for-sciatica-pain'
 import { Route as PilatesStudioAhmedabadRouteImport } from './routes/pilates-studio-ahmedabad'
+import { Route as PostSurgicalRehabilitationInAhmedabadRouteImport } from './routes/post-surgical-rehabilitation-in-ahmedabad'
 import { Route as PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRouteImport } from './routes/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
 import { Route as PrenatalAndPostnatalPhysiotherapyRouteImport } from './routes/prenatal-and-postnatal-physiotherapy'
 import { Route as PreventRecurringVertigoWithPhysiotherapyRouteImport } from './routes/prevent-recurring-vertigo-with-physiotherapy'
@@ -827,6 +828,12 @@ const PilatesStudioAhmedabadRoute = PilatesStudioAhmedabadRouteImport.update({
   path: '/pilates-studio-ahmedabad',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PostSurgicalRehabilitationInAhmedabadRoute =
+  PostSurgicalRehabilitationInAhmedabadRouteImport.update({
+    id: '/post-surgical-rehabilitation-in-ahmedabad',
+    path: '/post-surgical-rehabilitation-in-ahmedabad',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute =
   PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRouteImport.update({
     id: '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health',
@@ -1253,6 +1260,7 @@ export interface FileRoutesByFullPath {
   '/physiotherapy-treatments-for-common-sports-injuries': typeof PhysiotherapyTreatmentsForCommonSportsInjuriesRoute
   '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain': typeof PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute
   '/pilates-studio-ahmedabad': typeof PilatesStudioAhmedabadRoute
+  '/post-surgical-rehabilitation-in-ahmedabad': typeof PostSurgicalRehabilitationInAhmedabadRoute
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
@@ -1418,6 +1426,7 @@ export interface FileRoutesByTo {
   '/physiotherapy-treatments-for-common-sports-injuries': typeof PhysiotherapyTreatmentsForCommonSportsInjuriesRoute
   '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain': typeof PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute
   '/pilates-studio-ahmedabad': typeof PilatesStudioAhmedabadRoute
+  '/post-surgical-rehabilitation-in-ahmedabad': typeof PostSurgicalRehabilitationInAhmedabadRoute
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
@@ -1584,6 +1593,7 @@ export interface FileRoutesById {
   '/physiotherapy-treatments-for-common-sports-injuries': typeof PhysiotherapyTreatmentsForCommonSportsInjuriesRoute
   '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain': typeof PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute
   '/pilates-studio-ahmedabad': typeof PilatesStudioAhmedabadRoute
+  '/post-surgical-rehabilitation-in-ahmedabad': typeof PostSurgicalRehabilitationInAhmedabadRoute
   '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   '/prenatal-and-postnatal-physiotherapy': typeof PrenatalAndPostnatalPhysiotherapyRoute
   '/prevent-recurring-vertigo-with-physiotherapy': typeof PreventRecurringVertigoWithPhysiotherapyRoute
@@ -1751,6 +1761,7 @@ export interface FileRouteTypes {
     | '/physiotherapy-treatments-for-common-sports-injuries'
     | '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain'
     | '/pilates-studio-ahmedabad'
+    | '/post-surgical-rehabilitation-in-ahmedabad'
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
@@ -1916,6 +1927,7 @@ export interface FileRouteTypes {
     | '/physiotherapy-treatments-for-common-sports-injuries'
     | '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain'
     | '/pilates-studio-ahmedabad'
+    | '/post-surgical-rehabilitation-in-ahmedabad'
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
@@ -2081,6 +2093,7 @@ export interface FileRouteTypes {
     | '/physiotherapy-treatments-for-common-sports-injuries'
     | '/physiotherapy-vs-medication-which-works-better-for-sciatica-pain'
     | '/pilates-studio-ahmedabad'
+    | '/post-surgical-rehabilitation-in-ahmedabad'
     | '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
     | '/prenatal-and-postnatal-physiotherapy'
     | '/prevent-recurring-vertigo-with-physiotherapy'
@@ -2247,6 +2260,7 @@ export interface RootRouteChildren {
   PhysiotherapyTreatmentsForCommonSportsInjuriesRoute: typeof PhysiotherapyTreatmentsForCommonSportsInjuriesRoute
   PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute: typeof PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute
   PilatesStudioAhmedabadRoute: typeof PilatesStudioAhmedabadRoute
+  PostSurgicalRehabilitationInAhmedabadRoute: typeof PostSurgicalRehabilitationInAhmedabadRoute
   PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute: typeof PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute
   PrenatalAndPostnatalPhysiotherapyRoute: typeof PrenatalAndPostnatalPhysiotherapyRoute
   PreventRecurringVertigoWithPhysiotherapyRoute: typeof PreventRecurringVertigoWithPhysiotherapyRoute
@@ -3074,6 +3088,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PilatesStudioAhmedabadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/post-surgical-rehabilitation-in-ahmedabad': {
+      id: '/post-surgical-rehabilitation-in-ahmedabad'
+      path: '/post-surgical-rehabilitation-in-ahmedabad'
+      fullPath: '/post-surgical-rehabilitation-in-ahmedabad'
+      preLoaderRoute: typeof PostSurgicalRehabilitationInAhmedabadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health': {
       id: '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
       path: '/postpartum-physiotherapy-for-core-posture-pelvic-floor-health'
@@ -3637,6 +3658,8 @@ const rootRouteChildren: RootRouteChildren = {
   PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute:
     PhysiotherapyVsMedicationWhichWorksBetterForSciaticaPainRoute,
   PilatesStudioAhmedabadRoute: PilatesStudioAhmedabadRoute,
+  PostSurgicalRehabilitationInAhmedabadRoute:
+    PostSurgicalRehabilitationInAhmedabadRoute,
   PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute:
     PostpartumPhysiotherapyForCorePosturePelvicFloorHealthRoute,
   PrenatalAndPostnatalPhysiotherapyRoute:

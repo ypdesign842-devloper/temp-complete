@@ -26,6 +26,10 @@ import { Testimonials } from "@/components/blocks/Testimonials";
 import { locations, type Location } from "@/data/locations";
 import { teamBranches, type TeamMember } from "@/data/team";
 import type { LocationContent } from "@/data/types";
+import {
+  generateLocationPageSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/schema";
 
 // Localities served for Home Visit Physiotherapy by Centre
 const localityMap: Record<string, string[]> = {
@@ -176,8 +180,23 @@ export function LocationTemplate({ data, content }: { data: Location; content: L
   const others = locations.filter((l) => l.slug !== data.slug);
   const localities = localityMap[data.name] || [data.name, data.city, "Surrounding Localities"];
 
+  const schemas = [
+    generateLocationPageSchema(data),
+    generateBreadcrumbSchema([
+      { name: "Home", url: "/" },
+      { name: "Clinic Network", url: "/#clinic-network" },
+      { name: `Complete Care ${data.name}`, url: `/${data.slug}` },
+    ]),
+  ];
+
   return (
     <>
+      {/* Schema.org Structured Data (PhysiotherapyClinic, NAP, Coordinates, BreadcrumbList) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+
       {/* 1. HERO SECTION */}
       <section className="relative overflow-hidden bg-sand/70 pt-8 sm:pt-12 lg:pt-16 pb-12 sm:pb-16 border-b border-border/80">
         <div className="container-cc">
@@ -203,8 +222,8 @@ export function LocationTemplate({ data, content }: { data: Location; content: L
                   <div className="text-base sm:text-lg font-bold text-navy">15+ Years</div>
                   <div className="text-[11px] text-muted-foreground">Clinical Trust</div>
                 </div>
-                <div className="rounded-xl border border-navy/10 bg-white/80 p-3 text-center shadow-xs">
-                  <div className="text-base sm:text-lg font-bold text-navy">65,000+</div>
+                <div className="rounded-2xl border border-navy/10 bg-white p-4 text-center shadow-xs">
+                  <div className="text-base sm:text-lg font-bold text-navy">85,000+</div>
                   <div className="text-[11px] text-muted-foreground">Patients Treated</div>
                 </div>
                 <div className="rounded-xl border border-navy/10 bg-white/80 p-3 text-center shadow-xs">

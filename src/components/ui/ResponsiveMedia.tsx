@@ -87,9 +87,9 @@ export function ResponsiveMedia({
     case "banner":
       return (
         <div
-          className={`relative overflow-hidden rounded-2xl border border-border bg-card shadow-lg ${className}`}
+          className={`relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-lg ${className}`}
         >
-          <div className="relative w-full aspect-[2.56/1] bg-sand/40 flex items-center justify-center overflow-hidden">
+          <div className="relative w-full aspect-[2.56/1] flex items-center justify-center overflow-hidden">
             <img
               src={src}
               alt={alt}
@@ -105,16 +105,16 @@ export function ResponsiveMedia({
     case "equipment":
       return (
         <div
-          className={`relative overflow-hidden rounded-2xl border border-border bg-card p-4 shadow-lg ${className}`}
+          className={`relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-lg ${className}`}
         >
-          <div className="relative w-full aspect-[4/3] bg-sand/30 flex items-center justify-center overflow-hidden rounded-xl">
+          <div className="relative w-full aspect-[4/3] flex items-center justify-center overflow-hidden">
             <img
               src={src}
               alt={alt}
               fetchPriority={priority ? "high" : "auto"}
               loading={priority ? undefined : "lazy"}
               decoding="async"
-              className={`size-full object-contain p-2 transition-transform duration-500 hover:scale-105 ${imageClassName}`}
+              className={`size-full object-contain transition-transform duration-500 hover:scale-105 ${imageClassName}`}
             />
           </div>
         </div>
@@ -123,9 +123,9 @@ export function ResponsiveMedia({
     case "portrait":
       return (
         <div
-          className={`relative overflow-hidden rounded-3xl border-2 border-navy/12 bg-white p-2 sm:p-2.5 shadow-xl shadow-navy/10 ${className}`}
+          className={`relative overflow-hidden rounded-3xl shadow-xl shadow-navy/10 ${className}`}
         >
-          <div className="relative w-full aspect-square overflow-hidden rounded-2xl bg-sand/20">
+          <div className="relative w-full aspect-square overflow-hidden rounded-3xl">
             <img
               src={src}
               alt={alt}
@@ -141,16 +141,16 @@ export function ResponsiveMedia({
     case "graphic":
       return (
         <div
-          className={`relative overflow-hidden rounded-2xl border border-border bg-card p-2 shadow-md ${className}`}
+          className={`relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-md ${className}`}
         >
-          <div className="relative w-full aspect-[5/4] bg-sand/40 flex items-center justify-center overflow-hidden rounded-xl">
+          <div className="relative w-full aspect-[5/4] flex items-center justify-center overflow-hidden">
             <img
               src={src}
               alt={alt}
               fetchPriority={priority ? "high" : "auto"}
               loading={priority ? undefined : "lazy"}
               decoding="async"
-              className={`size-full object-contain p-2 ${imageClassName}`}
+              className={`size-full object-contain ${imageClassName}`}
             />
           </div>
         </div>
@@ -160,9 +160,9 @@ export function ResponsiveMedia({
     default:
       return (
         <div
-          className={`relative overflow-hidden rounded-2xl border border-border bg-card p-1.5 shadow-lg ${className}`}
+          className={`relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-lg ${className}`}
         >
-          <div className="relative w-full aspect-[16/10] overflow-hidden rounded-xl bg-sand">
+          <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl sm:rounded-3xl">
             <img
               src={src}
               alt={alt}

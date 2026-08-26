@@ -1,120 +1,106 @@
 import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
- "slug": "effective-tens-treatment-in-ahmedabad-for-pain-relief",
- "h1": "TENS Physiotherapy Treatment Ahmedabad",
- "lead": "Transcutaneous Electrical Nerve Stimulation (TENS) therapy is a popular method for pain relief that uses low voltage electrical currents to stimulate sensory nerves. TENS therapy in physiotherapy is commonly used to manage musculoskeletal pain, including back pain, arthritis, and joint issues. It works by activating the pain gate mechanism and stimulating the body’s natural opioid system to reduce discomfort.",
- "hero": "/assets/treatments/TENs.webp",
- "blocks": [
-  {
-   "t": "p",
-   "text": "Many of the [**best physiotherapists in Ahmedabad**](/best-physiotherapist-in-ahmedabad/) include **TENS therapy machines** in their treatment plans to help patients recover faster and more comfortably. If you’re considering physiotherapy, choosing experienced professionals in Ahmedabad ensures the effective use of TENS therapy tailored to your specific condition."
-  },
-  {
-   "t": "h2",
-   "text": "TENS Therapy Benefits in Following"
-  },
-  {
-   "t": "ul",
-   "items": [
-    "Period pain",
-    "Labor pain",
-    "Postoperative pain",
-    "Joint pain",
-    "Neck and back pain",
-    "Endometriosis",
-    "Arthritis",
-    "Sports injuries",
-    "Multiple sclerosis",
-    "Fibromyalgia",
-    "Painful diabetic neuropathy",
-    "Spinal cord injury",
-    "Peripheral artery disease",
-    "Chronic pelvic pain",
-    "Bursitis",
-    "Low back pain",
-    "Tendinitis"
-   ]
-  },
-  {
-   "t": "h3",
-   "text": "Contraindications"
-  },
-  {
-   "t": "ul",
-   "items": [
-    "Patients who do not comprehend the physiotherapist’s instructions or who are unable to co-operate",
-    "It has been widely cited that application of the electrodes over the trunk, abdomen or pelvis during pregnancy is contraindicated BUT a recent review suggests that although not an ideal (first line) treatment option, application of TENS around the trunk during pregnancy can be safely applied, and no detrimental effects have been reported in the literature",
-    "TENS during labour for pain relief is both safe and effective"
-   ]
-  },
-  {
-   "t": "h3",
-   "text": "Precautions"
-  },
-  {
-   "t": "ul",
-   "items": [
-    "If there is abnormal skin sensation, the electrodes should preferably be positioned elsewhere to ensure effective stimulation",
-    "Electrodes should not be placed over the eyes",
-    "Patients who have epilepsy should be treated at the discretion of the therapist in consultation with the appropriate medical practitioner as there have been anecdotal reports of adverse outcomes, most especially (but not exclusively) associated with treatments to the neck and upper thoracic areas",
-    "Avoid active epiphyseal regions in children (though there is no direct evidence of adverse effect)",
-    "The use of abdominal electrodes during labour may interfere with foetal monitoring equipment and is therefore best avoided."
-   ]
-  },
-  {
-   "t": "h3",
-   "text": "TENS Treatment In Ahmedabad"
-  },
-  {
-   "t": "p",
-   "text": "Complete Care, [**Best Physiotherapy Center in Ahmedabad**](/) provides Transcutaneous Electrical Nerve Stimulation (TENS) therapy as an effective pain management solution under the expert guidance of the clinic’s qualified team. TENS stimulates nerves with low voltage electrical currents, which helps reduce pain signals transmitted to the brain while increasing endorphin production, the body’s natural painkiller."
-  }
- ],
- "quickLinks": [
-  {
-   "label": "Class IV Laser Therapy",
-   "to": "/class-iv-laser-therapy-clinic-in-ahmedabad"
-  },
-  {
-   "label": "PEMF Therapy",
-   "to": "/effective-pemf-therapy-in-ahmedabad"
-  },
-  {
-   "label": "IFT",
-   "to": "/best-ift-treatment-center-in-ahmedabad"
-  },
-  {
-   "label": "TENS",
-   "to": "/effective-tens-treatment-in-ahmedabad-for-pain-relief"
-  },
-  {
-   "label": "SWD",
-   "to": "/top-short wave-diathermy-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Electrical Stimulation",
-   "to": "/best-electrical-stimulation-therapy-in-ahmedabad"
-  },
-  {
-   "label": "Ultra Sound",
-   "to": "/ultra-sound-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Infra Radiation",
-   "to": "/infra-radiation-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Traction",
-   "to": "/effective-traction-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Pneumatic compression",
-   "to": "/best-pneumatic-compression-therapy-in-ahmedabad"
-  },
-  {
-   "label": "Paraffin wax Bath",
-   "to": "/paraffin-wax-bath-therapy-in-ahmedabad"
-  }
- ]
+  slug: "effective-tens-treatment-in-ahmedabad-for-pain-relief",
+  h1: "TENS Physiotherapy Treatment in Ahmedabad",
+  lead: "Transcutaneous Electrical Nerve Stimulation (TENS) uses low voltage electrical currents to stimulate sensory nerves, modulate pain gate pathways, and promote endorphin release. Complete Care provides clinical and doorstep TENS therapy across Ahmedabad for safe, non medicinal pain relief.",
+  hero: "/assets/treatments/TENs.webp",
+  blocks: [
+    {
+      t: "h2",
+      text: "What Is TENS Therapy & How Does It Work?"
+    },
+    {
+      t: "p",
+      text: "Transcutaneous Electrical Nerve Stimulation (TENS) is a gentle electrotherapy modality that delivers mild, low voltage electrical impulses through comfortable skin surface electrode pads. It works primarily via two distinct neurophysiological mechanisms: the pain gate mechanism and the endogenous opioid system."
+    },
+    {
+      t: "p",
+      text: "By stimulating large diameter sensory nerve fibers, TENS effectively closes the neurological gate in the spinal cord, preventing pain signals from traveling upward to the brain. At specific therapeutic frequencies, TENS also stimulates the body to release natural pain relieving endorphins, providing sustained relief during clinic sessions and home physiotherapy visits."
+    },
+    {
+      t: "h2",
+      text: "What Conditions Can TENS Therapy Help With?"
+    },
+    {
+      t: "p",
+      text: "TENS therapy is utilized at Complete Care across a wide variety of acute and chronic pain conditions, including:"
+    },
+    {
+      t: "ul",
+      items: [
+        "Acute muscular spasms and chronic [**Back Pain**](/back-pain-doctor-in-ahmedabad/)",
+        "Postural strain, tension headaches, and [**Neck Pain**](/neck-pain-treatment-doctor-in-ahmedabad/)",
+        "Nerve root irritation, shooting pain, and [**Sciatica**](/sciatica-pain-treatment-in-ahmedabad/)",
+        "Osteoarthritis and chronic [**Knee Pain**](/knee-pain-treatment-in-ahmedabad/)",
+        "Tendonitis, bursitis, and [**Frozen Shoulder**](/frozen-shoulder-treatment-doctor-in-ahmedabad/)",
+        "Post surgical incision pain and orthopaedic recovery",
+        "Fibromyalgia, peripheral nerve sensitivity, and sports related injuries"
+      ]
+    },
+    {
+      t: "h2",
+      text: "What Are the Benefits & Expected Results?"
+    },
+    {
+      t: "p",
+      text: "TENS therapy offers immediate, drug free comfort that allows patients to move more freely and participate in active rehabilitation. Key benefits include:"
+    },
+    {
+      t: "ul",
+      items: [
+        "**Fast Pain Relief**: Provides rapid reduction of localized discomfort during and after application",
+        "**Non Medicinal Management**: Helps reduce reliance on oral pain medications and NSAIDs",
+        "**Relaxes Muscle Guarding**: Calms protective muscular tension around painful joints",
+        "**Highly Portable**: Can be administered in our physical clinics or directly at your bedside during home visits",
+        "**Customizable Settings**: Intensity, frequency, and pulse width are precisely modulated to your comfort"
+      ]
+    },
+    {
+      t: "h2",
+      text: "Is TENS Therapy Safe & Who Is It Suitable For?"
+    },
+    {
+      t: "p",
+      text: "TENS therapy is safe, non invasive, and produces a mild, soothing prickling or buzzing sensation beneath the pads without pain."
+    },
+    {
+      t: "p",
+      text: "It is suitable for working individuals, athletes, and elderly patients. Our physiotherapists screen every patient before use to ensure safety precautions are respected, avoiding electrode placement over cardiac pacemakers, active epilepsy, anterior neck regions, or damaged skin."
+    },
+    {
+      t: "h2",
+      text: "How Many Sessions Are Usually Needed & What Does It Cost?"
+    },
+    {
+      t: "p",
+      text: "Session frequency is tailored to your individual clinical assessment, pain severity, and overall treatment plan. TENS is often paired with manual therapy and exercise rehabilitation to address root causes while providing immediate comfort."
+    },
+        {
+      t: "pricing",
+      title: "Estimated TENS Therapy & Treatment Pricing",
+      range: "₹500 to ₹2,000",
+      consultationFee: "₹500 (Detailed Doctor Assessment)",
+      treatmentRange: "₹500 to ₹2,000 / session",
+      lowPrice: 500,
+      highPrice: 2000,
+      currency: "INR",
+      context: "At Complete Care, pricing for physical therapy sessions ranges from ₹500 to ₹2,000 per session depending on the clinical evaluation, treated area, and combination with other rehabilitation modalities.",
+      inclusions: [
+        "Physiotherapist led clinical evaluation",
+        "Targeted therapy and gentle mobilization",
+        "Ergonomic and posture home guidance",
+        "Transparent pricing with no hidden charges"
+      ]
+    }
+  ],
+  quickLinks: [
+    { label: "IFT Therapy", to: "/best-ift-treatment-center-in-ahmedabad" },
+    { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
+    { label: "PEMF Therapy", to: "/effective-pemf-therapy-in-ahmedabad" },
+    { label: "Short Wave Diathermy", to: "/top-short-wave-diathermy-treatment-in-ahmedabad" },
+    { label: "Therapeutic Ultrasound", to: "/ultra-sound-treatment-in-ahmedabad" },
+    { label: "Chiropractic Treatment", to: "/chiropractic-treatment-in-ahmedabad" },
+    { label: "Best Physiotherapy Clinic", to: "/best-physiotherapy-clinic-in-ahmedabad" }
+  ]
 };

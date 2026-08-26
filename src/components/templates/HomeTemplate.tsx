@@ -25,10 +25,27 @@ import { homeFaqs } from "@/data/faqs";
 import { posts } from "@/data/posts";
 import { site } from "@/data/site";
 import { modalities, neuroConditions, orthoConditions } from "@/data";
+import {
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+  generateFAQSchema,
+} from "@/lib/schema";
 
 export function HomeTemplate() {
+  const schemas = [
+    generateWebSiteSchema(),
+    generateOrganizationSchema(),
+    generateFAQSchema(homeFaqs),
+  ].filter(Boolean);
+
   return (
     <>
+      {/* Schema.org Structured Data (WebSite, MedicalOrganization, 6 Branches, FAQs) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+
       {/* Cinematic Hero Section */}
       <section className="relative overflow-hidden border-b border-border/80 bg-[#f9f7ef] py-12 sm:py-16 lg:py-20">
         {/* Subtle decorative background glow */}
@@ -358,7 +375,7 @@ export function HomeTemplate() {
               </div>
 
               {/* Right Stage (Zone 2 & Zone 3) - Unified Connected Spine & Doctor Visual */}
-              <div className="relative lg:col-span-7 flex items-center justify-center lg:justify-end py-1 sm:py-2">
+              <div className="relative lg:col-span-7 flex items-center justify-center lg:justify-center py-1 sm:py-2 lg:-translate-x-4 xl:-translate-x-8">
                 <div className="relative flex items-center justify-center max-w-full">
                   {/* Spine & Connected Callouts Wrapper */}
                   <div className="relative w-[130px] xs:w-[150px] sm:w-[320px] md:w-[360px] lg:w-[390px] h-[280px] xs:h-[310px] sm:h-[390px] lg:h-[430px] flex items-center justify-center shrink-0">
@@ -443,8 +460,8 @@ export function HomeTemplate() {
                   </div>
 
                   {/* Right: Dr. Hardik Patel Image & Credential Badge */}
-                  <div className="relative flex flex-col items-center justify-end shrink-0 -ml-2 xs:-ml-4 sm:-ml-10 md:-ml-12 z-20">
-                    <div className="relative w-full max-w-[140px] xs:max-w-[160px] sm:max-w-[190px] md:max-w-[220px]">
+                  <div className="relative flex flex-col items-center justify-end shrink-0 -ml-4 xs:-ml-6 sm:-ml-24 md:-ml-32 lg:-ml-40 xl:-ml-48 z-20">
+                    <div className="relative w-full max-w-[150px] xs:max-w-[175px] sm:max-w-[240px] md:max-w-[280px] lg:max-w-[310px] xl:max-w-[330px]">
                       <img
                         src="/assets/heroes/Dr-Hardik-Patel.webp"
                         alt="Dr. Hardik Patel (PT), Director and Senior Physical Therapist"
@@ -452,8 +469,8 @@ export function HomeTemplate() {
                         className="w-full h-auto object-contain drop-shadow-2xl"
                       />
 
-                      {/* Credential Badge */}
-                      <div className="mt-1.5 sm:mt-2 rounded-xl sm:rounded-2xl border border-navy/10 bg-[#f9f7ef]/95 p-1.5 sm:p-2.5 shadow-sm backdrop-blur-sm text-center sm:text-left">
+                      {/* Credential Badge anchored over the bottom cut edge */}
+                      <div className="-mt-7 sm:-mt-9 relative z-30 mx-auto w-full rounded-xl sm:rounded-2xl border border-navy/10 bg-[#f9f7ef]/95 p-2 sm:p-2.5 shadow-md backdrop-blur-md text-center sm:text-left">
                         <div className="flex items-center justify-center sm:justify-start gap-1 sm:gap-1.5 text-[10px] sm:text-xs font-bold text-navy">
                           <ShieldCheck className="size-3 sm:size-3.5 text-accent shrink-0" />
                           <span>Dr. Hardik Patel (PT)</span>
@@ -540,11 +557,70 @@ export function HomeTemplate() {
           </div>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {[...orthoConditions.slice(0, 8), ...neuroConditions.slice(0, 4)].map((c) => (
+            {[
+              ...orthoConditions.slice(0, 7),
+              {
+                slug: "post-surgical-rehabilitation-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Post Surgical Rehabilitation",
+                h1: "Post Surgical Rehabilitation in Ahmedabad",
+                title: "Post Surgical Rehabilitation in Ahmedabad",
+                description: "Structured postoperative physiotherapy for knee and hip replacement, spine surgery, ACL reconstruction, and fracture recovery.",
+                lead: "Structured postoperative physiotherapy for knee and hip replacement, spine surgery, ACL reconstruction, and fracture recovery.",
+                image: "/assets/blogs/Knee-Surgery.png",
+                related: []
+              },
+              neuroConditions[0], // Spinal Cord Injury
+              {
+                slug: "top-physiotherapy-services-center-in-ahmedabad",
+                group: "pillar",
+                label: "Physiotherapy",
+                h1: "Physiotherapy Services in Ahmedabad",
+                title: "Physiotherapy Services in Ahmedabad",
+                description: "Comprehensive clinical physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical recovery.",
+                lead: "Evidence based physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical orthopaedic recovery.",
+                image: "/assets/blogs/Physiotherapy-Treatment.png",
+                related: []
+              },
+              {
+                slug: "best-neuro-spine-rehabilitation-centre-in-ahmedabad",
+                group: "pillar",
+                label: "Spine-Neuro Rehab",
+                h1: "Spine & Neuro Rehabilitation in Ahmedabad",
+                title: "Spine & Neuro Rehabilitation in Ahmedabad",
+                description: "Specialised neuro physical therapy for stroke recovery, spinal cord injury, Parkinson's disease, and nerve disorders.",
+                lead: "Specialised neuro physical therapy for stroke recovery, spinal cord injury, Parkinson's disease, and nerve disorders.",
+                image: "/assets/treatments/Spinal-cord-injury-images.webp",
+                related: []
+              },
+              {
+                slug: "top-fitness-centre-courses-in-ahmedabad",
+                group: "fitness",
+                label: "Fitness",
+                h1: "Medical Fitness & Studio in Ahmedabad",
+                title: "Medical Fitness & Studio in Ahmedabad",
+                description: "Doctor supervised exercise studio offering clinical Pilates, HIIT workouts, strength training, power yoga, and Zumba.",
+                lead: "Doctor supervised exercise studio offering clinical Pilates, HIIT workouts, strength training, power yoga, and Zumba.",
+                image: "/assets/fitness/Aerobics-images.webp",
+                related: []
+              }
+            ].map((c) => (
               <LinkCard
                 key={c.slug}
-                page={c}
-                kicker={c.group === "condition-neuro" ? "Spine & Neuro Rehab" : "Orthopaedic Care"}
+                page={c as never}
+                kicker={
+                  c.slug === "top-physiotherapy-services-center-in-ahmedabad"
+                    ? "Physiotherapy"
+                    : c.slug === "best-neuro-spine-rehabilitation-centre-in-ahmedabad"
+                    ? "Spine & Neuro Rehab"
+                    : c.slug === "top-fitness-centre-courses-in-ahmedabad"
+                    ? "Fitness"
+                    : c.slug === "post-surgical-rehabilitation-in-ahmedabad"
+                    ? "Orthopaedic Care"
+                    : c.group === "condition-neuro"
+                    ? "Spine & Neuro Rehab"
+                    : "Orthopaedic Care"
+                }
               />
             ))}
           </div>

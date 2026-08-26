@@ -62,9 +62,9 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
         },
         publisher: {
           "@type": "MedicalOrganization",
-          name: site.name,
-          url: "https://completecare.in",
-          logo: "https://completecare.in/assets/logo.png",
+          name: "Complete Care Physiotherapy",
+          url: "https://completecare.in/",
+          logo: "https://completecare.in/assets/brand/completecare-logo.webp",
           telephone: site.phone,
         },
       },
@@ -104,16 +104,16 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
           "@type": "AggregateOffer",
           priceCurrency: pricingBlock.currency || "INR",
           lowPrice: pricingBlock.lowPrice ? String(pricingBlock.lowPrice) : "500",
-          highPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "1500",
+          highPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "2000",
           offerCount: "1",
           priceSpecification: {
             "@type": "PriceSpecification",
             priceCurrency: pricingBlock.currency || "INR",
             minPrice: pricingBlock.lowPrice ? String(pricingBlock.lowPrice) : "500",
-            maxPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "1500",
+            maxPrice: pricingBlock.highPrice ? String(pricingBlock.highPrice) : "2000",
             unitText: "SESSION",
           },
-          description: pricingBlock.context,
+          description: pricingBlock.context || "At Complete Care, pricing for physical therapy sessions ranges from ₹500 to ₹2,000 per session depending on clinical assessment and modalities.",
         },
       });
     }
@@ -127,7 +127,7 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
           name: f.q,
           acceptedAnswer: {
             "@type": "Answer",
-            text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, ""),
+            text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "").trim(),
           },
         })),
       });
@@ -191,31 +191,6 @@ export function ContentTemplate({ data, content }: { data: ContentPage; content:
           </div>
         </div>
       </section>
-
-      {/* Related Care Cards Grid */}
-      {related.length > 0 && (
-        <section className="section-y bg-sand">
-          <div className="container-cc">
-            <div className="max-w-2xl">
-              <span className="badge-clinical text-teal">
-                Complementary Protocols
-              </span>
-              <h2 className="mt-3 text-3xl font-semibold leading-tight text-navy sm:text-4xl">
-                Related care at Complete Care
-              </h2>
-              <p className="mt-2 text-base text-muted-foreground">
-                Our clinical teams coordinate cross-specialty treatments to achieve lasting recovery.
-              </p>
-            </div>
-
-            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {related.map((p) => (
-                <LinkCard key={p.slug} page={p} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Testimonials */}
       <Testimonials limit={3} />

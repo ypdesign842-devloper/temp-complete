@@ -94,7 +94,7 @@ export const content: LocationContent = {
   },
   {
    "t": "p",
-   "text": "Dr. Hardik Patel, a recognized physiotherapist and chiropractor with 15 years of expertise, specializes in musculoskeletal and neurological conditions. He has successfully treated over 65,000 patients by chiropractic and physiotherapy techniques."
+   "text": "Dr. Hardik Patel, a recognized physiotherapist and chiropractor with 15 years of expertise, specializes in musculoskeletal and neurological conditions. He has successfully treated over 85,000 patients by chiropractic and physiotherapy techniques."
   },
   {
    "t": "img",

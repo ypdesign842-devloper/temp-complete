@@ -261,7 +261,7 @@ export const pillars: ContentPage[] = [
   "title": "Top Physiotherapy Services Center in Ahmedabad | Complete Care",
   "description": "The complete range of Complete Care physiotherapy services in Ahmedabad ,  manual therapy, electrotherapy, spine care, neuro rehabilitation and medical fitness.",
   "lead": "Neck pain is a common Problem seen nowadays. Neck muscles can be strained from poor posture whether it’s leaning over your computer or hunching over your workbench. Rarely, neck pain can be a symptom of a more serious problem.",
-  "image": "/assets/treatments/Neck-pain-images.webp",
+  "image": "/assets/blogs/Physiotherapy-Treatment.png",
   "related": [
    "advanced-physical-therapy-in-ahmedabad",
    "best-electro-therapy-in-ahmedabad"
@@ -303,7 +303,7 @@ export const pillars: ContentPage[] = [
   "title": "Physiotherapy at Home in Ahmedabad | Complete Care Home Visits",
   "description": "Licensed physiotherapists visit your home in Ahmedabad, Mehsana and Ankleshwar with portable TENS, IFT and ultrasound equipment for doorstep rehabilitation.",
   "lead": "Complete care provides physiotherapy services that aim at alleviating pain in most medical conditions. Be it chronic disorders or acute illness or post surgery. We provide a protocol-led care plan administered by highly qualified personnel at the convenience of a patient’s home. Our Best Physiotherapists in Ahmedabad are skilled in the assessment and hands-on management of a broad range of conditions that affect the musculoskeletal, circulatory, respiratory and nervous systems.",
-  "image": "/assets/media/Complete-care-Thaltej-Ahmedabad-Clinic-photos4.webp",
+  "image": "/assets/treatments/cc-home-page-image.webp",
   "related": [
    "stroke-in-treatment-ahmedabad",
    "best-physiotherapy-center-thaltej-ahmedabad"
@@ -321,6 +321,21 @@ export const pillars: ContentPage[] = [
   "related": [
    "stroke-in-treatment-ahmedabad",
    "spinal-cord-specialist-in-ahmedabad"
+  ]
+ },
+ {
+  "slug": "post-surgical-rehabilitation-in-ahmedabad",
+  "group": "pillar",
+  "label": "Post Surgical Rehabilitation",
+  "h1": "Post Surgical Rehabilitation in Ahmedabad",
+  "title": "Post Surgical Rehabilitation in Ahmedabad | Complete Care",
+  "description": "Recover safely, rebuild strength, and return to everyday movement with structured post surgical physiotherapy at Complete Care in Ahmedabad.",
+  "lead": "Recover safely, rebuild strength, and return to everyday movement with structured post surgical physiotherapy at Complete Care. Our rehabilitation programs are tailored to your surgery, recovery stage, physical condition, and goals, with guidance from experienced physiotherapists.",
+  "image": "/assets/blogs/Knee-Surgery.png",
+  "related": [
+   "knee-pain-treatment-in-ahmedabad",
+   "top-physiotherapy-services-center-in-ahmedabad",
+   "back-pain-doctor-in-ahmedabad"
   ]
  }
 ];

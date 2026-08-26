@@ -1,136 +1,106 @@
 import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
- "slug": "spine-decompression-therapy-treatment-in-ahmedabad",
- "h1": "Spine Decompression Therapy Treatment in Ahmedabad",
- "lead": "Spine decompression therapy is a non surgical  physiotherapy treatment designed to relieve pressure on the spinal discs and nerves. It uses a specialized decompression table that gently stretches the spine in a controlled manner. This creates negative pressure within the discs, helping bulging or herniated discs move back into place. Improved spinal alignment allows better blood flow, oxygen, and nutrients to reach injured tissues, promoting natural healing. The therapy is safe, comfortable, and closely monitored by trained physiotherapists. Spine decompression therapy is commonly used as part of a comprehensive rehabilitation program for long term spine health.",
- "hero": "/assets/treatments/Spine-Decompression-Therapy-Treatment.png",
- "blocks": [
-  {
-   "t": "h2",
-   "text": "What Is Spine Decompression Therapy and How It Works?"
-  },
-  {
-   "t": "h2",
-   "text": "Benefits of Spine Decompression Therapy"
-  },
-  {
-   "t": "p",
-   "text": "Spine decompression therapy offers effective pain relief while supporting long term spinal health. It is especially beneficial for patients seeking non surgical  solutions."
-  },
-  {
-   "t": "h3",
-   "text": "Key benefits include:"
-  },
-  {
-   "t": "ul",
-   "items": [
-    "Reduced pressure on spinal nerves",
-    "Relief from chronic back and neck pain",
-    "Improved spinal flexibility and mobility",
-    "Enhanced disc hydration and healing",
-    "Decreased muscle tension and stiffness"
-   ]
-  },
-  {
-   "t": "p",
-   "text": "Because the therapy is gentle and non invasive, it is suitable for many patients with chronic spine conditions. Regular sessions can significantly improve daily comfort, posture, and overall quality of life."
-  },
-  {
-   "t": "h2",
-   "text": "Conditions Treated with Spine Decompression Therapy"
-  },
-  {
-   "t": "p",
-   "text": "Physiotherapy clinics in Ahmedabad use spine decompression therapy to treat various spinal conditions affecting the neck and lower back."
-  },
-  {
-   "t": "h3",
-   "text": "Common conditions treated include:"
-  },
-  {
-   "t": "ul",
-   "items": [
-    "Slip disc and herniated disc",
-    "Sciatica and nerve compression",
-    "Chronic lower back pain",
-    "Neck pain and cervical spondylosis",
-    "Degenerative disc disease"
-   ]
-  },
-  {
-   "t": "p",
-   "text": "By reducing spinal pressure and improving disc function, decompression therapy helps relieve pain and restore mobility. It is often recommended when conservative treatments have not provided adequate relief."
-  },
-  {
-   "t": "h3",
-   "text": "Why Choose Complete Care for Spine Decompression Therapy Treatment in Ahmedabad?"
-  },
-  {
-   "t": "p",
-   "text": "Complete Care provides advanced spine decompression therapy treatment in Ahmedabad with a focus on safe, non surgical  relief from back and neck pain. Our experienced physiotherapists use modern decompression technology to reduce spinal pressure and promote natural healing. Each treatment plan is personalized after a detailed assessment to ensure effective and long-lasting results. We combine spine decompression therapy with physiotherapy exercises, posture correction, and lifestyle guidance for complete recovery. With a patient-first approach, modern facilities, and proven clinical expertise, Complete Care is a trusted choice for [spine care and treatment in Ahmedabad](/)."
-  },
-  {
-   "t": "h3",
-   "text": "What to Expect During a Spine Decompression Therapy Session?\\[H3\\]"
-  },
-  {
-   "t": "p",
-   "text": "During a spine decompression therapy session, the physiotherapist evaluates your condition and sets up a personalized treatment plan. You will lie comfortably on a decompression table while gentle traction is applied to the spine. The stretching is controlled and painless, with sessions lasting around 20 to 30 minutes. Patients often feel mild stretching or relaxation during treatment. The therapy is usually combined with physiotherapy exercises or manual therapy. Most patients can resume normal activities immediately after the session, with gradual improvement seen over multiple sessions."
-  }
- ],
- "quickLinks": [
-  {
-   "label": "Neck Pain",
-   "to": "/neck-pain-treatment-doctor-in-ahmedabad"
-  },
-  {
-   "label": "Back Pain",
-   "to": "/back-pain-doctor-in-ahmedabad"
-  },
-  {
-   "label": "Knee Pain",
-   "to": "/knee-pain-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Shoulder Pain",
-   "to": "/shoulder-pain-treatment-doctor-in-ahmedabad"
-  },
-  {
-   "label": "Frozen Shoulder",
-   "to": "/frozen-shoulder-treatment-doctor-in-ahmedabad"
-  },
-  {
-   "label": "Slip/Herniated Disc",
-   "to": "/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Sciatica",
-   "to": "/sciatica-pain-treatment-in-ahmedabad"
-  },
-  {
-   "label": "Ankle Pain",
-   "to": "/ankle-pain-treatment-doctor-in-ahmedabad"
-  },
-  {
-   "label": "Rheumatoid Arthritis",
-   "to": "/top-rheumatoid-arthritis-specialist-in-ahmedabad"
-  },
-  {
-   "label": "Sports Rehab",
-   "to": "/sports-physiotherapist-in-ahmedabad"
-  },
-  {
-   "label": "Tennis elbow",
-   "to": "/best-doctor-for-tennis-elbow-in-ahmedabad"
-  },
-  {
-   "label": "Vertigo",
-   "to": "/top-vertigo-specialist-in-ahmedabad"
-  },
-  {
-   "label": "Osteoporosis",
-   "to": "/osteoporosis-treatment-doctor-in-ahmedabad"
-  }
- ]
+  slug: "spine-decompression-therapy-treatment-in-ahmedabad",
+  h1: "Spine Decompression Therapy Treatment in Ahmedabad",
+  lead: "Computerized spinal decompression therapy is a sophisticated, non surgical modality designed to relieve chronic pressure on compressed discs and irritated nerve roots. Complete Care provides advanced spine decompression treatment in Ahmedabad to retract disc bulges, alleviate sciatica, and restore spinal alignment without surgery.",
+  hero: "/assets/treatments/Spine-Decompression-Therapy-Treatment.png",
+  blocks: [
+    {
+      t: "h2",
+      text: "What Is Spine Decompression Therapy & How Does It Work?"
+    },
+    {
+      t: "p",
+      text: "Spine decompression therapy is a specialized computer guided treatment that applies cyclic, graduated distraction forces to targeted lumbar or cervical spinal segments. Unlike standard traction that can trigger reactive muscle spasms, computerized decompression uses precision load sensors and variable pull angles to relax surrounding musculature while isolating the damaged spinal disc."
+    },
+    {
+      t: "p",
+      text: "This calibrated distraction creates a negative vacuum effect (intradiscal negative pressure) inside the intervertebral disc. This vacuum phenomenon encourages protruding or herniated disc material to retract back toward the center of the disc space, relieves direct impingement on adjacent spinal nerve roots, and stimulates fluid imbibition, drawing oxygen, water, and essential nutrients into the disc to accelerate biological healing."
+    },
+    {
+      t: "h2",
+      text: "What Conditions Can Spine Decompression Therapy Help With?"
+    },
+    {
+      t: "p",
+      text: "Spine decompression therapy is clinically proven for acute and chronic discogenic conditions managed across our Ahmedabad centres, including:"
+    },
+    {
+      t: "ul",
+      items: [
+        "Lumbar disc herniation, disc prolapse, and [**Slipped Disc Treatment**](/slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad/)",
+        "Nerve root compression, leg radiating pain, and severe [**Sciatica**](/sciatica-pain-treatment-in-ahmedabad/)",
+        "Chronic discogenic lower back stiffness and persistent [**Back Pain**](/back-pain-doctor-in-ahmedabad/)",
+        "Cervical disc bulges, arm numbness, and chronic [**Neck Pain**](/neck-pain-treatment-doctor-in-ahmedabad/)",
+        "Degenerative disc disease with reduced spinal disc height",
+        "Facet joint syndrome and spinal stenosis with limited walking tolerance",
+        "Failed back surgery syndrome where conservative decompression provides relief"
+      ]
+    },
+    {
+      t: "h2",
+      text: "What Are the Benefits & Expected Results?"
+    },
+    {
+      t: "p",
+      text: "Patients receiving spinal decompression therapy at Complete Care experience significant non surgical relief and improved spinal flexibility. Key benefits include:"
+    },
+    {
+      t: "ul",
+      items: [
+        "**Retracts Herniated Disc Material**: Creates negative intradiscal pressure to draw bulging disc tissue away from pinched nerves",
+        "**Dramatic Pain Reduction**: Alleviates radiating leg pain, numbness, and burning sensations caused by sciatica",
+        "**Promotes Disc Hydration**: Enhances fluid and nutrient intake to restore cushioning in dehydrated, degenerative discs",
+        "**Safe Alternative to Surgery**: Offers an effective non invasive pathway to avoid spinal fusions or microdiscectomies",
+        "**Gentle and Comfortable**: Fully supported positioning with smooth computerized cycles that prevent muscular guarding"
+      ]
+    },
+    {
+      t: "h2",
+      text: "Is Spine Decompression Therapy Safe & Who Is It Suitable For?"
+    },
+    {
+      t: "p",
+      text: "Spine decompression therapy is safe and comfortable when managed by trained spine physiotherapists using computerized clinical equipment. The patient holds a safety release switch at all times for complete peace of mind."
+    },
+    {
+      t: "p",
+      text: "It is suitable for individuals with persistent back or neck disc pathology who have not achieved adequate relief from basic rest or medication. Our senior clinicians conduct an orthopaedic and neurological assessment before recommending decompression to rule out contraindications such as severe spinal fractures, severe osteoporosis, spinal hardware or rods, cauda equina syndrome, or spinal tumors."
+    },
+    {
+      t: "h2",
+      text: "How Many Sessions Are Usually Needed & What Does It Cost?"
+    },
+    {
+      t: "p",
+      text: "The number and frequency of spine decompression sessions depend on your MRI findings, symptom chronicity, and neurological recovery response. Complete Care integrates decompression with core stabilization exercises and posture correction to ensure lasting spinal resilience."
+    },
+        {
+      t: "pricing",
+      title: "Estimated Spine Decompression & Treatment Pricing",
+      range: "₹500 to ₹2,000",
+      consultationFee: "₹500 (Detailed Doctor Assessment)",
+      treatmentRange: "₹500 to ₹2,000 / session",
+      lowPrice: 500,
+      highPrice: 2000,
+      currency: "INR",
+      context: "At Complete Care, pricing for physical therapy sessions ranges from ₹500 to ₹2,000 per session depending on the clinical evaluation, treated area, and combination with other rehabilitation modalities.",
+      inclusions: [
+        "Physiotherapist led clinical evaluation",
+        "Targeted therapy and gentle mobilization",
+        "Ergonomic and posture home guidance",
+        "Transparent pricing with no hidden charges"
+      ]
+    }
+  ],
+  quickLinks: [
+    { label: "Chiropractic Treatment", to: "/chiropractic-treatment-in-ahmedabad" },
+    { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
+    { label: "PEMF Therapy", to: "/effective-pemf-therapy-in-ahmedabad" },
+    { label: "Traction Therapy", to: "/effective-traction-treatment-in-ahmedabad" },
+    { label: "TECAR Therapy", to: "/tecar-physiotherapy-treatment-in-ahmedabad" },
+    { label: "Manual Therapy", to: "/manual-therapy-near-me-in-ahmedabad" },
+    { label: "Best Physiotherapy Clinic", to: "/best-physiotherapy-clinic-in-ahmedabad" }
+  ]
 };

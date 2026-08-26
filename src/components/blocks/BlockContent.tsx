@@ -412,33 +412,8 @@ export function BlockContent({ blocks }: { blocks: Block[] }) {
                     <Inline text={block.context} />
                   </p>
 
-                  {(block.consultationFee || block.treatmentRange) && (
-                    <div className="grid gap-3 sm:grid-cols-2 pt-1">
-                      {block.consultationFee && (
-                        <div className="rounded-xl border border-navy/10 bg-white/90 p-3.5 shadow-sm">
-                          <div className="text-[11px] font-bold text-teal uppercase tracking-wider">
-                            Initial Clinical Assessment
-                          </div>
-                          <div className="mt-1 text-sm sm:text-base font-bold text-navy">
-                            {block.consultationFee}
-                          </div>
-                        </div>
-                      )}
-                      {block.treatmentRange && (
-                        <div className="rounded-xl border border-navy/10 bg-white/90 p-3.5 shadow-sm">
-                          <div className="text-[11px] font-bold text-teal uppercase tracking-wider">
-                            Treatment / Modality Session
-                          </div>
-                          <div className="mt-1 text-sm sm:text-base font-bold text-navy">
-                            {block.treatmentRange}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  )}
-
                   {block.inclusions && block.inclusions.length > 0 && (
-                    <div className="pt-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-medium text-muted-foreground border-t border-navy/5 pt-3">
+                    <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-medium text-muted-foreground border-t border-navy/5 pt-3">
                       {block.inclusions.map((inc, k) => (
                         <div key={k} className="flex items-center gap-1.5">
                           <CheckCircle2 className="size-3.5 text-[#16803d] shrink-0" />
@@ -459,3 +434,4 @@ export function BlockContent({ blocks }: { blocks: Block[] }) {
     </div>
   );
 }
+  

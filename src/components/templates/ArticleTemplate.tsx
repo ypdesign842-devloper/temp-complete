@@ -16,6 +16,10 @@ import { BlockContent } from "@/components/blocks/BlockContent";
 import { posts, type Post } from "@/data/posts";
 import { site } from "@/data/site";
 import type { PostContent } from "@/data/types";
+import {
+  generateArticleSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/schema";
 
 export function ArticleTemplate({ post, content }: { post: Post; content: PostContent }) {
   const more = posts.filter((p) => p.slug !== post.slug).slice(0, 3);
@@ -25,8 +29,24 @@ export function ArticleTemplate({ post, content }: { post: Post; content: PostCo
     year: "numeric",
   });
 
+  const schemas = [
+    generateArticleSchema(post, content),
+    generateBreadcrumbSchema([
+      { name: "Home", url: "/" },
+      { name: "Blogs", url: "/blogs" },
+      ...(content.category ? [{ name: content.category, url: "/blogs" }] : []),
+      { name: post.title, url: `/${post.slug}` },
+    ]),
+  ];
+
   return (
     <>
+      {/* Schema.org Structured Data (BlogPosting, MedicalWebPage, Breadcrumbs) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+
       <article className="bg-background">
         {/* Article Header */}
         <header className="relative border-b border-border/80 bg-gradient-to-b from-sand via-background to-sand/40 py-12 lg:py-16">

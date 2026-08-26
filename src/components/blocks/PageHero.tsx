@@ -188,7 +188,7 @@ export function PageHero({
           </div>
 
           {/* Full-Bleed 1024x400 Clean Image Banner Below */}
-          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-navy/15 bg-white shadow-xl shadow-navy/5">
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl shadow-xl shadow-navy/5">
             <ResponsiveMedia
               src={image}
               alt={h1}

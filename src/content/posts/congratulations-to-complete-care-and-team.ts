@@ -26,7 +26,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "Established over **15 years ago**, Complete Care has become a trusted name in physiotherapy, chiropractic care, and rehabilitation. Over the years, the center has served more than **75,000 patients**, offering advanced therapies for back pain, spinal issues, sports injuries, postural problems, and chronic pain management."
+   "text": "Established over **15 years ago**, Complete Care has become a trusted name in physiotherapy, chiropractic care, and rehabilitation. Over the years, the center has served more than **85,000+ patients**, offering advanced therapies for back pain, spinal issues, sports injuries, postural problems, and chronic pain management."
   },
   {
    "t": "p",
@@ -64,7 +64,7 @@ export const content: PostContent = {
    "t": "ul",
    "items": [
     "Years of dedicated service and clinical excellence",
-    "Successful rehabilitation of over **75,000 patients**",
+    "Successful rehabilitation of over **85,000+ patients**",
     "Innovative treatment techniques and evidence based therapies",
     "Leadership of a **40+ member strong team** across **6 branches**",
     "Commitment to providing advanced physiotherapy with a patient-first approach"
@@ -96,7 +96,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "5. **Proven Track Record** Treating **75,000+ patients** highlights the clinic’s expertise, patient trust, and proven results in rehabilitation and pain management."
+   "text": "5. **Proven Track Record** Treating **85,000+ patients** highlights the clinic’s expertise, patient trust, and proven results in rehabilitation and pain management."
   },
   {
    "t": "p",
@@ -120,7 +120,7 @@ export const content: PostContent = {
   },
   {
    "t": "p",
-   "text": "“And the award goes to…” perfectly captures the journey of **Dr. Hardik and Dr. Foram Patel**. Through **15+ years of experience**, care for **75,000+ patients**, leadership of a **40+ member team**, and expansion across **6 branches**, they have set a benchmark in physiotherapy and rehabilitation in Gujarat."
+   "text": "“And the award goes to…” perfectly captures the journey of **Dr. Hardik and Dr. Foram Patel**. Through **15+ years of experience**, care for **85,000+ patients**, leadership of a **40+ member team**, and expansion across **6 branches**, they have set a benchmark in physiotherapy and rehabilitation in Gujarat."
   },
   {
    "t": "p",
