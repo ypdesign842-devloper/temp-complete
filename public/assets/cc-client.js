@@ -20,7 +20,7 @@
     }
 
     // Global Click Delegation for Mobile Accordions
-    document.addEventListener("click", function (e) {
+    document.addEventListener("click", function (e) { 
       const btn = e.target.closest('#mobile-nav button[aria-label*="Toggle"]');
       if (btn) {
         e.preventDefault();
