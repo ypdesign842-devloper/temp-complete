@@ -2,197 +2,363 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
   slug: "top-vertigo-specialist-in-ahmedabad",
-  h1: "Vertigo Physiotherapy Treatment Specialist in Ahmedabad",
-  lead: "Vertigo is a symptom rather than a condition itself. It’s the sensation that you or the environment around you is moving or spinning. The feeling may be hardly noticeable or may b severe that you find it difficult to keep your balance and do everyday tasks. Vertigo can be caused by various reasons like migraines, inner ear infection, inflammation of the vestibular nerve etc.",
+  h1: "Stop the Spinning and Regain Your Balance with Vestibular Therapy",
+  lead: "Struggling with sudden room spinning dizziness, unsteadiness when turning your head, or nausea when getting out of bed? At Complete Care in Ahmedabad, our licensed physiotherapists provide specialized Vestibular Rehabilitation Therapy (VRT) and canalith repositioning maneuvers (Epley and Semont) to stop vertigo and restore perfect balance safely.",
   hero: "/assets/conditions/Vertigo.webp",
   blocks: [
-    {
-      t: "p",
-      text: "True vertigo is a true illusion of spinning or rotational movement resulting from a sensory mismatch between your inner ear's vestibular system, your visual inputs, and proprioceptive sensors in the cervical spine. The most prevalent cause, **Benign Paroxysmal Positional Vertigo (BPPV)**, occurs when microscopic calcium carbonate crystals (otoconia) become dislodged from the utricle and migrate into one of the fluid-filled semicircular canals. At **Complete Care Physiotherapy**, we provide specialized **Vestibular Rehabilitation Therapy (VRT)**, precise canalith repositioning maneuvers (Epley, Semont, BBQ Roll), and balance retraining to eliminate dizziness rapidly and safely.",
-    },
     {
       t: "snapshot",
       title: "Clinical Snapshot: Vestibular & Vertigo Rehabilitation",
       items: [
         {
           label: "Involved Systems",
-          value: "Inner Ear Semicircular Canals (Posterior, Horizontal, Anterior), Vestibulocochlear Nerve (CN VIII), Cervical Proprioceptors",
+          value: "Inner Ear Semicircular Canals, Vestibulocochlear Nerve, Cervical Spine Proprioceptors",
         },
         {
           label: "Common Causes",
-          value: "BPPV (Canalithiasis), Vestibular Neuritis, Labyrinthitis, Cervicogenic Dizziness, Post-Concussion Syndrome",
+          value: "BPPV (Ear Crystals), Vestibular Neuritis, Cervicogenic Dizziness, Labyrinthitis",
         },
         {
           label: "Typical Timeline",
-          value: "BPPV resolution in 1 to 3 sessions; comprehensive vestibular habituation & balance stability in 3 to 6 weeks",
+          value: "BPPV resolution in 1 to 3 sessions; vestibular habituation and balance return in 3 to 6 weeks",
         },
         {
           label: "Primary Goals",
-          value: "Reposition displaced otoconia crystals, recalibrate vestibulo-ocular reflex (VOR), eliminate fall risk",
+          value: "Reposition displaced ear crystals, recalibrate gaze stability reflex, eliminate fall risk",
         },
       ],
     },
+
+    // 1. Causes, Symptoms and Common Problems
     {
       t: "h2",
-      text: "Common Clinical Types of Vertigo & Dizziness",
+      text: "Vertigo: Causes, Symptoms and Common Problems",
+    },
+    {
+      t: "h3",
+      text: "What Causes Vertigo?",
     },
     {
       t: "p",
-      text: "Identifying the precise vestibular or cervical origin is crucial to selecting the correct clinical treatment maneuver:",
+      text: "Vertigo is the false sensation that you or your surrounding environment is spinning, tilting, or rocking. It occurs when a sensory conflict develops between your inner ear vestibular system, your eyes, and sensory nerve receptors in your neck. The most common cause is Benign Paroxysmal Positional Vertigo (BPPV), where microscopic calcium carbonate crystals (otoconia) break loose and float inside the fluid-filled semicircular canals of the inner ear.",
     },
     {
       t: "grid",
       columns: 2,
       items: [
         {
-          title: "BPPV (Benign Paroxysmal Positional Vertigo)",
-          desc: "Dislodged otoconia crystals floating in the posterior or horizontal semicircular canals, triggering brief (10 to 60 second) violent spinning spells when rolling in bed or tilting the head back.",
-          badge: "Inner Ear Crystals",
+          title: "BPPV (Ear Crystal Displacement)",
+          desc: "Dislodged otoconia crystals floating in the inner ear canals trigger brief, intense spinning spells (10 to 60 seconds) when rolling in bed or tilting the head upward.",
+          badge: "Inner Ear",
         },
         {
-          title: "Vestibular Neuritis & Labyrinthitis",
-          desc: "Post-viral inflammation of the vestibular nerve resulting in sudden, constant severe vertigo lasting several days, accompanied by intense nausea and horizontal nystagmus.",
-          badge: "Inflammatory",
+          title: "Vestibular Neuritis",
+          desc: "Post-viral inflammation of the vestibular nerve resulting in sudden, continuous spinning, imbalance, and nausea lasting several days.",
+          badge: "Nerve Related",
         },
         {
           title: "Cervicogenic Dizziness",
-          desc: "Altered proprioceptive sensory signaling from hypertonic upper cervical spine muscles (C1, C3) and facet joints, causing feelings of unsteadiness and lightheadedness with neck turning.",
-          badge: "Cervical Spine",
+          desc: "Stiff upper cervical neck joints and tight muscle spasms sending distorted position signals to the balance centers of the brain.",
+          badge: "Neck Related",
         },
         {
-          title: "Vestibular Migraine & Central Dizziness",
-          desc: "Episodic motion sensitivity and spatial disorientation associated with migraine mechanisms, requiring vestibular desensitization and visual habituation training.",
-          badge: "Neurological",
+          title: "Vestibular Hypofunction & Age Related Balance Loss",
+          desc: "Gradual decline in inner ear sensory cell sensitivity, creating persistent lightheadedness and unsteadiness while walking in crowded places.",
+          badge: "Degenerative",
         },
       ],
     },
     {
-      t: "h2",
-      text: "Hallmark Symptoms & Warning Signs",
-    },
-    {
-      t: "grid",
-      columns: 2,
-      items: [
-        {
-          title: "Brief Spinning Sensation on Head Turns",
-          desc: "Intense room-spinning vertigo triggered when lying down, rolling over in bed, looking upward, or bending down to pick up objects.",
-        },
-        {
-          title: "Nausea, Vomiting & Sweating",
-          desc: "Autonomic nervous system distress triggered by sudden vestibular mismatch signals sent to the brainstem.",
-        },
-        {
-          title: "Loss of Balance & Unsteady Gait",
-          desc: "A feeling of floating, tilting, or veering to one side while walking, creating a strong fear of falling.",
-        },
-        {
-          title: "Visual Jitter (Oscillopsia)",
-          desc: "Difficulty focusing on objects while walking or turning the head due to a sluggish Vestibulo-Ocular Reflex (VOR).",
-        },
-      ],
-    },
-    {
-      t: "h2",
-      text: "Specialized Vestibular Diagnostic Assessment",
+      t: "h3",
+      text: "Common Symptoms of Vestibular Dysfunction",
     },
     {
       t: "ul",
       items: [
-        "**Dix-Hallpike Diagnostic Maneuver**: The gold standard clinical test to identify posterior and anterior semicircular canal BPPV via characteristic torsional nystagmus.",
-        "**Supine Roll Test (Pagnini-McClure)**: Diagnostic test to detect horizontal canal canalithiasis or cupulolithiasis.",
-        "**Vestibulo-Ocular Reflex (VOR) & Gaze Stability Testing**: Assessing dynamic visual acuity and head thrust response during rapid horizontal/vertical movement.",
-        "**Cervical Spine Proprioception & Joint Position Error (JPE)**: Differentiating inner ear vestibular deficits from upper cervical spine dysfunction.",
+        "**True Rotational Spinning**: A violent illusion that the room is spinning around you triggered by head position changes.",
+        "**Nausea and Motion Sickness**: Severe queasiness, cold sweats, or vomiting during sudden turns or elevator rides.",
+        "**Gaze Instability (Oscillopsia)**: The visual field bounces or blurs when walking or moving your head quickly.",
+        "**Veering or Drifting While Walking**: An involuntary tendency to veer toward one side or feeling like you are walking on a moving boat.",
       ],
     },
     {
+      t: "h3",
+      text: "Vertigo Triggered by Rolling in Bed or Looking Up",
+    },
+    {
+      t: "p",
+      text: "Simple movements like looking up at high shelves, bending forward to tie shoelaces, or turning from left to right in bed displace the loose inner ear crystals, creating rapid fluid waves that simulate intense spinning.",
+    },
+    {
+      t: "h3",
+      text: "Why Canalith Repositioning Maneuvers Cure BPPV Rapidly",
+    },
+    {
+      t: "p",
+      text: "Medications only mask vertigo symptoms temporarily. Precise clinical repositioning maneuvers (such as the Epley maneuver) use gravity to guide the dislodged crystals out of the sensitive semicircular canal back into the utricle where they dissolve, resolving BPPV in 1 to 3 sessions.",
+    },
+
+    // 2. Assessment
+    {
       t: "h2",
-      text: "Our Vestibular Rehabilitation & Repositioning Approach",
+      text: "How We Assess Your Vertigo",
+    },
+    {
+      t: "h3",
+      text: "Clinical Assessment",
+    },
+    {
+      t: "p",
+      text: "Our assessment begins with taking a detailed history of your dizziness triggers, duration of spinning episodes, and checking for central neurological signs versus peripheral inner ear causes.",
+    },
+    {
+      t: "h3",
+      text: "Oculomotor and Balance Assessment",
+    },
+    {
+      t: "p",
+      text: "We evaluate the Vestibulo-Ocular Reflex (VOR), smooth visual tracking, saccadic eye movements, and measure standing balance on stable and foam surfaces.",
+    },
+    {
+      t: "h3",
+      text: "Identifying the Affected Canal and Side",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Dix Hallpike Positional Testing**: The gold standard diagnostic test to identify posterior canal BPPV and observe characteristic torsional nystagmus eye movements.",
+        "**Supine Roll Test**: Identifying horizontal canal BPPV (geotropic vs apogeotropic nystagmus).",
+        "**Cervical Spine Proprioception Testing**: Differentiating inner ear crystal vertigo from cervicogenic neck dizziness.",
+      ],
+    },
+
+    // 3. Treatment at Complete Care
+    {
+      t: "h2",
+      text: "Vertigo Treatment at Complete Care",
+    },
+    {
+      t: "h3",
+      text: "Canalith Repositioning Maneuvers (Epley & Semont)",
+    },
+    {
+      t: "p",
+      text: "Our certified vestibular therapists perform precision particle repositioning maneuvers including the Epley, Semont, and BBQ Roll maneuvers to gently guide displaced inner ear crystals back to their non-sensitive resting chamber.",
+    },
+    {
+      t: "h3",
+      text: "Vestibular Rehabilitation Therapy (VRT)",
+    },
+    {
+      t: "p",
+      text: "Specialized VRT exercises recalibrate the Vestibulo-Ocular Reflex (VOR), retraining your brain to coordinate eye and head movements without dizziness or blurred vision.",
+    },
+    {
+      t: "h3",
+      text: "Habituation and Motion Desensitization",
+    },
+    {
+      t: "p",
+      text: "Graded exposure exercises desensitize the central nervous system to specific head movements that previously provoked dizziness.",
+    },
+    {
+      t: "h3",
+      text: "Cervicogenic Manual Therapy",
+    },
+    {
+      t: "p",
+      text: "When neck joint stiffness contributes to dizziness, gentle upper cervical [Manual Therapy](/manual-therapy-near-me-in-ahmedabad) and [Class IV Laser](/class-iv-laser-therapy-clinic-in-ahmedabad) release tight suboccipital spasms.",
+    },
+    {
+      t: "h3",
+      text: "Personalised Physiotherapy Treatment",
+    },
+    {
+      t: "p",
+      text: "We customize your rehabilitation plan from crystal repositioning into dynamic balance retraining, walking stability, and total fall prevention.",
+    },
+
+    // 4. Exercises for Vertigo and Balance Relief
+    {
+      t: "h2",
+      text: "Exercises for Vertigo and Balance Relief",
+    },
+    {
+      t: "h3",
+      text: "Gaze Stability (VOR) Exercises",
+    },
+    {
+      t: "p",
+      text: "Focusing on a visual target while moving your head horizontally and vertically retrains clear vision during body movement:",
+    },
+    {
+      t: "ul",
+      items: [
+        "**VOR x1 Gaze Stabilization**: Keeping eyes focused on a letter target while moving the head side to side at varying speeds.",
+        "**Target Tracking Drills**: Shifting focus smoothly between two spaced visual points to improve gaze speed and spatial awareness.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Brandt Daroff Habituation Exercises",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Bedside Habituation Drills**: Rapidly transitioning between sitting and side-lying positions to break down residual crystal fragments and habituate the vestibular system.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Static and Dynamic Balance Retraining",
+    },
+    {
+      t: "p",
+      text: "Tandem heel-to-toe standing, foam balance pads, and walking while turning the head left and right restore confident outdoor mobility.",
+    },
+    {
+      t: "h3",
+      text: "Home Exercise and Safety Guidance",
+    },
+    {
+      t: "p",
+      text: "We provide advice on proper lighting in hallways at night, avoiding sudden head thrusts immediately after crystal repositioning, and using assistive support when dizzy.",
+    },
+
+    // 5. Why Choose Complete Care
+    {
+      t: "h2",
+      text: "Why Choose Complete Care for Vertigo?",
+    },
+    {
+      t: "grid",
+      columns: 2,
+      items: [
+        {
+          title: "Experienced Vestibular Team",
+          desc: "Led by Dr. Hardik Patel (PT) with specialized training in clinical vestibular rehabilitation and canalith repositioning maneuvers.",
+          badge: "Clinical Leadership",
+        },
+        {
+          title: "Personalised One-on-One Care",
+          desc: "Dedicated one on one sessions ensuring gentle, safe handling during all diagnostic positional tests and maneuvers.",
+          badge: "One-on-One",
+        },
+        {
+          title: "Rapid Symptom Resolution",
+          desc: "Proven clinical success resolving BPPV crystal displacement in as few as 1 to 3 targeted sessions.",
+          badge: "Fast Relief",
+        },
+        {
+          title: "Care Available Across Gujarat",
+          desc: "Over 85,000+ successful patient recoveries across our 6 clinical centres and dedicated doorstep home visit network.",
+          badge: "Proven Record",
+        },
+      ],
+    },
+
+    // 6. Treatment Journey
+    {
+      t: "h2",
+      text: "Your Vertigo Treatment Journey",
     },
     {
       t: "steps",
-      subtitle: "A highly effective, clinical protocol designed to clear inner ear debris and restore balance:",
       steps: [
         {
           step: "01",
-          title: "Phase 1: Precision Canalith Repositioning Maneuvers",
-          desc: "Performing the Epley, Semont, or Lempert (BBQ Roll) repositioning maneuvers on our clinical treatment tables to guide displaced crystals back into the utricle.",
+          title: "Initial Assessment",
+          desc: "A thorough 45-minute clinical consultation conducting Dix Hallpike testing, balance screening, and identifying the affected canal.",
         },
         {
           step: "02",
-          title: "Phase 2: Gaze Stabilization & VOR Retraining",
-          desc: "Targeted VOR x1 and VOR x2 exercises to recalibrate the neural connection between eye tracking and head movements during walking.",
+          title: "Treatment Sessions",
+          desc: "Canalith repositioning maneuvers (Epley/Semont), gaze stabilization drills, and neck manual therapy during your visits.",
         },
         {
           step: "03",
-          title: "Phase 3: Vestibular Habituation & Motion Desensitization",
-          desc: "Brandt-Daroff exercises and controlled visual stimulation to extinguish motion sensitivity and visual vertigo triggers.",
-        },
-        {
-          step: "04",
-          title: "Phase 4: Dynamic Balance & Proprioceptive Retraining",
-          desc: "Foam pad balancing, tandem walking with head turns, and multi-surface walking drills to eliminate fall risk in daily life.",
+          title: "Progress and Balance Recovery",
+          desc: "Dynamic walking re-evaluations, vestibular habituation progression, and long term fall prevention guidance.",
         },
       ],
     },
+
+    // 7. Pricing Section (Service-Specific)
+    {
+      t: "h2",
+      text: "Vertigo Treatment Cost in Ahmedabad",
+    },
     {
       t: "pricing",
-      title: "Estimated Vestibular Rehab & Therapy Pricing",
+      title: "Physiotherapy Consultation and Session Cost",
       range: "₹500 to ₹2,000",
-      consultationFee: "₹500 (Vestibular & Balance Diagnostic Review)",
+      consultationFee: "₹500 (Detailed Doctor Assessment)",
       treatmentRange: "₹500 to ₹2,000 / session",
       lowPrice: 500,
       highPrice: 2000,
       currency: "INR",
-      context: "Vestibular therapy fees range from ₹500 to ₹2,000 depending on the number of Epley or canalith repositioning manoeuvres needed to clear inner ear crystals, alongside customized gaze stabilization and habituation exercises.",
+      context: "The cost of vertigo treatment in Ahmedabad typically ranges from ₹500 to ₹2,000 per session depending on whether treatment involves specialized canalith repositioning maneuvers (Epley), computerized balance testing, or comprehensive vestibular rehabilitation therapy, session duration, and the personalized recovery plan.",
       inclusions: [
-        "Dix-Hallpike positional testing",
-        "Canalith repositioning maneuvers",
-        "Gaze stability & balance drills",
-        "Focused, outcome-based sessions"
-],
+        "Doctor led vestibular & positional testing",
+        "Epley & Semont canalith repositioning maneuvers",
+        "Vestibular rehabilitation & gaze stability drills",
+        "Personalized balance and fall prevention plan",
+        "Zero hidden facility charges",
+      ],
+    },
+
+    // 8. When to See a Physiotherapist
+    {
+      t: "h2",
+      text: "When Should You See a Physiotherapist for Vertigo?",
+    },
+    {
+      t: "p",
+      text: "You should schedule a clinical vestibular physiotherapy evaluation if you experience room spinning when turning in bed, feel unsteady on your feet, experience nausea during head turns, or have ongoing lightheadedness after a viral ear infection.",
     },
     {
       t: "callout",
       variant: "warning",
-      title: "When Urgent Medical / Neurological Assessment Is Required (Red Flags)",
-      text: "Seek emergency medical care immediately if dizziness or vertigo is accompanied by the '5 Ds': Dysarthria (slurred speech), Dysphagia (difficulty swallowing), Diplopia (double vision), Dysmetria (clumsiness), Drop attacks (sudden collapse), or sudden unilateral facial/arm numbness (which may indicate an acute stroke).",
+      title: "Emergency Red Flags & Immediate Medical Warning Signs",
+      text: "Seek immediate emergency hospital care or a neurologist consultation if vertigo is accompanied by slurred speech, double vision, sudden facial weakness, difficulty swallowing, or sudden weakness in an arm or leg (stroke warning signs).",
     },
+
+    // 9. Frequently Asked Questions
     {
-      t: "doctor",
-      name: "Dr. Hardik Patel (PT)",
-      role: "Director & Clinical Specialist | Complete Care",
-      bio: "With over 16+ years of clinical experience, Dr. Hardik Patel specializes in advanced vestibular diagnostics, precise Epley canalith repositioning, and cervicogenic dizziness rehabilitation across Gujarat.",
-      to: "/best-physiotherapist-in-ahmedabad",
-      image: "/assets/treatments/Complete-Care-Doctor-Image-cc.webp",
-      ctaText: "Consult for Vertigo",
+      t: "h2",
+      text: "Frequently Asked Questions About Vertigo",
     },
     {
       t: "faq",
       faqs: [
         {
-          q: "How many sessions of the Epley maneuver are needed for BPPV?",
-          a: "Over 80 to 90% of BPPV cases achieve complete resolution within 1 to 2 correctly administered canalith repositioning sessions by a trained vestibular physiotherapist.",
+          q: "How many sessions does it take to cure BPPV vertigo?",
+          a: "In over 85 to 90% of BPPV cases, precision canalith repositioning maneuvers like the Epley maneuver resolve crystal displacement within 1 to 3 sessions, bringing immediate relief from spinning.",
         },
         {
-          q: "Can neck stiffness cause dizziness and vertigo?",
-          a: "Yes. The upper cervical spine (C1, C3) contains the highest density of balance receptors (proprioceptors) in the body. When neck joints lock or deep suboccipital muscles spasm, mismatched signals create cervicogenic dizziness.",
+          q: "How much does vertigo physiotherapy treatment cost in Ahmedabad?",
+          a: "At Complete Care, vertigo treatment sessions range from ₹500 to ₹2,000 per session depending on whether canalith repositioning or comprehensive vestibular rehabilitation is required, with an initial comprehensive doctor consultation at ₹500.",
         },
         {
-          q: "What should I avoid immediately after an Epley maneuver?",
-          a: "For the first 24 hours, avoid sudden rapid head jerks, sleep slightly elevated on two pillows, and avoid lying flat on the affected ear to prevent crystals from slipping back into the canal.",
+          q: "Can neck problems cause dizziness and vertigo?",
+          a: "Yes. Cervicogenic dizziness occurs when stiff cervical vertebrae and muscle spasms in the upper neck send abnormal proprioceptive signals to the brain, creating persistent lightheadedness and unsteadiness.",
         },
         {
-          q: "Do you offer home visit vestibular physiotherapy in Ahmedabad?",
-          a: "Yes. Complete Care offers [doorstep home visit physiotherapy](/home-visit) across Ahmedabad for patients suffering severe spinning vertigo who cannot safely drive or travel.",
+          q: "Do anti-dizziness medications cure vertigo?",
+          a: "Medications suppress vestibular symptoms temporarily but do not reposition inner ear crystals or retrain balance reflexes. Physiotherapy and repositioning maneuvers address the root mechanical cause.",
+        },
+        {
+          q: "Is home visit physiotherapy available for severe vertigo?",
+          a: "Yes. Complete Care provides specialized [doorstep home visit physiotherapy](/home-visit) across Ahmedabad for patients who cannot travel safely due to severe dizziness and vomiting.",
         },
       ],
     },
   ],
   quickLinks: [
-    { label: "Neck Pain Specialist", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
+    { label: "Neck Pain Treatment", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
     { label: "Manual Therapy", to: "/manual-therapy-near-me-in-ahmedabad" },
-    { label: "Chiropractic Treatment", to: "/chiropractic-treatment-in-ahmedabad" },
+    { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
+    { label: "Stroke Rehabilitation", to: "/stroke-in-treatment-ahmedabad" },
     { label: "Home Visit Physiotherapy", to: "/home-visit" },
   ],
 };

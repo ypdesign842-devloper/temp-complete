@@ -4,6 +4,7 @@ export type PageGroup = "pillar" | "condition-ortho" | "condition-neuro" | "moda
 export type Block =
   | { t: "h2"; text: string }
   | { t: "h3"; text: string }
+  | { t: "h4"; text: string }
   | { t: "p"; text: string }
   | { t: "ul"; items: string[] }
   | { t: "img"; src: string; alt?: string | undefined }
@@ -57,12 +58,17 @@ export type LocationContent = {
   blocks: Block[];
 };
 
+export type PricingBlock = Extract<Block, { t: "pricing" }>;
+export type FAQItem = { q: string; a: string };
+
 export type PostContent = {
   slug: string;
   title: string;
   date: string;
   image: string;
+  lead?: string | undefined;
   author: string | null;
   category: string | null;
   blocks: Block[];
 };
+

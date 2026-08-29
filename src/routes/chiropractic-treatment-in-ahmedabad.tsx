@@ -8,11 +8,19 @@ export const Route = createFileRoute("/chiropractic-treatment-in-ahmedabad")({
     meta: [
       { title: "Chiropractic Treatment in Ahmedabad | Complete Care" },
       { name: "description", content: "Certified chiropractic care and spinal alignment in Ahmedabad by Dr. Hardik Patel (PT) — gentle vertebral adjustment for sciatica, disc and neck pain." },
+      { name: "keywords", content: "Top Chiropractor in Ahmedabad, Back pain treatment chiropractor Ahmedabad, Spine specialist chiropractor Ahmedabad, Chiropractic Treatment Ahmedabad, Dr Hardik Patel chiropractor" },
       { property: "og:title", content: "Chiropractic Treatment in Ahmedabad | Complete Care" },
       { property: "og:description", content: "Certified chiropractic care and spinal alignment in Ahmedabad by Dr. Hardik Patel (PT) — gentle vertebral adjustment for sciatica, disc and neck pain." },
-      { property: "og:image", content: "https://completecare.in/assets/misc/Spine.J02-1.webp" },
-      { name: "twitter:image", content: "https://completecare.in/assets/misc/Spine.J02-1.webp" },
+      { property: "og:image", content: "https://completecare.in/assets/treatments/Complete-Care-Doctor-Image-cc.webp" },
+      { name: "twitter:image", content: "https://completecare.in/assets/treatments/Complete-Care-Doctor-Image-cc.webp" },
     ],
   }),
-  component: () => <ContentTemplate data={page("chiropractic-treatment-in-ahmedabad")} content={content} />,
+  component: () => (
+    <ContentTemplate
+      data={page("chiropractic-treatment-in-ahmedabad")}
+      content={content}
+      customEyebrow="Best Chiropractic Treatment in Ahmedabad"
+      eyebrowAsH1={true}
+    />
+  ),
 });

@@ -2,197 +2,364 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
   slug: "bells-palsy-treatment-in-ahmedabad",
-  h1: "Bell's Palsy Physiotherapy Treatment in Ahmedabad",
-  lead: "Bell’s palsy causes temporary facial muscle weakness or paralysis due to nerve inflammation, swelling, or compression. It leads to drooping on one side, difficulty smiling, or closing the eye. Symptoms usually appear 1 to 2 weeks after a cold, ear, or eye infection and often resolve within weeks. For effective recovery, consult the best physiotherapists in Ahmedabad for expert care and rehabilitation.",
+  h1: "Restore Natural Facial Symmetry and Expression with Targeted Therapy",
+  lead: "Woke up with sudden one sided facial drooping, inability to close your eye, or difficulty smiling and drinking water? At Complete Care in Ahmedabad, our licensed neuro physiotherapists provide specialized Bell palsy rehabilitation, gentle motor point stimulation, mirror biofeedback retraining, and facial massage to restore your natural smile and facial symmetry.",
   hero: "/assets/conditions/Bells-palsy.webp",
   blocks: [
-    {
-      t: "p",
-      text: "Bell's Palsy is an acute, unilateral peripheral neuropathy of the 7th Cranial Nerve (Facial Nerve), commonly triggered by viral reactivation (such as Herpes Simplex Virus) causing edema and compression of the nerve within the narrow bony Fallopian canal. This results in sudden onset weakness or total flaccid paralysis of the facial expression muscles on one side of the face. Without timely, expert physiotherapy and neuromuscular re-education, patients risk improper nerve regeneration and **synkinesis** (involuntary co-contraction of facial muscles, such as the eye closing when smiling). At **Complete Care Neuro-Physiotherapy**, we deliver targeted Galvanic/Faradic stimulation, mirror-biofeedback re-education, and gentle myofascial techniques to restore facial symmetry.",
-    },
     {
       t: "snapshot",
       title: "Clinical Snapshot: Facial Nerve & Bell's Palsy Care",
       items: [
         {
           label: "Involved Nerve",
-          value: "Cranial Nerve VII (Facial Nerve, Motor branches: Temporal, Zygomatic, Buccal, Mandibular, Cervical)",
+          value: "Cranial Nerve VII (Facial Nerve: Temporal, Zygomatic, Buccal, Mandibular branches)",
         },
         {
           label: "Hallmark Signs",
-          value: "Unilateral facial droop, inability to close eyelid (Lagophthalmos), Bell's phenomenon, smooth forehead without wrinkles",
+          value: "Unilateral facial droop, inability to close eyelid, smooth forehead, mouth corner sagging",
         },
         {
           label: "Critical Focus",
-          value: "Prevent corneal drying/abrasions, stimulate denervated motor points, prevent synkinesis with mirror feedback",
+          value: "Prevent corneal drying, stimulate facial motor points, prevent synkinesis with mirror feedback",
         },
         {
           label: "Recovery Timeline",
-          value: "Early functional nerve conduction return in 2 to 6 weeks; complete symmetrical recovery in 2 to 4 months",
+          value: "Early motor return in 2 to 6 weeks; complete facial symmetry restoration in 2 to 4 months",
         },
       ],
     },
+
+    // 1. Causes, Symptoms and Common Problems
     {
       t: "h2",
-      text: "Anatomy of Facial Nerve Branches & Targeted Muscles",
+      text: "Bell's Palsy: Causes, Symptoms and Facial Nerve Recovery",
+    },
+    {
+      t: "h3",
+      text: "What Causes Bell's Palsy?",
     },
     {
       t: "p",
-      text: "Physiotherapy individually stimulates and re-trains each anatomical motor branch of the facial nerve:",
+      text: "Bell palsy is an acute, unilateral peripheral paralysis of the 7th Cranial Nerve (Facial Nerve), commonly triggered by viral reactivation (such as the herpes simplex virus) causing rapid inflammation and swelling. Because the facial nerve passes through a narrow bony Fallopian canal in the skull, swelling pinches the nerve, blocking electrical signals to the facial expression muscles on one side of the face.",
     },
     {
       t: "grid",
       columns: 2,
       items: [
         {
-          title: "Temporal Branch (Frontalis Muscle)",
-          desc: "Controls forehead wrinkling and eyebrow elevation; assessed by asking the patient to look up toward the ceiling with an open expression.",
+          title: "Temporal Branch (Forehead & Brows)",
+          desc: "Controls forehead wrinkling and eyebrow lifting; paralysis leaves the affected forehead completely smooth with dropped brow.",
           badge: "Forehead",
         },
         {
           title: "Zygomatic Branch (Orbicularis Oculi)",
-          desc: "Enables forceful and gentle eye closure; essential for spreading the tear film and preventing corneal ulceration.",
+          desc: "Enables blinking and full eye closure; paralysis leaves the eye open (lagophthalmos), risking corneal irritation and dryness.",
           badge: "Eye Closure",
         },
         {
-          title: "Buccal Branch (Zygomaticus & Buccinator)",
-          desc: "Controls smiling, cheek tension, and puffing; prevents food from getting trapped in the cheek pouch during chewing.",
-          badge: "Smile & Cheek",
+          title: "Buccal Branch (Smile & Cheeks)",
+          desc: "Controls smiling and cheek tension; weakness causes the corner of the mouth to sag and food to pocket inside the cheek.",
+          badge: "Smile Control",
         },
         {
-          title: "Mandibular Branch (Orbicularis Oris & Mentalis)",
-          desc: "Responsible for lip pursing, whistling, kissing expressions, and chin wrinkling; prevents fluid drooling from the corner of the mouth.",
-          badge: "Lip Function",
+          title: "Mandibular Branch (Lip Pout & Chin)",
+          desc: "Controls lower lip movement, whistling, and chin dimpling; weakness causes drooling while drinking from a glass.",
+          badge: "Lower Lip",
         },
       ],
     },
     {
+      t: "h3",
+      text: "Common Symptoms of Facial Nerve Paralysis",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Sudden One-Sided Facial Droop**: Sagging of the corner of the mouth and loss of normal nasolabial crease.",
+        "**Inability to Close the Eyelid (Lagophthalmos)**: The eyeball rolls upward when attempting to close the eye (Bell phenomenon).",
+        "**Difficulty Eating and Drinking**: Liquids leaking from the weak side of the mouth and difficulty chewing solid food.",
+        "**Altered Taste and Sound Sensitivity**: Loss of taste on the front two-thirds of the tongue and hypersensitivity to loud noises (hyperacusis).",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Why Differentiating Bell's Palsy from Stroke Is Critical",
+    },
+    {
+      t: "p",
+      text: "In Bell palsy (a peripheral 7th nerve issue), the entire half of the face is paralyzed, including the forehead wrinkles. In a stroke (central issue), the forehead is typically spared because it receives bilateral nerve innervation from both brain hemispheres.",
+    },
+    {
+      t: "h3",
+      text: "Preventing Synkinesis with Precise Neuromuscular Re-Education",
+    },
+    {
+      t: "p",
+      text: "Without guided physiotherapy, regenerating nerve fibers can miswire, causing synkinesis (such as the eye involuntarily winking whenever the patient smiles). Gentle mirror biofeedback retrains isolated, harmonious facial muscle movements, preventing abnormal cross-wiring.",
+    },
+
+    // 2. Assessment
+    {
       t: "h2",
-      text: "Common Clinical Signs & Difficulties",
+      text: "How We Assess Bell's Palsy at Complete Care",
+    },
+    {
+      t: "h3",
+      text: "Clinical Assessment",
+    },
+    {
+      t: "p",
+      text: "Our assessment begins with standardizing facial nerve function using the House-Brackmann Facial Grading System (Grades I to VI) and the Sunnybrook Facial Grading Scale.",
+    },
+    {
+      t: "h3",
+      text: "Facial Motor Branch and Eye Safety Assessment",
+    },
+    {
+      t: "p",
+      text: "We evaluate individual motor point activation, measure eyelid closure gap in millimeters, check corneal tear distribution, and assess smiling symmetry.",
+    },
+    {
+      t: "h3",
+      text: "Identifying Electrodiagnostic Motor Thresholds",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Galvanic vs Faradic Current Testing**: Determining whether facial nerve fibers are partially denervated or exhibiting neuropraxia.",
+        "**Voluntary Muscle Action Scoring**: Testing forehead raise, gentle eye squeeze, nose wrinkle, wide smile, and lip pucker.",
+        "**Synkinesis Early Screening**: Observing for unwanted eyelid narrowing during mouth movements.",
+      ],
+    },
+
+    // 3. Treatment at Complete Care
+    {
+      t: "h2",
+      text: "Bell's Palsy Treatment at Complete Care",
+    },
+    {
+      t: "h3",
+      text: "Targeted Facial Electrical Stimulation",
+    },
+    {
+      t: "p",
+      text: "Our specialized [Electrical Stimulation Therapy](/best-electrical-stimulation-therapy-in-ahmedabad) delivers precise, low intensity interrupted galvanic pulses to individual facial motor points, maintaining muscle tone and circulation without triggering spastic synkinesis.",
+    },
+    {
+      t: "h3",
+      text: "Mirror Biofeedback Neuromuscular Re-Education",
+    },
+    {
+      t: "p",
+      text: "Patients practice small, symmetrical facial expressions in front of a mirror under therapist guidance, teaching the brain to activate isolated muscles without compensating with the sound side.",
+    },
+    {
+      t: "h3",
+      text: "Gentle Facial Myofascial Release and Tapping",
+    },
+    {
+      t: "p",
+      text: "Manual upward lifting strokes, gentle intra-oral cheek release, and rhythmic tapping stimulate microcirculation and prevent facial muscle contractures.",
+    },
+    {
+      t: "h3",
+      text: "Class IV Laser Therapy for Nerve Regeneration",
+    },
+    {
+      t: "p",
+      text: "Non thermal [Class IV Laser Therapy](/class-iv-laser-therapy-clinic-in-ahmedabad) applied over the stylomastoid foramen reduces nerve sheath edema and accelerates axonal nerve sprout regeneration.",
+    },
+    {
+      t: "h3",
+      text: "Personalised Physiotherapy Treatment",
+    },
+    {
+      t: "p",
+      text: "We provide an individualized, phased rehabilitation protocol that moves from acute eye protection into active facial expression symmetry and full aesthetic recovery.",
+    },
+
+    // 4. Exercises for Bell's Palsy Relief
+    {
+      t: "h2",
+      text: "Exercises for Facial Muscle Recovery",
+    },
+    {
+      t: "h3",
+      text: "Forehead and Eyebrow Elevation Exercises",
+    },
+    {
+      t: "p",
+      text: "Gentle assisted upward movement rebuilds frontalis muscle tone:",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Assisted Brow Lift**: Using fingers to gently assist the paralyzed eyebrow upward while looking into a mirror and holding for 5 seconds.",
+        "**Gentle Eye Squeeze**: Closing both eyes softly (like preparing for sleep) without forceful squinting to protect eye closure reflexes.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Cheek, Smile, and Lip Coordination Drills",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Symmetrical Closed-Lip Smile**: Smiling gently while holding the healthy side to prevent it from pulling the weak side unevenly.",
+        "**Cheek Puffs & Straw Drinking**: Holding air inside the mouth or sipping liquids with a straw rebuilds the buccinator and orbicularis oris muscles.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Nose Wrinkling and Lip Pout Drills",
+    },
+    {
+      t: "p",
+      text: "Wrinkling the nose and saying letter sounds (O, E, M, P) re-educates fine motor articulation and speech clarity.",
+    },
+    {
+      t: "h3",
+      text: "Eye Protection and Home Care Guidance",
+    },
+    {
+      t: "p",
+      text: "We instruct patients on using lubricating eye drops during the day, taping the eyelid closed safely with paper tape at night, wearing sunglasses outdoors to block dust, and chewing food on both sides.",
+    },
+
+    // 5. Why Choose Complete Care
+    {
+      t: "h2",
+      text: "Why Choose Complete Care for Bell's Palsy?",
     },
     {
       t: "grid",
       columns: 2,
       items: [
         {
-          title: "Inability to Close the Eyelid (Lagophthalmos)",
-          desc: "The eyelid cannot close completely, causing eye redness, tearing, and high vulnerability to corneal scratches from dust or dry air.",
+          title: "Experienced Facial Nerve Team",
+          desc: "Led by Dr. Hardik Patel (PT) with over 16+ years of clinical specialization in facial neuromuscular re-education and synkinesis prevention.",
+          badge: "Clinical Leadership",
         },
         {
-          title: "Bell's Phenomenon",
-          desc: "When attempting to close the eye, the eyeball involuntarily rolls upward and outward, exposing the white sclera.",
+          title: "Personalised One-on-One Care",
+          desc: "Precise, individualized sessions combining gentle motor stimulation with mirror biofeedback to restore natural facial aesthetics.",
+          badge: "One-on-One",
         },
         {
-          title: "Food Pouching & Fluid Drooling",
-          desc: "Weakness of the buccinator and orbicularis oris causing fluids to escape the corner of the mouth when drinking.",
+          title: "Advanced Electrotherapy & Laser Tech",
+          desc: "Equipped with specialized facial point stimulators, Class IV laser therapy, and precise neuromuscular grading tools.",
+          badge: "Advanced Tech",
         },
         {
-          title: "Hyperacusis & Altered Taste",
-          desc: "Hypersensitivity to loud sounds in the affected ear (due to stapedius muscle paresis) and loss of taste on the anterior two-thirds of the tongue.",
+          title: "Care Available Across Gujarat",
+          desc: "Over 85,000+ successful patient recoveries across our 6 clinical centres and dedicated doorstep home visit network.",
+          badge: "Proven Record",
         },
       ],
     },
+
+    // 6. Treatment Journey
     {
       t: "h2",
-      text: "Comprehensive Facial Nerve Assessment at Complete Care",
-    },
-    {
-      t: "ul",
-      items: [
-        "**House-Brackmann Facial Nerve Grading Scale**: Standardized clinical scoring from Grade I (Normal) to Grade VI (Total Flaccid Paralysis).",
-        "**Sunnybrook Facial Grading System (FGS)**: Detailed evaluation of resting symmetry, voluntary movement excursion, and synkinesis scoring.",
-        "**Strength-Duration (SD) Curve & Electrodiagnostic Testing**: Differentiating neuropraxia from axonotmesis to guide the exact electrical pulse parameters.",
-        "**Eye Integrity & Blink Reflex Examination**: Checking corneal sensitivity and ensuring proper lubricating eye protection protocols.",
-      ],
-    },
-    {
-      t: "h2",
-      text: "Our 4-Phase Facial Neuromuscular Pathway",
+      text: "Your Bell's Palsy Treatment Journey",
     },
     {
       t: "steps",
-      subtitle: "A gentle, precision protocol designed to facilitate symmetrical nerve recovery without synkinesis:",
       steps: [
         {
           step: "01",
-          title: "Phase 1: Flaccid Phase Stimulation & Eye Protection",
-          desc: "Applying modified Galvanic electrical stimulation to motor points (to prevent denervation muscle atrophy) combined with daytime lubricating drops, nighttime eye taping, and gentle lymphatic drainage.",
+          title: "Initial House-Brackmann Assessment",
+          desc: "A thorough 45-minute clinical consultation grading facial symmetry, measuring eyelid closure gap, and testing motor point conductivity.",
         },
         {
           step: "02",
-          title: "Phase 2: Faradic Stimulation & Early Active-Assisted Movements",
-          desc: "Switching to surged Faradic current as nerve conduction returns, combined with manual therapist-assisted eyebrow raises, eye squeezes, and gentle smiles.",
+          title: "Targeted Treatment Sessions",
+          desc: "Facial motor stimulation, Class IV laser over the nerve exit, myofascial release, and mirror biofeedback drills during your visits.",
         },
         {
           step: "03",
-          title: "Phase 3: Mirror Biofeedback & Isolated Neuromuscular Re-Education",
-          desc: "Performing precision facial exercises in front of a mirror using small-amplitude isolated contractions to prevent mass synkinetic cross-firing.",
-        },
-        {
-          step: "04",
-          title: "Phase 4: Functional Speech, Mastication & Expression Symmetry",
-          desc: "Lip resistive exercises, straw drinking drills, puffing cheeks, and subtle natural facial expression refinement for complete aesthetic restoration.",
+          title: "Progress and Natural Expression",
+          desc: "Restoring full eyelid blink, symmetrical smile formation, clear speech articulation, and total synkinesis prevention.",
         },
       ],
     },
+
+    // 7. Pricing Section (Service-Specific)
+    {
+      t: "h2",
+      text: "Bell's Palsy Treatment Cost in Ahmedabad",
+    },
     {
       t: "pricing",
-      title: "Estimated Bell's Palsy Therapy Pricing",
+      title: "Physiotherapy Consultation and Session Cost",
       range: "₹500 to ₹2,000",
-      consultationFee: "₹500 (Facial Nerve & Symmetry Assessment)",
+      consultationFee: "₹500 (Detailed Doctor Assessment)",
       treatmentRange: "₹500 to ₹2,000 / session",
       lowPrice: 500,
       highPrice: 2000,
       currency: "INR",
-      context: "Facial rehabilitation therapy rates range from ₹500 to ₹2,000 based on gentle electrical muscle stimulation, targeted neuromuscular facial re-education exercises, and eye protection protocols.",
+      context: "The cost of Bell palsy physiotherapy in Ahmedabad typically ranges from ₹500 to ₹2,000 per session depending on whether treatment includes specialized facial galvanic motor point stimulation, Class IV laser therapy, or mirror biofeedback neuromuscular re-education, session duration, and the personalized recovery plan.",
       inclusions: [
-        "Facial muscle grading (House-Brackmann)",
-        "Gentle galvanic / faradic stimulation",
-        "Facial PNF expression re-education",
-        "Transparent recovery pricing"
-],
+        "Doctor led facial nerve & House-Brackmann evaluation",
+        "Targeted facial motor point stimulation",
+        "Mirror biofeedback & synkinesis prevention drills",
+        "Personalized eye protection & home exercise plan",
+        "Zero hidden facility charges",
+      ],
+    },
+
+    // 8. When to See a Physiotherapist
+    {
+      t: "h2",
+      text: "When Should You Start Bell's Palsy Physiotherapy?",
+    },
+    {
+      t: "p",
+      text: "Physiotherapy should ideally begin within 3 to 5 days of onset (after initiating physician prescribed antiviral/corticosteroid therapy) to maintain facial muscle tone and protect the cornea immediately.",
     },
     {
       t: "callout",
       variant: "warning",
-      title: "Essential Eye Care Warning for Bell's Palsy",
-      text: "Because the affected eyelid cannot close or blink properly, the cornea is at extreme risk of drying out, ulcerating, and causing permanent vision impairment. Always use preservative-free artificial tears during the day, apply ophthalmic lubricating ointment at night, and securely tape the eyelid closed during sleep.",
+      title: "Emergency Red Flags & Immediate Medical Warning Signs",
+      text: "Seek immediate emergency hospital evaluation if facial weakness is accompanied by arm or leg weakness, slurred speech, confusion, or difficulty swallowing (signs of acute stroke rather than Bell palsy).",
     },
+
+    // 9. Frequently Asked Questions
     {
-      t: "doctor",
-      name: "Dr. Hardik Patel (PT)",
-      role: "Director & Clinical Neuro-Specialist | Complete Care",
-      bio: "With over 16+ years of clinical experience in facial nerve rehabilitation, Dr. Hardik Patel has successfully guided hundreds of Bell's palsy patients across Gujarat to full symmetrical recovery using advanced neuromuscular stimulation and mirror biofeedback.",
-      to: "/best-physiotherapist-in-ahmedabad",
-      image: "/assets/treatments/Complete-Care-Doctor-Image-cc.webp",
-      ctaText: "Consult Facial Nerve Team",
+      t: "h2",
+      text: "Frequently Asked Questions About Bell's Palsy Treatment",
     },
     {
       t: "faq",
       faqs: [
         {
-          q: "How does physiotherapy speed up recovery in Bell's Palsy?",
-          a: "Targeted electrical stimulation keeps facial muscles active while the nerve regenerates, preventing disuse atrophy. Mirror-guided neuromuscular re-education ensures symmetrical facial expressions and prevents abnormal synkinesis.",
+          q: "How long does it take to fully recover from Bell's palsy?",
+          a: "With prompt physiotherapy, early motor point stimulation, and mirror biofeedback, most patients experience noticeable movement within 2 to 4 weeks and achieve full facial symmetry within 2 to 3 months.",
         },
         {
-          q: "What is facial synkinesis and how is it prevented?",
-          a: "Synkinesis occurs when regenerating facial nerve fibers cross-wire, causing unwanted co-movements (like the eye closing when smiling). We prevent this by teaching gentle, low-intensity isolated mirror exercises rather than forceful mass contractions.",
+          q: "How much does Bell's palsy treatment cost in Ahmedabad?",
+          a: "At Complete Care, Bell palsy treatment sessions range from ₹500 to ₹2,000 per session depending on whether specialized facial electrical stimulation or Class IV laser therapy is required, with an initial comprehensive doctor consultation at ₹500.",
         },
         {
-          q: "How long does it take for Bell's Palsy to resolve?",
-          a: "Most patients with mild-to-moderate nerve compression experience visible recovery within 2 to 4 weeks, with full symmetrical facial function restored in 2 to 3 months of consistent rehabilitation.",
+          q: "What is synkinesis and how does physiotherapy prevent it?",
+          a: "Synkinesis is abnormal cross-wiring where moving one facial muscle triggers an involuntary movement in another (such as the eye winking when you smile). Guided mirror exercises ensure only isolated, correct muscle pathways are reinforced.",
         },
         {
-          q: "Do you offer doorstep home visit physiotherapy for Bell's Palsy in Ahmedabad?",
-          a: "Yes. Complete Care offers specialized [doorstep home visit physiotherapy](/home-visit) across Ahmedabad, bringing portable facial electrical stimulators and customized exercise guidance directly to your home.",
+          q: "How should I protect my eye if I cannot close my eyelid?",
+          a: "Apply lubricating eye drops during the day, wear sunglasses outdoors, and gently tape the upper eyelid closed with medical paper tape at bedtime to prevent corneal drying and abrasions.",
+        },
+        {
+          q: "Is home visit physiotherapy available for Bell's palsy in Ahmedabad?",
+          a: "Yes. Complete Care provides specialized [doorstep home visit neuro physiotherapy](/home-visit) across Ahmedabad for patients who prefer receiving care at home.",
         },
       ],
     },
   ],
   quickLinks: [
     { label: "Stroke Rehabilitation", to: "/stroke-in-treatment-ahmedabad" },
-    { label: "Neck Pain Specialist", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
-    { label: "Russian Stimulation", to: "/russian-stimulation-treatment-in-ahmedabad" },
+    { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
+    { label: "Electrical Stimulation", to: "/best-electrical-stimulation-therapy-in-ahmedabad" },
+    { label: "Manual Therapy", to: "/manual-therapy-near-me-in-ahmedabad" },
     { label: "Home Visit Physiotherapy", to: "/home-visit" },
   ],
 };

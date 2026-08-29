@@ -30,6 +30,8 @@ const iconMap = {
 
 export function PageHero({
   eyebrow,
+  breadcrumb = "Therapy",
+  breadcrumbHref,
   h1,
   lead,
   image,
@@ -37,8 +39,11 @@ export function PageHero({
   group,
   variant = "auto",
   facts: customFacts,
+  eyebrowAsH1 = false,
 }: {
   eyebrow?: string | undefined;
+  breadcrumb?: string | undefined;
+  breadcrumbHref?: string | undefined;
   h1: string;
   lead: string;
   image?: string | undefined;
@@ -46,6 +51,7 @@ export function PageHero({
   group?: string | undefined;
   variant?: MediaVariant;
   facts?: [HeroFact, HeroFact, HeroFact, HeroFact] | undefined;
+  eyebrowAsH1?: boolean;
 }) {
   // Check if image is a doctor portrait or team profile
   const isDoctorPortrait = Boolean(image) && (
@@ -56,7 +62,8 @@ export function PageHero({
     image!.toLowerCase().includes("hardik") ||
     image!.toLowerCase().includes("/team/") ||
     slug === "female-fitness-trainer-in-ahmedabad" ||
-    slug === "best-physiotherapist-in-ahmedabad"
+    slug === "best-physiotherapist-in-ahmedabad" ||
+    slug === "chiropractic-treatment-in-ahmedabad"
   );
 
   // Determine if this is a wide 1024x400 landscape banner
@@ -90,7 +97,8 @@ export function PageHero({
   );
 
   // Generate four patient-focused clinical facts tailored to this condition/treatment
-  const clinicalFacts = customFacts ?? getHeroClinicalFacts({ slug: slug ?? "", group, h1, lead });
+  const clinicalFacts = customFacts ?? getHeroClinicalFacts({ slug: slug ?? "", group: group ?? undefined, h1, lead });
+
 
   // If wide landscape banner: Render 2-column header with 4 clinical cards on the right, and full-bleed banner below
   if (isLandscapeBanner && image) {
@@ -114,21 +122,39 @@ export function PageHero({
                   <span>Home</span>
                 </Link>
                 <ChevronRight aria-hidden="true" className="size-3 text-muted-foreground/60" />
-                <span className="text-navy font-bold">{eyebrow ?? "Clinical Care"}</span>
+                {breadcrumbHref ? (
+                  <Link to={breadcrumbHref as never} className="hover:text-accent transition-colors text-navy font-bold">
+                    <span>{breadcrumb}</span>
+                  </Link>
+                ) : (
+                  <span className="text-navy font-bold">{breadcrumb}</span>
+                )}
               </nav>
 
               {/* Eyebrow badge */}
               {eyebrow && (
                 <div className="inline-flex items-center gap-2 rounded-full border border-navy/12 bg-white/90 px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase shadow-sm backdrop-blur-sm">
                   <Sparkles className="size-3 text-accent" />
-                  <span>{eyebrow}</span>
+                  {eyebrowAsH1 ? (
+                    <h1 className="text-[11px] font-bold tracking-wider text-teal uppercase inline m-0 p-0">
+                      {eyebrow}
+                    </h1>
+                  ) : (
+                    <span>{eyebrow}</span>
+                  )}
                 </div>
               )}
 
               {/* Title */}
-              <h1 className="text-3xl font-semibold leading-[1.14] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
-                {h1}
-              </h1>
+              {eyebrowAsH1 ? (
+                <p className="text-3xl font-semibold leading-[1.14] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
+                  {h1}
+                </p>
+              ) : (
+                <h1 className="text-3xl font-semibold leading-[1.14] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
+                  {h1}
+                </h1>
+              )}
 
               {/* Lead */}
               <p className="max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -229,21 +255,39 @@ export function PageHero({
               <span>Home</span>
             </Link>
             <ChevronRight aria-hidden="true" className="size-3 text-muted-foreground/60" />
-            <span className="text-navy font-bold">{eyebrow ?? "Clinical Care"}</span>
+            {breadcrumbHref ? (
+              <Link to={breadcrumbHref as never} className="hover:text-accent transition-colors text-navy font-bold">
+                <span>{breadcrumb}</span>
+              </Link>
+            ) : (
+              <span className="text-navy font-bold">{breadcrumb}</span>
+            )}
           </nav>
 
           {/* Eyebrow badge */}
           {eyebrow && (
             <div className="inline-flex items-center gap-2 rounded-full border border-navy/12 bg-white/80 px-3.5 py-1 text-[11px] font-bold tracking-wider text-teal uppercase backdrop-blur-sm shadow-sm">
               <Sparkles className="size-3 text-accent" />
-              <span>{eyebrow}</span>
+              {eyebrowAsH1 ? (
+                <h1 className="text-[11px] font-bold tracking-wider text-teal uppercase inline m-0 p-0">
+                  {eyebrow}
+                </h1>
+              ) : (
+                <span>{eyebrow}</span>
+              )}
             </div>
           )}
 
           {/* Title & Lead */}
-          <h1 className="text-3xl font-semibold leading-[1.12] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
-            {h1}
-          </h1>
+          {eyebrowAsH1 ? (
+            <p className="text-3xl font-semibold leading-[1.12] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
+              {h1}
+            </p>
+          ) : (
+            <h1 className="text-3xl font-semibold leading-[1.12] tracking-tight text-navy sm:text-4xl lg:text-[2.75rem]">
+              {h1}
+            </h1>
+          )}
 
           <p className="max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             {lead}
@@ -271,9 +315,10 @@ export function PageHero({
         </div>
 
         {/* Media Container or Four Clinical Information Cards */}
-        {image && variant !== "stats" ? (
+        {image ? (
           <ResponsiveMedia src={image} alt={h1} variant={variant} priority />
         ) : (
+
           <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5">
             {clinicalFacts.map((f, idx) => {
               const IconComponent = iconMap[f.icon] || ShieldCheck;

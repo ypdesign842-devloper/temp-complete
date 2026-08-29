@@ -6,11 +6,21 @@ import { content } from "@/content/pages/back-pain-doctor-in-ahmedabad";
 export const Route = createFileRoute("/back-pain-doctor-in-ahmedabad")({
   head: () => ({
     meta: [
-      { title: "Back Pain Doctor in Ahmedabad | Complete Care Physiotherapy" },
-      { name: "description", content: "non surgical  treatment for lower back pain, lumbar stiffness and radiating leg pain in Ahmedabad with spine decompression, manual therapy and core rehabilitation." },
-      { property: "og:title", content: "Back Pain Doctor in Ahmedabad | Complete Care Physiotherapy" },
-      { property: "og:description", content: "non surgical  treatment for lower back pain, lumbar stiffness and radiating leg pain in Ahmedabad with spine decompression, manual therapy and core rehabilitation." },
+      { title: "Back Pain Physiotherapy Treatment in Ahmedabad | Complete Care" },
+      { name: "description", content: "Expert relief from lower back pain, lumbar stiffness, sciatica, and disc compression in Ahmedabad. Advanced spinal decompression, Class IV laser, and core rehabilitation." },
+      { name: "keywords", content: "Back Pain in Ahmedabad, back pain physiotherapy treatment in ahmedabad, lower back pain treatment, relief from back pain, back pain exercises, slipped disc treatment, sciatica treatment" },
+      { property: "og:title", content: "Back Pain Physiotherapy Treatment in Ahmedabad | Complete Care" },
+      { property: "og:description", content: "Expert relief from lower back pain, lumbar stiffness, sciatica, and disc compression in Ahmedabad. Advanced spinal decompression, Class IV laser, and core rehabilitation." },
+      { property: "og:image", content: "https://completecare.in/assets/conditions/Back-Pain.webp" },
+      { name: "twitter:image", content: "https://completecare.in/assets/conditions/Back-Pain.webp" },
     ],
   }),
-  component: () => <ContentTemplate data={page("back-pain-doctor-in-ahmedabad")} content={content} />,
+  component: () => (
+    <ContentTemplate
+      data={page("back-pain-doctor-in-ahmedabad")}
+      content={content}
+      customEyebrow="Back Pain Physiotherapy Treatment in Ahmedabad"
+      eyebrowAsH1={true}
+    />
+  ),
 });

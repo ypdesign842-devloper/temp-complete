@@ -178,7 +178,8 @@ function BestPhysiotherapistPage() {
         eyebrow="FOUNDER & CLINICAL DIRECTOR · COMPLETE CARE"
         h1={content.h1}
         lead={content.lead}
-        image={content.hero}
+        image={content.hero ?? undefined}
+
         slug="best-physiotherapist-in-ahmedabad"
       />
 

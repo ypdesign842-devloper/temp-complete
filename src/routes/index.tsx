@@ -13,6 +13,16 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
     ],
+    links: [
+      {
+        rel: "preload",
+        as: "image",
+        href: "/assets/treatments/cc-home-page-image.webp",
+        imageSrcSet: "/assets/treatments/cc-home-page-image-500w.webp 500w, /assets/treatments/cc-home-page-image.webp 1000w",
+        imageSizes: "(max-width: 640px) 420px, (max-width: 1024px) 500px, 580px",
+        fetchPriority: "high",
+      },
+    ],
   }),
   component: HomeTemplate,
 });

@@ -43,7 +43,7 @@
       }
     });
 
-    // 2. Desktop Dropdowns Hover & Focus
+    // 2. Desktop Dropdowns Hover
     const navItems = document.querySelectorAll(".header-nav-item");
     navItems.forEach(function (item) {
       let timer;

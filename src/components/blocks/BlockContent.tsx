@@ -107,9 +107,9 @@ export function BlockContent({ blocks }: { blocks: Block[] }) {
         switch (block.t) {
           case "h2":
             return (
-              <div key={i} className="pt-6 first:pt-0">
-                <h2 className="relative flex items-center gap-3 text-2xl font-bold leading-snug text-navy sm:text-3xl">
-                  <span className="h-7 w-1.5 rounded-full bg-gradient-to-b from-[#16803d] to-teal" aria-hidden="true" />
+              <div key={i} className="pt-5 first:pt-0">
+                <h2 className="relative flex items-center gap-2.5 text-lg font-bold leading-snug text-navy sm:text-xl lg:text-[1.35rem] tracking-tight">
+                  <span className="h-5 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-[#16803d] to-teal" aria-hidden="true" />
                   <span>
                     <Inline text={block.text} />
                   </span>
@@ -122,6 +122,13 @@ export function BlockContent({ blocks }: { blocks: Block[] }) {
               <h3 key={i} className="pt-2 text-xl font-bold leading-snug text-navy">
                 <Inline text={block.text} />
               </h3>
+            );
+
+          case "h4":
+            return (
+              <h4 key={i} className="pt-1.5 text-base font-bold leading-snug text-navy">
+                <Inline text={block.text} />
+              </h4>
             );
 
           case "p":
@@ -289,78 +296,15 @@ export function BlockContent({ blocks }: { blocks: Block[] }) {
             );
           }
 
-          case "doctor": {
-            const docName = block.name ?? site.director;
-            const docRole = block.role ?? "Founder & Clinical Director | Complete Care";
-            const docBio =
-              block.bio ??
-              "16+ years of clinical experience specializing in non surgical  musculoskeletal rehabilitation, advanced chiropractic adjustment, manual therapy, and neuro-rehabilitation across Gujarat.";
-            const docImage = block.image ?? "/assets/treatments/Complete-Care-Doctor-Image-cc.webp";
-            const docTo = block.to ?? "/best-physiotherapist-in-ahmedabad";
-            return (
-              <div
-                key={i}
-                className="my-8 overflow-hidden rounded-3xl border-2 border-navy/10 bg-white p-6 sm:p-7 shadow-xl shadow-navy/6"
-              >
-                <div className="flex flex-col sm:flex-row items-center gap-6">
-                  <div className="relative size-28 sm:size-32 shrink-0 overflow-hidden rounded-2xl border-2 border-navy/12 bg-sand shadow-md">
-                    <img
-                      src={docImage}
-                      alt={docName}
-                      loading="lazy"
-                      className="size-full object-cover object-top"
-                    />
-                  </div>
-                  <div className="flex-1 space-y-2 text-center sm:text-left">
-                    <div className="inline-flex items-center gap-1.5 rounded-full border border-navy/10 bg-sand px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-teal">
-                      <ShieldCheck className="size-3 text-accent" />
-                      <span>Clinical Leadership</span>
-                    </div>
-                    <h4 className="text-xl font-bold text-navy">{docName}</h4>
-                    <p className="text-xs font-semibold text-[#16803d]">{docRole}</p>
-                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                      {docBio}
-                    </p>
-                    <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-3">
-                      <Link
-                        to={docTo as never}
-                        className="inline-flex items-center gap-1.5 text-xs font-bold text-navy hover:text-[#16803d] transition-colors"
-                      >
-                        <span>View Clinical Profile</span>
-                        <ArrowUpRight className="size-3.5" />
-                      </Link>
-                      <span className="text-muted-foreground/40">•</span>
-                      <a
-                        href={site.whatsapp}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-full bg-[#16803d] px-4 py-1.5 text-xs font-bold text-white shadow-sm hover:bg-[#15803d] transition-colors"
-                      >
-                        <Calendar className="size-3.5" />
-                        <span>{block.ctaText ?? "Consult Doctor"}</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          }
+          case "doctor":
+            return null;
 
           case "faq":
             return (
-              <div key={i} className="space-y-4 pt-4">
-                <div className="flex items-center gap-2 text-xs font-bold tracking-wider text-teal uppercase">
-                  <HelpCircle className="size-4 text-accent" />
-                  <span>Frequently Asked Questions</span>
-                </div>
-                <h3 className="text-2xl font-bold text-navy">
-                  Frequently Asked Questions
-                </h3>
-                <div className="space-y-3 pt-2">
-                  {block.faqs.map((faq, j) => (
-                    <FaqItem key={j} q={faq.q} a={faq.a} />
-                  ))}
-                </div>
+              <div key={i} className="space-y-3 pt-1">
+                {block.faqs.map((faq, j) => (
+                  <FaqItem key={j} q={faq.q} a={faq.a} />
+                ))}
               </div>
             );
 

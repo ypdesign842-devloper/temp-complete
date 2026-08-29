@@ -2,105 +2,272 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
   slug: "ultra-sound-treatment-in-ahmedabad",
-  h1: "Physiotherapy Ultrasound Treatment in Ahmedabad",
-  lead: "Therapeutic ultrasound utilizes high frequency sound waves to deliver deep acoustic micro massage and thermal energy to injured tendons, ligaments, and joint capsules. Complete Care provides certified ultrasound therapy across Ahmedabad to accelerate tissue remodeling, reduce swelling, and relieve soft tissue pain.",
+  h1: "Acoustic Sound Waves to Promote Deep Soft Tissue and Joint Healing",
+  lead: "Looking for evidence based therapeutic ultrasound in Ahmedabad for stubborn tennis elbow, rotator cuff tendinitis, or chronic heel spur pain? At Complete Care, our licensed physiotherapists provide clinical Ultrasound Therapy (UST) using 1 MHz and 3 MHz acoustic micro-vibrations to accelerate collagen synthesis, break down scar tissue, and relieve tendon pain.",
   hero: "/assets/treatments/Ultra-Sound.webp",
   blocks: [
     {
-      t: "h2",
-      text: "What Is Therapeutic Ultrasound & How Does It Work?"
-    },
-    {
-      t: "p",
-      text: "Therapeutic ultrasound is a specialized physical therapy modality that generates inaudible, high frequency acoustic waves (typically 1 MHz for deep tissues or 3 MHz for superficial structures) through a specialized crystal transducer head. As the ultrasound waves pass through conductive gel into the body, they produce both mechanical micro massage and localized thermal effects."
-    },
-    {
-      t: "p",
-      text: "The mechanical vibrations induce acoustic streaming and stable cavitation within cellular membranes. This biological phenomenon increases cell wall permeability, enhances nutrient uptake, promotes fibroblast activity for collagen synthesis, and softens dense fibrous scar tissue inside injured tendons and tight joint capsules."
-    },
-    {
-      t: "h2",
-      text: "What Conditions Can Ultrasound Therapy Help With?"
-    },
-    {
-      t: "p",
-      text: "Therapeutic ultrasound is highly effective for localized soft tissue injuries, chronic tendinopathies, and joint contractures treated at our Ahmedabad clinics, including:"
-    },
-    {
-      t: "ul",
+      t: "snapshot",
+      title: "Clinical Snapshot: Therapeutic Ultrasound (UST) Care",
       items: [
-        "Supraspinatus tendinitis, subacromial bursitis, and [**Frozen Shoulder**](/frozen-shoulder-treatment-doctor-in-ahmedabad/)",
-        "Patellar tendonitis, ligament sprains, and [**Knee Pain**](/knee-pain-treatment-in-ahmedabad/)",
-        "Tennis elbow, golfer elbow, and repetitive wrist strain",
-        "Plantar fasciitis and Achilles tendon inflammation",
-        "Lumbar muscle strain, myofascial trigger points, and [**Back Pain**](/back-pain-doctor-in-ahmedabad/)",
-        "Trapezius muscle spasm and postural [**Neck Pain**](/neck-pain-treatment-doctor-in-ahmedabad/)",
-        "Post surgical scar tissue adhesions and joint stiffness"
-      ]
-    },
-    {
-      t: "h2",
-      text: "What Are the Benefits & Expected Results?"
-    },
-    {
-      t: "p",
-      text: "Patients receiving ultrasound therapy at Complete Care experience targeted pain relief and accelerated functional mobility. Key clinical advantages include:"
-    },
-    {
-      t: "ul",
-      items: [
-        "**Targeted Deep Tissue Healing**: Delivers therapeutic acoustic energy specifically to dense ligaments and tendon attachments",
-        "**Scar Tissue Softening**: Helps remodel rigid fibrous adhesions to restore smooth tendon glide",
-        "**Inflammation Reduction**: Stimulates cellular lymphatic drainage to resolve localized fluid accumulation",
-        "**Relieves Muscle Spasm**: Gentle deep heating increases local blood flow and relaxes chronic tightness",
-        "**Completely Painless**: Comfortable procedure with a soothing, gliding application across the skin"
-      ]
-    },
-    {
-      t: "h2",
-      text: "Is Ultrasound Therapy Safe & Who Is It Suitable For?"
-    },
-    {
-      t: "p",
-      text: "Therapeutic ultrasound is completely safe when applied by qualified physiotherapists using continuous sound head movement and calibrated dosage parameters."
-    },
-    {
-      t: "p",
-      text: "It is suitable for athletes, working professionals, and rehabilitation patients. Our clinical team performs a pre treatment evaluation to ensure contraindications are observed, avoiding application over open growth plates in young children, active infections, cancerous lesions, or directly over cardiac pacemakers."
-    },
-    {
-      t: "h2",
-      text: "How Many Sessions Are Usually Needed & What Does It Cost?"
-    },
-    {
-      t: "p",
-      text: "The number and frequency of ultrasound sessions depend on the injury stage, tissue depth, and individual healing speed. Ultrasound is typically integrated into an active physiotherapy protocol alongside manual release and progressive strengthening."
-    },
         {
+          label: "Acoustic Frequencies",
+          value: "1 MHz (Deep tissues up to 5cm) & 3 MHz (Superficial tissues 1-2cm), Continuous & Pulsed Duty Cycles",
+        },
+        {
+          label: "Biophysical Mechanism",
+          value: "Piezoelectric acoustic micro-massage, stable cavitation, acoustic streaming, fibroblast collagen synthesis",
+        },
+        {
+          label: "Typical Timeline",
+          value: "Pain and swelling relief in 2 to 4 sessions; structural tendon remodeling in 6 to 8 sessions",
+        },
+        {
+          label: "Primary Goals",
+          value: "Remodel stubborn tendinopathies, soften dense scar adhesions, increase cell membrane permeability",
+        },
+      ],
+    },
+
+    // 1. Understanding Therapeutic Ultrasound
+    {
+      t: "h2",
+      text: "Understanding Ultrasound Therapy: How It Works and Science",
+    },
+    {
+      t: "h3",
+      text: "What Is Therapeutic Ultrasound Therapy?",
+    },
+    {
+      t: "p",
+      text: "Therapeutic ultrasound is a specialized electro-physical modality that utilizes high frequency, inaudible acoustic sound waves generated by the vibration of a piezoelectric crystal inside a clinical soundhead applicator. Unlike diagnostic ultrasound used to image organs or babies, therapeutic ultrasound delivers targeted mechanical and thermal energy directly into dense collagenous tissues including tendons, ligaments, joint capsules, and scar tissue.",
+    },
+    {
+      t: "h3",
+      text: "How Do Acoustic Sound Waves Heal Damaged Tendons?",
+    },
+    {
+      t: "p",
+      text: "As ultrasound waves travel through conductive aqueous gel into biological tissue, they create microscopic acoustic vibrations (millions of cycles per second) that produce non thermal and thermal biological repair reactions:",
+    },
+    {
+      t: "grid",
+      columns: 2,
+      items: [
+        {
+          title: "Acoustic Streaming & Cavitation",
+          desc: "Micro-vibrations create gentle unidirectional fluid movement around cell membranes, enhancing cell wall permeability to vital calcium and potassium ions.",
+          badge: "Cell Permeability",
+        },
+        {
+          title: "Stimulating Fibroblast Collagen Repair",
+          desc: "Accelerates local protein synthesis and stimulates fibroblast cells to deposit healthy, organized collagen in chronically degenerated tendon fibers.",
+          badge: "Collagen Growth",
+        },
+        {
+          title: "Softening Dense Fibrotic Scar Tissue",
+          desc: "Continuous thermal mode delivers localized deep heating to collagen-rich tissues, softening dense fibrous adhesions and restoring tendon elasticity.",
+          badge: "Scar Softening",
+        },
+        {
+          title: "Clearing Microvascular Edema",
+          desc: "Pulsed non-thermal ultrasound stimulates local lymphatic drainage, resolving stubborn fluid accumulation around inflamed tendon sheaths.",
+          badge: "Edema Drainage",
+        },
+      ],
+    },
+
+    // 2. Conditions Treated
+    {
+      t: "h2",
+      text: "Conditions Treated with Ultrasound Therapy in Ahmedabad",
+    },
+    {
+      t: "h3",
+      text: "Tennis Elbow and Golfer Elbow Tendinopathy",
+    },
+    {
+      t: "p",
+      text: "Focuses high energy acoustic waves directly onto the common extensor tendon origin, stimulating collagen remodeling and relieving elbow grip pain in [Tennis Elbow](/best-doctor-for-tennis-elbow-in-ahmedabad).",
+    },
+    {
+      t: "h3",
+      text: "Supraspinatus Tendinitis and Subacromial Bursitis",
+    },
+    {
+      t: "p",
+      text: "Softens thickened, inflamed rotator cuff tendons to eliminate painful arc catching when raising the arm in [Shoulder Pain](/shoulder-pain-treatment-doctor-in-ahmedabad) and [Frozen Shoulder](/frozen-shoulder-treatment-doctor-in-ahmedabad).",
+    },
+    {
+      t: "h3",
+      text: "Plantar Fasciitis and Achilles Tendonitis",
+    },
+    {
+      t: "p",
+      text: "Accelerates microvascular healing in stubborn plantar heel spurs and thick, degenerated Achilles tendons in [Ankle Pain](/ankle-pain-treatment-doctor-in-ahmedabad).",
+    },
+    {
+      t: "h3",
+      text: "Patellar Tendinopathy and Ligament Sprains",
+    },
+    {
+      t: "p",
+      text: "Relieves chronic jumper knee pain and accelerates ligament remodeling following sports injuries in [Knee Pain](/knee-pain-treatment-in-ahmedabad) and [Sports Rehab](/sports-physiotherapist-in-ahmedabad).",
+    },
+
+    // 3. What to Expect
+    {
+      t: "h2",
+      text: "What to Expect During Your Ultrasound Session",
+    },
+    {
+      t: "h3",
+      text: "Pre-Treatment Gel Application and Frequency Selection",
+    },
+    {
+      t: "p",
+      text: "The therapist selects 1 MHz (for deep structures like hip or shoulder) or 3 MHz (for superficial structures like elbow or ankle) and applies water-based conductive acoustic gel.",
+    },
+    {
+      t: "h3",
+      text: "Smooth Gliding Soundhead Application",
+    },
+    {
+      t: "p",
+      text: "The clinician moves the soundhead in smooth, continuous overlapping circular strokes across the painful tendon for 5 to 10 minutes. The treatment is completely painless and relaxing, with only a mild soothing warmth in continuous mode.",
+    },
+    {
+      t: "h3",
+      text: "Is Ultrasound Therapy Safe?",
+    },
+    {
+      t: "p",
+      text: "Yes. Therapeutic ultrasound is 100% non invasive, gentle, and safe when administered with constant soundhead movement by trained physiotherapists.",
+    },
+
+    // 4. Combining with Active Physiotherapy
+    {
+      t: "h2",
+      text: "Combining Ultrasound with Active Physiotherapy",
+    },
+    {
+      t: "h3",
+      text: "Immediate Post-Ultrasound Eccentric Loading",
+    },
+    {
+      t: "p",
+      text: "Immediately following ultrasound therapy while collagen synthesis is stimulated, therapists guide you through eccentric tendon loading exercises to align newly formed fibers.",
+    },
+    {
+      t: "h3",
+      text: "Synergy with Class IV Laser and Dry Needling",
+    },
+    {
+      t: "p",
+      text: "Combining ultrasound with [Class IV Laser](/class-iv-laser-therapy-clinic-in-ahmedabad) or [Dry Needling](/top-dry-needling-therapy-services-in-ahmedabad) provides multi-modal healing for stubborn chronic tendinopathies.",
+    },
+    {
+      t: "h3",
+      text: "Home Tendon Care and Cross Friction Advice",
+    },
+    {
+      t: "p",
+      text: "We provide structured eccentric loading protocols and self-massage techniques to maintain tendon health at home.",
+    },
+
+    // 5. Why Choose Complete Care
+    {
+      t: "h2",
+      text: "Why Choose Complete Care for Ultrasound Therapy?",
+    },
+    {
+      t: "grid",
+      columns: 2,
+      items: [
+        {
+          title: "Experienced Tendon Specialists",
+          desc: "Led by Dr. Hardik Patel (PT) with advanced clinical expertise in tendon biomechanics, acoustic dosimetry, and sports rehabilitation.",
+          badge: "Clinical Leadership",
+        },
+        {
+          title: "Dual Frequency Digital Applicators",
+          desc: "Equipped with medical ultrasound devices featuring calibrated 1 MHz and 3 MHz transducers with digital Effective Radiating Area (ERA) control.",
+          badge: "Advanced Tech",
+        },
+        {
+          title: "Targeted Dosimetry Parameters",
+          desc: "Power density (Watts/cm2) and duty cycles calculated precisely for acute inflammatory swelling vs chronic tendon remodeling.",
+          badge: "Precision Dose",
+        },
+        {
+          title: "Care Available Across Gujarat",
+          desc: "Over 85,000+ successful patient recoveries across our 6 clinical centres and dedicated doorstep home visit network.",
+          badge: "Proven Record",
+        },
+      ],
+    },
+
+    // 6. Pricing Section (Service-Specific)
+    {
+      t: "h2",
+      text: "Ultrasound Therapy Cost in Ahmedabad",
+    },
+    {
       t: "pricing",
-      title: "Estimated Therapeutic Ultrasound & Treatment Pricing",
+      title: "Physiotherapy Consultation and Session Cost",
       range: "₹500 to ₹2,000",
       consultationFee: "₹500 (Detailed Doctor Assessment)",
       treatmentRange: "₹500 to ₹2,000 / session",
       lowPrice: 500,
       highPrice: 2000,
       currency: "INR",
-      context: "At Complete Care, pricing for physical therapy sessions ranges from ₹500 to ₹2,000 per session depending on the clinical evaluation, treated area, and combination with other rehabilitation modalities.",
+      context: "The cost of therapeutic ultrasound in Ahmedabad typically ranges from ₹500 to ₹2,000 per session depending on the anatomical area treated (e.g. elbow, shoulder, heel, knee), whether continuous or pulsed modes are used, and combination with eccentric exercise rehabilitation.",
       inclusions: [
-        "Physiotherapist led clinical evaluation",
-        "Targeted therapy and gentle mobilization",
-        "Ergonomic and posture home guidance",
-        "Transparent pricing with no hidden charges"
-      ]
-    }
+        "Doctor led tendon & soft tissue palpation assessment",
+        "Dual-frequency therapeutic ultrasound application",
+        "Immediate post-treatment eccentric loading & stretch",
+        "Personalized home tendon recovery guidance",
+        "Zero hidden facility charges",
+      ],
+    },
+
+    // 7. Frequently Asked Questions
+    {
+      t: "h2",
+      text: "Frequently Asked Questions About Ultrasound Therapy",
+    },
+    {
+      t: "faq",
+      faqs: [
+        {
+          q: "How does therapeutic ultrasound differ from diagnostic ultrasound?",
+          a: "Diagnostic ultrasound uses reflected sound waves to create visual images on a monitor (such as pregnancy scans). Therapeutic ultrasound delivers higher intensity acoustic energy specifically absorbed by damaged tendons and ligaments to stimulate biological healing and collagen repair.",
+        },
+        {
+          q: "How much does ultrasound therapy cost in Ahmedabad?",
+          a: "At Complete Care, therapeutic ultrasound sessions range from ₹500 to ₹2,000 per session depending on whether manual therapy or exercise conditioning is included, with an initial comprehensive doctor consultation at ₹500.",
+        },
+        {
+          q: "How many ultrasound sessions are needed for tendonitis?",
+          a: "Most patients notice reduced tendon pain and improved grip or walking within 3 to 5 sessions. Complete structural collagen remodeling typically requires a 6 to 8 session treatment program.",
+        },
+        {
+          q: "Who should not receive therapeutic ultrasound?",
+          a: "Ultrasound should not be applied directly over growing bone growth plates in young children, over the eyes, directly over the spinal cord after laminectomy, over cardiac pacemakers, or over active malignant tumors.",
+        },
+        {
+          q: "Is home visit ultrasound therapy available in Ahmedabad?",
+          a: "Yes. Complete Care offers portable [doorstep home visit physiotherapy](/home-visit) and ultrasound therapy across Ahmedabad for patients who are unable to visit our clinics.",
+        },
+      ],
+    },
   ],
   quickLinks: [
+    { label: "Tennis Elbow Specialist", to: "/best-doctor-for-tennis-elbow-in-ahmedabad" },
+    { label: "Shoulder Pain Specialist", to: "/shoulder-pain-treatment-doctor-in-ahmedabad" },
+    { label: "Ankle Pain Treatment", to: "/ankle-pain-treatment-doctor-in-ahmedabad" },
     { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
-    { label: "IFT Therapy", to: "/best-ift-treatment-center-in-ahmedabad" },
-    { label: "TENS Therapy", to: "/effective-tens-treatment-in-ahmedabad-for-pain-relief" },
-    { label: "Short Wave Diathermy", to: "/top-short-wave-diathermy-treatment-in-ahmedabad" },
-    { label: "TECAR Therapy", to: "/tecar-physiotherapy-treatment-in-ahmedabad" },
-    { label: "Dry Needling", to: "/top-dry-needling-therapy-services-in-ahmedabad" },
-    { label: "Best Physiotherapy Clinic", to: "/best-physiotherapy-clinic-in-ahmedabad" }
-  ]
+    { label: "IFT Physiotherapy", to: "/best-ift-treatment-center-in-ahmedabad" },
+    { label: "Home Visit Physiotherapy", to: "/home-visit" },
+  ],
 };

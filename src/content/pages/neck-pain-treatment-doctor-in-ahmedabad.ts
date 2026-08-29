@@ -2,21 +2,17 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
   slug: "neck-pain-treatment-doctor-in-ahmedabad",
-  h1: "Physiotherapy Treatment for Neck Pain in Ahmedabad",
-  lead: "Neck pain has become a common issue in today’s lifestyle. It often results from strained neck muscles due to poor posture, such as leaning over a computer or hunching while working. In rare cases, neck pain may indicate a more serious condition. It’s important to seek medical attention if the pain is accompanied by numbness, weakness in the arms or hands, or shooting pain into the shoulder or arm.",
+  h1: "Relief from Neck Pain and Cervical Stiffness with Expert Physiotherapy",
+  lead: "Struggling with persistent neck pain, sore shoulder stiffness, or sharp radiating discomfort? At Complete Care in Ahmedabad, our licensed physiotherapists provide targeted clinical neck pain treatment using advanced IFT electrotherapy, Class IV laser therapy, manual joint mobilization, and guided neck pain exercises for long lasting recovery.",
   hero: "/assets/conditions/Neck-Pain.webp",
   blocks: [
-    {
-      t: "p",
-      text: "The cervical spine supports the full weight of your head while enabling continuous movement throughout the day. When poor ergonomics, repetitive computer work, or sudden muscular strain disrupt this delicate alignment, the surrounding cervical vertebrae, facet joints, and stabilizing neck muscles undergo excessive mechanical stress. At **Complete Care Physiotherapy**, we provide individualized, evidence informed rehabilitation programs tailored to identify the underlying mechanical cause of your neck discomfort rather than merely masking temporary symptoms.",
-    },
     {
       t: "snapshot",
       title: "Clinical Snapshot: Neck Pain & Cervical Care",
       items: [
         {
           label: "Involved Anatomy",
-          value: "Cervical Spine (C1, C7), Upper Trapezius, Levator Scapulae, Deep Neck Flexors",
+          value: "Cervical Spine (C1-C7), Upper Trapezius, Levator Scapulae, Deep Neck Flexors",
         },
         {
           label: "Common Triggers",
@@ -32,13 +28,19 @@ export const content: PageContent = {
         },
       ],
     },
+
+    // 1. Causes, Symptoms and Common Problems
     {
       t: "h2",
-      text: "What Causes Neck Pain & Cervical Stiffness?",
+      text: "Neck Pain: Causes, Symptoms and Common Problems",
+    },
+    {
+      t: "h3",
+      text: "What Causes Neck Pain?",
     },
     {
       t: "p",
-      text: "Understanding the precise anatomical driver behind your neck symptoms allows our clinical team to select the most effective, safe treatment modalities. Common contributing factors include:",
+      text: "The cervical spine consists of seven delicate vertebrae (C1-C7) cushioned by intervertebral discs and supported by facet joints, ligaments, and stabilizing neck muscles. Because the cervical spine must balance the full weight of the head while allowing multi-directional movement, any mechanical imbalance or postural overload can trigger localized inflammation, joint stiffness, and painful muscle spasms.",
     },
     {
       t: "grid",
@@ -51,144 +53,301 @@ export const content: PageContent = {
         },
         {
           title: "Cervical Disc Herniation & Radiculopathy",
-          desc: "Bulging or herniated cervical discs (commonly C5, C6 or C6, C7) may compress exiting nerve roots, generating sharp shooting pain, pins and needles, or weakness into the arm.",
+          desc: "Bulging or herniated cervical discs (commonly C5-C6 or C6-C7) may compress exiting nerve roots, generating sharp shooting pain, pins and needles, or arm weakness.",
           badge: "Spinal Disc",
         },
         {
           title: "Facet Joint Arthropathy & Spondylosis",
-          desc: "age related wear or repetitive micro-trauma in the cervical facet joints causes localized stiffness, morning grinding sensations (crepitus), and restricted rotation.",
+          desc: "Age related wear or repetitive micro-trauma in the cervical facet joints causes localized stiffness, morning grinding sensations (crepitus), and restricted rotation.",
           badge: "Degenerative",
         },
         {
           title: "Acute Muscular Spasms & Whiplash",
-          desc: "Sudden acceleration and deceleration forces or sleeping in an awkward position can trigger protective muscle guarding, acute torticollis, and severe limited mobility.",
+          desc: "Sudden acceleration forces or sleeping in an awkward position can trigger acute protective muscle guarding, torticollis, and painful limited mobility.",
           badge: "Myofascial",
         },
       ],
     },
     {
+      t: "h3",
+      text: "Common Symptoms of Neck Pain",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Shoulder and Upper Trapezius Stiffness**: Heavy, aching soreness and tight tender knots (trigger points) across the top of the shoulder blade.",
+        "**Radiating Pain, Numbness and Tingling**: Sharp electric sensations or pins and needles traveling down the shoulder, arm, forearm, and fingers.",
+        "**Cervicogenic Headaches**: Dull, throbbing pain radiating from the base of the skull (occiput) toward the temples, forehead, or eyes.",
+        "**Restricted Neck Rotation**: Sharp catch or stiffness when turning the head while driving or working at a computer.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Neck Pain from Poor Posture and Long Screen Time",
+    },
+    {
+      t: "p",
+      text: "Modern desk work, laptops, and prolonged smartphone use force the head into a forward tilting posture. For every inch the head tilts forward, the effective load on the cervical spine doubles, causing chronic strain on the upper trapezius and weakening the deep cervical stabilizing muscles.",
+    },
+    {
+      t: "h3",
+      text: "When Neck Pain May Be Related to a Pinched Nerve",
+    },
+    {
+      t: "p",
+      text: "When a cervical spinal nerve root becomes compressed by a bulging disc or arthritic bone spur (cervical radiculopathy), symptoms often radiate beyond the neck into the arm and hand. Targeted physiotherapy relieves this pressure through gentle decompression, nerve mobilization, and postural alignment.",
+    },
+
+    // 2. Assessment
+    {
       t: "h2",
-      text: "Common Symptoms to Watch For",
+      text: "How We Assess Your Neck Pain",
+    },
+    {
+      t: "h3",
+      text: "Clinical Assessment",
+    },
+    {
+      t: "p",
+      text: "Our evaluation begins with a detailed physical examination to pinpoint tender anatomical points, assess muscle tone, and screen neurological reflexes, dermatomes, and upper limb strength.",
+    },
+    {
+      t: "h3",
+      text: "Posture and Neck Movement Assessment",
+    },
+    {
+      t: "p",
+      text: "We evaluate your cervical alignment using goniometric range of motion testing in flexion, extension, side-bending, and rotation, alongside scapular stability and thoracic spine posture screening.",
+    },
+    {
+      t: "h3",
+      text: "Identifying the Cause of Your Pain",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Spurling's Maneuver & Compression Testing**: Differentiating cervical nerve root compression from localized facet joint irritation.",
+        "**Upper Limb Tension Tests (ULTT)**: Assessing nerve mobility and irritability along the median, radial, and ulnar nerve pathways.",
+        "**Cervical Distraction Assessment**: Determining whether gentle axial decompression provides immediate relief for disc and nerve pressure.",
+      ],
+    },
+
+    // 3. Treatment at Complete Care
+    {
+      t: "h2",
+      text: "Neck Pain Treatment at Complete Care",
+    },
+    {
+      t: "h3",
+      text: "Manual Therapy for Neck Pain",
+    },
+    {
+      t: "p",
+      text: "Our certified physiotherapists apply gentle Maitland and Mulligan joint mobilization techniques to restore facet gliding, combined with certified [Dry Needling](/top-dry-needling-therapy-services-in-ahmedabad) and myofascial release for stubborn muscle knots.",
+    },
+    {
+      t: "h3",
+      text: "Class IV Laser Therapy for Neck Pain",
+    },
+    {
+      t: "p",
+      text: "Hospital-grade [Class IV Laser Therapy](/class-iv-laser-therapy-clinic-in-ahmedabad) delivers deep photobiomodulation into inflamed cervical tissues, stimulating cellular ATP energy production and accelerating natural tissue recovery.",
+    },
+    {
+      t: "h3",
+      text: "IFT and TENS Therapy",
+    },
+    {
+      t: "p",
+      text: "Interferential Therapy (**IFT in physio**) and [TENS nerve stimulation](/effective-tens-treatment-in-ahmedabad-for-pain-relief) deliver targeted electrical frequencies to relax painful muscle spasms and modulate sensory pain pathways.",
+    },
+    {
+      t: "h3",
+      text: "Cervical Traction and Gentle Decompression",
+    },
+    {
+      t: "p",
+      text: "Calibrated [Traction Therapy](/effective-traction-treatment-in-ahmedabad) provides gentle, computerized longitudinal distraction along the cervical spine, widening intervertebral foramina to relieve pressure on compressed nerve roots.",
+    },
+    {
+      t: "h3",
+      text: "Personalised Physiotherapy Treatment",
+    },
+    {
+      t: "p",
+      text: "Every patient receives a phased clinical protocol that transitions smoothly from acute pain alleviation into active postural correction and long term muscular stabilization.",
+    },
+
+    // 4. Exercises for Neck Pain Relief
+    {
+      t: "h2",
+      text: "Exercises for Neck Pain Relief",
+    },
+    {
+      t: "h3",
+      text: "Neck Mobility Exercises",
+    },
+    {
+      t: "p",
+      text: "Controlled cervical range of motion glides and gentle axial rotations restore fluid movement, making daily tasks like driving and desk work comfortable again.",
+    },
+    {
+      t: "h3",
+      text: "Neck and Shoulder Stretching",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Levator Scapulae Stretch**: Gentle lateral neck flexion angled toward the opposite armpit releases tension across the upper shoulder blade.",
+        "**Upper Trapezius Stretch**: Gentle ear-to-shoulder stretching alleviates tight muscle guarding caused by stress and desk sitting.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Neck Strengthening Exercises",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Chin Tucks (Deep Neck Flexor Activation)**: Gently drawing the chin backward activates the longus colli muscles and corrects forward head tilt.",
+        "**Isometric Neck Strengthening**: Multi-directional static resistance builds cervical stability without straining sensitive joints.",
+        "**Scapular Retraction**: Squeezing the shoulder blades together stabilizes the upper back and unloads the lower cervical vertebrae.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Home Exercise and Posture Guidance",
+    },
+    {
+      t: "p",
+      text: "We guide you on optimal monitor height, ergonomic chair adjustments, supportive sleeping pillow selection, and micro-break routines to prevent recurring neck tension.",
+    },
+
+    // 5. Why Choose Complete Care
+    {
+      t: "h2",
+      text: "Why Choose Complete Care for Neck Pain?",
     },
     {
       t: "grid",
       columns: 2,
       items: [
         {
-          title: "Stiffness & Restricted Range of Motion",
-          desc: "Difficulty turning the head while driving or tilting toward the shoulders, often accompanied by tightness in the upper back and shoulder blades.",
+          title: "Experienced Physiotherapy Team",
+          desc: "Led by Dr. Hardik Patel (PT) with over 16+ years of clinical specialization in musculoskeletal and spine rehabilitation.",
+          badge: "Clinical Leadership",
         },
         {
-          title: "Cervicogenic Headaches",
-          desc: "Dull, throbbing pain radiating from the base of the skull (occipital region) toward the temples or forehead due to upper cervical joint irritation.",
+          title: "Personalised One-on-One Care",
+          desc: "Individualized treatment plans tailored to your specific cervical condition, daily routine, and recovery goals.",
+          badge: "One-on-One",
         },
         {
-          title: "Radiating Arm & Finger Paresthesia",
-          desc: "Burning pain, electric shock sensations, or numbness traveling down the shoulder, elbow, forearm, or fingers following specific dermatomal pathways.",
+          title: "Advanced Physiotherapy Equipment",
+          desc: "Equipped with hospital-grade Class IV laser therapy, computerized cervical traction, and advanced electrotherapy.",
+          badge: "Advanced Tech",
         },
         {
-          title: "Upper Trap & Scapular Muscle Spasms",
-          desc: "Persistent tender 'knots' (trigger points) in the upper trapezius and levator scapulae muscles that ache with prolonged sitting or stress.",
+          title: "Care Available Across Gujarat",
+          desc: "Over 85,000+ successful patient recoveries across our 6 clinical centres and specialized home visit network.",
+          badge: "Proven Record",
         },
       ],
     },
+
+    // 6. Treatment Journey
     {
       t: "h2",
-      text: "How Neck Pain Is Evaluated at Complete Care",
-    },
-    {
-      t: "ul",
-      items: [
-        "**Cervical Mobility & Goniometric Assessment**: Measuring active and passive flexion, extension, lateral flexion, and axial rotation.",
-        "**Orthopaedic Provocative Testing**: Spurling's maneuver, Upper Limb Tension Tests (ULTT), and Cervical Distraction to differentiate disc vs. facet pathology.",
-        "**Neurological Screening**: Detailed testing of upper extremity deep tendon reflexes (C5, C6, C7), sensation dermatomes, and key muscle myotomes.",
-        "**Ergonomic & Scapular Kinematics**: Evaluating workstation posture, shoulder blade stability, and thoracic spine extension capacity.",
-      ],
-    },
-    {
-      t: "h2",
-      text: "Our Phased Physiotherapy & Rehabilitation Approach",
+      text: "Your Neck Pain Treatment Journey",
     },
     {
       t: "steps",
-      subtitle: "A progressive, evidence informed pathway designed for lasting cervical health:",
       steps: [
         {
           step: "01",
-          title: "Phase 1: Pain Alleviation & Gentle Decompression",
-          desc: "Targeted electro-modalities like [Class IV Laser Therapy](/class-iv-laser-therapy-clinic-in-ahmedabad) and [TENS](/effective-tens-treatment-in-ahmedabad-for-pain-relief-in-ahmedabad) combined with gentle cervical traction to reduce acute inflammation and relieve nerve compression.",
+          title: "Initial Assessment",
+          desc: "A thorough 45-minute clinical consultation evaluating your symptom history, posture, cervical range of motion, and root mechanical cause.",
         },
         {
           step: "02",
-          title: "Phase 2: Hands-On Manual Therapy & Myofascial Release",
-          desc: "Specialized [Manual Therapy](/manual-therapy-near-me-in-ahmedabad), [Dry Needling](/top-dry-needling-therapy-services-in-ahmedabad), and joint mobilizations (Maitland/Mulligan techniques) to eliminate muscle trigger points and restore joint gliding.",
+          title: "Treatment Sessions",
+          desc: "Targeted hands-on joint mobilization, advanced electrotherapy, Class IV laser, and myofascial release delivered during your sessions.",
         },
         {
           step: "03",
-          title: "Phase 3: Deep Neck Flexor & Scapular Strengthening",
-          desc: "Progressive neuromuscular retraining of the longus colli and deep cervical stabilizers, combined with middle/lower trapezius and serratus anterior activation exercises.",
-        },
-        {
-          step: "04",
-          title: "Phase 4: Postural Ergonomics & Relapse Prevention",
-          desc: "Personalized workstation adjustments, pillow selection guidance, cervical mobility home programs, and active lifestyle habits to maintain long term spinal wellness.",
+          title: "Progress and Recovery Plan",
+          desc: "Weekly mobility milestone tracking, progressive strengthening, and personalized ergonomic guidance for lasting spinal health.",
         },
       ],
     },
+
+    // 7. Pricing Section (Service-Specific)
+    {
+      t: "h2",
+      text: "Neck Pain Treatment Cost in Ahmedabad",
+    },
     {
       t: "pricing",
-      title: "Estimated Neck Pain Treatment & Therapy Pricing",
+      title: "Physiotherapy Consultation and Session Cost",
       range: "₹500 to ₹2,000",
       consultationFee: "₹500 (Detailed Doctor Assessment)",
       treatmentRange: "₹500 to ₹2,000 / session",
       lowPrice: 500,
       highPrice: 2000,
       currency: "INR",
-      context: "Therapy session pricing ranges between ₹500 and ₹2,000 depending on whether your protocol requires hands on cervical joint mobilization, computerized cervical traction, or deep tissue Class IV laser therapy. Transparent charges are discussed during your initial evaluation.",
+      context: "The cost of neck pain treatment in Ahmedabad typically ranges from ₹500 to ₹2,000 per session depending on the underlying cervical condition, whether treatment involves hands-on manual mobilization or advanced Class IV laser therapy, session duration, and the personalized recovery plan.",
       inclusions: [
-        "Physiotherapist-led cervical evaluation",
-        "Manual therapy & gentle mobilization",
-        "Ergonomic & posture home guidance",
-        "No hidden facility fees"
-],
+        "Doctor-led cervical examination",
+        "Manual joint mobilization & myofascial release",
+        "Advanced electrotherapy & laser application",
+        "Ergonomic workstation & posture guidance",
+        "Zero hidden facility charges",
+      ],
+    },
+
+    // 8. When to See a Physiotherapist
+    {
+      t: "h2",
+      text: "When Should You See a Physiotherapist for Neck Pain?",
+    },
+    {
+      t: "p",
+      text: "You should schedule a clinical physiotherapy evaluation if your neck pain persists for more than 3 to 5 days, causes stiffness that limits head turning while driving, radiates into your shoulder or arm, or frequently wakes you up at night.",
     },
     {
       t: "callout",
       variant: "warning",
       title: "When Urgent Medical Evaluation Is Needed (Red Flags)",
-      text: "While most neck pain responds well to conservative physiotherapy, you should consult an emergency physician or spine specialist immediately if your neck pain is accompanied by sudden bilateral arm numbness, loss of bowel/bladder control, severe clumsiness in walking, unexplained high fever, or onset following hig velocity head trauma.",
+      text: "Consult an emergency physician immediately if neck pain is accompanied by sudden bilateral arm weakness, loss of bowel/bladder control, severe clumsiness in walking, unexplained high fever, or onset following high velocity head or vehicle trauma.",
     },
+
+    // 9. Frequently Asked Questions
     {
-      t: "doctor",
-      name: "Dr. Hardik Patel (PT)",
-      role: "Director & Chief Physiotherapist | Complete Care",
-      bio: "With over 16+ years of clinical experience, Dr. Hardik Patel leads our clinical team across 6 centres in Gujarat, specializing in non surgical  cervical spine rehabilitation, advanced manual therapy, and chiropractic adjustments.",
-      to: "/best-physiotherapist-in-ahmedabad",
-      image: "/assets/treatments/Complete-Care-Doctor-Image-cc.webp",
-      ctaText: "Consult for Neck Pain",
+      t: "h2",
+      text: "Frequently Asked Questions About Neck Pain",
     },
     {
       t: "faq",
       faqs: [
         {
-          q: "What are the most common causes of neck pain?",
-          a: "The vast majority of neck pain cases stem from postural strain ('tech neck'), prolonged sedentary computer work, cervical facet joint irritation, muscle spasms, or cervical disc bulges compressing nearby nerves.",
+          q: "What is the best treatment for neck pain?",
+          a: "The most effective treatment combines hands-on manual joint mobilization, targeted modalities like Class IV laser and IFT electrotherapy, and progressive deep neck flexor strengthening exercises tailored to the root cause.",
         },
         {
-          q: "Can physiotherapy relieve a pinched nerve in the neck?",
-          a: "Yes. Physiotherapy employs gentle cervical decompression, nerve flossing, manual therapy, and targeted posture exercises to widen the intervertebral foramen, relieving pressure on irritated nerve roots.",
+          q: "How much does neck pain treatment cost in Ahmedabad?",
+          a: "At Complete Care, neck pain treatment sessions range from ₹500 to ₹2,000 per session depending on the required modalities and manual therapy, with an initial comprehensive doctor consultation at ₹500.",
         },
         {
-          q: "How many physiotherapy sessions are usually needed for neck pain?",
-          a: "Acute muscular strains often improve within 4 to 6 sessions. Chronic postural issues, cervical spondylosis, or disc radiculopathy typically require 10 to 15 structured sessions to achieve pain relief and muscular stabilization.",
+          q: "How many physiotherapy sessions are needed for neck pain?",
+          a: "Acute muscular strains often resolve in 4 to 6 sessions. Chronic postural strain, cervical disc bulges, or spondylosis typically require 10 to 15 sessions for lasting recovery.",
         },
         {
-          q: "Do you provide home visit physiotherapy for severe neck pain in Ahmedabad?",
-          a: "Yes. Complete Care offers specialized [doorstep home physiotherapy](/home-visit) across Ahmedabad for patients experiencing acute episodes of neck pain or severe mobility limitations.",
+          q: "Can physiotherapy help a pinched nerve in the neck?",
+          a: "Yes. Physiotherapy utilizes gentle cervical traction, neural mobilization, and manual therapy to decompress the intervertebral foramen, relieving pressure on the irritated nerve root.",
         },
         {
-          q: "Should I use heat or ice for my neck pain?",
-          a: "For sudden acute injuries or sharp flare-ups (within 48 hours), cold packs help reduce inflammation. For chronic tension, muscle knots, and stiffness, gentle moist heat improves local blood flow and relaxes tight muscles.",
+          q: "Is physiotherapy available at home for neck pain?",
+          a: "Yes. Complete Care offers specialized [doorstep home visit physiotherapy](/home-visit) across Ahmedabad for patients experiencing severe acute neck pain or mobility limitations.",
         },
       ],
     },

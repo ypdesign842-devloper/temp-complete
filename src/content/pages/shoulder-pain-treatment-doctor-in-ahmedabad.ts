@@ -2,43 +2,45 @@ import type { PageContent } from "@/data/types";
 
 export const content: PageContent = {
   slug: "shoulder-pain-treatment-doctor-in-ahmedabad",
-  h1: "Shoulder Pain Physiotherapy Treatment in Ahmedabad",
-  lead: "Shoulder pain is a symptom rather then a condition. There are many things that can cause shoulder pain. In younger people pain can b more likely due to an accident or injury.As you age natural wear and tear occurs in the shoulder joint and rotator cuff tendon l. This may become persistently painful overtime.",
+  h1: "Lift Your Arm Without Pain and Regain Complete Shoulder Strength",
+  lead: "Struggling with sharp shoulder pinching, rotator cuff weakness, or difficulty lifting your arm overhead? At Complete Care in Ahmedabad, our licensed physiotherapists provide specialized non surgical shoulder rehabilitation using Class IV laser therapy, manual joint mobilization, and scapular stabilizer strengthening for full pain free movement.",
   hero: "/assets/conditions/Shoulder-Pain.webp",
   blocks: [
-    {
-      t: "p",
-      text: "The shoulder (glenohumeral joint) is the most mobile ball-and-socket joint in the human body, sacrificing skeletal stability for wide multi-planar movement. This extraordinary mobility relies heavily on the four rotator cuff tendons and scapular stabilizer muscles. When inflammation, tendinopathy, impingement, or labral strain occur, everyday tasks like lifting your arm, reaching behind your back, or sleeping on your side become agonizing. At **Complete Care Physiotherapy**, our expert clinicians deliver targeted rehabilitation that re-centers the humeral head, calms irritated bursae, and restores pain-free overhead reach.",
-    },
     {
       t: "snapshot",
       title: "Clinical Snapshot: Shoulder Joint & Rotator Cuff Care",
       items: [
         {
           label: "Involved Anatomy",
-          value: "Glenohumeral Joint, Rotator Cuff (Supraspinatus, Infraspinatus, Teres Minor, Subscapularis), Subacromial Bursa, Scapula",
+          value: "Glenohumeral Joint, Rotator Cuff (Supraspinatus, Infraspinatus), Subacromial Bursa, Scapula",
         },
         {
           label: "Common Triggers",
-          value: "Subacromial Impingement, Rotator Cuff Tendinopathy, Subacromial Bursitis, AC Joint Strain, Scapular Dyskinesis",
+          value: "Subacromial Impingement, Rotator Cuff Tendinopathy, Subacromial Bursitis, Scapular Dyskinesis",
         },
         {
           label: "Typical Timeline",
-          value: "Pain relief in 2 to 3 weeks; full overhead strength & scapular retraining in 6 to 10 weeks",
+          value: "Pain relief in 2 to 3 weeks; full overhead strength and scapular retraining in 6 to 10 weeks",
         },
         {
           label: "Primary Goals",
-          value: "Eliminate subacromial pinching, rebuild rotator cuff endurance, restore scapulothoracic rhythm",
+          value: "Eliminate subacromial pinching, rebuild rotator cuff endurance, restore scapular rhythm",
         },
       ],
     },
+
+    // 1. Causes, Symptoms and Common Problems
     {
       t: "h2",
-      text: "Common Clinical Causes of Shoulder Pain",
+      text: "Shoulder Pain: Causes, Symptoms and Common Problems",
+    },
+    {
+      t: "h3",
+      text: "What Causes Shoulder Pain?",
     },
     {
       t: "p",
-      text: "Shoulder dysfunction typically falls into three main anatomical categories: tendon pathology, joint capsule stiffness, or dynamic scapular instability:",
+      text: "The shoulder is the most mobile ball and socket joint in the human body, relying heavily on four rotator cuff muscles and surrounding ligaments to keep the arm bone centered inside the shallow glenoid socket. When repetitive overhead lifting, sports strain, or poor desk posture causes muscle imbalance, the rotator cuff tendons and subacromial bursa get pinched beneath the shoulder bone, creating localized inflammation and weakness.",
     },
     {
       t: "grid",
@@ -46,159 +48,316 @@ export const content: PageContent = {
       items: [
         {
           title: "Subacromial Impingement Syndrome",
-          desc: "Narrowing of the subacromial space causing the supraspinatus tendon and bursa to pinch under the acromion bone when elevating the arm between 60° and 120° (the 'painful arc').",
+          desc: "Narrowing of the subacromial space causing the supraspinatus tendon to pinch under the acromion bone when lifting the arm between 60 and 120 degrees.",
           badge: "Impingement",
         },
         {
-          title: "Rotator Cuff Tendinopathy & Partial Tears",
-          desc: "Repetitive overhead strain or degenerative micro-tears in the supraspinatus tendon, creating night pain and weakness during lifting or rotating the arm.",
+          title: "Rotator Cuff Tendinopathy",
+          desc: "Repetitive overhead strain or micro-tears in the rotator cuff tendons, creating night aching and weakness during lifting or carrying bags.",
           badge: "Tendon",
         },
         {
-          title: "Subacromial & Subdeltoid Bursitis",
-          desc: "Inflammation of the friction-reducing fluid sacs surrounding the shoulder joint, triggering acute localized swelling, heat, and severe tenderness over the lateral deltoid.",
+          title: "Subacromial Bursitis",
+          desc: "Inflammation of the protective fluid filled sacs in the shoulder, creating acute localized heat, swelling, and tenderness across the outer arm.",
           badge: "Inflammatory",
         },
         {
-          title: "Scapular Dyskinesis & Winging",
-          desc: "Altered resting position or abnormal motion of the shoulder blade due to weak serratus anterior and lower trapezius muscles, leading to chronic impingement.",
+          title: "Scapular Dyskinesis",
+          desc: "Weakness of the middle and lower trapezius causing the shoulder blade to wing outward, disrupting normal overhead arm mechanics.",
           badge: "Biomechanical",
         },
       ],
     },
     {
+      t: "h3",
+      text: "Common Symptoms of Shoulder Dysfunction",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Painful Arc During Arm Lifting**: Sharp catching or pinching pain when elevating the arm sideways between shoulder height and overhead.",
+        "**Night Pain When Sleeping on Side**: Persistent dull throbbing that disturbs sleep when resting on the affected shoulder.",
+        "**Weakness During Reaching**: Difficulty reaching behind the back to fasten clothing, put on a jacket, or place items on high shelves.",
+        "**Crepitus and Joint Popping**: Audible clicking or grinding sensations around the shoulder blade and joint during movement.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Shoulder Pain from Repetitive Strain and Posture",
+    },
+    {
+      t: "p",
+      text: "Slumped sitting with forward rounded shoulders tilts the scapula anteriorly, narrowing the subacromial passage by up to 30%. This postural flaw causes chronic tendon friction during ordinary everyday reaching and keyboard work.",
+    },
+    {
+      t: "h3",
+      text: "When Shoulder Pain May Be Related to a Rotator Cuff Tear",
+    },
+    {
+      t: "p",
+      text: "When a rotator cuff tendon suffers a partial tear, patients experience sudden weakness, inability to hold the arm outward, and sharp pain. Targeted conservative physiotherapy strengthens the surrounding compensating muscles, restoring normal function without surgery in over 85% of cases.",
+    },
+
+    // 2. Assessment
+    {
       t: "h2",
-      text: "Common Symptoms & Daily Functional Impairments",
+      text: "How We Assess Your Shoulder Pain",
+    },
+    {
+      t: "h3",
+      text: "Clinical Assessment",
+    },
+    {
+      t: "p",
+      text: "Our assessment begins with a thorough physical examination checking shoulder posture, palpatory tendon tenderness, and checking for cervical spine radiating pain.",
+    },
+    {
+      t: "h3",
+      text: "Posture and Shoulder Movement Assessment",
+    },
+    {
+      t: "p",
+      text: "We evaluate active and passive range of motion in flexion, abduction, external rotation, and internal rotation, while observing scapulohumeral rhythm during arm elevation.",
+    },
+    {
+      t: "h3",
+      text: "Identifying the Root Cause of Your Pain",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Neer and Hawkins Kennedy Impingement Tests**: Differentiating subacromial impingement from acromioclavicular (AC) joint strain.",
+        "**Empty Can and Full Can Tests**: Isolating the supraspinatus tendon to detect tendinopathy or structural weakness.",
+        "**Scapular Assistance and Retraction Tests**: Determining whether manual scapular stabilization immediately relieves pinching pain.",
+      ],
+    },
+
+    // 3. Treatment at Complete Care
+    {
+      t: "h2",
+      text: "Shoulder Pain Treatment at Complete Care",
+    },
+    {
+      t: "h3",
+      text: "Manual Therapy for Shoulder Pain",
+    },
+    {
+      t: "p",
+      text: "Our certified therapists utilize Maitland glenohumeral glides, posterior capsule stretching, and certified [Dry Needling](/top-dry-needling-therapy-services-in-ahmedabad) to release tight infraspinatus and upper trapezius trigger points.",
+    },
+    {
+      t: "h3",
+      text: "Class IV Laser Therapy for Shoulder Pain",
+    },
+    {
+      t: "p",
+      text: "Our hospital-grade [Class IV Laser Therapy](/class-iv-laser-therapy-clinic-in-ahmedabad) delivers deep photobiomodulation directly to inflamed rotator cuff tendons and the subacromial bursa, stimulating rapid cellular repair and relieving deep seated pain.",
+    },
+    {
+      t: "h3",
+      text: "IFT and Advanced Electrotherapy",
+    },
+    {
+      t: "p",
+      text: "Interferential Therapy (**IFT in physio**) and [TENS nerve stimulation](/effective-tens-treatment-in-ahmedabad-for-pain-relief) relax protective deltoid spasms and improve local blood circulation to speed up recovery.",
+    },
+    {
+      t: "h3",
+      text: "Scapular Stabilization and Kinesio Taping",
+    },
+    {
+      t: "p",
+      text: "Specialized [Kinesio Taping](/expert-kinesio-tape-therapy-in-ahmedabad) supports the shoulder blade, unloads the irritated tendon, and guides proper movement patterns throughout the day.",
+    },
+    {
+      t: "h3",
+      text: "Personalised Physiotherapy Treatment",
+    },
+    {
+      t: "p",
+      text: "We design a phased rehabilitation plan that transitions smoothly from immediate pain relief to progressive rotator cuff strengthening and full overhead functional return.",
+    },
+
+    // 4. Exercises for Shoulder Pain Relief
+    {
+      t: "h2",
+      text: "Exercises for Shoulder Pain Relief",
+    },
+    {
+      t: "h3",
+      text: "Shoulder Mobility Exercises",
+    },
+    {
+      t: "p",
+      text: "Gentle Codman pendulum swings and finger wall walks encourage joint lubrication and maintain range of motion without straining injured tendons.",
+    },
+    {
+      t: "h3",
+      text: "Chest and Posterior Capsule Stretching",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Doorway Pectoral Stretch**: Opening the chest counters rounded shoulder posture and expands the subacromial space.",
+        "**Cross Body Sleeper Stretch**: Gently elongating the posterior joint capsule prevents upward migration of the arm bone during lifting.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Rotator Cuff and Scapular Strengthening Exercises",
+    },
+    {
+      t: "ul",
+      items: [
+        "**Side Lying External Rotations**: Isolating the infraspinatus and teres minor builds dynamic stability for the shoulder joint.",
+        "**Scapular Wall Slides**: Activating the serratus anterior and lower trapezius ensures smooth upward rotation of the shoulder blade.",
+        "**Prone Y and T Raises**: Strengthening the middle back muscles balances shoulder posture and prevents repetitive impingement.",
+      ],
+    },
+    {
+      t: "h3",
+      text: "Home Exercise and Posture Guidance",
+    },
+    {
+      t: "p",
+      text: "We guide you on adjusting chair armrests, keeping elbows close to the body while typing, and using supportive sleep pillows to protect your recovering shoulder.",
+    },
+
+    // 5. Why Choose Complete Care
+    {
+      t: "h2",
+      text: "Why Choose Complete Care for Shoulder Pain?",
     },
     {
       t: "grid",
       columns: 2,
       items: [
         {
-          title: "Pain with Overhead Movements",
-          desc: "Sharp catching pain when reaching into high cabinets, putting on a shirt, or combing hair.",
+          title: "Experienced Physiotherapy Team",
+          desc: "Led by Dr. Hardik Patel (PT) with over 16+ years of clinical specialization in orthopaedic and rotator cuff rehabilitation.",
+          badge: "Clinical Leadership",
         },
         {
-          title: "Disturbed Sleep & Night Pain",
-          desc: "Deep throbbing ache that intensifies when lying on the affected shoulder or resting with the arm overhead.",
+          title: "Personalised One-on-One Care",
+          desc: "Dedicated one on one sessions tailored to your individual shoulder mechanics, work demands, and recovery goals.",
+          badge: "One-on-One",
         },
         {
-          title: "Restricted Hand-Behind-Back Reach",
-          desc: "Inability to tuck in a shirt, reach a back pocket, or fasten a bra due to painful internal rotation restriction.",
+          title: "Advanced Physiotherapy Equipment",
+          desc: "Equipped with hospital-grade Class IV laser therapy, IASTM soft tissue tools, and advanced electrotherapy.",
+          badge: "Advanced Tech",
         },
         {
-          title: "Arm Weakness & Clumsiness",
-          desc: "Sudden loss of grip or arm power when holding objects away from the body or carrying shopping bags.",
+          title: "Care Available Across Gujarat",
+          desc: "Over 85,000+ successful patient recoveries across our 6 clinical centres and dedicated doorstep home visit network.",
+          badge: "Proven Record",
         },
       ],
     },
+
+    // 6. Treatment Journey
     {
       t: "h2",
-      text: "Comprehensive Shoulder Assessment at Complete Care",
-    },
-    {
-      t: "ul",
-      items: [
-        "**Rotator Cuff Strength & Integrity Tests**: Empty Can / Full Can (Jobe's) test, External Rotation Lag sign, and Lift-off (Gerber's) test.",
-        "**Subacromial Impingement Provocation**: Neer's impingement test and Hawkins-Kennedy test to locate mechanical tendon compression.",
-        "**Scapular Rhythm & Postural Assessment**: Observing scapulohumeral rhythm through active abduction and testing serratus anterior strength against resistance.",
-        "**Cervical Spine Differential Screen**: Differentiating true shoulder pathology from referred cervical radiculopathy (C5, C6 nerve root irritation).",
-      ],
-    },
-    {
-      t: "h2",
-      text: "Our 4-Phase Shoulder Rehabilitation Protocol",
+      text: "Your Shoulder Pain Treatment Journey",
     },
     {
       t: "steps",
-      subtitle: "An evidence based protocol structured to resolve inflammation and restore full athletic/daily function:",
       steps: [
         {
           step: "01",
-          title: "Phase 1: Subacromial Decompression & Pain Control",
-          desc: "Applying [Class IV Laser Therapy](/class-iv-laser-therapy-clinic-in-ahmedabad), [IFT Therapy](/best-ift-treatment-center-in-ahmedabad), and cryo-compression to quickly subdue bursal inflammation and resting pain.",
+          title: "Initial Assessment",
+          desc: "A thorough 45-minute clinical consultation evaluating rotator cuff strength, impingement signs, and shoulder blade movement.",
         },
         {
           step: "02",
-          title: "Phase 2: Glenohumeral & Scapular Joint Mobilization",
-          desc: "Gentle posterior and inferior glenohumeral joint glides ([Manual Therapy](/manual-therapy-near-me-in-ahmedabad)), pendulum exercises, and [Kinesio Taping](/expert-kinesio-tape-therapy-in-ahmedabad) to re-center the humeral head.",
+          title: "Treatment Sessions",
+          desc: "Targeted joint mobilizations, Class IV laser therapy, myofascial release, and progressive rotator cuff retraining during your visits.",
         },
         {
           step: "03",
-          title: "Phase 3: Rotator Cuff & Scapular Stabilizer Strengthening",
-          desc: "Isometric external/internal rotations, side-lying external rotations, and serratus punches using graduated elastic resistance bands.",
-        },
-        {
-          step: "04",
-          title: "Phase 4: Functional Overhead Loading & Dynamic Stability",
-          desc: "Proprioceptive neuromuscular facilitation (PNF) patterns, wall ball push-ups, and sport/workplace specific simulated movement training.",
+          title: "Progress and Recovery Plan",
+          desc: "Regular strength re-assessments, overhead functional drills, and personalized ergonomic guidance for lasting shoulder health.",
         },
       ],
     },
+
+    // 7. Pricing Section (Service-Specific)
+    {
+      t: "h2",
+      text: "Shoulder Pain Treatment Cost in Ahmedabad",
+    },
     {
       t: "pricing",
-      title: "Estimated Shoulder Care & Therapy Pricing",
+      title: "Physiotherapy Consultation and Session Cost",
       range: "₹500 to ₹2,000",
-      consultationFee: "₹500 (Rotator Cuff & Scapular Assessment)",
+      consultationFee: "₹500 (Detailed Doctor Assessment)",
       treatmentRange: "₹500 to ₹2,000 / session",
       lowPrice: 500,
       highPrice: 2000,
       currency: "INR",
-      context: "Shoulder impingement and rotator cuff therapy sessions range from ₹500 to ₹2,000 depending on requirements for manual soft tissue release, therapeutic ultrasound, dry needling, and progressive rotator cuff resistance retraining.",
+      context: "The cost of shoulder pain treatment in Ahmedabad typically ranges from ₹500 to ₹2,000 per session depending on the underlying shoulder condition, whether treatment involves hands on manual mobilization or advanced Class IV laser therapy, session duration, and the personalized recovery plan.",
       inclusions: [
-        "Specialized shoulder orthopedic tests",
-        "Hands-on joint capsule therapy",
-        "Scapulothoracic muscle retraining",
-        "Doctor-monitored milestones"
-],
+        "Doctor led shoulder joint examination",
+        "Manual joint mobilization & myofascial release",
+        "Advanced electrotherapy & Class IV laser",
+        "Personalized rotator cuff exercise program",
+        "Zero hidden facility charges",
+      ],
+    },
+
+    // 8. When to See a Physiotherapist
+    {
+      t: "h2",
+      text: "When Should You See a Physiotherapist for Shoulder Pain?",
+    },
+    {
+      t: "p",
+      text: "You should schedule a clinical physiotherapy evaluation if your shoulder pain persists for more than 3 to 5 days, prevents you from sleeping on your side, restricts lifting your arm overhead, or causes noticeable weakness when carrying items.",
     },
     {
       t: "callout",
       variant: "warning",
-      title: "When Urgent Medical Assessment Is Needed (Red Flags)",
-      text: "Consult an emergency physician immediately if your shoulder pain occurs following a traumatic fall with visible joint deformity, if you completely cannot lift the arm after a sudden pop (suggesting an acute full-thickness tendon tear), or if shoulder pain is accompanied by chest tightness, shortness of breath, or sweating (which may signify a cardiac event).",
+      title: "Emergency Red Flags & Immediate Medical Warning Signs",
+      text: "Seek immediate emergency medical care if your shoulder pain is accompanied by chest tightness, shortness of breath, dizziness, or occurs following a high impact dislocation with complete loss of arm sensation.",
     },
+
+    // 9. Frequently Asked Questions
     {
-      t: "doctor",
-      name: "Dr. Hardik Patel (PT)",
-      role: "Founder & Director | Complete Care",
-      bio: "With over 16+ years of clinical experience, Dr. Hardik Patel specializes in non surgical  rotator cuff restoration, subacromial decompression, and complex shoulder rehabilitation protocols across Gujarat.",
-      to: "/best-physiotherapist-in-ahmedabad",
-      image: "/assets/treatments/Complete-Care-Doctor-Image-cc.webp",
-      ctaText: "Consult for Shoulder Pain",
+      t: "h2",
+      text: "Frequently Asked Questions About Shoulder Pain",
     },
     {
       t: "faq",
       faqs: [
         {
-          q: "What is the difference between shoulder impingement and frozen shoulder?",
-          a: "Shoulder impingement typically causes pain within a specific 'painful arc' of overhead movement while passive range remains relatively intact. Frozen shoulder causes global, severe restriction in all movement directions, especially external rotation and reaching behind the back.",
+          q: "Can physiotherapy heal a rotator cuff tear without surgery?",
+          a: "Yes. In the majority of partial rotator cuff tears and tendinopathies, structured physiotherapy strengthens the intact fibers and scapular stabilizers, restoring full arm movement and eliminating pain without surgery.",
         },
         {
-          q: "Can a rotator cuff tear heal with physiotherapy?",
-          a: "Partial-thickness tears and tendinopathies respond exceptionally well to conservative physiotherapy that strengthens the remaining cuff fibers and optimizes scapular mechanics, allowing patients to regain full, pain-free arm function without surgery.",
+          q: "How much does shoulder pain treatment cost in Ahmedabad?",
+          a: "At Complete Care, shoulder pain treatment sessions range from ₹500 to ₹2,000 per session depending on the required modalities and manual therapy, with an initial comprehensive doctor consultation at ₹500.",
         },
         {
-          q: "Why does my shoulder hurt worse at night when sleeping?",
-          a: "When lying down, gravity no longer helps distract the humeral head down, causing irritated tendons and bursae to compress against the acromion bone. Side-sleeping directly compresses these already inflamed structures.",
+          q: "How many physiotherapy sessions are needed for shoulder pain?",
+          a: "Acute impingement or bursitis often improves within 6 to 8 sessions. Chronic rotator cuff tendinopathy or partial tears typically benefit from a structured 10 to 14 session rehabilitation program.",
         },
         {
-          q: "How many physiotherapy sessions are typically required for shoulder recovery?",
-          a: "Subacromial bursitis and mild impingement often resolve within 6 to 10 sessions. Chronic tendinopathy or post-traumatic sprains usually require 12 to 16 sessions for complete muscular re-education.",
+          q: "Why does my shoulder hurt more at night?",
+          a: "Lying down increases pressure within the subacromial space, and resting on the affected shoulder compresses inflamed tendons and bursae, causing heightened aching at night.",
         },
         {
-          q: "Do you offer doorstep home physiotherapy for severe shoulder pain in Ahmedabad?",
-          a: "Yes. Complete Care offers specialized [doorstep home visit physiotherapy](/home-visit) across Ahmedabad for patients experiencing acute shoulder pain or limited mobility.",
+          q: "Is home visit physiotherapy available for severe shoulder pain?",
+          a: "Yes. Complete Care provides specialized [doorstep home visit physiotherapy](/home-visit) across Ahmedabad for patients who have severe pain or mobility limitations.",
         },
       ],
     },
   ],
   quickLinks: [
-    { label: "Frozen Shoulder Specialist", to: "/frozen-shoulder-treatment-doctor-in-ahmedabad" },
-    { label: "Neck Pain Doctor", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
+    { label: "Frozen Shoulder Treatment", to: "/frozen-shoulder-treatment-doctor-in-ahmedabad" },
     { label: "Class IV Laser Therapy", to: "/class-iv-laser-therapy-clinic-in-ahmedabad" },
-    { label: "Dry Needling Therapy", to: "/top-dry-needling-therapy-services-in-ahmedabad" },
-    { label: "Kinesio Taping", to: "/expert-kinesio-tape-therapy-in-ahmedabad" },
+    { label: "Neck Pain Treatment", to: "/neck-pain-treatment-doctor-in-ahmedabad" },
+    { label: "Manual Therapy", to: "/manual-therapy-near-me-in-ahmedabad" },
+    { label: "Tennis Elbow Specialist", to: "/best-doctor-for-tennis-elbow-in-ahmedabad" },
     { label: "Home Visit Physiotherapy", to: "/home-visit" },
   ],
 };

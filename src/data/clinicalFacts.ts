@@ -379,8 +379,9 @@ const specificFactsBySlug: Record<string, [HeroFact, HeroFact, HeroFact, HeroFac
  * based on page group and clinical characteristics.
  */
 export function getHeroClinicalFacts(
-  page: { slug: string; group?: string; h1?: string; label?: string; lead?: string }
+  page: { slug: string; group?: string | undefined; h1?: string | undefined; label?: string | undefined; lead?: string | undefined }
 ): [HeroFact, HeroFact, HeroFact, HeroFact] {
+
   const exact = specificFactsBySlug[page.slug];
   if (exact) {
     return exact;

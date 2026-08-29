@@ -114,7 +114,12 @@ export function HomeTemplate() {
           <div className="relative flex items-center justify-center py-4 lg:py-0">
             <img
               src="/assets/treatments/cc-home-page-image.webp"
+              srcSet="/assets/treatments/cc-home-page-image-500w.webp 500w, /assets/treatments/cc-home-page-image.webp 1000w"
+              sizes="(max-width: 640px) 420px, (max-width: 1024px) 500px, 580px"
               alt="Complete Care Physiotherapy Centres across Gujarat"
+              width={580}
+              height={580}
+              loading="eager"
               fetchPriority="high"
               decoding="async"
               className="w-full max-w-[420px] sm:max-w-[480px] lg:max-w-[540px] xl:max-w-[580px] h-auto object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
@@ -604,25 +609,28 @@ export function HomeTemplate() {
                 image: "/assets/fitness/Aerobics-images.webp",
                 related: []
               }
-            ].map((c) => (
-              <LinkCard
-                key={c.slug}
-                page={c as never}
-                kicker={
-                  c.slug === "top-physiotherapy-services-center-in-ahmedabad"
-                    ? "Physiotherapy"
-                    : c.slug === "best-neuro-spine-rehabilitation-centre-in-ahmedabad"
-                    ? "Spine & Neuro Rehab"
-                    : c.slug === "top-fitness-centre-courses-in-ahmedabad"
-                    ? "Fitness"
-                    : c.slug === "post-surgical-rehabilitation-in-ahmedabad"
-                    ? "Orthopaedic Care"
-                    : c.group === "condition-neuro"
-                    ? "Spine & Neuro Rehab"
-                    : "Orthopaedic Care"
-                }
-              />
-            ))}
+            ]
+              .filter((c): c is NonNullable<typeof c> => Boolean(c))
+              .map((c) => (
+                <LinkCard
+                  key={c.slug}
+                  page={c as never}
+                  kicker={
+                    c.slug === "top-physiotherapy-services-center-in-ahmedabad"
+                      ? "Physiotherapy"
+                      : c.slug === "best-neuro-spine-rehabilitation-centre-in-ahmedabad"
+                      ? "Spine & Neuro Rehab"
+                      : c.slug === "top-fitness-centre-courses-in-ahmedabad"
+                      ? "Fitness"
+                      : c.slug === "post-surgical-rehabilitation-in-ahmedabad"
+                      ? "Orthopaedic Care"
+                      : c.group === "condition-neuro"
+                      ? "Spine & Neuro Rehab"
+                      : "Orthopaedic Care"
+                  }
+                />
+              ))}
+
           </div>
         </div>
       </section>

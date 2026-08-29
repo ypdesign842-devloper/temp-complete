@@ -404,12 +404,14 @@ function HomePhysiotherapyPage() {
             <div className="space-y-5 sm:space-y-6 lg:col-span-7">
               <div className="inline-flex items-center gap-2 rounded-full border border-navy/10 bg-white/90 px-3.5 py-1.5 text-xs font-bold tracking-wider text-teal uppercase shadow-sm">
                 <span className="size-2 rounded-full bg-accent animate-pulse" />
-                <span>WE ARE HERE AT YOUR DOOR STEP</span>
+                <h1 className="text-xs font-bold tracking-wider text-teal uppercase inline m-0 p-0">
+                  Physiotherapy at Home in Ahmedabad
+                </h1>
               </div>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-[2.85rem] font-bold text-navy leading-[1.15] tracking-tight">
+              <p className="text-3xl sm:text-4xl lg:text-[2.85rem] font-bold text-navy leading-[1.15] tracking-tight">
                 Get Professional Physiotherapy, Just a Step Away
-              </h1>
+              </p>
 
               <p className="text-base sm:text-lg leading-relaxed text-muted-foreground max-w-2xl">
                 Hospital grade physiotherapy delivered directly at your doorstep in Ahmedabad, Mehsana, and Ankleshwar. Experienced, certified physiotherapists visit your residence with advanced portable CuraLaser, IFT, TENS, and ultrasound equipment for dedicated 1 on 1 recovery.
@@ -478,10 +480,10 @@ function HomePhysiotherapyPage() {
               Easy 4-Step Process
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              How Doorstep Physiotherapy Works
+              How Home Visit Physiotherapy in Ahmedabad Works
             </h2>
             <p className="mt-2 text-sm sm:text-base text-muted-foreground">
-              Getting expert clinical physiotherapy at your home is seamless, comfortable, and structured.
+              Getting expert clinical doorstep physiotherapy at your home is seamless, comfortable, and structured.
             </p>
           </div>
 
@@ -519,7 +521,7 @@ function HomePhysiotherapyPage() {
               Comprehensive Care
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              With You, When You Need Us the Most
+              Conditions Treated with Home Physiotherapy in Ahmedabad
             </h2>
             <p className="mt-2 text-sm sm:text-base text-muted-foreground">
               Our registered physiotherapists provide evidence based treatment directly at your home for a wide range of orthopaedic, neurological, and post surgical conditions.
@@ -571,7 +573,7 @@ function HomePhysiotherapyPage() {
               Hospital Grade Technology
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              Advance Equipment for Home Physiotherapy
+              Advanced Equipment for Doorstep Physiotherapy in Ahmedabad
             </h2>
             <p className="mt-2 text-sm sm:text-base text-muted-foreground">
               We bring clinical hospital grade modalities to your doorstep, ensuring you experience the same high standard of deep healing and tissue regeneration as our physical clinics.
@@ -587,7 +589,7 @@ function HomePhysiotherapyPage() {
               </div>
 
               <h3 className="text-2xl sm:text-3xl font-bold text-navy leading-snug">
-                Targeted Bio Stimulation &amp; Deep Pain Relief at Home
+                CuraLaser Light Therapy &amp; Portable Modalities for Deep Pain Relief
               </h3>
 
               <p className="text-sm sm:text-base leading-relaxed text-muted-foreground">
@@ -660,7 +662,7 @@ function HomePhysiotherapyPage() {
               Patient Guidance &amp; Education
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              How You Can Do Therapy at Home
+              Doctor-Guided Home Physiotherapy Video Exercise Series
             </h2>
             <p className="mt-2 text-sm sm:text-base text-muted-foreground">
               Watch our expert physiotherapists demonstrate safe, guided exercises and movement routines you can practice at home to maintain your recovery.
@@ -717,7 +719,7 @@ function HomePhysiotherapyPage() {
               Patient First Experience
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              Benefits of Physiotherapy at Home
+              Why Choose Our Physiotherapist at Home Service in Ahmedabad?
             </h2>
             <p className="mt-3 text-sm sm:text-base leading-relaxed text-muted-foreground">
               Physiotherapy has over the years proved its effectiveness in helping patients in restoring their health and enhancing their physical strength, function, and mobility. To further enhance your experience, our physiotherapists personally visit you and perform physiotherapy at home.
@@ -749,7 +751,7 @@ function HomePhysiotherapyPage() {
           {/* Reassurance Banner */}
           <div className="mt-10 rounded-3xl border border-accent/30 bg-emerald-950/5 p-6 sm:p-8 text-center max-w-3xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-bold text-navy">
-              Say Goodbye to All Your Worries and Hassles of Travel
+              Compassionate, Hospital-Grade Doorstep Physiotherapy Across Gujarat
             </h3>
             <p className="mt-2 text-sm text-muted-foreground max-w-xl mx-auto">
               With our affordable, accountable, and doctor supervised home services, you receive the highest standard of physical rehabilitation in the sanctuary of your home.
@@ -782,11 +784,9 @@ function HomePhysiotherapyPage() {
               Transparent &amp; Fair
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              Affordable Home Visit Pricing
+              Pricing for Physiotherapy Home Visit in Ahmedabad
             </h2>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Clear clinical pricing with zero hidden charges.
-            </p>
+              
           </div>
 
           <div className="rounded-3xl border border-navy/15 bg-white p-6 sm:p-8 shadow-sm">
@@ -794,7 +794,7 @@ function HomePhysiotherapyPage() {
               <div>
                 <span className="badge-emerald text-xs">Standard Doorstep Care</span>
                 <h3 className="mt-2 text-xl sm:text-2xl font-bold text-navy">
-                  Home Physiotherapy Session
+                  Doorstep Physiotherapy Session
                 </h3>
                 <p className="mt-1 text-sm text-muted-foreground">
                   Includes registered physiotherapist visit, clinical assessment, portable modalities, and guided exercise.
@@ -838,7 +838,7 @@ function HomePhysiotherapyPage() {
               Wide Geographical Reach
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              Localities Covered for Home Physiotherapy
+              Ahmedabad Localities Covered for Doorstep Physiotherapy Visits
             </h2>
             <p className="mt-2 text-sm sm:text-base text-muted-foreground">
               Our clinical teams operate across all major neighborhoods in Ahmedabad, Mehsana, and Ankleshwar.
@@ -886,7 +886,7 @@ function HomePhysiotherapyPage() {
                 Doorstep Consultation
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-                Schedule Your Physiotherapy Home Visit
+                Schedule Your Physiotherapy Home Visit in Ahmedabad Today
               </h2>
               <p className="text-sm sm:text-base leading-relaxed text-muted-foreground">
                 Take the stress out of clinical travel. Submit your details below to schedule a certified physiotherapist visit at your residence at a convenient time slot.
@@ -947,7 +947,7 @@ function HomePhysiotherapyPage() {
               Patient FAQs
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-navy">
-              Frequently Asked Questions About Home Physiotherapy
+              Frequently Asked Questions About Home Physiotherapy in Ahmedabad
             </h2>
           </div>
 
