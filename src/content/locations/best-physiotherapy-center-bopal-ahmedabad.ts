@@ -28,7 +28,7 @@ export const content: LocationContent = {
   },
   {
    "t": "p",
-   "text": "At Complete Care Physiotherapy Clinic, we take pride in being the best physiotherapy clinic in Thaltej, Ahmedabad, focused on giving individualized and results-oriented service. Our qualified physiotherapists are dedicated to helping patients overcome pain, improve flexibility, as they enhance their overall quality of life."
+   "text": "At Complete Care Physiotherapy Clinic, we take pride in being the best physiotherapy clinic in South Bopal, Ahmedabad, focused on giving individualized and results-oriented service. Our qualified physiotherapists are dedicated to helping patients overcome pain, improve flexibility, as they enhance their overall quality of life."
   },
   {
    "t": "p",
