@@ -33,3 +33,8 @@ dist-ssr
 dist_cpanel
 *.zip
 .vercel
+.env
+.env*.local
+.env.production
+.env.development
+
