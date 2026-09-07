@@ -9,6 +9,14 @@ export type Post = {
 };
 
 export const rawPosts: Post[] = [
+ {
+  "slug": "aur-aapka-repository-100-updated-aur-live-ho-jayega",
+  "title": "Aur aapka repository 100% updated aur live ho jayega!",
+  "date": "2026-09-07",
+  "image": "/assets/blogs/a92ab07bfc5578cf39e48d08f835a618.jpg",
+  "excerpt": "Aur aapka repository 100% updated aur live ho jayega! 🎯\n\nAur aapka repository 100% updated aur live ho jayega! 🎯",
+  "category": "Physiotherapy Treatments"
+},
  
  {
   "slug": "how-physiotherapy-helps-in-stroke-recovery",
