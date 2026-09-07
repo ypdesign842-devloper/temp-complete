@@ -10,6 +10,14 @@ export type Post = {
 
 export const rawPosts: Post[] = [
  {
+  "slug": "how-chiropractic-care-and-physiotherapy-relieve-sciatica-pain-without-surgery",
+  "title": "How Chiropractic Care and Physiotherapy Relieve Sciatica Pain Without Surgery",
+  "date": "2026-09-07",
+  "image": "/assets/blogs/best-dermatologist-skin-specialist-1-.png",
+  "excerpt": "Discover how computerized spinal decompression, doctor-led chiropractic adjustments, and evidence-based physiotherapy relieve chronic sciatic nerve pain and disc herniation naturally.",
+  "category": "Physiotherapy Treatments"
+},
+ {
   "slug": "aur-aapka-repository-100-updated-aur-live-ho-jayega",
   "title": "Aur aapka repository 100% updated aur live ho jayega!",
   "date": "2026-09-07",
