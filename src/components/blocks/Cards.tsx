@@ -25,14 +25,13 @@ export function LinkCard({
     >
       <div>
         {page.image ? (
-          <div className="mb-4 overflow-hidden rounded-xl border border-border bg-sand/60 flex items-center justify-center">
+          <div className="mb-4 overflow-hidden rounded-xl border border-border/80 bg-white shadow-2xs">
             <img
               src={page.image}
               alt={page.label}
               loading="lazy"
-              className={`${
-                isLandscapeBanner ? "aspect-[2.56/1] object-contain p-1.5" : "aspect-[16/10] object-cover"
-              } w-full transition-transform duration-500 group-hover:scale-105`}
+              decoding="async"
+              className="w-full h-auto block object-contain transition-transform duration-500 group-hover:scale-[1.03]"
             />
           </div>
         ) : null}
@@ -120,8 +119,10 @@ export function BlogCard({ post }: { post: Post }) {
               src={post.image}
               alt={post.title}
               loading="lazy"
+              decoding="async"
               className="aspect-[16/10] w-full object-contain p-2 transition-transform duration-500 group-hover:scale-105"
             />
+
           ) : (
             <div className="aspect-[16/10] w-full bg-sand flex items-center justify-center text-muted-foreground">
               <Sparkles className="size-8 text-teal/40" />

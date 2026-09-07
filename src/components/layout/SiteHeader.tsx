@@ -3,12 +3,15 @@ import {
   Calendar,
   ChevronDown,
   Clock,
+  Facebook,
+  Instagram,
   Mail,
   MapPin,
   Menu,
   Phone,
   Sparkles,
   X,
+  Youtube,
   MessageCircle,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -108,6 +111,7 @@ export const aboutMenu = [
   { label: "Dr. Hardik Patel", to: "/best-physiotherapist-in-ahmedabad" },
   { label: "Dr. Foram Patel", to: "/female-fitness-trainer-in-ahmedabad" },
   { label: "Our Team", to: "/our-team" },
+  { label: "Careers & Join Us", to: "/career" },
   { label: "Certifications & Credentials", to: "/certifications" },
   { label: "Our Centres", to: "/best-physiotherapy-center-thaltej-ahmedabad" },
 ];
@@ -209,19 +213,29 @@ export function SiteHeader() {
             <span className="text-[11px] font-semibold tracking-wider text-leaf uppercase">
               6 Clinics Across Gujarat
             </span>
-            <div className="flex items-center gap-3 border-l border-white/15 pl-4">
-              {site.socials.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-navy-foreground/80 transition-colors hover:text-leaf"
-                  aria-label={s.label}
-                >
-                  {s.label}
-                </a>
-              ))}
+            <div className="flex items-center gap-3.5 border-l border-white/15 pl-4">
+              {site.socials.map((s) => {
+                const Icon =
+                  s.label === "Facebook"
+                    ? Facebook
+                    : s.label === "Instagram"
+                    ? Instagram
+                    : Youtube;
+                return (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-navy-foreground/80 transition-all duration-200 hover:text-leaf hover:scale-105"
+                    aria-label={s.label}
+                    title={s.label}
+                  >
+                    <Icon className="size-3.5 text-leaf/90" />
+                    <span className="text-[11px] font-medium">{s.label}</span>
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -256,15 +270,7 @@ export function SiteHeader() {
             aria-label="Main Navigation"
             className="hidden items-center gap-0.5 xl:flex"
           >
-            {/* 1. Home */}
-            <Link
-              to="/"
-              className="rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all hover:bg-sand hover:text-accent"
-            >
-              Home
-            </Link>
-
-            {/* 2. About Us (Dropdown) */}
+            {/* 1. About Us (Dropdown) */}
             <div className="group relative">
               <Link
                 to="/best-physiotherapy-clinic-in-ahmedabad"
@@ -417,12 +423,20 @@ export function SiteHeader() {
               Home Visit
             </Link>
 
-            {/* 8. Gallery */}
+            {/* 7. Gallery */}
             <Link
               to="/media"
               className="rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all hover:bg-sand hover:text-accent"
             >
               Gallery
+            </Link>
+
+            {/* 8. Career */}
+            <Link
+              to="/career"
+              className="rounded-md px-3 py-2 text-[14px] font-semibold text-navy transition-all hover:bg-sand hover:text-accent"
+            >
+              Career
             </Link>
           </nav>
 
@@ -460,14 +474,6 @@ export function SiteHeader() {
         className={`fixed inset-x-0 top-full max-h-[85vh] overflow-y-auto border-b border-border bg-card/98 p-5 shadow-2xl backdrop-blur-xl xl:hidden z-50 ${open ? "block" : "hidden"}`}
       >
           <div className="space-y-3 pb-6">
-            <Link
-              to="/"
-              onClick={() => setOpen(false)}
-              className="block rounded-xl border border-border/80 bg-background/50 px-5 py-3 text-sm font-bold text-navy hover:bg-sand"
-            >
-              Home
-            </Link>
-
             {/* Mobile About Accordion */}
             <div className="rounded-xl border border-border/80 bg-background/50 p-2">
               <div className="flex min-h-11 w-full items-center justify-between px-3 py-1">
@@ -648,6 +654,14 @@ export function SiteHeader() {
               className="block rounded-xl border border-border/80 bg-background/50 px-5 py-3 text-sm font-bold text-navy hover:bg-sand"
             >
               Gallery
+            </Link>
+
+            <Link
+              to="/career"
+              onClick={() => setOpen(false)}
+              className="block rounded-xl border border-border/80 bg-background/50 px-5 py-3 text-sm font-bold text-navy hover:bg-sand"
+            >
+              Career
             </Link>
 
             {/* Mobile Action Buttons */}

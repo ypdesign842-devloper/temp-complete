@@ -30,6 +30,7 @@ export const primaryNav: NavGroup[] = [
       { label: "Best Physiotherapy Clinic in Ahmedabad", to: "/best-physiotherapy-clinic-in-ahmedabad" },
       { label: "Best Physiotherapist in Ahmedabad", to: "/best-physiotherapist-in-ahmedabad" },
       { label: "Our Team", to: "/our-team" },
+      { label: "Careers", to: "/career" },
       { label: "Media", to: "/media" },
       { label: "Video", to: "/video" },
     ],

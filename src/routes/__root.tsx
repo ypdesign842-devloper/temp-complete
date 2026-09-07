@@ -7,14 +7,16 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { StickyContactBar } from "@/components/layout/StickyContactBar";
-import { Toaster } from "@/components/ui/sonner";
+
+const LazyToaster = lazy(() => import("@/components/ui/sonner").then((m) => ({ default: m.Toaster })));
+
 
 function NotFoundComponent() {
   return (
@@ -86,6 +88,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "preconnect", href: "https://completecare.in" },
+      { rel: "dns-prefetch", href: "https://completecare.in" },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "apple-touch-icon", href: "/assets/brand/cc-favicon.webp" },
@@ -130,7 +134,9 @@ function RootComponent() {
         </main>
         <SiteFooter />
         <StickyContactBar />
-        <Toaster />
+        <Suspense fallback={null}>
+          <LazyToaster />
+        </Suspense>
       </div>
     </QueryClientProvider>
   );

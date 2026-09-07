@@ -189,6 +189,9 @@ export function HomeTemplate() {
                         src="/assets/treatments/Complete-Care-Doctor-Image-cc.webp"
                         alt="Dr. Hardik Patel (PT), Director & Chief Physiotherapist at Complete Care"
                         loading="lazy"
+                        decoding="async"
+                        width={320}
+                        height={416}
                         className="size-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute bottom-2 left-2 right-2 rounded-lg bg-navy/90 py-1 text-center backdrop-blur-sm">
@@ -233,8 +236,12 @@ export function HomeTemplate() {
                         src="/assets/fitness/dr.-foram-patel-cc.webp"
                         alt="Dr. Foram Patel (PT), Founder & Fitness Director at Complete Care"
                         loading="lazy"
+                        decoding="async"
+                        width={320}
+                        height={416}
                         className="size-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                       />
+
                       <div className="absolute bottom-2 left-2 right-2 rounded-lg bg-navy/90 py-1 text-center backdrop-blur-sm">
                         <span className="text-[10px] font-bold text-white tracking-wider">7+ Yrs Exp</span>
                       </div>
@@ -280,6 +287,7 @@ export function HomeTemplate() {
       </section>
 
       {/* Advanced Treatments & Modalities Showcase — Clean Light Layout on #f9f7ef */}
+      {/*
       <section className="section-y bg-[#f9f7ef] border-t border-border/80">
         <div className="container-cc">
           <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
@@ -300,7 +308,6 @@ export function HomeTemplate() {
             </Link>
           </div>
 
-          {/* Modality Grid */}
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {modalities.slice(0, 12).map((m) => (
               <Link
@@ -331,6 +338,7 @@ export function HomeTemplate() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Specialised Chiropractic & Spinal Health Section */}
       <section className="section-y bg-[#f9f7ef] border-t border-border/80 overflow-hidden">
@@ -471,6 +479,9 @@ export function HomeTemplate() {
                         src="/assets/heroes/Dr-Hardik-Patel.webp"
                         alt="Dr. Hardik Patel (PT), Director and Senior Physical Therapist"
                         loading="lazy"
+                        decoding="async"
+                        width={330}
+                        height={440}
                         className="w-full h-auto object-contain drop-shadow-2xl"
                       />
 
@@ -563,7 +574,78 @@ export function HomeTemplate() {
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              ...orthoConditions.slice(0, 7),
+              {
+                slug: "top-physiotherapy-services-center-in-ahmedabad",
+                group: "pillar",
+                label: "Physiotherapy",
+                h1: "Physiotherapy Services in Ahmedabad",
+                title: "Physiotherapy Services in Ahmedabad",
+                description: "Comprehensive clinical physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical recovery.",
+                lead: "Comprehensive clinical physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical orthopaedic recovery.",
+                image: "/assets/home care ares/Physiotherapy.jpg",
+                kicker: "Physiotherapy",
+                related: [],
+              },
+              {
+                slug: "back-pain-doctor-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Back Pain",
+                h1: "Back Pain Treatment in Ahmedabad",
+                title: "Back Pain Treatment in Ahmedabad",
+                description: "Specialised physical therapy and spinal decompression for lumbar spondylosis, muscle spasms, and chronic lower back pain.",
+                lead: "Specialised physical therapy and spinal decompression for lumbar spondylosis, muscle spasms, and chronic lower back pain.",
+                image: "/assets/home care ares/Back Pain Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
+              {
+                slug: "frozen-shoulder-treatment-doctor-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Frozen Shoulder",
+                h1: "Frozen Shoulder Treatment in Ahmedabad",
+                title: "Frozen Shoulder Treatment in Ahmedabad",
+                description: "Advanced mobilization, Class IV laser therapy, and active stretching to restore full capsular mobility and shoulder range of motion.",
+                lead: "Advanced mobilization, Class IV laser therapy, and active stretching to restore full capsular mobility and shoulder range of motion.",
+                image: "/assets/home care ares/Frozen Shoulder Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
+              {
+                slug: "knee-pain-treatment-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Knee Pain",
+                h1: "Knee Pain Treatment in Ahmedabad",
+                title: "Knee Pain Treatment in Ahmedabad",
+                description: "Evidence based non-surgical recovery for knee osteoarthritis, meniscus injuries, ligament sprains, and chronic knee stiffness.",
+                lead: "Evidence based non-surgical recovery for knee osteoarthritis, meniscus injuries, ligament sprains, and chronic knee stiffness.",
+                image: "/assets/home care ares/Knee Pain Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
+              {
+                slug: "top-fitness-centre-courses-in-ahmedabad",
+                group: "fitness",
+                label: "Fitness & Medical Exercise",
+                h1: "Medical Fitness & Exercise Studio in Ahmedabad",
+                title: "Medical Fitness & Exercise Studio in Ahmedabad",
+                description: "Physiotherapist-supervised exercise studio offering medical fitness, posture training, core strength, and injury prevention.",
+                lead: "Physiotherapist-supervised exercise studio offering medical fitness, posture training, core strength, and injury prevention.",
+                image: "/assets/home care ares/Fitness Physiotherapy.jpg",
+                kicker: "Medical Fitness",
+                related: [],
+              },
+              {
+                slug: "neck-pain-treatment-doctor-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Neck Pain",
+                h1: "Neck Pain Treatment in Ahmedabad",
+                title: "Neck Pain Treatment in Ahmedabad",
+                description: "Doctor-led cervical alignment, posture rehabilitation, and manual release for cervical spondylosis, muscle spasm, and tech neck.",
+                lead: "Doctor-led cervical alignment, posture rehabilitation, and manual release for cervical spondylosis, muscle spasm, and tech neck.",
+                image: "/assets/home care ares/Neck pain Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
               {
                 slug: "post-surgical-rehabilitation-in-ahmedabad",
                 group: "condition-ortho",
@@ -572,70 +654,79 @@ export function HomeTemplate() {
                 title: "Post Surgical Rehabilitation in Ahmedabad",
                 description: "Structured postoperative physiotherapy for knee and hip replacement, spine surgery, ACL reconstruction, and fracture recovery.",
                 lead: "Structured postoperative physiotherapy for knee and hip replacement, spine surgery, ACL reconstruction, and fracture recovery.",
-                image: "/assets/blogs/Knee-Surgery.png",
-                related: []
+                image: "/assets/home care ares/Post Surgical Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
               },
-              neuroConditions[0], // Spinal Cord Injury
               {
-                slug: "top-physiotherapy-services-center-in-ahmedabad",
-                group: "pillar",
-                label: "Physiotherapy",
-                h1: "Physiotherapy Services in Ahmedabad",
-                title: "Physiotherapy Services in Ahmedabad",
-                description: "Comprehensive clinical physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical recovery.",
-                lead: "Evidence based physiotherapy for neck, back, knee, joint pain, sports injuries, and post surgical orthopaedic recovery.",
-                image: "/assets/blogs/Physiotherapy-Treatment.png",
-                related: []
+                slug: "sciatica-pain-treatment-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Sciatica",
+                h1: "Sciatica Pain Treatment in Ahmedabad",
+                title: "Sciatica Pain Treatment in Ahmedabad",
+                description: "Targeted spinal decompression, neural mobilization, and core stabilization for radiating leg pain and pinched sciatic nerves.",
+                lead: "Targeted spinal decompression, neural mobilization, and core stabilization for radiating leg pain and pinched sciatic nerves.",
+                image: "/assets/home care ares/Sciatica Pain Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
+              {
+                slug: "shoulder-pain-treatment-doctor-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Shoulder Pain",
+                h1: "Shoulder Pain Treatment in Ahmedabad",
+                title: "Shoulder Pain Treatment in Ahmedabad",
+                description: "Comprehensive assessment and targeted therapy for rotator cuff tendinitis, impingement syndrome, bursitis, and joint strain.",
+                lead: "Comprehensive assessment and targeted therapy for rotator cuff tendinitis, impingement syndrome, bursitis, and joint strain.",
+                image: "/assets/home care ares/Shoulder Pain Physiotherapy.jpg",
+                kicker: "Orthopaedic Care",
+                related: [],
+              },
+              {
+                slug: "slipped-herniated-disc-physiotherapy-treatment-in-ahmedabad",
+                group: "condition-ortho",
+                label: "Slip Disc",
+                h1: "Slip Disc & Herniated Disc Treatment in Ahmedabad",
+                title: "Slip Disc & Herniated Disc Treatment in Ahmedabad",
+                description: "Non-surgical computerized spinal decompression and physiotherapy to relieve disc pressure and heal herniations.",
+                lead: "Non-surgical computerized spinal decompression and physiotherapy to relieve disc pressure and heal herniations.",
+                image: "/assets/home care ares/Slip Disc Physiotherapy.jpg",
+                kicker: "Spinal Care",
+                related: [],
+              },
+              {
+                slug: "spinal-cord-specialist-in-ahmedabad",
+                group: "condition-neuro",
+                label: "Spinal Cord Injury",
+                h1: "Spinal Cord Injury Specialist in Ahmedabad",
+                title: "Spinal Cord Injury Specialist in Ahmedabad",
+                description: "Intensive neuro-rehabilitation to restore motor control, functional balance, transfers, and daily independence.",
+                lead: "Intensive neuro-rehabilitation to restore motor control, functional balance, transfers, and daily independence.",
+                image: "/assets/home care ares/Spinal Cord Injury Physiotherapy.jpg",
+                kicker: "Spine & Neuro Rehab",
+                related: [],
               },
               {
                 slug: "best-neuro-spine-rehabilitation-centre-in-ahmedabad",
                 group: "pillar",
-                label: "Spine-Neuro Rehab",
+                label: "Spine & Neuro Rehab",
                 h1: "Spine & Neuro Rehabilitation in Ahmedabad",
                 title: "Spine & Neuro Rehabilitation in Ahmedabad",
                 description: "Specialised neuro physical therapy for stroke recovery, spinal cord injury, Parkinson's disease, and nerve disorders.",
                 lead: "Specialised neuro physical therapy for stroke recovery, spinal cord injury, Parkinson's disease, and nerve disorders.",
-                image: "/assets/treatments/Spinal-cord-injury-images.webp",
-                related: []
+                image: "/assets/home care ares/Spine & Neuro Rehab Physiotherapy.jpg",
+                kicker: "Spine & Neuro Rehab",
+                related: [],
               },
-              {
-                slug: "top-fitness-centre-courses-in-ahmedabad",
-                group: "fitness",
-                label: "Fitness",
-                h1: "Medical Fitness & Studio in Ahmedabad",
-                title: "Medical Fitness & Studio in Ahmedabad",
-                description: "Doctor supervised exercise studio offering clinical Pilates, HIIT workouts, strength training, power yoga, and Zumba.",
-                lead: "Doctor supervised exercise studio offering clinical Pilates, HIIT workouts, strength training, power yoga, and Zumba.",
-                image: "/assets/fitness/Aerobics-images.webp",
-                related: []
-              }
-            ]
-              .filter((c): c is NonNullable<typeof c> => Boolean(c))
-              .map((c) => (
-                <LinkCard
-                  key={c.slug}
-                  page={c as never}
-                  kicker={
-                    c.slug === "top-physiotherapy-services-center-in-ahmedabad"
-                      ? "Physiotherapy"
-                      : c.slug === "best-neuro-spine-rehabilitation-centre-in-ahmedabad"
-                      ? "Spine & Neuro Rehab"
-                      : c.slug === "top-fitness-centre-courses-in-ahmedabad"
-                      ? "Fitness"
-                      : c.slug === "post-surgical-rehabilitation-in-ahmedabad"
-                      ? "Orthopaedic Care"
-                      : c.group === "condition-neuro"
-                      ? "Spine & Neuro Rehab"
-                      : "Orthopaedic Care"
-                  }
-                />
-              ))}
-
+            ].map((c) => (
+              <LinkCard key={c.slug} page={c as never} kicker={c.kicker} />
+            ))}
           </div>
         </div>
       </section>
 
       {/* Six Centres Across Gujarat */}
+      {/*
       <section id="clinic-network" className="py-10 sm:py-16 lg:py-20 bg-[#f9f7ef] border-t border-border/80">
         <div className="container-cc">
           <div className="flex flex-col justify-between gap-3 sm:gap-4 md:flex-row md:items-end">
@@ -659,7 +750,6 @@ export function HomeTemplate() {
             </a>
           </div>
 
-          {/* Single Large Bordered Container with 3x2 Grid Dividers */}
           <div className="mt-6 sm:mt-8 lg:mt-10 overflow-hidden rounded-3xl border border-navy/15 bg-white shadow-sm">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {locations.map((l, index) => (
@@ -678,7 +768,6 @@ export function HomeTemplate() {
                     index % 3 !== 2 ? "lg:border-r lg:border-navy/10" : "lg:border-r-0"
                   }`}
                 >
-                  {/* Subtle Inner Accent Highlight Sweep (#96C12D) */}
                   <div
                     aria-hidden="true"
                     className="pointer-events-none absolute inset-x-0 top-0 h-[2.5px] bg-[#96C12D] scale-x-0 opacity-0 transition-all duration-300 ease-out origin-left group-hover:scale-x-100 group-hover:opacity-100 motion-reduce:transition-none"
@@ -722,6 +811,7 @@ export function HomeTemplate() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Patient Testimonials — 18 Rotating Reviews */}
       <Testimonials />

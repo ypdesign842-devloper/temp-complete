@@ -5,13 +5,16 @@ import {
   Calendar,
   ChevronRight,
   Clock,
+  Facebook,
   HeartPulse,
+  Instagram,
   Mail,
   MapPin,
   Navigation,
   Phone,
   ShieldCheck,
   Sparkles,
+  Youtube,
 } from "lucide-react";
 import { locations } from "@/data/locations";
 import { site } from "@/data/site";
@@ -170,19 +173,28 @@ export function SiteFooter() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 pt-1">
-                {site.socials.map((s) => (
-                  <a
-                    key={s.label}
-                    href={s.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex size-8 items-center justify-center rounded-lg border border-white/15 bg-white/5 text-xs text-white transition-colors hover:border-leaf hover:bg-leaf hover:text-leaf-foreground"
-                    aria-label={s.label}
-                  >
-                    {s.label[0]}
-                  </a>
-                ))}
+              <div className="flex items-center gap-2.5 pt-1">
+                {site.socials.map((s) => {
+                  const Icon =
+                    s.label === "Facebook"
+                      ? Facebook
+                      : s.label === "Instagram"
+                      ? Instagram
+                      : Youtube;
+                  return (
+                    <a
+                      key={s.label}
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex size-9 items-center justify-center rounded-xl border border-white/15 bg-white/5 text-white/85 transition-all duration-200 hover:scale-110 hover:border-leaf hover:bg-leaf hover:text-navy hover:shadow-md hover:shadow-leaf/20"
+                      aria-label={`Follow Complete Care on ${s.label}`}
+                      title={`Follow Complete Care on ${s.label}`}
+                    >
+                      <Icon className="size-4" />
+                    </a>
+                  );
+                })}
               </div>
             </div>
 
@@ -213,10 +225,10 @@ export function SiteFooter() {
                 <li>
                   <Link
                     to="/certifications"
-                    className="group flex items-center gap-1.5 font-medium text-white transition-colors hover:text-leaf"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
                   >
-                    <ChevronRight className="size-3 text-leaf transition-transform group-hover:translate-x-1" />
-                    <span className="text-leaf">Certifications &amp; Credentials</span>
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>Certifications &amp; Credentials</span>
                   </Link>
                 </li>
                 <li>
@@ -235,6 +247,15 @@ export function SiteFooter() {
                   >
                     <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
                     <span>Clinical Insights Blog</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/career"
+                    className="group flex items-center gap-1.5 text-navy-foreground/80 transition-colors hover:text-white"
+                  >
+                    <ChevronRight className="size-3 text-leaf/60 transition-transform group-hover:translate-x-1" />
+                    <span>Careers / Join Us</span>
                   </Link>
                 </li>
               </ul>

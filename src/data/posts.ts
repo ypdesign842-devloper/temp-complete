@@ -8,7 +8,8 @@ export type Post = {
  category: string | null;
 };
 
-export const posts: Post[] = [
+export const rawPosts: Post[] = [
+ 
  {
   "slug": "how-physiotherapy-helps-in-stroke-recovery",
   "title": "How Physiotherapy Helps in Stroke Recovery",
@@ -642,5 +643,9 @@ export const posts: Post[] = [
   "category": "Bell's Palsy Physiotherapy"
  }
 ];
+
+export const posts: Post[] = [...rawPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
 
 export const postsBySlug = new Map(posts.map((p) => [p.slug, p]));

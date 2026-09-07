@@ -63,7 +63,7 @@ export const locations: Location[] = [
   "whatsapp": "https://wa.me/919879676676",
   "mapUrl": "https://maps.app.goo.gl/Mm7jrMizcUYSHZp46",
   "hours": null,
-  "hero": "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos1.webp"
+  "hero": "/assets/clinics/south bopal clinic image.jpeg"
  },
  {
   "slug": "best-physiotherapy-center-nikol-ahmedabad",

@@ -357,6 +357,29 @@
   animation: ccPulseGlow 2.5s infinite;
 }
 
+.input-field {
+  width: 100%;
+  border-radius: 0.875rem;
+  border: 1px solid var(--border);
+  background-color: #ffffff;
+  padding: 0.8125rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--navy);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-field:focus {
+  border-color: #16803d;
+  box-shadow: 0 0 0 3px rgba(22, 128, 61, 0.15);
+}
+
+.input-field::placeholder {
+  color: var(--muted-foreground);
+  opacity: 0.7;
+}
+
 /* a11y-focus */
 @layer base {
   :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {

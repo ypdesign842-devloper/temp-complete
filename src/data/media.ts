@@ -20,6 +20,11 @@ export const mediaImages: MediaImage[] = [
   "caption": "Complete Care Gota centre"
  },
  {
+  "src": "/assets/clinics/south bopal clinic image.jpeg",
+  "branch": "South Bopal",
+  "caption": "Complete Care South Bopal centre"
+ },
+ {
   "src": "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos1.webp",
   "branch": "South Bopal",
   "caption": "Complete Care South Bopal centre"

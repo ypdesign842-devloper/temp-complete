@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AdvancedPhysicalTherapyInAhmedabadRouteImport } from './routes/advanced-physical-therapy-in-ahmedabad'
 import { Route as AnklePainTreatmentDoctorInAhmedabadRouteImport } from './routes/ankle-pain-treatment-doctor-in-ahmedabad'
 import { Route as BackPainDoctorInAhmedabadRouteImport } from './routes/back-pain-doctor-in-ahmedabad'
@@ -40,6 +41,7 @@ import { Route as BestPowerYogaClassesAhmedabadRouteImport } from './routes/best
 import { Route as BlogsRouteImport } from './routes/blogs'
 import { Route as BoneStrengthPhysiotherapyForOsteoporosisRouteImport } from './routes/bone-strength-physiotherapy-for-osteoporosis'
 import { Route as CareAreasRouteImport } from './routes/care-areas'
+import { Route as CareerRouteImport } from './routes/career'
 import { Route as CerebralPalsyPhysiotherapyWalkingRouteImport } from './routes/cerebral-palsy-physiotherapy-walking'
 import { Route as CerebralPalsyTreatmentInAhmedabadRouteImport } from './routes/cerebral-palsy-treatment-in-ahmedabad'
 import { Route as CertificationsRouteImport } from './routes/certifications'
@@ -177,6 +179,11 @@ import { Route as ZumbaClassesInAhmedabadRouteImport } from './routes/zumba-clas
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdvancedPhysicalTherapyInAhmedabadRoute =
@@ -355,6 +362,11 @@ const BoneStrengthPhysiotherapyForOsteoporosisRoute =
 const CareAreasRoute = CareAreasRouteImport.update({
   id: '/care-areas',
   path: '/care-areas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CareerRoute = CareerRouteImport.update({
+  id: '/career',
+  path: '/career',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CerebralPalsyPhysiotherapyWalkingRoute =
@@ -1151,6 +1163,7 @@ const ZumbaClassesInAhmedabadRoute = ZumbaClassesInAhmedabadRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/advanced-physical-therapy-in-ahmedabad': typeof AdvancedPhysicalTherapyInAhmedabadRoute
   '/ankle-pain-treatment-doctor-in-ahmedabad': typeof AnklePainTreatmentDoctorInAhmedabadRoute
   '/back-pain-doctor-in-ahmedabad': typeof BackPainDoctorInAhmedabadRoute
@@ -1181,6 +1194,7 @@ export interface FileRoutesByFullPath {
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/care-areas': typeof CareAreasRoute
+  '/career': typeof CareerRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1317,6 +1331,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/advanced-physical-therapy-in-ahmedabad': typeof AdvancedPhysicalTherapyInAhmedabadRoute
   '/ankle-pain-treatment-doctor-in-ahmedabad': typeof AnklePainTreatmentDoctorInAhmedabadRoute
   '/back-pain-doctor-in-ahmedabad': typeof BackPainDoctorInAhmedabadRoute
@@ -1347,6 +1362,7 @@ export interface FileRoutesByTo {
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/care-areas': typeof CareAreasRoute
+  '/career': typeof CareerRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1484,6 +1500,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/advanced-physical-therapy-in-ahmedabad': typeof AdvancedPhysicalTherapyInAhmedabadRoute
   '/ankle-pain-treatment-doctor-in-ahmedabad': typeof AnklePainTreatmentDoctorInAhmedabadRoute
   '/back-pain-doctor-in-ahmedabad': typeof BackPainDoctorInAhmedabadRoute
@@ -1514,6 +1531,7 @@ export interface FileRoutesById {
   '/blogs': typeof BlogsRoute
   '/bone-strength-physiotherapy-for-osteoporosis': typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   '/care-areas': typeof CareAreasRoute
+  '/career': typeof CareerRoute
   '/cerebral-palsy-physiotherapy-walking': typeof CerebralPalsyPhysiotherapyWalkingRoute
   '/cerebral-palsy-treatment-in-ahmedabad': typeof CerebralPalsyTreatmentInAhmedabadRoute
   '/certifications': typeof CertificationsRoute
@@ -1652,6 +1670,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/admin'
     | '/advanced-physical-therapy-in-ahmedabad'
     | '/ankle-pain-treatment-doctor-in-ahmedabad'
     | '/back-pain-doctor-in-ahmedabad'
@@ -1682,6 +1701,7 @@ export interface FileRouteTypes {
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/care-areas'
+    | '/career'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -1818,6 +1838,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/admin'
     | '/advanced-physical-therapy-in-ahmedabad'
     | '/ankle-pain-treatment-doctor-in-ahmedabad'
     | '/back-pain-doctor-in-ahmedabad'
@@ -1848,6 +1869,7 @@ export interface FileRouteTypes {
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/care-areas'
+    | '/career'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -1984,6 +2006,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/admin'
     | '/advanced-physical-therapy-in-ahmedabad'
     | '/ankle-pain-treatment-doctor-in-ahmedabad'
     | '/back-pain-doctor-in-ahmedabad'
@@ -2014,6 +2037,7 @@ export interface FileRouteTypes {
     | '/blogs'
     | '/bone-strength-physiotherapy-for-osteoporosis'
     | '/care-areas'
+    | '/career'
     | '/cerebral-palsy-physiotherapy-walking'
     | '/cerebral-palsy-treatment-in-ahmedabad'
     | '/certifications'
@@ -2151,6 +2175,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AdminRoute: typeof AdminRoute
   AdvancedPhysicalTherapyInAhmedabadRoute: typeof AdvancedPhysicalTherapyInAhmedabadRoute
   AnklePainTreatmentDoctorInAhmedabadRoute: typeof AnklePainTreatmentDoctorInAhmedabadRoute
   BackPainDoctorInAhmedabadRoute: typeof BackPainDoctorInAhmedabadRoute
@@ -2181,6 +2206,7 @@ export interface RootRouteChildren {
   BlogsRoute: typeof BlogsRoute
   BoneStrengthPhysiotherapyForOsteoporosisRoute: typeof BoneStrengthPhysiotherapyForOsteoporosisRoute
   CareAreasRoute: typeof CareAreasRoute
+  CareerRoute: typeof CareerRoute
   CerebralPalsyPhysiotherapyWalkingRoute: typeof CerebralPalsyPhysiotherapyWalkingRoute
   CerebralPalsyTreatmentInAhmedabadRoute: typeof CerebralPalsyTreatmentInAhmedabadRoute
   CertificationsRoute: typeof CertificationsRoute
@@ -2323,6 +2349,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/advanced-physical-therapy-in-ahmedabad': {
@@ -2533,6 +2566,13 @@ declare module '@tanstack/react-router' {
       path: '/care-areas'
       fullPath: '/care-areas'
       preLoaderRoute: typeof CareAreasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/career': {
+      id: '/career'
+      path: '/career'
+      fullPath: '/career'
+      preLoaderRoute: typeof CareerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cerebral-palsy-physiotherapy-walking': {
@@ -3471,6 +3511,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AdminRoute: AdminRoute,
   AdvancedPhysicalTherapyInAhmedabadRoute:
     AdvancedPhysicalTherapyInAhmedabadRoute,
   AnklePainTreatmentDoctorInAhmedabadRoute:
@@ -3520,6 +3561,7 @@ const rootRouteChildren: RootRouteChildren = {
   BoneStrengthPhysiotherapyForOsteoporosisRoute:
     BoneStrengthPhysiotherapyForOsteoporosisRoute,
   CareAreasRoute: CareAreasRoute,
+  CareerRoute: CareerRoute,
   CerebralPalsyPhysiotherapyWalkingRoute:
     CerebralPalsyPhysiotherapyWalkingRoute,
   CerebralPalsyTreatmentInAhmedabadRoute:

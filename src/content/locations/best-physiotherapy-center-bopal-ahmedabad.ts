@@ -2,8 +2,9 @@ import type { LocationContent } from "@/data/types";
 
 export const content: LocationContent = {
  "slug": "best-physiotherapy-center-bopal-ahmedabad",
- "hero": "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos1.webp",
+ "hero": "/assets/clinics/south bopal clinic image.jpeg",
  "gallery": [
+  "/assets/clinics/south bopal clinic image.jpeg",
   "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos1.webp",
   "/assets/media/Complete-care-South-Bopal-Ahmedabad-Clinic-photos2.webp",
   "/assets/media/Complete-care-Thaltej-Ahmedabad-Clinic-photos5.webp",

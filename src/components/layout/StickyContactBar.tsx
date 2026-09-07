@@ -29,11 +29,11 @@ export function StickyContactBar() {
         href={site.whatsapp}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat on WhatsApp with Complete Care"
+        aria-label="Discuss Your Pain on WhatsApp with Complete Care"
         className="group fixed right-6 bottom-6 z-40 hidden items-center gap-2.5 rounded-full bg-emerald-500 px-4 py-3 text-white shadow-lg shadow-emerald-500/25 transition-all duration-300 hover:scale-105 hover:bg-emerald-600 hover:shadow-xl sm:flex"
       >
         <MessageCircle className="size-5 fill-current" />
-        <span className="text-xs font-bold tracking-wide">Chat with Clinician</span>
+        <span className="text-xs font-bold tracking-wide">Discuss Your Pain</span>
       </a>
     </>
   );

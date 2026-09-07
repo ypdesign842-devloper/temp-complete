@@ -16,7 +16,10 @@ if (existsSync(resolve("public/assets"))) {
   cpSync(resolve("public/assets"), resolve(deployDir, "assets"), { recursive: true });
 }
 
-// 3. Copy sitemap and robots
+// 3. Copy sitemap, robots, and api endpoints
+if (existsSync(resolve("public/api"))) {
+  cpSync(resolve("public/api"), resolve(deployDir, "api"), { recursive: true });
+}
 if (existsSync(resolve("public/sitemap.xml"))) {
   cpSync(resolve("public/sitemap.xml"), resolve(deployDir, "sitemap.xml"));
 }

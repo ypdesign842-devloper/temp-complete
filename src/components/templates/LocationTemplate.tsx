@@ -268,13 +268,13 @@ export function LocationTemplate({ data, content }: { data: Location; content: L
             </div>
 
             {/* Right Hero Visual */}
-            <div className="lg:col-span-5">
-              <div className="relative overflow-hidden rounded-3xl border border-navy/12 bg-white p-2 shadow-xl shadow-navy/8">
-                <div className="relative aspect-[4/3] sm:aspect-[16/11] overflow-hidden rounded-2xl bg-sand">
+            <div className="lg:col-span-5 flex items-center justify-center">
+              <div className="relative w-full overflow-hidden rounded-3xl border border-navy/12 bg-white p-2.5 shadow-xl shadow-navy/8">
+                <div className="relative aspect-[4/5] sm:aspect-[4/5] lg:aspect-[4/5] min-h-[380px] sm:min-h-[460px] lg:min-h-[500px] overflow-hidden rounded-2xl bg-sand">
                   <img
                     src={content.hero || data.hero || "/assets/media/Complete-care-Thaltej-Ahmedabad-Clinic-photos1.webp"}
                     alt={`Complete Care Physiotherapy Centre in ${data.name}, ${data.city}`}
-                    className="size-full object-cover transition-transform duration-700 hover:scale-105"
+                    className="size-full object-cover object-top transition-transform duration-700 hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent pointer-events-none" />
 
