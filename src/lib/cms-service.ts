@@ -166,6 +166,39 @@ export const Route = createFileRoute("/${payload.slug}")({
 }
 
 /**
+ * Updates or adds a post into src/data/posts.ts content string
+ */
+export function addOrUpdatePostInPostsTs(
+  postsTsContent: string,
+  item: {
+    slug: string;
+    title: string;
+    date: string;
+    image: string;
+    excerpt: string;
+    category: string | null;
+  }
+): string {
+  if (postsTsContent.includes(`"slug": "${item.slug}"`)) {
+    const regex = new RegExp(`\\{\\s*"slug":\\s*"${item.slug}"[\\s\\S]*?\\}(,|(?=\\s*\\]))?`);
+    return postsTsContent.replace(regex, `${JSON.stringify(item, null, 2)},`);
+  } else {
+    return postsTsContent.replace(
+      /export const rawPosts: Post\[\] = \[/,
+      `export const rawPosts: Post[] = [\n  ${JSON.stringify(item, null, 2)},`
+    );
+  }
+}
+
+/**
+ * Removes a post from src/data/posts.ts content string
+ */
+export function removePostFromPostsTs(postsTsContent: string, slug: string): string {
+  const regex = new RegExp(`\\s*\\{[\\s\\r\\n]*"slug":\\s*"${slug}"[\\s\\S]*?\\}(,|(?=\\s*\\]))?`, "g");
+  return postsTsContent.replace(regex, "");
+}
+
+/**
  * Updates public/sitemap.xml by adding the new blog URL with trailing slash.
  */
 export function injectIntoSitemapXml(sitemapContent: string, slug: string, date: string): string {
@@ -203,3 +236,4 @@ export function removeFromSitemapXml(sitemapContent: string, slug: string): stri
     ""
   );
 }
+
