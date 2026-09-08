@@ -11,9 +11,9 @@ export interface Web3FormResponse {
 export async function submitWeb3Form(
   fields: Record<string, any>,
   options?: {
-    subject?: string;
-    fromName?: string;
-    replyTo?: string;
+    subject?: string | undefined;
+    fromName?: string | undefined;
+    replyTo?: string | undefined;
   }
 ): Promise<Web3FormResponse> {
   const accessKey =
@@ -38,7 +38,7 @@ export async function submitWeb3Form(
       access_key: accessKey.trim(),
       subject: options?.subject || MAIL_CONFIG.appointmentSubject,
       from_name: options?.fromName || "Complete Care Website",
-      replyto: options?.replyTo || fields.email || undefined,
+      replyto: options?.replyTo || fields["email"] || undefined,
       botcheck: "",
       ...fields,
     };
