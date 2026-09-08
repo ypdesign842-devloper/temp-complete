@@ -9,22 +9,6 @@ export type Post = {
 };
 
 export const rawPosts: Post[] = [
- {
-  "slug": "how-chiropractic-care-and-physiotherapy-relieve-sciatica-pain-without-surgery",
-  "title": "How Chiropractic Care and Physiotherapy Relieve Sciatica Pain Without Surgery",
-  "date": "2026-09-07",
-  "image": "/assets/blogs/a92ab07bfc5578cf39e48d08f835a618.jpg",
-  "excerpt": "Discover how computerized spinal decompression, doctor-led chiropractic adjustments, and evidence-based physiotherapy relieve chronic sciatic nerve pain and disc herniation naturally.",
-  "category": "Physiotherapy Treatments"
-},
- {
-  "slug": "aur-aapka-repository-100-updated-aur-live-ho-jayega",
-  "title": "Aur aapka repository 100% updated aur live ho jayega!",
-  "date": "2026-09-07",
-  "image": "/assets/blogs/a92ab07bfc5578cf39e48d08f835a618.jpg",
-  "excerpt": "Aur aapka repository 100% updated aur live ho jayega! 🎯\n\nAur aapka repository 100% updated aur live ho jayega! 🎯",
-  "category": "Physiotherapy Treatments"
-},
  
  {
   "slug": "how-physiotherapy-helps-in-stroke-recovery",
