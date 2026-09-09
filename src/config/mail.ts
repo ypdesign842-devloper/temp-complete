@@ -13,7 +13,7 @@ export const MAIL_CONFIG = {
   // Web3Forms Access Key (reads from .env or fallback)
   web3FormsAccessKey:
     (typeof import.meta !== "undefined" && (import.meta.env as any)?.["VITE_WEB3FORMS_ACCESS_KEY"]) ||
-    "ef4c4d96-c2ab-43d5-8014-0de7fc2a946d",
+    "7e148121-770f-4348-a70a-00b34b88595b",
 
   // Primary Clinic & Doctor email addresses
   doctorEmail: "info@completecare.in",
