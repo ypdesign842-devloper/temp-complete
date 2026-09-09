@@ -16,7 +16,7 @@ export const MAIL_CONFIG = {
     "7e148121-770f-4348-a70a-00b34b88595b",
 
   // Primary Clinic & Doctor email addresses
-  doctorEmail: "info@completecare.in",
+  doctorEmail: "hardikpatel.physio@gmail.com",
   clinicPhone: "+91 8980 676 676",
   whatsappNumber: "918980676676",
 
