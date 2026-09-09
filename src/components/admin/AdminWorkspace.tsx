@@ -254,27 +254,8 @@ export function AdminWorkspace({ username, onLogout }: AdminWorkspaceProps) {
       } else {
         toast.error(res.message || "Failed to publish article");
       }
-    } catch {
-      // Local development optimistic update fallback
-      const fallbackDate: string = date || new Date().toISOString().slice(0, 10);
-      const newPostItem: Post = {
-        slug: slug.trim().toLowerCase(),
-        title: title.trim(),
-        date: fallbackDate,
-        image: imagePath,
-        excerpt: excerpt.trim() || title.trim(),
-        category,
-      };
-
-      setArticleList((prev) => {
-        const filtered = prev.filter((p) => p.slug !== newPostItem.slug);
-        return [newPostItem, ...filtered].sort(
-          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
-      });
-
-      toast.success(`Article "${title}" published and added to sitemap.xml!`);
-      setIsComposerOpen(false);
+    } catch (err: any) {
+      toast.error(err?.message || "Failed to publish article. Please try again.");
     } finally {
       setIsSaving(false);
     }
@@ -287,15 +268,18 @@ export function AdminWorkspace({ username, onLogout }: AdminWorkspaceProps) {
     }
 
     try {
-      await deleteBlogPostFn({ data: { slug: targetSlug } });
-      setArticleList((prev) => prev.filter((p) => p.slug !== targetSlug));
-      toast.success(`Article "${postTitle}" deleted successfully.`);
-      if (editingSlug === targetSlug) {
-        setIsComposerOpen(false);
+      const res = await deleteBlogPostFn({ data: { slug: targetSlug } });
+      if (res.success) {
+        setArticleList((prev) => prev.filter((p) => p.slug !== targetSlug));
+        toast.success(res.message || `Article "${postTitle}" deleted successfully.`);
+        if (editingSlug === targetSlug) {
+          setIsComposerOpen(false);
+        }
+      } else {
+        toast.error(res.message || `Failed to delete "${postTitle}".`);
       }
-    } catch {
-      setArticleList((prev) => prev.filter((p) => p.slug !== targetSlug));
-      toast.success(`Article "${postTitle}" deleted.`);
+    } catch (err: any) {
+      toast.error(err?.message || "Failed to delete post. Please try again.");
     }
   }
 
